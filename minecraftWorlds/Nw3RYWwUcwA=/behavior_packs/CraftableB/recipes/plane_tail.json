@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "tc:plane_tail"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "000",
+      " 0 ",
+      " 0 "
+      ],
+      "key": {
+        "0": {"item": "minecraft:planks", "data": 0}
+    },
+    "result": {
+      "item": "tc:plane_tail"
+    }
+  }
+}

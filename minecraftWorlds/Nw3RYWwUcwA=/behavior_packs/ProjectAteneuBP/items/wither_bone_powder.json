@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.11",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:wither_bone_powder",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:fertilizer": {
+				"type": "bonemeal"
+			},
+			"minecraft:icon": {
+				"texture": "heavy_wither_bone_powder"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.bone"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

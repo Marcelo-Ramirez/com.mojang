@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:diamond_prism",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_diamond_prism"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:scuba_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"A A",
+			"B B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:leather"
+			},
+			"B": {
+				"item": "heavy:bronze_ingot"
+			}
+		},
+		"result": {
+			"item": "heavy:scuba_leggings",
+			"count": 1
+		}
+	}
+}

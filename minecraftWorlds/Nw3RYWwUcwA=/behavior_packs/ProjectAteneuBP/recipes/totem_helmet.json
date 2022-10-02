@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "totem_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:totem"
+			},
+			"B": {
+				"item": "minecraft:emerald_block"
+			}
+		},
+		"result": {
+			"item": "heavy:totem_helmet",
+			"count": 1
+		}
+	}
+}

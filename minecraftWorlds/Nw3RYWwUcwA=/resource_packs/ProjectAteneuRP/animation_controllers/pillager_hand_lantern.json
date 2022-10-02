@@ -1,0 +1,33 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.pillager.hand_latern" : {
+			"initial_state" : "default",
+			"states" : {
+				"charge" : {
+					"animations" : [ "hand_latern_pillager" ],
+					"transitions" : [
+						{
+							"default" : "query.get_equipped_item_name('off_hand') == 'hand_latern'"
+						},
+						{
+							"hold" : "query.get_equipped_item_name('off_hand') == 'hand_latern'"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.pillager" : {
+			"initial_state" : "third_person",
+			"states" : {
+				"third_person" : {
+					"animations" : [
+						{
+							"hand_latern_pillager_controller" : "query.get_equipped_item_name('off_hand') == 'hand_latern'"
+						}
+					]
+				}
+			}
+		}
+	}
+}

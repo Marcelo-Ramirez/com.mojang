@@ -1,0 +1,20 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+		"identifier": "sky_gem"
+	  },
+	  "tags": [
+		"stonecutter"
+	  ],
+	  "priority": 1,
+	  "ingredients": [
+		{
+		  "item": "heavy:sky_gem_teleporter"
+		}
+	  ],
+	  "result": {
+		"item": "heavy:sky_gem"
+	  }
+	}
+  }

@@ -1,0 +1,57 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:infernal_tower_1_feature_rule",
+			"places_feature": "minecraft:infernal_tower_1_feature_mcstructure"
+		},
+		"conditions": {
+			"placement_pass": "final_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "nether_wastes"
+								},
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "crimson_forest"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"distribution": {
+            "iterations": 1,
+            "scatter_chance": 0.03,
+			"x": {
+				"extent": [
+					0,
+					16
+				],
+				"distribution": "uniform"
+			},
+			"y": {
+				"extent": [
+					45,
+					85
+				],
+				"distribution": "uniform"
+			},
+			"z": {
+				"distribution":"uniform",
+				"extent": [
+					0,
+					16
+				]
+			}
+		}
+	}
+}

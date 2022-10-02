@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "tomahawk_fd89eb62"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:iron_axe"
+			},
+			{
+				"item": "minecraft:leather"
+			},
+			{
+				"item": "minecraft:feather"
+			}
+		],
+		"result": {
+			"item": "heavy:tomahawk"
+		}
+	}
+}

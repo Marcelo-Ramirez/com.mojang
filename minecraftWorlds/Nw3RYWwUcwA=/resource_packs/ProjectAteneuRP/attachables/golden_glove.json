@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "heavy:golden_glove",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/Weapons3D/goldenglove/goldenglove32",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.golden_gauntle32"
+			},
+			"animations": {
+				"first_person": "animation.golden_glove.first_person",
+				"3ra": "animation.golden_glove"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"first_person": "c.is_first_person && c.item_slot == 'main_hand' && q.get_equipped_item_name == 'golden_glove'"
+					},
+					{
+						"3ra": "!c.is_first_person && c.item_slot == 'main_hand' && c.item_slot == 'off_hand' && q.get_equipped_item_name == 'golden_glove' && q.get_equipped_item_name('off_hand') == 'golden_glove'"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.hammer"
+			]
+		}
+	}
+}

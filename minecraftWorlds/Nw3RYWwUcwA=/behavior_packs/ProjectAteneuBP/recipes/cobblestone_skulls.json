@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cobblestone_skulls_3ca0121c"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"ABA",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:cobblestone",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:skull",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:cobblestone_skulls",
+			"count": 1
+		}
+	}
+}

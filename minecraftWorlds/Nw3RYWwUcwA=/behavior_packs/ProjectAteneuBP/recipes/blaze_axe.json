@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "blaze_axe_16016c15"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA ",
+			"AB ",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:blaze_block",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:blaze_rod",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:blaze_axe",
+			"count": 1
+		}
+	}
+}

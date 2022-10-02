@@ -1,0 +1,92 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cricket.stand": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [
+						-22.5,
+						0,
+						0
+					],
+					"position": [
+						0,
+						1.25,
+						0
+					]
+				},
+				"leg_2_r": {
+					"rotation": [
+						48.30608,
+						0.06509,
+						12.06164
+					]
+				},
+				"leg_2_r2": {
+					"rotation": [
+						47.26579,
+						6.80014,
+						-16.32495
+					]
+				},
+				"hindleg_r": {
+					"rotation": [
+						-1.55898,
+						8.42106,
+						-20.94102
+					]
+				},
+				"hindleg_2_r": {
+					"rotation": [
+						-22.5,
+						0,
+						0
+					]
+				},
+				"hindleg_foot_r": {
+					"rotation": [
+						-45,
+						0,
+						0
+					]
+				},
+				"antenna_r": {
+					"rotation": [
+						-20.85133,
+						20.70481,
+						9.00717
+					]
+				},
+				"antenna_l": {
+					"rotation": [
+						-20.85133,
+						-20.70481,
+						-9.00717
+					]
+				},
+				"hindleg_l": {
+					"rotation": [
+						-1.55898,
+						-8.42106,
+						20.94102
+					]
+				},
+				"hindleg_2_l": {
+					"rotation": [
+						-22.5,
+						0,
+						0
+					]
+				},
+				"hindleg_foot_l": {
+					"rotation": [
+						-45,
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}

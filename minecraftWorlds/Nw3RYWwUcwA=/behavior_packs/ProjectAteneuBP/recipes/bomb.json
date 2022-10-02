@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "heavy:bomb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BAB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:orange_gunpowder"
+      },
+      "B": {
+        "item": "heavy:steel_ingot"
+      }
+    },
+    "result": {
+      "item": "heavy:bomb"
+    }
+  }
+}

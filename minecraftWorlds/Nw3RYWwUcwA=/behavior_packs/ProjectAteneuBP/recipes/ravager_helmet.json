@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ravager_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"B B"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:ravager_fragment"
+			},
+			"B": {
+				"item": "minecraft:leather"
+			}
+		},
+		"result": {
+			"item": "heavy:ravager_helmet"
+		}
+	}
+}

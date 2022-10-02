@@ -1,0 +1,15 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "minecraft:scorpion_stinger_poison"
+    },
+
+    "tags": [ "brewing_stand" ],
+
+    "input": "minecraft:potion_type:awkward",
+    "reagent": "heavy:scorpion_stinger",
+    "output": "minecraft:potion_type:strong_poison"
+  }
+
+}

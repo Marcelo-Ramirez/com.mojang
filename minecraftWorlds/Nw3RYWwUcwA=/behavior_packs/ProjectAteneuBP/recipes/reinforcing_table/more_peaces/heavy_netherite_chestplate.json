@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:netherite_chestplate"
+		},
+		"tags": [ "reinforcing_smithy_table" ],
+		"pattern": [
+			"ABB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:netherite_chestplate"
+			},
+			"B": {
+				"item": "heavy:piglin_handband"
+			}
+		},
+		"result": {
+			"item": "heavy:netherite_chestplate"
+		}
+	}
+}

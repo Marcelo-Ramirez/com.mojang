@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.piston_on": {
+			"arrays": {
+				"geometries": {
+					"Array.piston_on": [
+						"Geometry.default",
+						"Geometry.piston_on"
+					]
+				}
+			},
+			"textures": [
+				"Texture.default",
+				"texture.enchanted"
+			],
+			"materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+			"geometry": "Array.piston_on[!query.is_on_ground]"
+		}
+	}
+}

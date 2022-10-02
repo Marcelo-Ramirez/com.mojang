@@ -1,0 +1,53 @@
+## SKYWARS V4 (by Andiuber) ##
+
+item.spawn_egg.entity.add:picture_credits.name=Image credits
+item.add:exit=§f[ §7Click to §l§cExit §r§f]
+item.add:blue_chestplate=Blue Chestplate
+item.add:red_chestplate=Red Chestplate
+item.spawn_egg.entity.add:floating_text.name=Floating text
+item.spawn_egg.entity.add:boss_bar.name=Boss bar
+
+translate.text.one=§7To start the game,
+translate.text.two=§7a minimum of 2 players
+translate.text.three=§7is needed in the game area.
+translate.text.four=§7The game starts in:
+translate.text.five=§7The game starts in: §aGO!
+translate.text.six=§cMinimum 2 players: §4ERROR!
+translate.text.seven=§7Joined the game
+translate.text.eight=§aGO!
+translate.text.nine=§c[ §4Repairing map §c]
+translate.text.ten=§3Now you are a spectator
+translate.text.eleven=[ Night ]
+translate.text.twelve=[ Day ]
+translate.text.thirteen=[ Normal ]
+translate.text.fourteen=[ Extreme ]
+translate.text.fifteen=§l§aWinner:§r 
+translate.text.sixteen=§aWinner!
+translate.text.seventeen=§bTHE BLUE TEAM WON!
+translate.text.eighteen=§cTHE RED TEAM WON!
+translate.text.nighteen=[ Coming soon... ]
+translate.text.twenty=[ Normal ]
+translate.text.twenty_one=§8[ Default ]
+translate.text.twenty_two=§7[ Mode ]
+translate.text.twenty_three=§6= Random =
+translate.text.twenty_four=§9= Sequence =
+translate.text.twenty_five=§3[ Cycle activated ]
+translate.text.twenty_six=§c░ You are from the red team ░
+translate.text.twenty_seven=§b░ You are from the blue team ░
+
+translate.text.map_one=§2= Ruins =
+translate.text.map_two=§c= Flower§bPot =
+translate.text.map_three=§4= Nether =
+translate.text.map_four=§f= Snowy =
+translate.text.map_five=§3= Tr§6on =
+translate.text.map_six=§a= Natural =
+translate.text.map_seven=§e= Oasis =
+translate.text.map_eight=§b= Ice §dCream =
+translate.text.map_nine=§6= Mushroom =
+translate.text.map_ten=§3= París =
+
+entity.add:floating_text.name=Floating text
+entity.add:boss_bar.name=Boss bar
+entity.add:picture_credits.name=Image credits
+
+## ©TEAM CUBITOS MC ##

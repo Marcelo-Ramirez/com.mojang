@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+		"identifier": "minecraft_trident"
+	  },
+	  "tags": [
+		"stonecutter"
+	  ],
+	  "priority": 1,
+	  "ingredients": [
+		{
+		  "item": "heavy:marine_treasure",
+		  "data": 0
+		}
+	  ],
+	  "result": {
+		"item": "minecraft:trident",
+		"count": 1,
+		"data": 0
+	  }
+	}
+  }

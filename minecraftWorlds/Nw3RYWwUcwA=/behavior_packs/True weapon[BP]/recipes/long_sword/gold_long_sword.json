@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "gold_long_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+            "B",
+			"B",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:golden_sword"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "true:gold_long_sword"
+			}
+		]
+	}
+}

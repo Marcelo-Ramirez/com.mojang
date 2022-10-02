@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "heavy:soul_body",
+      "materials": {
+        "default": "slime_outer",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/entity/soul",
+        "enchanted": "textures/misc/enchanted_item_glint_magnerita"
+      },
+      "geometry": {
+        "default": "geometry.soul_body"
+      },
+      "animations": {
+        "default": "animation.soul_body.move"
+      },
+      "scripts": {
+        "parent_setup": "variable.helmet_layer_visible = 0.0;",
+        "animate": [
+          "default"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.armor"
+      ]
+    }
+  }
+}

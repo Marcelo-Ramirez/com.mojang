@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "golden_marine_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:nautilus_shell"
+			},
+			"B": {
+				"item": "heavy:golden_heart"
+			},
+			"C": {
+				"item": "heavy:marine_helmet"
+			}
+		},
+		"result": {
+			"item": "heavy:golden_marine_helmet"
+		}
+	}
+}

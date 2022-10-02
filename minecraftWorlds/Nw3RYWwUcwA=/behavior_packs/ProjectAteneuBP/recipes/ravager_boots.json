@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ravager_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"C C",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:leather"
+			},
+			"C": {
+				"item": "heavy:ravager_fragment"
+			}
+		},
+		"result": {
+			"item": "heavy:ravager_boots"
+		}
+	}
+}

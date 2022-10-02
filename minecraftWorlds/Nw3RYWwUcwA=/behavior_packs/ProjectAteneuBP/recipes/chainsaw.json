@@ -1,0 +1,36 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "heavy:chainsaw"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " C ",
+      "CAC",
+      "EBD"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:sword_chainsaw"
+      },
+      "B": {
+        "item": "heavy:chainsaw_engine"
+      },
+      "C": {
+        "item": "heavy:chainsaw_chain"
+      },
+      "D": {
+        "item": "heavy:micro_chip"
+      },
+      "E":{
+        "item": "heavy:gear"
+      }
+    },
+    "result": {
+      "item": "heavy:chainsaw"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cricket": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"stand"
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"jump": "!query.is_on_ground"
+						}
+					]
+				},
+				"jump": {
+					"animations": [
+						"jump"
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"default": "query.is_on_ground"
+						}
+					]
+				}
+			}
+		}
+	}
+}

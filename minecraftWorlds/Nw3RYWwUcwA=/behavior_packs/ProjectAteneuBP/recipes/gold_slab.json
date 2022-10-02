@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+		"identifier": "heavy:gold_slab"
+	  },
+	  "tags": [
+		"stonecutter"
+	  ],
+	  "priority": 1,
+	  "ingredients": [
+		{
+		  "item": "minecraft:gold_block",
+		  "data": 0
+		}
+	  ],
+	  "result": {
+		"item": "heavy:gold_slab",
+		"count": 3,
+		"data": 0
+	  }
+	}
+  }

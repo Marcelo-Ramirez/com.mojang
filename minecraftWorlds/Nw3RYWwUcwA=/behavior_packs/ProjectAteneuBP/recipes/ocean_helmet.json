@@ -1,0 +1,33 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "marine_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ADA",
+			"BCB",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:nautilus_shell"
+			},
+			"B": {
+				"item": "minecraft:gold_ingot"
+			},
+			"C": {
+				"item": "minecraft:turtle_helmet"
+			},
+			"D": {
+				"item": "minecraft:heart_of_the_sea"
+			}
+		},
+		"result": {
+			"item": "heavy:marine_helmet"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:sky_gem",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:allow_off_hand": true,
+			"minecraft:icon": {
+				"texture": "sky_gem"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

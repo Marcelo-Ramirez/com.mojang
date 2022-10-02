@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "emerald_katana_sweep"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"A",
+		"C"
+	  ],
+	  "key": {
+		"A": {
+		  "item": "heavy:emerald_katana"
+		},
+		"C": {
+			"item": "heavy:cutting_parchment"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:emerald_katana_sweep"
+	  }
+	}
+  }

@@ -1,0 +1,25 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wither_bone_powder_4869d3ad"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B"
+		],
+		"key": {
+			"B": {
+				"item": "heavy:whiter_bone",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:wither_bone_powder",
+			"count": 3
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "heavy:pumpkin_helmet",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "heavy_pumpkin_helmet"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.helmet"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 3,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 120,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.0
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head"
+      },
+      "minecraft:render_offsets": "helmets",
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:carved_pumpkin",
+              "heavy:pumpkin_helmet"
+            ],
+            "repair_amount": 90
+          },
+          {
+            "items": [
+              "minecraft:pumpkin",
+              "heavy:pumpkin_helmet"
+            ],
+            "repair_amount": 90
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 1
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

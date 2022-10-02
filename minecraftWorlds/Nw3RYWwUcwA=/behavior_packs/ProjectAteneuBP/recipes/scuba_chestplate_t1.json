@@ -1,0 +1,35 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "scuba_chestplate_t1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "CCC",
+      "CAC",
+      "CBC"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:scuba_chestplate"
+      },
+      "B": {
+        "item": "heavy:upgrade_scuba_chestplate"
+      },
+      "C":{
+        "item":"heavy:bronze_ingot"
+      }
+    },
+    "result": [
+      {
+      "item": "heavy:scuba_chestplate_t1",
+      "count": 1
+      },
+      { "item": "heavy:upgrade_scuba_chestplate", "data": 0, "count": 1
+      }
+    ]
+  }
+}

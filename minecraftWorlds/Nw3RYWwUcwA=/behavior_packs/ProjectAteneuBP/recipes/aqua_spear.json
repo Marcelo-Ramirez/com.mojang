@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "heavy:aqua_spear"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ADA",
+      "CBC",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:prismarine"
+      },
+      "B": {
+        "item": "heavy:aqua_plane"
+      },
+      "C":{
+        "item":"minecraft:gold_ingot"
+      },
+      "D":{
+        "item":"minecraft:prismarine_crystals"
+      }
+    },
+    "result": [
+      {
+      "item": "heavy:aqua_spear",
+      "count": 1
+      },
+      { "item": "heavy:aqua_plane", "data": 0, "count": 1
+      }
+    ]
+  }
+}

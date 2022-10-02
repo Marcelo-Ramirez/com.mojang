@@ -1,0 +1,45 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Pack Shild",
+        "description": "By Floxman23   Cambia El Aspecto Del Escudo",
+        "uuid": "0575c61f-a5da-4b6f-8261-ffda2908861e",
+        "version": [0, 0, 3],
+        "min_engine_version": [1, 11, 3]
+    },
+    "modules": [
+        {
+            "description": "resourcePack.vanilla.description",
+            "type": "resources",
+            "uuid": "53644fac-a865-99e5-843f-a3c6f169a9ab",
+            "version": [0, 0, 3]
+        }
+    ],
+	"subpacks": [
+		{
+			"folder_name": "Carpetshie",
+			"name": "Carpetshie",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "shield_bot",
+			"name": "shield bot",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "shield_dia",
+			"name": "shield dia",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "shield_iro",
+			"name": "shield iro",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "shield_sto",
+			"name": "shield sto Shield",
+			"memory_tier": 1
+		}
+	]
+}

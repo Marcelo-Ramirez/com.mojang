@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:sword_chainsaw",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_sword_chainsaw"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

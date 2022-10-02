@@ -1,0 +1,75 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:golden_cereus_5"
+		},
+		"components": {
+			"minecraft:on_interact": {
+				"event": "cut",
+				"target": "self",
+				"condition": "query.get_equipped_item_name == 'golden_cereus_item'"
+			},
+			"minecraft:on_step_on": {
+				"event": "damage_cactus",
+				"target": "self"
+			},
+			"minecraft:map_color": "#649832",
+			"minecraft:loot": "loot_tables/blocks/golden_cereus/golden_cereus_5.json",
+			"minecraft:geometry": "geometry.golden_cereus_5",
+			"minecraft:pick_collision": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					11,
+					10,
+					11
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [-6, 0, -6],
+				"size": [11, 10,11]
+			  },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "golden_cereus_block",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"damage_cactus": {
+				"damage": {
+					"type": "magic",
+					"target": "other",
+					"amount": 1
+				}
+			},
+			"cut": {
+				"run_command": {
+					"command": ["fill ~ ~ ~ ~ ~-3 ~ heavy:golden_cereus_6 0 replace heavy:golden_cereus_5"]
+				},
+                "decrement_stack": {}
+			}
+		}
+	}
+}

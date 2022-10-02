@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pure_netherite_leggings_1642fdb2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"A A",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:pure_netherite_ingot",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:pure_netherite_leggings",
+			"count": 1
+		}
+	}
+}

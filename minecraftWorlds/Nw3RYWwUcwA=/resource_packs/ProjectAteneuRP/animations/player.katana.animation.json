@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.katana_tool.first_person": {
+			"loop": true,
+			"animation_length": 0.20833,
+			"bones": {
+				"rightitem": {
+					"rotation": ["c.is_first_person ? 150 : 0", "c.is_first_person ? 0 : 0", "c.is_first_person ? 55 : 0"],
+					"position": [" c.is_first_person ? 0 : 0", "c.is_first_person ? 4.5 : 0", "c.is_first_person ? 0 : 0"]
+				},
+				"chainse": {
+					"rotation": [0, 0, 50]
+				},
+				"chainter": {
+					"rotation": [0, 0, -15]
+				},
+				"chain4": {
+					"rotation": [0, 0, -60]
+				}
+			}
+		},
+		"animation.player.katana_tool": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [90, 0, 90],
+					"position": [0, -1, 0.5]
+				}
+			}
+		}
+	}
+}

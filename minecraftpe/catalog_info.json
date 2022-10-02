@@ -1,0 +1,5589 @@
+{
+   "" : {
+      "last_fetched_personaOffer" : "2022-08-19",
+      "last_fetched_storeOffer" : "2022-08-19",
+      "last_seen_patch_notes_revision" : "1.19.2001",
+      "newProductInfoList" : {}
+   },
+   "2535420787228276" : {
+      "last_fetched_personaOffer" : "2022-09-28",
+      "last_fetched_storeOffer" : "2022-09-27",
+      "last_seen_patch_notes_revision" : "1.19.3001",
+      "newProductInfoList" : {
+         "00acbde4-65e2-42f6-872d-5bece9f2332d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "01ca06cf-d548-4571-84a5-1636a021f36b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "01d02da6-9e32-4240-8d4d-33056ac70592" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "01e2ec9f-f918-4e26-8f64-483eb8051526" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "02061a54-853d-4b81-8760-e5e6e71fe93d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0291708a-055d-49ba-a0ad-eaaa4d6f23c1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0458106e-73f2-4f02-b389-3fa4dca896c3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "048ce2e9-ceaf-48dc-b5df-19e4e447c32c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "04ca5904-2b01-4795-ac4f-6e84f8f08ddb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "04ef097d-4e66-4054-a02f-603669f8243b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "056583ea-db80-48d0-8f11-474ebfda6c44" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "059c0f1b-19d6-4e02-ba94-fdb50ca26069" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "05de3042-a657-444e-8216-4721f0d43bd1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "06bc2824-495e-4252-919f-0289d5b58964" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "07728c6b-a333-435b-8233-ed7b0389d239" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "07fc25b4-266b-4e20-9b6b-f3f6373837c9" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "08125900-495c-49d5-b9e4-1221a85e1a93" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0824b66e-7cf2-4ebd-a548-ae6b629a7115" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "08550a9b-6507-4cfe-8ed5-d428b0eece71" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "09894031-906c-4df5-b567-3dcbdcd4a18d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "09a6bb21-1914-4d30-9a8b-0a34a74405d6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0a02e69e-d8f0-4224-a801-8d8ef3717d9c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0a4c9625-1329-4555-adc2-e9a958ed71fc" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0a67242b-cf73-44e0-9a87-d0cd5e96ff1f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0a7ddb22-c910-4593-92fa-4b1bede19b31" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0a916ce1-7c7d-41e8-994b-989388ac42d8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0abcd737-8cd5-42e2-a038-28c20e31c767" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0afb431c-00ad-4974-8e17-352487fe9af5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_hair"
+         },
+         "0b0c5e33-5b55-40a5-8aa2-490496bfec3b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0b676776-1abf-4aeb-b3cd-f0dca69de89c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0b8c735a-449a-42b0-ac38-6ebef2466843" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0bd39377-203f-4de8-a12f-c4d58c4503b5" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "0bedbcd0-f112-40bc-8f8d-69a04833a236" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "0c26c12a-c3b4-4957-b9ad-4aa2b9ba017a" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "0c74dbbb-b2e7-4e32-b0af-12b0f8711c1f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0c891de0-9fe8-4990-921b-55c4e45b1712" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0cdd9668-4a4b-4f98-b956-ade6938ee879" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0d8782f5-0e09-47e2-a236-9bdfe88048e8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0dd68c52-75e7-4ff8-9d95-8c8219debe0f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0e379dc8-5be0-4c83-b63c-c6ca15c4e21c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0e884d87-855f-4ebb-aefc-898edcae2f6b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0ebbf5a1-b4e3-42ac-9bdb-4fa5b6e4bced" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "0fa86e8a-df5e-4b6c-8518-496720d03452" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0ff7d53b-4beb-415f-ae35-655c02afefb6" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1340c80f-f58f-426b-863c-17c10e0cd084" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1375f7c1-40d6-458f-8068-c33958ea2473" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "13772a32-fc23-4120-b81b-d00ca2eb2296" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "13f3794e-7a9b-4978-b03d-727def504109" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1659c370-f7b8-4caa-8ad9-6b2523da7f92" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "165b58fb-6fdc-4e67-8a86-903a863f78ec" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "17168cd1-ee34-4df8-9feb-1465c29b6cb3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "17689d38-d381-4573-a6c9-44de2540058e" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "17c31caa-817e-46f7-9f05-2916b2663095" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "182f6c0d-2b76-4d96-a34e-978d2d7da9f0" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "18549777-fdb6-47f5-a6bc-4b067b3ed124" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "19dcc827-e9c5-4177-aa14-27e2812fdd69" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1a7fca12-dcdf-4507-ba2d-71ee67977000" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1c41f987-c0b8-4a10-959f-468db0c359ef" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1c4ce87a-67b6-4fa1-ac2a-5535190377f7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1d0515a3-2926-426e-a746-f1eba6748ee1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "1d5e8774-bda2-4545-8ce4-da86715c09eb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1d8b86b9-4314-442d-a966-466a7f01916d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "1eec2788-f360-4141-8b1a-d3ed8e63795b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1ff8fc3b-c14b-4921-8bba-8b38b8985988" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1ffde9c5-c690-432f-8997-1dae98d929d3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "20798a42-26ca-4fcb-aa04-78fe35f6325f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "20cfd62b-308e-456c-a300-0b6888eb3079" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "20e20f6f-5d71-4354-beee-c3386cb424ee" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2195d20c-79ca-4f00-80c5-69650afbfd65" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "21bdb510-79cd-4d92-b60e-56c1edb88b3f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "23b32246-4161-4b49-a713-6673273f138a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "24e906b1-c967-4de6-80a8-b49107496f6d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2548fcce-4e1f-43d7-9fd7-31baaef3fe85" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "254e55bb-2e35-4f88-91b7-592130de1790" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "25cd283f-37a5-48be-9afc-fa528516bf75" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "25d9ae09-022f-40a4-8f89-d679689f24ac" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "265a65a4-2d3d-4960-8e64-a04235fc5712" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "27ac5f9d-9b49-442a-a270-88fb143298e1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "27c0ff34-ed43-404a-b9fa-6f3659b1bf8d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2898308c-7d8b-4b97-90a0-e05edf06f687" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "28b500e6-19af-4fc8-8b54-4678030bfe8d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "28de3b8b-cbe0-41cf-a092-e53090ae9dae" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "294cba6f-871f-4766-a005-ecaa488ede9c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2988494a-4308-453a-8d47-f3f7f8548f4b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "29d7adbc-f8f6-49e6-af13-e432ef52ae47" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2a0a3ff0-53cc-49b1-aa61-928fc385d421" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2a13006e-fa3a-4439-87f2-a3b911579f1a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2acf5f0a-88c2-4963-8e4f-f6090c57480b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2af182ff-974e-4cea-9cff-c2abaa966ac1" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2b6846ba-8354-44a9-a74c-86e6ad896131" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2bbc5856-55da-4cdc-a3d6-4c4fb3e07d15" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2c5101fb-78d8-4e0f-887c-96ed5cdcf238" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2c7f1e1e-bb9c-40bd-a082-b390e17cf94a" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2d2d4b75-e1e5-4db0-98e9-5c262e609f04" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2d3c03c9-fa83-445a-9a38-3b4abd9b173d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2d6b528c-6000-4291-b744-bb08023d142f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2db79765-e312-4ef2-aa8a-587c52e7aed3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2fc60999-09c6-4cf1-ada4-be77df412bee" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "30a354da-0bd0-4096-a861-abe71f4f65fa" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "3153b4c0-f426-4202-8ce1-17db767adba9" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "31c9399f-e21a-4493-9e37-ecadc900579d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "31e9fc7c-80cf-4d15-959c-eee98f2b5008" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "32f129b3-d28e-4360-a0fc-f133bc3311ec" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "346d66b7-b013-48aa-92d9-4a35ec04efe3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "34ec638a-5c14-42bc-a30d-a93e0774e732" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "35644387-1084-4264-8f8c-c11679aaf7b4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "35d6bef6-cec3-4dff-9ab0-8cd5850a3d32" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3652816a-c617-4454-9531-f8523df2b8ce" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_head"
+         },
+         "365b1b2f-f71d-49ce-9b7b-46c210e18f31" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "36dc4632-9e40-44c6-bb89-5b0eed336b7e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "36e37966-d307-40b9-b646-36fb11a24132" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "36fe78da-c993-4980-a006-8c78e1b36026" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "378c7cd6-f689-4640-a6f3-b71f9bfc3f93" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "37a436da-bc88-4021-970b-f4139488adca" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "37e09b55-9c80-4efc-9a52-2508dde6786e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "39a66289-43f8-47e2-bbb0-9a714573015e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "39c548c0-5b3d-4b96-966b-b18405dda782" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3a033257-7489-4d08-9df2-efa0f2334d81" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3a45d4f2-5427-4890-bc7f-d9a8daeed0f8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3b831f9f-892d-4e17-907e-c7e5f02be7f9" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3c376a38-a798-4d10-a350-96ae8d0fa08f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3dc05f5f-87b5-410e-9792-925ed7244aee" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3ddeea0f-c94b-4f99-965d-7bb1c7f681a5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3e12d5e6-a2ce-459a-aa8d-d8b384e6c114" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3e791b99-b3c3-4919-9157-3ebf1eae502c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3feb10a1-440a-43f1-a3db-ef4f3980826d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "408aac12-0ae3-4c88-a6ef-7e42706e918d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "40d6390a-0d61-4bd8-8f6b-c4ca2d607dc8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4143ae7d-fa90-4a06-b25a-f57c04ec194c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "41a34bf9-9e22-4e96-9ca3-a1140b8734a5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "41c55aeb-08a8-4dce-80ec-0e15323ca2a0" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "42d7bcba-aa7f-4208-a95c-661cd1649a7b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "42fa85cf-0601-460a-a507-f70882f78bd1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4319c5c9-24dd-40c6-a5ff-4bdeb0ad9c1a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "43d7ab69-8419-41e7-a35e-79602fd87ec0" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4412a47b-7697-4e43-91f0-cd2c501378a3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "44785051-ecf0-44f9-ad78-91775dc9b8d6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "447af1ab-c9ba-4f32-bf5a-5f81798df081" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "46b61513-06d5-445f-bae8-10cc8e6817a6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "470b5b1c-0c07-4459-bf9a-88a4f12948d3" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "471cd8d4-00fb-471c-a772-7aaeabf9dea9" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "477cb9aa-444e-4afc-85f2-73c82a40b393" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "47934560-a17f-4814-9b2c-bb749a36e471" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "47c862c8-98c1-497c-94a5-3959eea3fec5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "47e1d06a-551e-46ff-b3db-0e7f42c813ea" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4809a87d-2081-404b-9d9a-62bc622bcc0d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "48974027-6359-4a5d-a120-5eb664d183ad" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "48dc1e8d-2144-42e8-a1a9-fc0578e57b58" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "494b76e0-5670-4016-a320-169be46d9750" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a161add-052b-47fb-bee5-59b8e648a9d0" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a20f802-c25f-462c-be32-975b9ff165cc" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a5e27ba-4dfb-471b-8098-7ba81084398c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a7bf4e6-c6fc-4fae-ad2a-51ecea99fa98" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a9f943f-1cb3-49b9-8788-20ade2bd4250" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4aa0119c-64ec-4214-bba8-1a1b6a7e328c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4aa3347f-307a-4557-a533-6a8fdc3f8ea1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4ad8d9bf-438e-4fe1-b2be-1f28a0b36569" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4afa1249-efb4-40b0-aa83-4ab7071e644e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4c1fcf4c-64ec-4735-abb1-208776c5a37e" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4c345e35-5be5-46e9-8641-a0c68dd9dfce" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "4c5affd2-4f57-407d-83d4-a3cc6c7522c1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "4c73fc58-ebdc-4676-8e47-496d7ec276fa" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4c81dcc7-ce46-4f73-a077-81a9fd329031" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4cb9120a-3cf5-4d9c-b40d-24623f7c1009" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "4cc01dd1-924a-4255-954c-572a095a0e8c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4d2c1e08-fe80-4ece-85e6-c960bb4a5b8c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4d525287-5975-4d62-b21e-5e145fff3652" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4ebf20e0-9092-43f9-9c10-35d49b896338" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4f4ce649-a9eb-41ad-a201-4c1a755df638" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4fd6161d-15bf-4d14-9d06-11b0f4510c43" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4fd9206a-9e7b-4ee5-bade-83a0a732c30a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4fdec1a4-69d4-4d93-afde-83379b3f2390" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "507cec28-b711-49dd-ba73-51c7a9202ea4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "50dde4f7-ea82-4bf0-b066-67c412485c80" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "512d511f-7513-4bfc-854e-592bfc14f7dc" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "51530c50-b58e-4810-8c16-9dbf34095250" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "51897edb-5951-462d-ab98-d95853d0cfb8" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "51ea889d-629c-4f42-aee1-ccb3aad84223" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "51f62466-7d21-480c-a0d1-6162adc4d14e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_hood"
+         },
+         "5262ac08-b81c-47f3-b99f-98846869e37e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5266894c-42a7-4a0d-a916-fd6d3a62edc8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "52bb5018-88d6-4202-8471-405ee9f006ab" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "52cca602-695c-452d-be02-db60e17c1063" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "52ded9ac-f85f-4ce6-a9e6-a1b7469e75f3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "53b0bf37-8a1e-482f-a632-4095d7392b24" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "53ca79e0-0e75-4cab-a01b-9dae6791e25a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "542c284e-6f7f-4412-be78-8ef2a22625c3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5472df42-70da-4794-b496-2a01530c45c5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "54aedfc0-b3bc-4b2e-8b1c-d811de56d5d5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5562df22-677e-4bb7-9cb7-8eed7a90babd" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "55b6350b-1b67-4077-908f-51cbd500d461" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "55c1eab1-01bc-4aec-86dc-d02af706048d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5720fc8c-e2b3-4f51-95e3-49814562119d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5797edb6-1e52-4bbd-a36c-8332b4392e31" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "58eef5c8-1198-4a4c-bdfb-e70467d78f86" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "59359292-77d0-4fd1-a802-3f6d855b3174" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "595276b1-3ff1-4d63-8ca2-3b2ed2f78888" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "595e210c-bb24-4408-ab60-63a8e6fda6e0" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "59b3fa5c-3ee8-4b2f-aa78-184fddac6afd" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5a73199a-c6cb-4b74-9823-e364519db5f3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5acf578b-b512-4f57-bf09-6d81dc1579d7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5b336c61-7ee7-458f-98eb-79a0c39efd09" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5b5089a6-0077-4696-b0b4-88f7e86c24e3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5c7e142e-6519-4484-957c-8f050b1457c1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "5d141f49-74ac-459b-a465-0b2881a243b8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5d151687-3ce6-4ef1-a925-5023aa10c6ed" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5d7118d1-14d9-467d-b351-9635d6bb5f7f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5dd4cb74-2f43-4dd6-92c5-b8a813b8f8bb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "5e02d3c2-315f-4c20-bc11-1061be40e61f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "5f5412e8-514f-4879-b347-0416222f04bf" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5fdaf7d1-60be-4642-be34-aa38d441a539" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "60114c63-74f4-4b63-a0e4-49bb0db6b272" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "60216e33-905c-4157-aff2-60d6f0176893" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "60c8de76-3ed9-4c89-8501-ef64ef4d86a1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "60fe8b42-b4e1-46dc-8476-2c97b958dff1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6185af6b-d5a7-4da5-bcd7-336ac619bcdd" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "61e30094-04f2-4d9e-a321-d7a8a7af2123" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "62238f4e-6f60-4458-83e8-899dd7f6eb21" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "622c0a63-16d9-49df-8324-583d3f193b43" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "625e12d1-2a3b-40ac-a3a0-86ab302ef7a8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6299c2f5-ebb5-455b-a536-d76012f6227b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "62a265b6-77bc-4e0b-a46b-586fa2121bc8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "63fba2ca-98a8-4ee6-a0eb-d937520e5993" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "646922f8-03cb-43cd-9b89-4a97078b0d32" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "649ca959-8506-4fd0-b99d-f8322f59223d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "658c922c-b88b-4cdc-8fd6-47f5926f9d53" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "66d56c8c-f459-46c7-b792-7d8789a80c0e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6711131d-b9ff-4b62-9599-28cacee74cb5" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6717ed4b-2fbf-4925-a457-3642dd5e5efe" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "68b321a7-e1e5-496f-8cb7-c544397403ac" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "68c34a8a-ec47-401e-b797-96f314f612d1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "69320951-d729-4746-9e39-823e53cad084" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6953f881-f20c-46c8-9fe4-4588feca1b63" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6969a918-9e7a-40ce-b01d-8ba4e0080f01" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6999ede4-98ed-4ccf-9225-045093161dd4" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6a77d5b2-8463-4f88-aa16-82e7efa4670b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6aab9f6c-bb35-4c94-8697-1441dd5a5596" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6bb9ce6f-6d67-4a7d-a1de-503246b8d159" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6c0b07e5-e2b9-4a84-b414-c57fe5e3af76" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6c13a35f-3734-4e43-b14c-b027e2e6e8f3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6c7caa5f-dde6-4ec1-8ade-0a35ceaa5637" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "6cbadb45-44b3-4c24-adab-c25f3006b786" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6d771363-4af4-4ead-9bca-164769959353" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6e08675b-bd4d-4067-afc6-810876802036" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "6e6a5700-bc97-4ced-b8de-c6fb913af32d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6f6c985d-5e55-4863-8572-821485d546ed" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_head"
+         },
+         "6f7ed754-a9c9-4e43-947b-03ae177fadf4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "701443d0-bf02-4848-9b9a-54b5371a3bfb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "70fed9a7-df6f-4c16-adf3-a590a9ed4d33" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "71d18123-15dc-4425-8a0a-ed2ccc3de648" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7207efbb-8f9d-4e06-bb1c-0c5170f8ee11" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "72793f4b-e26b-46aa-b021-47ca4a26f98e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "728c15ab-5311-4bc4-81c3-5e1e6ee69206" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7348c5d3-8d56-4734-a21b-3879efd495ae" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "73d060cc-72ff-4c63-90d1-b5cab0e83a51" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "748a83e6-8322-49f0-bc37-5044ff13599e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7533ee4b-c4a6-4c98-8b13-d35085262c2d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "759cce2a-4cec-4622-aa4c-838cc2adcd7e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "76360840-282e-4f24-bd7f-5892b17b83e0" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "767c07ac-380b-4a38-bfd7-a95ffcf9052e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "77a9695e-23d0-49a6-8fc9-45b322e4c8ac" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "77c2d78c-4933-475f-a19f-1414265b2fdd" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "77cfd79f-cdec-4807-8d6d-e444b8a8f168" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "77ea7268-1747-46fc-9d22-de6dfdc08e9d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "77fc3347-6e89-4f9c-88d2-e24807f78103" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "7852bc15-bb23-4942-8159-8f264821e9a0" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7861e8ac-40fe-426d-9caa-24e6d9b2fc34" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "78a9788c-180b-421d-8599-47418740d383" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "78b493e0-74c6-47f2-8d19-eb8a6a6650d2" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7963d973-5f75-4987-aa0d-48d390782673" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7a11981a-b537-43e6-9128-fc1b316961d8" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "7a3617f6-8441-4943-9770-af65b8b6664b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7a83edf0-bd1e-4266-b31b-8526c90aa366" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7ab1ce9e-bcaa-4e64-a8f0-c5850d20418d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "7c4db64f-e8ab-43d0-89ad-be60eb5c2879" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7cd226ed-4499-41f3-8015-e4e2863be841" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7e1396cf-695b-4c3f-ae2e-08309fb1e817" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7e17c989-b9cb-41c5-8e81-be9c4fc5f09a" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7f0646a2-420d-46ed-87ed-411f74624ca0" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_head"
+         },
+         "7f4dbcbe-1c7d-4b61-87d1-7c77cd738024" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7f698795-996f-45e2-889a-b12dcc3685e2" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7ff681d9-09d7-45aa-b432-1049b477a7c8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "805f8372-314c-4f7f-83f9-06669f78ae9b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "80927d74-d007-453e-8a43-5eb69c9a2fbf" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "80938472-0870-44ba-b455-622a765927a7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8178a05e-e658-43f8-b8ad-2d94cce98e43" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8196ff75-0bb4-4e27-976b-c9502bd2e012" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "81ae4c09-3bc5-4b1a-a805-115d1cbbd7b3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "84069293-f3db-4276-895f-b3630875e5f4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "852d9744-f8bd-4025-8647-86d73fb05f85" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "85bb2965-3612-4cda-a198-f1d4c7947f74" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "867f233c-5401-4f2a-bfcb-79c5e520f34b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "878b36e9-a8f2-47e6-b1ca-8f61854962f8" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "8857d008-c844-4913-849d-2da0f82f6c83" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "88f7db05-b07f-4b9c-ae30-0a2d64cfc946" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "891fa83c-a4d0-4244-8af7-ad3c7964fe34" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "89226213-fe28-41c4-9267-bb7aebb0cb03" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "8a8e996a-2599-4f9a-bbc8-a180869969a8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8be841b5-2ade-4460-883c-658d26a29c42" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8c97ddc1-b69b-4752-be16-a3650e4001df" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8d07d52c-064e-48a9-9af4-4bce8f7e7097" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8d98f067-19b8-4aec-a492-69682329c49b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8e31e540-0a0d-4fea-9539-857b5314a8c2" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8e338e09-9882-4ead-8d4a-bd8b759c1913" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8e806934-3289-44ba-b546-3ae072c9f516" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8f13772f-cb9b-42c2-8bf0-678dc58b5627" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8f469665-58de-4043-b4c2-214d4d48394f" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8fca1f43-efe2-4f97-bf6b-f4ef5adf473a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9032b5da-225a-4626-8c95-15e6a5101d72" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "91efc9d8-29ac-49af-9af6-fb14b61fc2ee" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "926c08ba-ff77-4c91-a856-6ac048918d4e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "92d6466c-290c-4d02-b0c3-4712ddafb948" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "92dc89bb-a361-4d55-a4bc-a4a258053130" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "92e728db-2a79-44bc-8ee2-4da325900cb7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "934d1960-4ea6-4c39-ba3b-70b5a91ec0dc" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "93670580-850b-4170-b5b5-efbee00c55eb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "93e1ebe4-c2a7-4cf5-9c2c-e2b01bcd2550" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "945a6224-72db-4382-ad85-cae96362023e" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9492f29e-e590-4583-bb7c-ac44a79e5973" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "9499a387-f103-476d-abe6-96415acf64c8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "95c3abb4-40f3-4c3b-a394-f6366b2bf488" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "95e6cef5-51e8-4dd3-9623-68ff77882e18" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9613c96e-60d5-44d9-9304-2c284ef28904" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "97340634-bed5-4199-a518-6eff716bf9f6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "974ee34b-d3a3-48cb-a1ca-b6290eca60c3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "97ffc765-f9a5-4b25-8eb6-e13cc4f8de41" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9861558f-9554-4ad3-b407-6980bed1fa54" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "99304e1d-70b1-4338-a770-e6fec46cfbbb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "99592cd6-a08e-48af-b05c-3bb7ff8100b3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "999772e7-67b9-4791-a055-e0b5aec987ec" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "999859fd-aca3-4489-aa84-2352d5ae6742" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9a8aa6a8-60a1-4c14-b77b-6976cc525b04" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "9ab1f84b-d1ef-4d35-8428-16a3028094a2" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9ad345d8-f169-47e2-b706-d41b718956e1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9aeab3a5-ee09-445e-b992-8981ced11ec3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "9b2bc6e9-06ce-4010-9506-f3dc5a6d3f8c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "9b7c1105-4fc7-462d-8901-157fcd7e8565" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "9b80691b-fce9-462c-b19c-1fafc44ad383" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9c47250e-15e9-465c-8a6a-da26f9e1c58c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9d136037-f0e2-480b-b462-04ce50523c9e" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9d490a1c-b1f2-418e-928b-5134b04493c0" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9d68765d-8c6f-4aa8-bba5-e2f0d59cb281" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9e37bfee-ff55-4739-a1a5-34b7adecc518" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9e4bc5fe-5d70-4da7-9fe7-3dcc288f976b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9f0b22b0-7ccd-4321-abce-b968b41984a4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9fef7dd6-fb2b-4113-a691-90c521279809" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_hood"
+         },
+         "a05789fa-bcbf-4793-86b8-7a1210e859fb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a198aa6c-1ed3-438f-9bac-18cde0397f86" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a1b81345-f1b6-478a-bfcd-f2cc6cfd04c4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a1d03260-b337-4bb1-aaf0-931130ca1694" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a218df95-8308-4d29-aca3-f23ad0efd7bf" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "a2505502-bfe7-4048-8524-c806c1e4959f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a35f1bc8-8e1f-4302-87e7-01d22c6e8203" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a376ad6b-cd14-4585-a328-60dd8daa9ea4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a39ab4d0-19b9-47ad-a35b-2e228a119ec2" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a441adea-6423-40ca-865c-2c76efac815d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a5097fef-83ef-4d72-b2c4-6efb34617767" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a56d4860-3d35-4200-b5df-d4f82988d434" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a5cf9490-d3ab-47a8-bd67-54c1b6639a1d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "a5fc0aff-f3ad-4f68-a9e1-3641a6f5c1c6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a613e719-22ca-4983-afd9-e65c8657f58f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a61e8187-d9db-4b2b-8f12-da249155b550" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a65fbcb7-37ab-4647-99ec-bd5dcf8d2d7e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a6c87592-9385-456d-a173-dd641ae10fcc" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a749463d-4442-47bc-ab57-a14165c614d7" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_outerwear"
+         },
+         "a767b8a6-7a2c-497a-bd3d-267efa651a3c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a83e6e76-ac82-46e3-a2b1-036efedc9a80" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a85af239-5a6d-4b0e-9600-ad5859afb0c6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a8eacda7-a46b-47c7-8db1-8eb65efc47a8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a975dd60-ec26-40d3-a4f8-604ba480adad" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "aafd0d4d-94f5-42a5-bc10-f10cf29f8202" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ab49bd36-75cb-4899-a810-025d3f72c8f7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ac460053-62cc-4f62-a776-c34ccff83a66" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ac4d3096-573d-42bb-a297-d1127101c1ba" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "accab057-2a98-4313-912e-5e020b745eb8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ad571857-647b-4cb3-821e-8b4d06939f25" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ae3083c4-c2a9-40a8-8391-b9f387118f2c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "ae8a52d1-a176-4a8c-97fc-2458089ab9e5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "af034f87-98ba-4308-8b52-a2d5b046b25a" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "af08253d-c854-49d0-986e-f44e5172499c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "af47ac15-7312-4886-a48b-8cfce8e1c50f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "af96f02b-df02-4e33-a5fa-f8e62e9753d3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "afca749d-8d1d-482b-b4ad-07b69a255deb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "b003d254-a9ed-4a60-be7b-4b1a4d5154bc" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b1d3e504-967e-419f-a59b-7896f8095b3c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b1ff2bc8-6623-492b-94e2-fc9b2a21cb6d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b2a5a0e8-3dd2-42fe-937b-2e241a669bf1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b2dc13e8-bfb8-42f5-ab56-9904947be554" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "b2ee9791-e391-4c61-9c48-7aa4fb8411f3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b41c9b81-ee3c-45ad-a632-116e90a111e8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b4445bc9-6456-4dae-80e1-bd88cc732f5d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b4799c32-ffd1-4a47-b71a-cfe8ff6ac20a" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "b58a5b09-0ea5-4ae6-ade7-ec1dbb2566b7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b5cdd257-5739-4ba4-8fd4-a85bc2e46173" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "b6fbacac-0b44-421d-bad6-c8f4932ddbf3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "b7d86099-1120-49ee-befd-f92259b95b9f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b883f03d-d95e-4fc2-ad36-531c7bba58fc" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "b9ab637c-12ed-44ad-a7ad-9301418bd074" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bb141adc-9090-442e-89c5-d329d7db70aa" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bb1e32fb-dfd6-4293-862a-89dedc64f977" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bb1f0e52-6fb1-4e61-8351-c59dd333b482" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "bb2b730b-436f-41ab-a5c3-b41c3d171d41" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bb4e070d-d70c-4dfa-b0c8-73506d7f5aef" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bc285eaa-f905-4c6f-b076-009ba6113710" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bc2b1eb9-d450-4f26-9932-50ce7830573e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bc86be9a-f0d3-4d8c-af66-d60ebac774db" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "bcd2cc56-ed01-4f95-bc87-19b73f1977fd" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "bcfacc9d-4654-460e-adff-4f67abf3b2f7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bd4c9705-3d4f-4eb3-9bec-f2bcfaafc065" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "be06d056-5015-4f78-a105-bdca0d43947f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "be3564e9-0733-4fc7-bd57-3695ef1ac1af" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "be8a3404-8af0-4d36-a2aa-b1d135ce9376" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "be8c05be-6c73-47c7-9382-fea69deaefd3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bf7dd4f9-f56c-4700-bada-0d13a96420d5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c081902e-1767-4a61-96f9-88f04771a55b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c0b2c755-057e-4f00-a1f9-3dba36116117" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "c19549c8-753e-4762-a89e-ed0b369793da" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c1d2d6e7-91d9-4e59-89e6-6c2d6a4d8684" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "c2caa3ae-7a3c-4110-8a4b-6d18c6137290" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c30b3dff-2efb-45de-9378-8907101234f4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_head"
+         },
+         "c30e56af-7686-407c-8f9d-51ff79ef2e10" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "c37417d6-29c5-4f0d-943e-59ae108a5e0b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c43d825f-c7b5-48f2-9d2c-d734b807d93c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "c4f956fc-4057-4005-8e7c-558c30cb4ef1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c5795c55-137c-47fc-baad-484224e8de5a" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c5b66013-b205-4d0c-b847-0f82046174f6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c5c223d4-7faa-42ba-a728-d5ff6e6d62ca" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "c5f18417-c1e1-49e6-9218-d18858d1f5c5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c5f30031-8eed-407a-b321-a9de32d040e7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c64a5d25-8f23-4001-b45e-e02c58d17740" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c6ce83cc-e92d-457b-ac4d-33affd46661d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c73ec43c-b28f-4a2a-8050-ae8ced63fb05" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c772c178-c52f-4b3e-9c82-9048d11d5e4c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c7827971-48d2-40b2-8be1-47c6c431100d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c81ad8fa-28eb-4ca6-b9bb-09cbfb5d04e1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "c8bcc737-9d20-41a6-8edc-e88e317f7343" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "c9b99ec1-432a-4c7e-9823-3264300ed27f" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c9dc9643-83b6-407b-ab2b-8ada40300144" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c9e0e558-16af-447a-8103-82351eb013ee" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ca104f22-40c8-4971-a0c9-2f8e8a50c3db" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cb129ecf-d554-408b-aa4c-f9d759038491" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cb7d814a-c963-452e-97f8-868c4cac650d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cb96fd11-a435-491f-83d3-618e3a05f9ac" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cbbc2eeb-6ef0-4f20-9e5e-60229000c3e5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cbce363c-d392-4bbc-8415-0d2a5b85b95f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cbfe82d6-288d-478e-9c70-7ca64199cd48" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "cc1dfc58-d14d-488f-a7d3-346fbde5c969" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ccb19b12-784c-402a-b077-eed977c2d4be" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ccf4993a-ab72-4b34-8d8d-ff5ad7c2a683" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cd55ce7c-c65e-45fc-8e5c-e4e5e2dfec5f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cddfdc50-8645-47b6-832d-548d5ac0e632" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ceb4100c-8171-44ab-811d-239666356688" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cebe565b-b5c8-4dc3-8a25-e0a07193acb8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cf265afc-2cd6-40a1-a9a2-01b417129eb9" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cf45d0fc-548e-4d6f-b13f-1260c9eed359" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cf4ad837-9752-45c2-9229-da46d2c8c888" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cf821679-4c20-4436-bb80-4474497b9a7e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "d03d3f0a-4249-4827-9d5d-5ffd2b5059e4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d058803d-195c-4a92-aaca-5f05ed873bd7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d08266eb-bd8b-4bcb-a925-18be564d6371" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d0f730a1-890b-4036-99d7-c332293ff9fb" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d194b553-2878-4442-bf0d-541c046b4902" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d2a3c799-1fed-4ab6-b82f-9d2d9b882c9e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d2e03cc8-0077-44e7-a35b-6dafbfb7b911" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d315859d-396e-4b41-bcbd-0cb78700bad2" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "d3fb455b-a766-486d-9217-e4d840d014da" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d4d754fc-14ab-4df0-a07a-c7cffe48c455" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d4e9626c-b450-47ea-b7bf-c5d218b7af32" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "d5ca9e8a-4724-4423-af9c-3aa8355c10d8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d5d8d367-e820-46de-aa88-26f948d5f426" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "d6710d88-b061-4e59-ae14-c96fc03f31a1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d67ccf85-7004-46cd-9067-d88b3dcd0aa7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d700b67d-ce8d-49a6-b480-df8fc5f053b1" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d74a10c9-7f88-465e-9db3-82b7643cdbc4" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "d824ec07-8665-468d-8456-f6b10abf04e3" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d826c18c-fdd6-463a-b4fb-66be541b0698" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d8d75ccb-7a65-41e7-9f41-e587fb409c0f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d99379f4-57d0-4001-9559-2ea95532373a" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d9bcd593-cb67-4c4d-bbad-d7b318070ce7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d9c0e897-ba3b-47f2-b326-f23a92b6f21a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d9d8f3ab-7e4e-40de-bb99-4f2119080a30" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "da81b953-c28f-4bb6-bafa-3696ce7bf737" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "daa71638-7cc2-4672-a41e-1b76b93cf7fd" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dba92a22-e6d3-4e02-a05a-f534f4bc4359" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dbfaf89c-0e20-4f97-8798-19945696b44c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "dc70a844-cf33-4425-8f6b-d65e11e4b487" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dc9ef06f-306b-485a-a7ef-6c1e6a750443" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dd4b614b-f3a7-406d-9b61-036fdea582b8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "de1a8340-a022-43df-87dd-ffb2840628ee" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "de6a6e30-dc53-4670-9329-5335db4c29d5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "de767416-2e74-40c5-975c-70480c143352" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dee92550-f269-4cb7-80e5-c6f4ba7434b5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dfd0c312-ade8-40e2-9931-8d6ba72b7a95" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "dfe2d349-de60-4ddf-9b71-deac496ecf1c" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e096a56f-7b55-445d-97ae-6639d87a0947" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e13a4a04-be07-4a5f-9424-c2f7ce365b1b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e15f7180-a341-4d6e-bbf6-1123d7032441" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e18015bc-f321-43df-84ce-29c5bb4c816d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e1b7c0b7-9d0e-4062-bf9e-77542b155b0b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e42f3fcb-208b-4b4f-bf2d-bacb2e97e53f" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e4796883-a152-4467-b03b-8e4f39b66bc8" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e5c11494-1f53-4829-831b-d315c704e5f5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e6507748-6cf5-4ab1-a517-5868e787ee40" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e72930c0-6b77-4935-9e61-f5e169afb317" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e8492f31-5118-460b-9431-0f632f9b6917" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e85ae1d1-5a1b-4178-be23-8c2c2dd98a09" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e87b9838-25e3-4acd-b89a-7e0eb097d4f6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e886dcce-da0b-40c7-8bfa-a8e5e72856e5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e8b143d1-d254-4a11-b4cf-482224009a67" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "e8c38316-326b-4277-baea-8b46cbbb5d55" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e8f7e35c-3658-4676-9dc7-7291d7c36405" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e9ce8c82-dbdd-48b7-b295-f06f3e720d2e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "eaac5871-e292-4421-9b4b-b769cfe4400e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "ecf7dc0f-3a35-498f-9348-cfc70522ff81" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ee2247e0-824d-4cc2-b379-69c8f02f98fd" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ee7578a5-d470-4c47-9938-799342b38ad6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "eeb4605b-4315-4cf0-9e9f-0bf3c6736aae" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "eebadd33-b391-411b-ba25-9e5b2b307492" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ef2bfce9-250d-4e14-a6e1-0f1d1f9e4614" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0a66a80-1f53-4de9-83dc-e2dc82a6f720" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0b105ba-2602-44ab-a83a-fb8820a0a97d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0d4cfd0-bc2f-4c21-9b6b-61f26329efb2" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0e31819-3e31-438d-a157-6da23ef9eec9" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f1399959-4506-4992-b9ff-2ba20f623edf" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f1657cb3-36d2-4854-801f-a96f4e84e7c2" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "f18e206e-c3ea-49a0-b71c-904f3a28a03f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f2e09dd3-5ceb-43d3-aeb8-016631b1b5c6" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f2f8bd69-c603-4f4b-b633-e2736d8f15c5" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f3069a88-2504-4c9b-a310-a642637d47b1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "f374f279-5ef1-4e07-a029-ff74711231a9" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f3a647aa-efdf-4e11-a24b-69bee7802476" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f4493b28-ff21-408b-bd36-065edf0ff07d" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f486768e-e799-4efb-a977-b9ae18ab2762" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "f491a6cc-3fc7-4249-9d80-0e0486525b19" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f4a798a2-2ae1-49f9-a12b-1e4428af737f" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f4fed954-fe88-41f4-a524-2a5a7472a1cc" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f516fa4c-f899-4694-9341-45d6a73cb33f" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f5a57e6e-3149-402b-88f5-20c1e939ff55" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f6098a91-9444-4690-8f78-557e57bd5795" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f6bc3d37-ddaf-4014-88a1-b54c23cba885" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f6e86edf-aa5c-4fed-91d5-25356de947bf" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f7760e71-52ce-46cf-b91d-167433b47965" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f77b80e8-e61b-41a4-aaab-d0d15e9896b4" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f7826d5b-3a1a-445a-ab5f-ec8e1113bb92" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "f7d21579-61dd-4545-8eaa-c44fb2e11106" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f7f0e171-270a-4fc7-becc-5f9840e5fd1e" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f83663da-c0a8-414e-b7b7-b7deaacdc9dc" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f8dd7598-3110-4091-8b5a-036048c4b0aa" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f901e153-4ade-49bc-bf8b-43da575ed557" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f992d155-7ff4-4860-b06b-b22275c1932b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f9d0bb39-cce5-40de-a158-adc6cd140c5b" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "fbefa729-a479-48a9-b029-e68d362bfca7" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "fc108a21-677f-4d97-a70a-d52d565ef4c2" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_emote"
+         },
+         "ff3924b9-49b7-4d3f-a954-df4930396b48" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         }
+      },
+      "toast_cached_info" : {
+         "01c7bf45-36ad-4703-9af6-99067b856b4a" : null,
+         "047e843b-1a3b-4536-b476-c091e6d46b8e" : null,
+         "09e80d11-e458-4c3c-9b81-bd558d92048d" : null,
+         "1553189f-5fc0-442f-b1e6-fa5553c4e874" : null,
+         "17b7cca2-8869-49ed-aa7c-8ab6f3a65ead" : null,
+         "185701c2-b71e-488c-836a-0b551472939c" : null,
+         "213e994b-89ac-49c8-8f56-32f7f9259578" : null,
+         "230f441a-4f1e-4c43-9d53-6954a0faedc5" : null,
+         "24b27d61-1560-46bf-82d7-f13b8b32d603" : null,
+         "280fc6c7-104f-4df0-85c0-4a0434ee1d45" : null,
+         "29d833e7-e071-4a8a-bfab-73bbda2164db" : null,
+         "313b2380-ea1e-414b-afe3-365fa7480f97" : null,
+         "348573a2-034d-4a5e-a0ea-4197bd643d6e" : null,
+         "39a9243b-a267-49d2-bed3-002908e15b1b" : null,
+         "3aace7d5-73b1-4459-938f-54a96312f7da" : null,
+         "3bdaccc5-343e-4c71-98a4-c29a2c202f49" : null,
+         "436ae50a-e065-4f1d-aa85-b500a50bcdc0" : null,
+         "45075ccb-d7de-4c59-9a2b-3631218d2e2a" : null,
+         "48d207c8-404f-442b-82e7-075cbba631f4" : null,
+         "4a590e07-d444-42c9-8444-90249b4d2f9b" : null,
+         "4ca0ac5b-444d-463c-b4ef-21149ab7594e" : null,
+         "4e25736d-1490-4036-b4f8-08912b45e41d" : null,
+         "4f2ea668-d45e-4242-9fd4-40219c7b8ccb" : null,
+         "50edde05-0127-4f42-9634-77c45eb69c50" : null,
+         "5153912b-e5aa-43e8-9457-ca20ff310527" : null,
+         "528f6807-5c71-404b-a51d-a276f64acd0e" : null,
+         "5851f9a2-816a-4668-bcd5-2ebb2e2187d2" : null,
+         "5a4ade3f-ca61-4a71-8742-97a2c0b7185d" : null,
+         "5b3c0e33-1bc5-4f5d-a93e-593bca81e565" : null,
+         "608c1536-c417-480b-a432-a88b2d0efaa9" : null,
+         "62194aa0-e67d-4266-8836-d2117044e269" : null,
+         "632cd712-a60b-45bd-b0b5-a32bb387edd0" : null,
+         "65fe9b48-09fd-4da2-aa72-c097a4c6ff4f" : null,
+         "66f15c06-4a1b-4d71-957d-98c95895f161" : null,
+         "69f7c5c6-05bb-491f-b491-752987bffce0" : null,
+         "6f25e774-74b7-4899-bf94-30f436a7ce68" : null,
+         "70325123-1414-40d2-a708-ad3b9e11306b" : null,
+         "709297d4-7086-4ead-b50e-9e51ac3e49b2" : null,
+         "73531164-e2f0-4981-b107-36879b74f213" : null,
+         "7546451c-fe0f-4b90-ae32-3db6fee01143" : null,
+         "764f6590-cb82-4cea-b1bf-b92e1cfa0d36" : null,
+         "7d158dec-44fd-434a-b540-65dd278f88c1" : null,
+         "7f785c22-9df5-40d7-a32e-19cddbfa1e03" : null,
+         "834dc063-5953-4cd8-bada-522b7d6e27ff" : null,
+         "85eb7041-afc8-4ba3-b167-87640a9ddb29" : null,
+         "877ee894-6eda-46e5-ac5f-7deb4ccce49b" : null,
+         "95fcaf38-503b-46dd-aa84-53d528180444" : null,
+         "9ab8a4bd-49b9-4778-a2d6-57324388013e" : null,
+         "a0f89d8b-59e1-45a9-92de-4da41ea4ff3c" : null,
+         "a4f041e8-25bc-4ec5-8e2f-8999ca183d95" : null,
+         "b0452788-b762-4f40-8452-ef34fde2fca7" : null,
+         "b1c037b1-dde2-4cb6-94da-42b87cdb0376" : null,
+         "b4bff2fd-d224-4bdd-b003-2c18e630addd" : null,
+         "b96b0c22-d626-4f09-9aaa-59d46f9a32c9" : null,
+         "ba5db953-fb71-4a1b-8646-f22b8db5a45b" : null,
+         "bbba9c2c-2033-46eb-8062-edb9cdcfcfec" : null,
+         "bfbe3585-f967-46ab-91c8-92ec2052a023" : null,
+         "c0269909-cf52-4ad1-8787-272dda52e32f" : null,
+         "c3e3f758-dbe3-43ea-934c-1926ee54a0b4" : null,
+         "c4aebea9-1360-45b3-8b72-4373b604c3b4" : null,
+         "ca335d03-0eb2-4809-bd12-bb7731151988" : null,
+         "cbb612ad-90f7-408f-8ed3-6aa254b3c3b0" : null,
+         "d258cd6d-454a-465b-9351-c53bbb335de1" : null,
+         "d2711237-9dac-44da-bd53-cdaf728232bd" : null,
+         "d8de9e17-76ff-4b0a-a98c-7f9bdd45c258" : null,
+         "dba38b3d-a110-44e1-9199-dfc30fc27347" : null,
+         "deb101df-76a4-4254-a3b3-1c9b0759ed77" : null,
+         "ded8afaa-f61d-4a5f-ab30-44273e367444" : null,
+         "e21e8934-7b06-4607-9394-df2aeaf1d901" : null,
+         "e26699d6-20a1-49ee-9cba-a674b72b2280" : null,
+         "e96713a6-ac06-450d-a797-41995a3b044a" : null,
+         "ee296c6e-2087-4318-a073-bd9b8f65f3b6" : null,
+         "f965a923-6d43-495a-b5c2-bc91a33fac18" : null,
+         "fedbebdc-6cc1-4f05-9c6f-ab919d799af3" : null
+      }
+   },
+   "2535472455030994" : {
+      "last_fetched_personaOffer" : "2022-09-30",
+      "last_fetched_storeOffer" : "2022-09-30",
+      "last_seen_patch_notes_revision" : "1.19.3001",
+      "newProductInfoList" : {
+         "008d70e0-3eca-47f9-bd62-593511a54859" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "014204a9-464b-465f-826c-df39a8268884" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "01d02da6-9e32-4240-8d4d-33056ac70592" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "01e2ec9f-f918-4e26-8f64-483eb8051526" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0203844c-4999-4be1-b444-517b2e5ed168" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "02061a54-853d-4b81-8760-e5e6e71fe93d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "04ca5904-2b01-4795-ac4f-6e84f8f08ddb" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "04ef097d-4e66-4054-a02f-603669f8243b" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "056583ea-db80-48d0-8f11-474ebfda6c44" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "059c0f1b-19d6-4e02-ba94-fdb50ca26069" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "05ea01d2-68a4-42ce-ae62-e14ffe1a2a69" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "06bc2824-495e-4252-919f-0289d5b58964" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "06f27f5e-2b8e-4a85-aadd-208692f26a3c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "073f53fd-d150-45ca-abcb-2767032b63ee" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0824b66e-7cf2-4ebd-a548-ae6b629a7115" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "08550a9b-6507-4cfe-8ed5-d428b0eece71" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "09190aeb-6543-4383-8a3d-fc5b2a09721c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "09444075-8d61-4424-a780-63e66bc4e843" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "09894031-906c-4df5-b567-3dcbdcd4a18d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "09a6bb21-1914-4d30-9a8b-0a34a74405d6" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "09fd1890-7a52-449d-936e-1f4dcf18d213" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0a02e69e-d8f0-4224-a801-8d8ef3717d9c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0a4c9625-1329-4555-adc2-e9a958ed71fc" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0a916ce1-7c7d-41e8-994b-989388ac42d8" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0b0c5e33-5b55-40a5-8aa2-490496bfec3b" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0b676776-1abf-4aeb-b3cd-f0dca69de89c" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0b8c735a-449a-42b0-ac38-6ebef2466843" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0ba889c6-1849-4c78-ba24-a450e59dacf6" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0bd39377-203f-4de8-a12f-c4d58c4503b5" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "0bedbcd0-f112-40bc-8f8d-69a04833a236" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "0c26c12a-c3b4-4957-b9ad-4aa2b9ba017a" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "0c74dbbb-b2e7-4e32-b0af-12b0f8711c1f" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0c891de0-9fe8-4990-921b-55c4e45b1712" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0da00104-7b77-4882-b858-3d786e978b0e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0e379dc8-5be0-4c83-b63c-c6ca15c4e21c" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0ebbf5a1-b4e3-42ac-9bdb-4fa5b6e4bced" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "0f5b8f0a-cf25-402e-82bb-e8309d9d273f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0f90c028-0468-43d4-a098-e330f7412b13" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "0ff7d53b-4beb-415f-ae35-655c02afefb6" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1297b5f3-932c-4a0c-83c7-c4d092b9d8f0" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1340c80f-f58f-426b-863c-17c10e0cd084" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1375f7c1-40d6-458f-8068-c33958ea2473" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "13f3794e-7a9b-4978-b03d-727def504109" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "155a4e9d-c48c-469a-a1f1-b7b506d9f276" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "156d6575-0f26-4643-b5c8-2e310a928057" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1659c370-f7b8-4caa-8ad9-6b2523da7f92" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "165b58fb-6fdc-4e67-8a86-903a863f78ec" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "168c37ab-f993-4182-b613-cd964d040d28" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "16cbcf9e-762f-4bf5-abc4-dbf910f44e2d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "17168cd1-ee34-4df8-9feb-1465c29b6cb3" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "17689d38-d381-4573-a6c9-44de2540058e" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "17c31caa-817e-46f7-9f05-2916b2663095" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "182f6c0d-2b76-4d96-a34e-978d2d7da9f0" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "18549777-fdb6-47f5-a6bc-4b067b3ed124" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "199e8b18-fcae-466a-aefa-891a93099e68" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "19dcc827-e9c5-4177-aa14-27e2812fdd69" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1a7fca12-dcdf-4507-ba2d-71ee67977000" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1c41f987-c0b8-4a10-959f-468db0c359ef" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1c4ce87a-67b6-4fa1-ac2a-5535190377f7" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1cbe66a1-2d62-4a4d-a355-b2a11f36f917" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1d0515a3-2926-426e-a746-f1eba6748ee1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "1d5e8774-bda2-4545-8ce4-da86715c09eb" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1d8b86b9-4314-442d-a966-466a7f01916d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "1e316405-e80f-45bd-92f6-e3601c093b23" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1ff8fc3b-c14b-4921-8bba-8b38b8985988" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "1ffde9c5-c690-432f-8997-1dae98d929d3" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "20798a42-26ca-4fcb-aa04-78fe35f6325f" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "20cfd62b-308e-456c-a300-0b6888eb3079" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "20e20f6f-5d71-4354-beee-c3386cb424ee" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2195d20c-79ca-4f00-80c5-69650afbfd65" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "23b32246-4161-4b49-a713-6673273f138a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "240346a0-26d2-42b3-8cf3-7aab7ac3420e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "24e906b1-c967-4de6-80a8-b49107496f6d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "254e55bb-2e35-4f88-91b7-592130de1790" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "25d9ae09-022f-40a4-8f89-d679689f24ac" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "265a65a4-2d3d-4960-8e64-a04235fc5712" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2715c63c-4660-4079-bf94-f2db0a062507" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "277bdfb0-0572-4337-a052-f9b4a52b2acf" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2898308c-7d8b-4b97-90a0-e05edf06f687" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "28b500e6-19af-4fc8-8b54-4678030bfe8d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "28de3b8b-cbe0-41cf-a092-e53090ae9dae" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "294cba6f-871f-4766-a005-ecaa488ede9c" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2988494a-4308-453a-8d47-f3f7f8548f4b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "29d7adbc-f8f6-49e6-af13-e432ef52ae47" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2a13006e-fa3a-4439-87f2-a3b911579f1a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2a94e952-cf72-4bf7-ba48-8ec4eff2d40b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2acf5f0a-88c2-4963-8e4f-f6090c57480b" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2af182ff-974e-4cea-9cff-c2abaa966ac1" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2b6846ba-8354-44a9-a74c-86e6ad896131" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2bbc5856-55da-4cdc-a3d6-4c4fb3e07d15" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2bcd75cf-a1fa-4662-b93c-38a59c518d9b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2c5101fb-78d8-4e0f-887c-96ed5cdcf238" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2d2d4b75-e1e5-4db0-98e9-5c262e609f04" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2e5b0ffb-31b6-47ba-a3a3-88cf45e8faf0" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "2fc60999-09c6-4cf1-ada4-be77df412bee" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "30a354da-0bd0-4096-a861-abe71f4f65fa" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "31c9399f-e21a-4493-9e37-ecadc900579d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "32796daf-2bec-4d0c-8948-2cf844307a08" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "32f129b3-d28e-4360-a0fc-f133bc3311ec" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "34147833-f840-4e50-b548-3744a1bcd634" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3426760a-b200-468a-9f38-57da040dae9c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "35644387-1084-4264-8f8c-c11679aaf7b4" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "35d6bef6-cec3-4dff-9ab0-8cd5850a3d32" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3652816a-c617-4454-9531-f8523df2b8ce" : {
+            "date" : "2022-09-30",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "365b1b2f-f71d-49ce-9b7b-46c210e18f31" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "36dc4632-9e40-44c6-bb89-5b0eed336b7e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "36fe78da-c993-4980-a006-8c78e1b36026" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "37a436da-bc88-4021-970b-f4139488adca" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "38650987-718d-408c-9558-997461d4aeac" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "39a66289-43f8-47e2-bbb0-9a714573015e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "39c548c0-5b3d-4b96-966b-b18405dda782" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3a033257-7489-4d08-9df2-efa0f2334d81" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3a352aab-a932-4f43-a623-d45787839026" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3b831f9f-892d-4e17-907e-c7e5f02be7f9" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3cc038be-896a-41c7-b8e4-2ecfe40e3de1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3dc05f5f-87b5-410e-9792-925ed7244aee" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3e12d5e6-a2ce-459a-aa8d-d8b384e6c114" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "3e791b99-b3c3-4919-9157-3ebf1eae502c" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "408aac12-0ae3-4c88-a6ef-7e42706e918d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "40cb6d11-758b-43a9-8ded-82a8555cf998" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "40d6c4ed-2c5b-4d39-a96a-4b7afb53acd5" : {
+            "date" : "2022-09-29",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_legs"
+         },
+         "42bc59be-5e90-458c-81f6-2e490818a3f2" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "42d7bcba-aa7f-4208-a95c-661cd1649a7b" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4319c5c9-24dd-40c6-a5ff-4bdeb0ad9c1a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "43d7ab69-8419-41e7-a35e-79602fd87ec0" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4416ced8-be67-424c-a9c1-d976b39a4724" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "44785051-ecf0-44f9-ad78-91775dc9b8d6" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "447af1ab-c9ba-4f32-bf5a-5f81798df081" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "460ff7e1-1b4e-4c7d-b8a8-87dc902770d5" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "470b5b1c-0c07-4459-bf9a-88a4f12948d3" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "471cd8d4-00fb-471c-a772-7aaeabf9dea9" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "477cb9aa-444e-4afc-85f2-73c82a40b393" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "47934560-a17f-4814-9b2c-bb749a36e471" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "47e1d06a-551e-46ff-b3db-0e7f42c813ea" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4809a87d-2081-404b-9d9a-62bc622bcc0d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "48dc1e8d-2144-42e8-a1a9-fc0578e57b58" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "494b76e0-5670-4016-a320-169be46d9750" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a161add-052b-47fb-bee5-59b8e648a9d0" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a7bf4e6-c6fc-4fae-ad2a-51ecea99fa98" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a8808f8-03f3-4ca8-992d-902eb2ac4802" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4a9f943f-1cb3-49b9-8788-20ade2bd4250" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4aa0119c-64ec-4214-bba8-1a1b6a7e328c" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4aa3347f-307a-4557-a533-6a8fdc3f8ea1" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4ac5a712-4047-4494-b917-1b84a84f15a1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4afa1249-efb4-40b0-aa83-4ab7071e644e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4b584fe8-4c65-4995-b086-7fbbae784a55" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4c1fcf4c-64ec-4735-abb1-208776c5a37e" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4c345e35-5be5-46e9-8641-a0c68dd9dfce" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "4c5affd2-4f57-407d-83d4-a3cc6c7522c1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "4c81dcc7-ce46-4f73-a077-81a9fd329031" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4cb9120a-3cf5-4d9c-b40d-24623f7c1009" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "4cc01dd1-924a-4255-954c-572a095a0e8c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4ce79b89-f137-4357-a570-34c6f677a8c2" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4d2c1e08-fe80-4ece-85e6-c960bb4a5b8c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4d525287-5975-4d62-b21e-5e145fff3652" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4d9b695d-c143-4353-96da-15fcdaa76be6" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4db68a9e-a559-468f-b006-6a1a37fbaf8c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4ebf20e0-9092-43f9-9c10-35d49b896338" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4f368abc-375f-4017-bf97-0a131a304173" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4f4ce649-a9eb-41ad-a201-4c1a755df638" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4fd9206a-9e7b-4ee5-bade-83a0a732c30a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "4fdec1a4-69d4-4d93-afde-83379b3f2390" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "507cec28-b711-49dd-ba73-51c7a9202ea4" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "50dde4f7-ea82-4bf0-b066-67c412485c80" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "512d511f-7513-4bfc-854e-592bfc14f7dc" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "51530c50-b58e-4810-8c16-9dbf34095250" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "51897edb-5951-462d-ab98-d95853d0cfb8" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "5266894c-42a7-4a0d-a916-fd6d3a62edc8" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "52be0b53-1818-4f15-a7c8-ec61f88087f9" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "53b0bf37-8a1e-482f-a632-4095d7392b24" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "53ca79e0-0e75-4cab-a01b-9dae6791e25a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "540fb423-74bd-4947-ad4d-b8eaca982d77" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5472df42-70da-4794-b496-2a01530c45c5" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "547de098-9e79-4d8e-9f41-80c9b13cbdeb" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5562df22-677e-4bb7-9cb7-8eed7a90babd" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "55b6350b-1b67-4077-908f-51cbd500d461" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "55c1eab1-01bc-4aec-86dc-d02af706048d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "55f94d57-5a2c-49a4-ab59-faad2d570b5b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5797edb6-1e52-4bbd-a36c-8332b4392e31" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "57b3be40-a9b8-4441-99d0-66e01d6a6bf2" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "595e210c-bb24-4408-ab60-63a8e6fda6e0" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5a238d89-6c7a-4194-87e1-72cabad194c9" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5a73199a-c6cb-4b74-9823-e364519db5f3" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5a912991-c136-4015-bf28-fec42cf9d7c9" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5ab0734e-ca03-42b8-8dfb-c583084d2042" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5b5089a6-0077-4696-b0b4-88f7e86c24e3" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5c7e142e-6519-4484-957c-8f050b1457c1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "5d141f49-74ac-459b-a465-0b2881a243b8" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5d151687-3ce6-4ef1-a925-5023aa10c6ed" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5d7118d1-14d9-467d-b351-9635d6bb5f7f" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5e02d3c2-315f-4c20-bc11-1061be40e61f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "5f455960-5470-47c1-9b6e-69109e04d9ee" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "5fdaf7d1-60be-4642-be34-aa38d441a539" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "60c8de76-3ed9-4c89-8501-ef64ef4d86a1" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "60eeaa45-30ce-40fd-b5d2-39621ad731c2" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "60fe8b42-b4e1-46dc-8476-2c97b958dff1" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6185af6b-d5a7-4da5-bcd7-336ac619bcdd" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "61e30094-04f2-4d9e-a321-d7a8a7af2123" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "62238f4e-6f60-4458-83e8-899dd7f6eb21" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6299c2f5-ebb5-455b-a536-d76012f6227b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "63fba2ca-98a8-4ee6-a0eb-d937520e5993" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "646922f8-03cb-43cd-9b89-4a97078b0d32" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "649ca959-8506-4fd0-b99d-f8322f59223d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "64ad0857-ca31-4c47-ba6f-cd85ece1798c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "658c922c-b88b-4cdc-8fd6-47f5926f9d53" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "66d56c8c-f459-46c7-b792-7d8789a80c0e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6711131d-b9ff-4b62-9599-28cacee74cb5" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6717ed4b-2fbf-4925-a457-3642dd5e5efe" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "671fe063-1d20-41e6-bd7d-b618bb2d07e3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "68853453-8083-49c0-8578-24b8896130d2" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "68b321a7-e1e5-496f-8cb7-c544397403ac" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "68c34a8a-ec47-401e-b797-96f314f612d1" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6906be18-ada5-401f-88eb-2aacdda1a49f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6953f881-f20c-46c8-9fe4-4588feca1b63" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6999ede4-98ed-4ccf-9225-045093161dd4" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6aab9f6c-bb35-4c94-8697-1441dd5a5596" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6bb9ce6f-6d67-4a7d-a1de-503246b8d159" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6c1e681d-b6b9-4a7d-9933-236a6538f855" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6c7caa5f-dde6-4ec1-8ade-0a35ceaa5637" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "6c9c3dfa-4d05-42c7-8e9a-2c5156f35441" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6cbadb45-44b3-4c24-adab-c25f3006b786" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6d0a9cf7-8137-4690-80d8-d667f72d54c0" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6e08675b-bd4d-4067-afc6-810876802036" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "6e6a5700-bc97-4ced-b8de-c6fb913af32d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "6f6c985d-5e55-4863-8572-821485d546ed" : {
+            "date" : "2022-09-30",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "70bc3ba9-e807-435d-a3df-bee3891cf256" : {
+            "date" : "2022-09-28",
+            "isNew" : false,
+            "offerType" : "storeOffer"
+         },
+         "7203f8d8-6b74-4668-981a-3509aa91d634" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7207efbb-8f9d-4e06-bb1c-0c5170f8ee11" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "72793f4b-e26b-46aa-b021-47ca4a26f98e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7348c5d3-8d56-4734-a21b-3879efd495ae" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "73e0e949-1457-4e37-a090-5622de08d22e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "748a83e6-8322-49f0-bc37-5044ff13599e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "74908cf9-56c9-42e5-93d7-eafcc943e6dd" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "74bcc99e-a63c-411c-b1fa-a429d296d049" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7533ee4b-c4a6-4c98-8b13-d35085262c2d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "75695ae0-c7ab-4cac-9a16-cfd8682c52ba" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "759cce2a-4cec-4622-aa4c-838cc2adcd7e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "76360840-282e-4f24-bd7f-5892b17b83e0" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "77c2d78c-4933-475f-a19f-1414265b2fdd" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "77ea7268-1747-46fc-9d22-de6dfdc08e9d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7861e8ac-40fe-426d-9caa-24e6d9b2fc34" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "78a9788c-180b-421d-8599-47418740d383" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7918e474-687c-44b9-ac5f-7fdd1384d1e4" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7a11981a-b537-43e6-9128-fc1b316961d8" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "7a3617f6-8441-4943-9770-af65b8b6664b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7a83edf0-bd1e-4266-b31b-8526c90aa366" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7ab1ce9e-bcaa-4e64-a8f0-c5850d20418d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "7c08cb68-a9e0-41cb-ac28-c8f1764241eb" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7c4db64f-e8ab-43d0-89ad-be60eb5c2879" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7dd9452e-1a97-49a8-8706-eefbc1221b32" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7e1396cf-695b-4c3f-ae2e-08309fb1e817" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7e17c989-b9cb-41c5-8e81-be9c4fc5f09a" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7f698795-996f-45e2-889a-b12dcc3685e2" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "7f872305-c506-44d6-a8e4-3566239224db" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "80927d74-d007-453e-8a43-5eb69c9a2fbf" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8094244e-5cc5-42ed-bf3e-80c0f60c30ac" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8178a05e-e658-43f8-b8ad-2d94cce98e43" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8196ff75-0bb4-4e27-976b-c9502bd2e012" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "819acea3-04e9-4dbe-97f1-a8870273c03a" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "81ae4c09-3bc5-4b1a-a805-115d1cbbd7b3" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8292dc40-d5c3-4852-81a7-9a0b4261a17b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "852d9744-f8bd-4025-8647-86d73fb05f85" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "857eb5a7-5893-42a5-9b22-f3ff5bb64eb3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "85bb2965-3612-4cda-a198-f1d4c7947f74" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "867f233c-5401-4f2a-bfcb-79c5e520f34b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "878b36e9-a8f2-47e6-b1ca-8f61854962f8" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "8857d008-c844-4913-849d-2da0f82f6c83" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "888bc959-080f-4040-8f3e-221c95f66a04" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "88f7db05-b07f-4b9c-ae30-0a2d64cfc946" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "89226213-fe28-41c4-9267-bb7aebb0cb03" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "89dca57f-7399-4242-b609-6542315e0864" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8a8e996a-2599-4f9a-bbc8-a180869969a8" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8d07d52c-064e-48a9-9af4-4bce8f7e7097" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8d61f514-549a-4570-87f1-9604cd5c5ef0" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8d98f067-19b8-4aec-a492-69682329c49b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8e31e540-0a0d-4fea-9539-857b5314a8c2" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8e338e09-9882-4ead-8d4a-bd8b759c1913" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8e806934-3289-44ba-b546-3ae072c9f516" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8e9165d5-da10-494f-b050-850ebe90ff94" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8f31a6d7-4082-4bb4-bcfb-6d62c4f0a2f0" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8f469665-58de-4043-b4c2-214d4d48394f" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "8fca1f43-efe2-4f97-bf6b-f4ef5adf473a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9032b5da-225a-4626-8c95-15e6a5101d72" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "926c08ba-ff77-4c91-a856-6ac048918d4e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "92d6466c-290c-4d02-b0c3-4712ddafb948" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "92dc89bb-a361-4d55-a4bc-a4a258053130" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "934d1960-4ea6-4c39-ba3b-70b5a91ec0dc" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "93d25421-7ae0-4ea4-97aa-764d8943c0a1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "93d6cb21-3a76-43ad-b44e-96a3e5894ed6" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "945a6224-72db-4382-ad85-cae96362023e" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9492f29e-e590-4583-bb7c-ac44a79e5973" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "9499a387-f103-476d-abe6-96415acf64c8" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "95c3abb4-40f3-4c3b-a394-f6366b2bf488" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "95e6cef5-51e8-4dd3-9623-68ff77882e18" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "97ce36f9-c40c-439b-8028-bdb7cfa21c3e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "97ffc765-f9a5-4b25-8eb6-e13cc4f8de41" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9861558f-9554-4ad3-b407-6980bed1fa54" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "99592cd6-a08e-48af-b05c-3bb7ff8100b3" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "999772e7-67b9-4791-a055-e0b5aec987ec" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9a8aa6a8-60a1-4c14-b77b-6976cc525b04" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "9ab1f84b-d1ef-4d35-8428-16a3028094a2" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9ad0c4c4-a318-4f41-8e4a-873a48ce002a" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9aeab3a5-ee09-445e-b992-8981ced11ec3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "9b2bc6e9-06ce-4010-9506-f3dc5a6d3f8c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "9b7c1105-4fc7-462d-8901-157fcd7e8565" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "9c47250e-15e9-465c-8a6a-da26f9e1c58c" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9d136037-f0e2-480b-b462-04ce50523c9e" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9d490a1c-b1f2-418e-928b-5134b04493c0" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9d68765d-8c6f-4aa8-bba5-e2f0d59cb281" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "9fef7dd6-fb2b-4113-a691-90c521279809" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_hood"
+         },
+         "a05789fa-bcbf-4793-86b8-7a1210e859fb" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a12c2973-1c94-40b6-ae6b-eabb837bfef9" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a1420c61-2a79-4dd1-b6c8-bd467070f347" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a1b81345-f1b6-478a-bfcd-f2cc6cfd04c4" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a1d03260-b337-4bb1-aaf0-931130ca1694" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a218df95-8308-4d29-aca3-f23ad0efd7bf" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "a237affc-7c10-4036-9652-9c215262484e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a23fe6fa-fad9-479c-98f8-81ee28f493f3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a27e73ac-d1db-40d3-b6b9-e7e19d763645" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a35f1bc8-8e1f-4302-87e7-01d22c6e8203" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a376ad6b-cd14-4585-a328-60dd8daa9ea4" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a441adea-6423-40ca-865c-2c76efac815d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a5097fef-83ef-4d72-b2c4-6efb34617767" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a56d4860-3d35-4200-b5df-d4f82988d434" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a5cf9490-d3ab-47a8-bd67-54c1b6639a1d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "a5fc0aff-f3ad-4f68-a9e1-3641a6f5c1c6" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a65fbcb7-37ab-4647-99ec-bd5dcf8d2d7e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a6a31837-56a0-4c72-919e-f2a564ae5efe" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a749463d-4442-47bc-ab57-a14165c614d7" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_outerwear"
+         },
+         "a767b8a6-7a2c-497a-bd3d-267efa651a3c" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a83e6e76-ac82-46e3-a2b1-036efedc9a80" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a85af239-5a6d-4b0e-9600-ad5859afb0c6" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a8eacda7-a46b-47c7-8db1-8eb65efc47a8" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a975dd60-ec26-40d3-a4f8-604ba480adad" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "a9f966d7-b33b-4957-b75b-707c5880343e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "aaa9a850-ccf9-40cf-b3b4-355050880da5" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "aab703a4-ff69-44fa-9b13-b8064a3a9f7f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "aafd0d4d-94f5-42a5-bc10-f10cf29f8202" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ac460053-62cc-4f62-a776-c34ccff83a66" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ac4d3096-573d-42bb-a297-d1127101c1ba" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "accab057-2a98-4313-912e-5e020b745eb8" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ad571857-647b-4cb3-821e-8b4d06939f25" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ae05bc65-72ca-48e9-b8f7-f9ed8dfac5f8" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ae3083c4-c2a9-40a8-8391-b9f387118f2c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "ae8a52d1-a176-4a8c-97fc-2458089ab9e5" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "af08253d-c854-49d0-986e-f44e5172499c" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "af47ac15-7312-4886-a48b-8cfce8e1c50f" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b0591aa0-875d-414d-9c52-56c22e845315" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b1d3e504-967e-419f-a59b-7896f8095b3c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b2a5a0e8-3dd2-42fe-937b-2e241a669bf1" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b2dc13e8-bfb8-42f5-ab56-9904947be554" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "b2ee9791-e391-4c61-9c48-7aa4fb8411f3" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b4799c32-ffd1-4a47-b71a-cfe8ff6ac20a" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "b58a5b09-0ea5-4ae6-ade7-ec1dbb2566b7" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b5cdd257-5739-4ba4-8fd4-a85bc2e46173" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "b6aeaf2e-7f62-4b53-be04-2b008f04e4bc" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "b6fbacac-0b44-421d-bad6-c8f4932ddbf3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "b883f03d-d95e-4fc2-ad36-531c7bba58fc" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "ba111114-d563-4d2f-9725-a1ede64a9b1f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bb1f0e52-6fb1-4e61-8351-c59dd333b482" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "bc2b1eb9-d450-4f26-9932-50ce7830573e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bc86be9a-f0d3-4d8c-af66-d60ebac774db" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "bca87c28-656f-4a8d-a137-e799b8296a36" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bcd2cc56-ed01-4f95-bc87-19b73f1977fd" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "bcfacc9d-4654-460e-adff-4f67abf3b2f7" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "be8a3404-8af0-4d36-a2aa-b1d135ce9376" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "be8c05be-6c73-47c7-9382-fea69deaefd3" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "beb018eb-3875-4530-9c3f-9b7372cccd0b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "bf7dd4f9-f56c-4700-bada-0d13a96420d5" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c06063a3-9fb0-42ed-bdc0-1c00ffc7f592" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c0b2c755-057e-4f00-a1f9-3dba36116117" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "c1d2d6e7-91d9-4e59-89e6-6c2d6a4d8684" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "c2caa3ae-7a3c-4110-8a4b-6d18c6137290" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c30b3dff-2efb-45de-9378-8907101234f4" : {
+            "date" : "2022-09-30",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c30e56af-7686-407c-8f9d-51ff79ef2e10" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "c43d825f-c7b5-48f2-9d2c-d734b807d93c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "c49c46bd-8a7c-4ddd-af0d-61719cf5bce9" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c4e4588e-dcca-4681-9333-fbad26c0272b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c5795c55-137c-47fc-baad-484224e8de5a" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c5c223d4-7faa-42ba-a728-d5ff6e6d62ca" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "c5f18417-c1e1-49e6-9218-d18858d1f5c5" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c64a5d25-8f23-4001-b45e-e02c58d17740" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c68e26c7-7ddc-4fc5-beef-5c35d03990ef" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c6ce83cc-e92d-457b-ac4d-33affd46661d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c73ec43c-b28f-4a2a-8050-ae8ced63fb05" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c772c178-c52f-4b3e-9c82-9048d11d5e4c" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c7827971-48d2-40b2-8be1-47c6c431100d" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c7ca97e2-6416-4223-9174-78ac88218f20" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c81ad8fa-28eb-4ca6-b9bb-09cbfb5d04e1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "c879886a-0e1b-494e-8de5-0e00d84d7159" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c8bcc737-9d20-41a6-8edc-e88e317f7343" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "c9b99ec1-432a-4c7e-9823-3264300ed27f" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c9dc9643-83b6-407b-ab2b-8ada40300144" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "c9e0e558-16af-447a-8103-82351eb013ee" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ca104f22-40c8-4971-a0c9-2f8e8a50c3db" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ca896787-e3aa-4724-a878-62919f8f1d2d" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cb129ecf-d554-408b-aa4c-f9d759038491" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cb7d814a-c963-452e-97f8-868c4cac650d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cb96fd11-a435-491f-83d3-618e3a05f9ac" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cbce363c-d392-4bbc-8415-0d2a5b85b95f" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cbfe82d6-288d-478e-9c70-7ca64199cd48" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "cc1dfc58-d14d-488f-a7d3-346fbde5c969" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ccf4993a-ab72-4b34-8d8d-ff5ad7c2a683" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cd7431f8-0757-4cc8-845c-ad25f00ad26b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ce0ef5f0-8304-4ee5-8974-7ad26c8a9f31" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ce45ceec-d25b-4614-baf9-5ad7e70d5e0b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ce921139-f244-48a0-ae39-0947a1c618ce" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ceb4100c-8171-44ab-811d-239666356688" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cf45d0fc-548e-4d6f-b13f-1260c9eed359" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cf4ad837-9752-45c2-9229-da46d2c8c888" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "cf821679-4c20-4436-bb80-4474497b9a7e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "d04cf522-79ce-49aa-bb09-21edcee04bf4" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d058803d-195c-4a92-aaca-5f05ed873bd7" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d08266eb-bd8b-4bcb-a925-18be564d6371" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d0f730a1-890b-4036-99d7-c332293ff9fb" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d21ff2a9-ced4-4fee-b9b6-0cae816a22a6" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d2a3c799-1fed-4ab6-b82f-9d2d9b882c9e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d315859d-396e-4b41-bcbd-0cb78700bad2" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "d3de75c8-c561-468a-912a-22499d4fb123" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d3fb455b-a766-486d-9217-e4d840d014da" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d4d754fc-14ab-4df0-a07a-c7cffe48c455" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d4e9626c-b450-47ea-b7bf-c5d218b7af32" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "d5ca9e8a-4724-4423-af9c-3aa8355c10d8" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d5d8d367-e820-46de-aa88-26f948d5f426" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "d6710d88-b061-4e59-ae14-c96fc03f31a1" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d682e8fe-28a7-4716-a160-e53e976221a4" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d74a10c9-7f88-465e-9db3-82b7643cdbc4" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "d77942ee-0a74-47fb-abc7-91653248c78f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d7c1ee6b-b558-459c-b630-f6f94d7f01f3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d873d813-e64e-4d3e-8e61-c91b2566286b" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d99379f4-57d0-4001-9559-2ea95532373a" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d9bcd593-cb67-4c4d-bbad-d7b318070ce7" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "d9c0e897-ba3b-47f2-b326-f23a92b6f21a" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "da81b953-c28f-4bb6-bafa-3696ce7bf737" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "daa71638-7cc2-4672-a41e-1b76b93cf7fd" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dba92a22-e6d3-4e02-a05a-f534f4bc4359" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dbfaf89c-0e20-4f97-8798-19945696b44c" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "dc70a844-cf33-4425-8f6b-d65e11e4b487" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dc9ef06f-306b-485a-a7ef-6c1e6a750443" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "de1a8340-a022-43df-87dd-ffb2840628ee" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "de6a6e30-dc53-4670-9329-5335db4c29d5" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "df5c903f-a62b-4b82-a68c-80845906de5f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "dfd0c312-ade8-40e2-9931-8d6ba72b7a95" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "e039c2b4-6e3f-4866-974d-9c55b3f2a897" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e096a56f-7b55-445d-97ae-6639d87a0947" : {
+            "date" : "2022-09-22",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e13a4a04-be07-4a5f-9424-c2f7ce365b1b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e1b7c0b7-9d0e-4062-bf9e-77542b155b0b" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e2b0aae9-fc31-44e8-8d92-2d45fb62912a" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e42f3fcb-208b-4b4f-bf2d-bacb2e97e53f" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e6507748-6cf5-4ab1-a517-5868e787ee40" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e7a45337-9376-4abc-809b-b67b612269f3" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e8b143d1-d254-4a11-b4cf-482224009a67" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "e8c38316-326b-4277-baea-8b46cbbb5d55" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e8f7e35c-3658-4676-9dc7-7291d7c36405" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e9a17024-e13a-4575-9a6d-b6c46a3ef986" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "e9b005dd-1a45-43a4-a42e-aa2bcc9a64b2" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "eaac5871-e292-4421-9b4b-b769cfe4400e" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_top"
+         },
+         "ebd980d7-2982-4368-bfa4-d78708c09f96" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ecfcc626-9bab-40ba-a1f7-781afd24986f" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ee7578a5-d470-4c47-9938-799342b38ad6" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "eeb4605b-4315-4cf0-9e9f-0bf3c6736aae" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "efc207b7-d5d1-4264-aaf0-34fd36fac78a" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0264907-b6be-4803-8dcb-5d7d62a4c013" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0a66a80-1f53-4de9-83dc-e2dc82a6f720" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0b105ba-2602-44ab-a83a-fb8820a0a97d" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0d4cfd0-bc2f-4c21-9b6b-61f26329efb2" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f0e31819-3e31-438d-a157-6da23ef9eec9" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f128b347-72b4-4f79-ac5d-c80e90ff02f5" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f1399959-4506-4992-b9ff-2ba20f623edf" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f1657cb3-36d2-4854-801f-a96f4e84e7c2" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "f2e2c7ba-9030-4867-9bb6-a877c106a6d8" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f2f8bd69-c603-4f4b-b633-e2736d8f15c5" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f3069a88-2504-4c9b-a310-a642637d47b1" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "f486768e-e799-4efb-a977-b9ae18ab2762" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_bottom"
+         },
+         "f491a6cc-3fc7-4249-9d80-0e0486525b19" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f4a798a2-2ae1-49f9-a12b-1e4428af737f" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f4fed954-fe88-41f4-a524-2a5a7472a1cc" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f516fa4c-f899-4694-9341-45d6a73cb33f" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f5a57e6e-3149-402b-88f5-20c1e939ff55" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f6098a91-9444-4690-8f78-557e57bd5795" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f628bdab-8f00-440f-a5cb-634ce0e2baad" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f6bc3d37-ddaf-4014-88a1-b54c23cba885" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f6e86edf-aa5c-4fed-91d5-25356de947bf" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f7760e71-52ce-46cf-b91d-167433b47965" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f7826d5b-3a1a-445a-ab5f-ec8e1113bb92" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_feet"
+         },
+         "f7f0e171-270a-4fc7-becc-5f9840e5fd1e" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f83663da-c0a8-414e-b7b7-b7deaacdc9dc" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f8ac708f-3473-45fe-b7cf-2d2780a47750" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f8dd7598-3110-4091-8b5a-036048c4b0aa" : {
+            "date" : "2022-09-27",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f992d155-7ff4-4860-b06b-b22275c1932b" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "f9d0bb39-cce5-40de-a158-adc6cd140c5b" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "fbefa729-a479-48a9-b029-e68d362bfca7" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "fc108a21-677f-4d97-a70a-d52d565ef4c2" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "personaOffer",
+            "pieceType" : "persona_emote"
+         },
+         "fe6eaf27-fdf5-433e-92af-33544a320f70" : {
+            "date" : "2022-09-28",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         },
+         "ff3924b9-49b7-4d3f-a954-df4930396b48" : {
+            "date" : "2022-09-20",
+            "isNew" : true,
+            "offerType" : "storeOffer"
+         }
+      },
+      "recentlyViewedProductIds" : [
+         "ItemDetail_70bc3ba9-e807-435d-a3df-bee3891cf256",
+         "f226ad24-12a9-46e7-b863-434c773d3bed",
+         "ItemDetail_f226ad24-12a9-46e7-b863-434c773d3bed",
+         "ItemDetail_3de1eddb-1d10-4e03-a8eb-84f1f4d0d3b3"
+      ],
+      "toast_cached_info" : {
+         "01c7bf45-36ad-4703-9af6-99067b856b4a" : null,
+         "047e843b-1a3b-4536-b476-c091e6d46b8e" : null,
+         "09e80d11-e458-4c3c-9b81-bd558d92048d" : null,
+         "1553189f-5fc0-442f-b1e6-fa5553c4e874" : null,
+         "17b7cca2-8869-49ed-aa7c-8ab6f3a65ead" : null,
+         "185701c2-b71e-488c-836a-0b551472939c" : null,
+         "213e994b-89ac-49c8-8f56-32f7f9259578" : null,
+         "230f441a-4f1e-4c43-9d53-6954a0faedc5" : null,
+         "24b27d61-1560-46bf-82d7-f13b8b32d603" : null,
+         "280fc6c7-104f-4df0-85c0-4a0434ee1d45" : null,
+         "29d833e7-e071-4a8a-bfab-73bbda2164db" : null,
+         "313b2380-ea1e-414b-afe3-365fa7480f97" : null,
+         "348573a2-034d-4a5e-a0ea-4197bd643d6e" : null,
+         "3628c74d-7bfd-42f0-b62b-a1038ca4263e" : {
+            "days_before_reminding" : 0,
+            "last_date_shown_toast" : 1664483240,
+            "max_number_of_times_to_show" : 0,
+            "times_shown_toast" : 1
+         },
+         "39a9243b-a267-49d2-bed3-002908e15b1b" : null,
+         "3aace7d5-73b1-4459-938f-54a96312f7da" : null,
+         "3bdaccc5-343e-4c71-98a4-c29a2c202f49" : null,
+         "3d5af572-4198-4aba-8314-8f425fd92db0" : null,
+         "436ae50a-e065-4f1d-aa85-b500a50bcdc0" : null,
+         "45075ccb-d7de-4c59-9a2b-3631218d2e2a" : null,
+         "48d207c8-404f-442b-82e7-075cbba631f4" : null,
+         "4a590e07-d444-42c9-8444-90249b4d2f9b" : null,
+         "4ca0ac5b-444d-463c-b4ef-21149ab7594e" : null,
+         "4e25736d-1490-4036-b4f8-08912b45e41d" : null,
+         "4f2ea668-d45e-4242-9fd4-40219c7b8ccb" : null,
+         "50edde05-0127-4f42-9634-77c45eb69c50" : null,
+         "5153912b-e5aa-43e8-9457-ca20ff310527" : null,
+         "528f6807-5c71-404b-a51d-a276f64acd0e" : null,
+         "5851f9a2-816a-4668-bcd5-2ebb2e2187d2" : null,
+         "5a4ade3f-ca61-4a71-8742-97a2c0b7185d" : null,
+         "5b3c0e33-1bc5-4f5d-a93e-593bca81e565" : null,
+         "608c1536-c417-480b-a432-a88b2d0efaa9" : null,
+         "62194aa0-e67d-4266-8836-d2117044e269" : null,
+         "632cd712-a60b-45bd-b0b5-a32bb387edd0" : null,
+         "65fe9b48-09fd-4da2-aa72-c097a4c6ff4f" : null,
+         "66f15c06-4a1b-4d71-957d-98c95895f161" : null,
+         "69f7c5c6-05bb-491f-b491-752987bffce0" : null,
+         "6f25e774-74b7-4899-bf94-30f436a7ce68" : null,
+         "70325123-1414-40d2-a708-ad3b9e11306b" : null,
+         "709297d4-7086-4ead-b50e-9e51ac3e49b2" : null,
+         "72f4e52d-3d14-4055-87d2-a136b4ab46fb" : null,
+         "73531164-e2f0-4981-b107-36879b74f213" : null,
+         "7546451c-fe0f-4b90-ae32-3db6fee01143" : null,
+         "764f6590-cb82-4cea-b1bf-b92e1cfa0d36" : null,
+         "78d1d0b9-7e61-43dc-827e-f61bd0dfa5bc" : null,
+         "7d158dec-44fd-434a-b540-65dd278f88c1" : null,
+         "7f785c22-9df5-40d7-a32e-19cddbfa1e03" : null,
+         "81ec9362-e6a3-4b8d-b7aa-cc53bd7d3627" : null,
+         "834dc063-5953-4cd8-bada-522b7d6e27ff" : null,
+         "85eb7041-afc8-4ba3-b167-87640a9ddb29" : null,
+         "877ee894-6eda-46e5-ac5f-7deb4ccce49b" : null,
+         "95fcaf38-503b-46dd-aa84-53d528180444" : null,
+         "9ab8a4bd-49b9-4778-a2d6-57324388013e" : null,
+         "a0f89d8b-59e1-45a9-92de-4da41ea4ff3c" : null,
+         "a4f041e8-25bc-4ec5-8e2f-8999ca183d95" : null,
+         "b0452788-b762-4f40-8452-ef34fde2fca7" : null,
+         "b1c037b1-dde2-4cb6-94da-42b87cdb0376" : null,
+         "b4bff2fd-d224-4bdd-b003-2c18e630addd" : null,
+         "b96b0c22-d626-4f09-9aaa-59d46f9a32c9" : null,
+         "ba5db953-fb71-4a1b-8646-f22b8db5a45b" : null,
+         "bbba9c2c-2033-46eb-8062-edb9cdcfcfec" : null,
+         "bfbe3585-f967-46ab-91c8-92ec2052a023" : null,
+         "c0269909-cf52-4ad1-8787-272dda52e32f" : null,
+         "c3e3f758-dbe3-43ea-934c-1926ee54a0b4" : null,
+         "c4aebea9-1360-45b3-8b72-4373b604c3b4" : null,
+         "ca335d03-0eb2-4809-bd12-bb7731151988" : null,
+         "cbb612ad-90f7-408f-8ed3-6aa254b3c3b0" : null,
+         "d258cd6d-454a-465b-9351-c53bbb335de1" : null,
+         "d2711237-9dac-44da-bd53-cdaf728232bd" : null,
+         "d8de9e17-76ff-4b0a-a98c-7f9bdd45c258" : null,
+         "dba38b3d-a110-44e1-9199-dfc30fc27347" : null,
+         "deb101df-76a4-4254-a3b3-1c9b0759ed77" : null,
+         "ded8afaa-f61d-4a5f-ab30-44273e367444" : null,
+         "e21e8934-7b06-4607-9394-df2aeaf1d901" : null,
+         "e26699d6-20a1-49ee-9cba-a674b72b2280" : null,
+         "e96713a6-ac06-450d-a797-41995a3b044a" : null,
+         "ee296c6e-2087-4318-a073-bd9b8f65f3b6" : null,
+         "f965a923-6d43-495a-b5c2-bc91a33fac18" : null,
+         "fedbebdc-6cc1-4f05-9c6f-ab919d799af3" : null
+      }
+   }
+}

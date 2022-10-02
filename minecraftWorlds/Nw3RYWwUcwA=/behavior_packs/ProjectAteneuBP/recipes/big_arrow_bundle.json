@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "heavy:big_arrow_bundle"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BBB",
+      "BBB",
+      "BA "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:arrow"
+      },
+      "B": {
+        "item": "heavy:arrow_bundle"
+      }
+    },
+    "result": {
+      "item": "heavy:big_arrow_bundle"
+    }
+  }
+}

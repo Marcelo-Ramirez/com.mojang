@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:part_of_bone_canyon",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_part_of_bone_canyon"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.rotten_flesh"
+			  },
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

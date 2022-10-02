@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:leather_yeti",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_leather_yeti"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

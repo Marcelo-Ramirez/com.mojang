@@ -1,0 +1,42 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:big_arrow_bundle",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 3,
+			"minecraft:icon": {
+				"texture": "big_arrow_bundle"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.arrow"
+			},
+			"minecraft:display_name": {},
+			"minecraft:on_use": {
+                "on_use": {
+                "event": "trade",
+                "target": "self"
+                    }
+              }
+		},
+		"events": {
+			"trade":{
+				"sequence": [
+                    {
+						"run_command":{
+							"command":[
+							  "event entity @e [r=2] llenar_carcaj_1",
+							  "event entity @e [r=2] llenar_carcaj_2",
+							  "event entity @e [r=2] llenar_carcaj_3"
+							],
+							"target": "holder"
+						  },
+						  "decrement_stack": {}
+                    }
+                ]
+			}
+		}
+	}
+}

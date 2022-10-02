@@ -1,0 +1,42 @@
+{
+	"format_version": "1.17.11",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:canteen_empty",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "canteen_empty"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.potion"
+			},
+			"minecraft:display_name": {},
+			"minecraft:on_use": {
+                "on_use": {
+                "event": "fill",
+                "target": "self"
+                    }
+              }
+		},
+		"events": {
+			"fill":{
+				"sequence":[
+					{
+					  "condition": "query.is_in_water",
+					  "transform_item": {
+						"transform": "heavy:canteen_full"
+					},
+					"run_command": {
+						"command": [
+							"playsound bucket.fill_water"
+						]
+					}
+					}
+				  ]
+			}
+		}
+	}
+}

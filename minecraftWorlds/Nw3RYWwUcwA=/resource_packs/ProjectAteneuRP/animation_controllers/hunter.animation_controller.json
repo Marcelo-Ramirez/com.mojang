@@ -1,0 +1,80 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+    "controller.animation.hunter.base": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "transitions": [
+            {
+              "hand_attack": "!query.is_item_equipped && variable.has_target && variable.attack_time >= 0.0"
+            },
+            {
+              "melee_attack": "query.is_item_equipped && variable.has_target && variable.attack_time >= 0.0"
+            }
+          ]
+        },
+        "hand_attack": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "hunter_hand_attack" ],
+          "transitions": [
+            {
+              "default": "query.is_item_equipped || !variable.has_target || variable.attack_time < 0.0"
+            }
+          ]
+        },
+        "melee_attack": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "hunter_attack" ],
+          "transitions": [
+            {
+              "default": "!query.is_item_equipped || !variable.has_target || variable.attack_time < 0.0"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.hunter.move" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						{
+							"move" : "query.modified_move_speed"
+						}
+					],
+					"transitions" : [
+						{
+							"get_in_bed" : "query.is_sleeping"
+						}
+					]
+				},
+				"get_in_bed" : {
+					"animations" : [ "get_in_bed" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_sleeping"
+						}
+					]
+				}
+			}
+		},
+    "controller.animation.hunter.general" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [
+						"general",
+						{
+							"look_at_target" : "!query.is_sleeping"
+						}
+					]
+				}
+			}
+		}
+	}
+}

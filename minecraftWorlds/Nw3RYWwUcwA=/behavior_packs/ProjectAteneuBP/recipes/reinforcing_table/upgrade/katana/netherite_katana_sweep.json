@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "netherite_katana_sweep"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"A",
+		"C"
+	  ],
+	  "key": {
+		"A": {
+		  "item": "heavy:netherite_katana"
+		},
+		"C": {
+			"item": "heavy:cutting_parchment"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:netherite_katana_sweep"
+	  }
+	}
+  }

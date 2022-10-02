@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "katana_f5b247b0"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:katana_blade",
+				"data": 0
+			},
+			"B": {
+				"item": "heavy:tsuba",
+				"data": 0
+			},
+			"C": {
+				"item": "heavy:tsuka",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:katana",
+			"count": 1
+		}
+	}
+}

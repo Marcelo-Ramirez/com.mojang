@@ -1,0 +1,36 @@
+{
+	"format_version": 1,
+	"header": {
+		"name": "Craftable Biplane PE (Behavior)",
+		"description": "Addon by MB217\nyoutube.com/MB217\nMade in Indonesia",
+		"uuid": "1437dc01-2877-4998-95aa-53ab86aaaae3",
+		"version": [
+			2,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "20b5dc7b-f3cc-457c-806a-2a5822bdd8de",
+			"version": [
+				2,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "heavy:soul_sphere"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:soulsand_bottle_full"
+      }
+    },
+    "result": [
+      { "item": "heavy:soul_sphere",
+      "count": 1
+      },
+      { "item": "heavy:soulsand_bottle", "data": 0, "count": 9
+      }
+    ]
+  }
+}

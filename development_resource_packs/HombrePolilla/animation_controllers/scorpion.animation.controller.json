@@ -1,0 +1,72 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.scorpion.walk": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"walk": "query.modified_move_speed>0.01"
+						}
+					],
+					"blend_transition": 0.3
+				},
+				"walk": {
+					"animations": [
+						"walk"
+					],
+					"blend_transition": 0.3,
+					"transitions": [
+						{
+							"default": "query.modified_move_speed<=0.01"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.scorpion.posture": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"default"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"angry": "query.mark_variant==1"
+						}
+					]
+				},
+				"angry": {
+					"animations": [
+						"threatened"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"default": "query.mark_variant==0"
+						},
+						{
+							"sting": "variable.attack_time>0"
+						}
+					]
+				},
+				"sting": {
+					"animations": [
+						"sting"
+					],
+					"transitions": [
+						{
+							"default": "query.mark_variant==0"
+						},
+						{
+							"angry": "query.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

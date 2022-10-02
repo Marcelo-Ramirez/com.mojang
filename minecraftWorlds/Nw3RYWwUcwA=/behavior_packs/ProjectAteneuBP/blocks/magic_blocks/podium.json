@@ -1,0 +1,52 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+      "description": {
+          "identifier": "heavy:podium",
+          "is_experimental": false,
+          "register_to_creative_menu":true
+      },
+      "components": {
+        "minecraft:loot": "loot_tables/blocks/death_gem.json",
+        "tag:stone":{},
+        "minecraft:material_instances" : {
+            "*" : {
+              "texture": "deathstatue",
+              "render_method": "opaque"
+            }
+          },
+        "minecraft:geometry":"geometry.podium",
+        "minecraft:entity_collision": {
+          "origin": [-2.0,10.0,-2.0],
+          "size": [4.0,4.0,4.0]
+        },
+        "minecraft:pick_collision":{
+          "origin": [-2.0,10.0,-2.0],
+          "size": [4.0,4.0,4.0]
+      },
+          "minecraft:destroy_time": 40,
+          "minecraft:explosion_resistance":60,
+          "minecraft:block_light_absorption": 0,
+          "minecraft:block_light_emission": 0.0,
+          "minecraft:map_color": "#ff2a13",
+          "minecraft:ticking": {
+            "range": [25,30],
+            "on_tick": {
+              "event": "death_power",
+              "target": "self"
+            }
+          } 
+      },
+      "events": {
+        "death_power":{
+          "run_command": {
+            "command": ["replaceitem entity @e[r=50,family=undead] slot.armor.head 1 heavy:weathered_copper_helmet",
+            "effect @e[r=50,family=undead] strength 15 1 true",
+          "effect @e[r=50,family=undead] speed 15 0 true",
+          "effect @e[r=50,family=undead] resistance 15 2 true",
+          "particle heavy:dead_buff ~ ~ ~"]
+          }
+        }
+      }
+      }
+    }

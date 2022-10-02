@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.sed_death": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"sed_death": "!query.is_alive"
+						}
+					]
+				},
+				"sed_death": {
+					"on_entry": ["/scoreboard players set @s sed 16"],
+					"transitions": [
+						{
+							"default": "query.is_alive"
+						}
+					]
+				}
+			}
+		}
+	}
+}

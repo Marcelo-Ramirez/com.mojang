@@ -1,0 +1,397 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "bradmob:eyebat",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"group_walking": {
+				"minecraft:navigation.generic": {
+					"avoid_water": true,
+					"can_path_from_air": true
+				},
+				"minecraft:behavior.random_stroll": {
+					"interval": 85,
+					"priority": 5,
+					"speed_multiplier": 1,
+					"xz_dist": 10,
+					"y_dist": 10
+				},
+				"minecraft:movement.generic": {
+					"max_turn": 10
+				},
+				"minecraft:physics": {
+					"has_gravity": true,
+					"has_collision": true
+				},
+				"minecraft:environment_sensor": {
+					"triggers": {
+						"filters": {
+							"test": "random_chance",
+							"value": 750
+						},
+						"event": "event_flight"
+					}
+				}
+			},
+			"group_flight": {
+				"minecraft:navigation.hover": {
+					"can_path_over_water": true,
+					"can_path_over_lava": true,
+					"can_path_from_air": true,
+					"avoid_water": true
+				},
+				"minecraft:movement.hover": {
+					"max_turn": 30
+				},
+				"minecraft:behavior.random_hover": {
+					"priority": 4,
+					"speed_multiplier": 1,
+					"xz_dist": 9,
+					"y_dist": 4,
+					"interval": 55,
+					"y_offset": 0,
+					"hover_height": [
+						10,
+						32
+					]
+				},
+				"minecraft:physics": {
+					"has_gravity": false
+				},
+				"minecraft:environment_sensor": {
+					"triggers": {
+						"filters": {
+							"test": "random_chance",
+							"value": 750
+						},
+						"event": "event_grounded"
+					}
+				}
+			},
+			"plumage_purple": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"plumage_warped": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"plumage_crimson": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"plumage_delta": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"plumage_soul": {
+				"minecraft:variant": {
+					"value": 4
+				}
+			},
+			"plumage_special_albino": {
+				"minecraft:variant": {
+					"value": 5
+				}
+			},
+			"plumage_special_green": {
+				"minecraft:variant": {
+					"value": 6
+				}
+			},
+			"plumage_special_yellow": {
+				"minecraft:variant": {
+					"value": 7
+				}
+			},
+			"group_baby": {
+				"minecraft:is_baby": {},
+				"minecraft:ageable": {
+					"duration": 1200,
+					"grow_up": {
+						"event": "event_grow_up",
+						"target": "self"
+					},
+					"feed_items": [
+						"nether_wart",
+						"crimson_fungus",
+						"warped_fungus"
+					]
+				},
+				"minecraft:collision_box": {
+					"width": 0.1,
+					"height": 0.1
+				}
+			},
+			"group_adult": {
+				"minecraft:breedable": {
+					"breed_items": [
+						"nether_wart",
+						"crimson_fungus",
+						"warped_fungus"
+					],
+					"deny_parents_variant": {
+						"chance": 0.1,
+						"min_variant": 5,
+						"max_variant": 7
+					},
+					"breeds_with": {
+						"mate_type": "bradmob:eyebat",
+						"baby_type": "bradmob:eyebat",
+						"breed_event": {
+							"target": "baby",
+							"event": "minecraft:entity_born"
+						}
+					},
+					"require_tame": false,
+					"require_full_health": false,
+					"extra_baby_chance": 0.3
+				},
+				"minecraft:collision_box": {
+					"width": 1,
+					"height": 1
+				},
+				"minecraft:behavior.breed": {
+					"priority": 1,
+					"speed_multiplier": 1.1
+				},
+				"minecraft:loot": {
+					"table": "loot_tables/eyebat.json"
+				}
+			},
+			"2721de07-f493-476e-9dea-2476b8b645da": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "slow_falling",
+							"visible": false,
+							"duration": 10000000000000000,
+							"amplifier": 2
+						}
+					]
+				}
+			},
+			"7fc6f7f3-c3ac-4e5d-8068-61ee5ad019e4": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "slow_falling",
+							"visible": false,
+							"duration": 1000000000000000,
+							"amplifier": 2
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:behavior.tempt": {
+				"priority": 5,
+				"can_tempt_vertically": true,
+				"speed_multiplier": 1,
+				"within_radius": 15,
+				"items": [
+					"nether_wart",
+					"crimson_fungus",
+					"warped_fungus"
+				]
+			},
+			"minecraft:health": {
+				"value": 18,
+				"max": 18
+			},
+			"minecraft:breathable": {
+				"breathes_air": true,
+				"total_supply": 25
+			},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:flying_speed": {
+				"value": 0.25
+			},
+			"minecraft:jump.static": {
+				"jump_power": 1.2
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:behavior.float": {
+				"priority": 5
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:lava_movement": {
+				"value": 0.45
+			},
+			"minecraft:behavior.panic": {
+				"priority": 0,
+				"damage_sources": "all",
+				"speed_multiplier": 1.5
+			},
+			"minecraft:behavior.follow_parent": {
+				"priority": 5,
+				"speed_multiplier": 1.1
+			},
+			"minecraft:leashable": {
+				"soft_distance": 4,
+				"hard_distance": 6,
+				"max_distance": 10
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "nether_wastes",
+							"operator": "=="
+						},
+						"add": {
+							"component_groups": [
+								"plumage_purple"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "warped_forest",
+							"operator": "=="
+						},
+						"add": {
+							"component_groups": [
+								"plumage_warped"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "soulsand_valley",
+							"operator": "=="
+						},
+						"add": {
+							"component_groups": [
+								"plumage_soul"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "basalt_deltas",
+							"operator": "=="
+						},
+						"add": {
+							"component_groups": [
+								"plumage_delta"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "crimson_forest",
+							"operator": "=="
+						},
+						"add": {
+							"component_groups": [
+								"plumage_crimson"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"group_walking",
+								"2721de07-f493-476e-9dea-2476b8b645da"
+							]
+						}
+					},
+					{
+						"randomize": [
+							{
+								"weight": 10,
+								"add": {
+									"component_groups": [
+										"group_adult"
+									]
+								}
+							},
+							{
+								"weight": 1,
+								"add": {
+									"component_groups": [
+										"group_baby"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"event_grounded": {
+				"add": {
+					"component_groups": [
+						"group_walking",
+						"7fc6f7f3-c3ac-4e5d-8068-61ee5ad019e4"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"group_flight"
+					]
+				}
+			},
+			"event_flight": {
+				"add": {
+					"component_groups": [
+						"group_flight"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"group_walking"
+					]
+				}
+			},
+			"event_grow_up": {
+				"remove": {
+					"component_groups": [
+						"group_baby"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"group_adult"
+					]
+				}
+			},
+			"minecraft:entity_born": {
+				"add": {
+					"component_groups": [
+						"group_baby",
+						"group_walking"
+					]
+				}
+			}
+		}
+	}
+}

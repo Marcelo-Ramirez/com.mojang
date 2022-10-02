@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§dProject Ateneu RP",
+      "description": "Version 1.12.0.3 RP",
+      "uuid": "b3b08ac4-f54d-4cd5-9036-e7bdc2423184",
+      "version": [1, 12, 0],
+      "min_engine_version": [ 1, 17, 0 ]
+  },
+  "modules": [
+      {
+          "description": "Version 1.12.0.3 RP",
+          "type": "resources",
+          "uuid": "a156e726-3481-4387-8408-edda8ca10956",
+          "version": [1, 12, 0]
+        }
+    ],
+    "subpacks": [ 
+       {
+        "folder_name": "Project Ateneu",
+           "name": "§6Project ateneu §cUI-Extreme On",
+           "memory_tier": 0
+       },
+       {
+        "folder_name": "Project Ateneu-disable",
+           "name": "§6Project ateneu §aUI-Extreme Off",
+           "memory_tier": 1
+       },
+    {
+        "folder_name": "Original-disable",
+           "name": "Vanilla textures §aUI-Extreme Off",
+           "memory_tier": 2
+    },
+    {
+        "folder_name": "Original",
+           "name": "Vanilla textures §cUI-Extreme On",
+           "memory_tier": 3
+    }
+    ]
+ }

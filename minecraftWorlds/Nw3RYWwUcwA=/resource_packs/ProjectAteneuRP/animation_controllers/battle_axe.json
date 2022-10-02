@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.battle_axe": {
+			"states": {
+				"default": {
+					"animations": [
+					  {	
+					    "battle_axe_hold": "!variable.is_first_person"
+				      }
+					],
+					"transitions": [
+						{
+							"attack": "variable.attack_time>0 && !query.is_in_water"
+						}
+					],
+					"blend_transition": 0.1
+				},
+				"attack": {
+					"animations": [
+					  {	
+					    "battle_axe_attack": "!variable.is_first_person"
+				      }
+					],
+					"transitions": [
+						{
+							"default": "query.any_animation_finished"
+						}
+					],
+					"blend_transition": 0.1
+				}
+			}
+		}
+	}
+}

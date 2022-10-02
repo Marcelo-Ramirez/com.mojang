@@ -1,0 +1,30 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "revived_heart_64c5f19d"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:reviving_totem",
+				"data": 0
+			},
+			"B": {
+				"item": "heavy:undead_heart",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:revived_heart",
+			"count": 1
+		}
+	}
+}

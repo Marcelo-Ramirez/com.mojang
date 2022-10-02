@@ -1,0 +1,392 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:chainsaw",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 4,
+			"minecraft:use_on": {
+				"blocks": [
+					"log",
+					"log2",
+					"wood"
+				]
+			},
+			"minecraft:enchantable": {
+				"value": 1,
+				"slot": "axe"
+			},
+			"tag:minecraft:is_axe": {},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood', 'pumpkin', 'plant')"
+						},
+						"speed": 80,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:chest",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crafting_table",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_stem",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_hyphae",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_hyphae",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_slab",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_pressure_plate",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_fence",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_trapdoor",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_fence_gate",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stairs",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_button",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_wall_sign",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_planks",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_stem",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_hyphae",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_hyphae",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_slab",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_pressure_plate",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_trapdoor",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence_gate",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_button",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_door",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_wall_sign",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:crimson_door",
+						"speed": 30,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:loom",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:trapped_chest",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:lectern",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:bookshelf",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:composter",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:jukebox",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:soul_campfire",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:campfire",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:bee_nest",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:beehive",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:cartography_table",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:scaffolding",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:warped_stairs",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:noteblock",
+						"speed": 16,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "minecraft:break",
+					"target": "self"
+				}
+			},
+			"minecraft:display_name": {},
+			"minecraft:durability": {
+				"max_durability": 2500
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.axe"
+			},
+			"minecraft:icon": {
+				"texture": "heavy_chainsaw"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "minecraft:break"
+				}
+			},
+			"minecraft:repairable": {
+				"repair_items":[
+					{
+					   "repair_amount":2000,
+					   "items":[
+						  "heavy:battery"
+					   ]
+					},
+					{
+						"repair_amount":2000,
+						"items":[
+						   "heavy:chainsaw"
+						]
+					 }
+				]
+			}
+		},
+		"events": {
+			"minecraft:break": {
+				"damage": {
+					"type": "durability",
+					"amount": 1
+				}
+			}
+		}
+	}
+}

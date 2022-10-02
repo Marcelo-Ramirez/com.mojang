@@ -1,0 +1,31 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "adobe_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BBB",
+      "CCC"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:mudball_item"
+      },
+      "B":{
+        "item":"minecraft:wheat"
+      },
+      "C":{
+        "item":"minecraft:clay"
+      }
+    },
+    "result": {
+      "item": "heavy:adobe_block",
+      "count": 6
+    }
+  }
+}

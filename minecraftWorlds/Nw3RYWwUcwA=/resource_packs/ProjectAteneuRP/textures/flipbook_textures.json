@@ -1,0 +1,13 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/magmanita",
+    "atlas_tile": "magmanita_ore_side",
+    "ticks_per_frame": 8
+  },
+  {
+    "flipbook_texture": "textures/blocks/steel_cutter",
+    "atlas_tile": "steel_cutter",
+    "ticks_per_frame": 2,
+    "frames": [ 0, 1, 2]
+  }
+]

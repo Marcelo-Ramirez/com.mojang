@@ -1,0 +1,29 @@
+{
+  "format_version": "1.17.11",
+  "minecraft:block": {
+    "description": {
+      "identifier": "heavy:soul_glass"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "group": "itemGroup.name.glass",
+        "category": "construction"
+      },
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "blend",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				}
+			},
+      "minecraft:loot": "loot_tables/blocks/",
+      "minecraft:destroy_time": 1,
+      "minecraft:map_color": "#5B4538",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:preventsjumping": true,
+      "minecraft:friction": 0.1
+    }
+  }
+}

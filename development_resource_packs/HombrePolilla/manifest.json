@@ -1,0 +1,50 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Resources for Brad's Mobs",
+		"name": "BRAD'S MOD ASSETS",
+		"uuid": "39e6ab9e-8fac-4d9c-a825-d39b84ebd510",
+		"version": [
+			0,
+			0,
+			3
+		],
+		"min_engine_version": [
+			1,
+			18,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "Nice buddy",
+			"type": "resources",
+			"uuid": "0a301ce5-7f69-4b00-8519-0c2b4ebca80b",
+			"version": [
+				0,
+				0,
+				3
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "0cf0d216-4c3c-46b9-a820-21d4e848568f",
+			"version": [
+				0,
+				0,
+				3
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.2.4"
+			],
+			"dash": [
+				"0.7.1"
+			]
+		}
+	}
+}

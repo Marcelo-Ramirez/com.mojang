@@ -1,0 +1,20 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:pebble",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:allow_off_hand": true,
+			"minecraft:icon": {
+				"texture": "pebble"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

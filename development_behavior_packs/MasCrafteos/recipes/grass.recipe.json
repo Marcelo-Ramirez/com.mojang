@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:grass.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"s",
+			"d"
+		],
+		"key": {
+			"d": {
+				"item": "dirt"
+			},
+			"s": {
+				"item": "wheat_seeds"
+			}
+		},
+		"result": {
+			"item": "grass"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "heavy:carcaj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:leather"
+      },
+      "B": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "heavy:carcaj"
+    }
+  }
+}

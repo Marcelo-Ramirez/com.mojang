@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "netherite_pirate_bronze_sword"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IF"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "heavy:pirate_bronze_sword"
+		},
+		"F": {
+			"item": "minecraft:netherite_ingot"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:netherite_pirate_bronze_sword"
+	  }
+	}
+  }
+  

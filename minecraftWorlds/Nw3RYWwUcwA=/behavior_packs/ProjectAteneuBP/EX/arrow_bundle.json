@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:arrow_bundle",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "arrow_bundle"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.arrow"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

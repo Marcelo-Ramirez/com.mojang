@@ -1,0 +1,64 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "heavy:reinforcing_smithy_table"
+    },
+    "components": {
+      "tag:wood":{},
+      "minecraft:creative_category": {
+        "group": "itemGroup.name.smithing_table",
+				"category": "items"
+			},
+		"minecraft:block_light_absorption": 1,
+	  "minecraft:display_name": "reinforcing_smithy_table",
+      "minecraft:destroy_time": 3,
+		"minecraft:unit_cube":{},
+	  	"minecraft:material_instances" : {
+		"*": {
+      "texture": "stone",
+      "render_method" : "alpha_test"
+		}
+		},
+	"minecraft:entity_collision": true,
+	  "minecraft:pick_collision": true,
+	  "minecraft:crafting_table": {
+		"custom_description": "Reinforcing smithing table",
+		"grid_size": 3,
+		"crafting_tags": ["reinforcing_smithy_table"]
+	},
+	"minecraft:material_instances": {
+        "up": {
+         "texture": "reinforcing_smithy_table_top", 
+          "render_method": "opaque"
+        },
+       "bottom": {
+         "texture": "reinforcing_smithy_table_bottom", 
+          "render_method": "opaque"
+        },
+        "south": {
+         "texture": "reinforcing_smithy_table_front", 
+          "render_method": "opaque"
+        },
+        "north": {
+         "texture": "reinforcing_smithy_table_front", 
+          "render_method": "opaque"
+        },
+        "west": {
+         "texture": "reinforcing_smithy_table_side", 
+          "render_method": "opaque"
+        },
+        "east": {
+         "texture": "reinforcing_smithy_table_side", 
+          "render_method": "opaque" 
+        }
+      }
+    },
+	"events":{		
+		
+	},
+	"permutations":[
+	
+	]
+  }
+}

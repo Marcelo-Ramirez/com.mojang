@@ -1,0 +1,51 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "heavy:ruby_leggings",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "heavy_ruby_leggings"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.leggings"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 30,
+        "slot": "armor_legs"
+      },
+      "minecraft:durability": {
+        "max_durability": 270,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.0
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs"
+      },
+      "minecraft:render_offsets": "leggings",
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "heavy:ruby"
+            ],
+            "repair_amount": 50
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 5
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

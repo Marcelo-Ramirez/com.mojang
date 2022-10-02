@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_super_nether_slingshot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BDB",
+			"DAD",
+			"DDD"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:nether_slingshot"
+			},
+			"B": {
+				"item": "minecraft:netherite_scrap"
+			},
+            "D": {
+				"item": "minecraft:fireball"
+			}
+		},
+		"result": {
+			"item": "heavy:super_nether_slingshot",
+			"count": 1
+		}
+	}
+}

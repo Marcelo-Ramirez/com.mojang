@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+      "description": {
+          "identifier": "heavy:iglin_wood",
+          "is_experimental": false
+      },
+      "components": {
+        "tag:steel_block": {},
+          "minecraft:destroy_time": 70,
+          "minecraft:explosion_resistance": 1,
+                "minecraft:block_light_emission": 0.0,
+          "minecraft:map_color": "#3C3947",
+          "minecraft:creative_category": {
+            "category": "construction",
+            "group": "itemGroup.name.planks"
+        }
+      },
+      "events": {
+        "drop_loot": { 
+            "spawn_loot": {
+             "table": "loot_tables/blocks/"
+            }
+          }
+        }
+      }
+    }

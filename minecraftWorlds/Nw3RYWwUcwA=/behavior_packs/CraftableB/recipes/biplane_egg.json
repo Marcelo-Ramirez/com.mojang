@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "tc:biplane_spawn_egg"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " 1 ",
+      "232",
+      " 4 "
+      ],
+      "key": {
+        "1": {"item": "tc:plane_tail"},
+        "2": {"item": "tc:wing"},
+        "3": {"item": "minecraft:furnace"},
+        "4":{"item": "tc:propeller"}
+    },
+    "result": {
+      "item": "tc:biplane_spawn_egg"
+    }
+  }
+}

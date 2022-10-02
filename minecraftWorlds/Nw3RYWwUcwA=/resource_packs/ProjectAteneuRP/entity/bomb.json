@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "heavy:bomb",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/projectiles/bomb/bomb_fire"
+      },
+      "geometry": {
+        "default": "geometry.bomb"
+      },
+      "animations": {
+        "move": "animation.arrow.move",
+        "charge": "animation.bomb.charge"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.shake = query.shake_time - query.frame_alpha;",
+          "variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+        ],
+        "animate": [
+          "move",
+          "charge"
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

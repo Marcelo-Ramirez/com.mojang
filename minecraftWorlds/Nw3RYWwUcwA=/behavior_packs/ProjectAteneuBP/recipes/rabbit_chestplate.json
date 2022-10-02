@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:heavy_emerald_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"AAA",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald_block"
+			},
+			"B": {
+				"item": "minecraft:rabbit_hide"
+			}
+		},
+		"result": {
+			"item": "heavy:heavy_emerald_chestplate"
+		}
+	}
+}

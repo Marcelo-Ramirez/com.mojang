@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"geometry.scuba_helmet_v2": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-5, 24, -5], "size": [10, 10, 10], "uv": [0, 0], "inflate": 0.55},
+					{"origin": [-4, 34, -4], "size": [8, 1, 8], "uv": [31, 0], "inflate": 0.55},
+					{"origin": [5, 25, -4], "size": [1, 8, 8], "uv": [32, 12], "inflate": 0.55},
+					{"origin": [-6, 25, -4], "size": [1, 8, 8], "uv": [32, 12], "inflate": 0.55, "mirror": true}
+				]
+			},
+			{
+				"name": "body",
+				"pivot": [0, 24, 0],
+				"cubes": [
+					{"origin": [-4, 19, -2], "size": [8, 5, 4], "uv": [0, 20], "inflate": 1.05}
+				]
+			}
+		]
+	}
+}

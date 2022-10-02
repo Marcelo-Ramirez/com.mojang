@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "steel_floor"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BB"
+		],
+		"key": {
+			"B": {
+				"item": "heavy:steel_plate"
+			}
+		},
+		"result": {
+			"item": "heavy:steel_floor",
+			"count": 1
+		}
+	}
+}

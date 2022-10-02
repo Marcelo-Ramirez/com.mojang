@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "heavy:wild_boar_golden_armor",
+      "item": { "heavy:wild_boar_golden_armor": "query.owner_identifier == 'wild_pig'"},
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/entity/wild_pig/armor/gold_armor",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.wild_boar_armor"
+      },
+      "render_controllers": [ "controller.render.wild_boar_armor" ]
+    }
+  }
+}

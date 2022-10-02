@@ -1,0 +1,25 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "legendary_wood_planks_ab8eb11d"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B"
+		],
+		"key": {
+			"B": {
+				"item": "heavy:legendary_wood",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:legendary_wood_planks",
+			"count": 4
+		}
+	}
+}

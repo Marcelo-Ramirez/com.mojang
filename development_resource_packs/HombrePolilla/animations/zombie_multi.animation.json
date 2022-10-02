@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.zombie_multi.bleed": {
+			"animation_length": 0.04167,
+			"particle_effects": {
+				"0.0": {
+					"effect": "bleed",
+					"locator": "emitter_head"
+				}
+			}
+		}
+	}
+}

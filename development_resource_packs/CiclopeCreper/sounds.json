@@ -1,0 +1,52 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"ymi:lava_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"ymi:cyclops": {
+				"events": {
+					"death": "mob.cyclops.death",
+					"hurt": "mob.cyclops.hit",
+					"attack": "mob.cyclops.attack",
+					"ambient": "mob.cyclops.idle"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"ymi:lush_cow": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.lush_cow.say",
+					"hurt": "mob.lush_cow.hurt",
+					"death": "mob.lush_cow.hurt",
+					"step": {
+						"sound": "mob.lush_cow.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
+			}
+		}
+	}
+}

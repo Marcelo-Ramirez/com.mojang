@@ -1,0 +1,49 @@
+item.true:wooden_barbed_mace.name=Maza de puas de madera
+item.true:stone_barbed_mace.name=Maza de puas de piedra
+item.true:iron_barbed_mace.name=Maza de puas de hierro
+item.true:gold_barbed_mace.name=Maza de puas de oro
+item.true:diamond_barbed_mace.name=Maza de puas de diamante
+item.true:netherite_barbed_mace.name=Maza de puas de inframundita
+item.true:wooden_katana.name=Katana de madera
+item.true:stone_katana.name=Katana de piedra
+item.true:gold_katana.name=Katana de oro
+item.true:iron_katana.name=Katana de hierro
+item.true:diamond_katana.name=Katana de diamande
+item.true:netherite_katana.name=Katana de inframundita
+item.true:wooden_knife.name=Cuchillo de madera
+item.true:stone_knife.name=Cuchillo de piedra
+item.true:iron_knife.name=Cuchillo de hierro
+item.true:gold_knife.name=Cuchillo de oro
+item.true:diamond_knife.name=Cuchillo de diamante
+item.true:netherite_knife.name=Cuchillo de inframundita
+item.true:wooden_long_sword.name=Espada larga de madera
+item.true:stone_long_sword.name=Espada larga de piedra
+item.true:iron_long_sword.name=Espada larga de hierro
+item.true:gold_long_sword.name=Espada larga de oro
+item.true:diamond_long_sword.name=Espada larga de diamond
+item.true:netherite_long_sword.name=Espada larga de inframundita
+
+item.true:bō.name=bō
+
+item.true:tessen_war_fan.name=Abanico de combate
+
+item.true:wooden_kama.name=Kama de madera
+item.true:gold_kama.name=Kama de oro
+item.true:stone_kama.name=Kama de piedra
+item.true:iron_kama.name=Kama de hierro
+item.true:diamond_kama.name=Kama de diamante
+item.true:netherite_kama.name=Kama de netherite
+
+item.true:wooden_bearded_axe.name=Hacha barbuda de madera
+item.true:gold_bearded_axe.name=Hacha barbuda de oro
+item.true:stone_bearded_axe.name=Hacha barbuda de piedra
+item.true:iron_bearded_axe.name=Hacha barbuda de hierro
+item.true:diamond_bearded_axe.name=Hacha barbuda de diamante
+item.true:netherite_bearded_axe.name=Hacha barbuda de inframundita
+
+item.true:wooden_dane_axe.name=Hacha danesa de madera
+item.true:gold_dane_axe.name=Hacha danesa de oro
+item.true:stone_dane_axe.name=Hacha danesa de piedra
+item.true:iron_dane_axe.name=Hacha danesa de hierro
+item.true:diamond_dane_axe.name=Hacha danesa de diamante
+item.true:netherite_dane_axe.name=Hacha danesa de inframundita

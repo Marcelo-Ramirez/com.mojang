@@ -1,0 +1,381 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "heavy:demon_torment",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+"component_groups":{
+  "minecraft:hostile": {
+    "minecraft:damage_sensor": {
+      "triggers": [
+        {
+          "on_damage": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_damage",
+                  "subject": "self",
+                  "value": "attack"
+               },
+               {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "player"
+                }
+              ]
+            },
+            "event":"minecraft:become_stunned"
+          },
+          "deals_damage":true
+        }
+      ]
+   },
+    "minecraft:movement": {
+      "value": 0.25
+    },
+    "minecraft:behavior.delayed_attack": {
+      "priority": 4,
+      "attack_once": false,
+      "track_target": true,
+      "require_complete_path": false,
+      "random_stop_interval": 0,
+      "reach_multiplier": 2.3,
+      "speed_multiplier": 1.0,
+      "attack_duration": 1,
+      "hit_delay_pct": 1
+    },
+    "minecraft:behavior.random_stroll": {
+      "priority": 6,
+      "speed_multiplier": 0.4
+    },
+    "minecraft:behavior.look_at_player": {
+      "priority": 7,
+      "look_distance": 6,
+      "angle_of_view_horizontal": 45,
+      "probability": 1
+    },
+    "minecraft:behavior.look_at_entity": {
+      "priority": 10,
+      "look_distance": 8,
+      "angle_of_view_horizontal": 45,
+      "filters": {
+        "test": "is_family",
+        "subject": "other",
+        "value": "mob"
+      }
+    },
+    "minecraft:behavior.hurt_by_target": {
+      "priority": 2,
+      "entity_types": {
+        "filters": {
+          "test": "is_family",
+          "subject": "other",
+          "operator": "!=",
+          "value": "illager"
+        },
+        "max_dist": 64
+      }
+    },
+    "minecraft:behavior.nearest_attackable_target": {
+      "priority": 3,
+      "must_see": true,
+      "within_radius": 16.0,
+      "entity_types": [
+        {
+          "filters": {
+            "any_of": [
+              {
+                "subject": "other",
+                "test": "is_family",
+                "value": "player"
+              },
+              {
+                "subject": "other",
+                "test": "is_family",
+                "value": "irongolem"
+              }
+            ]
+          },
+          "max_dist": 16
+        },
+        {
+          "filters": {
+            "all_of": [
+              {
+                "test": "is_family",
+                "subject": "other",
+                "value": "villager"
+              },
+              {
+                "test": "has_component",
+                "subject": "other",
+                "operator": "!=",
+                "value": "minecraft:is_baby"
+              }
+            ]
+          },
+          "max_dist": 16
+        }
+      ]
+    },
+    "minecraft:behavior.mount_pathing": {
+      "priority": 5,
+      "speed_multiplier": 1.25,
+      "target_dist": 0.0,
+      "track_target": true
+    }
+  },
+  "stunned": {
+    "minecraft:is_stunned": {
+    },
+    "minecraft:timer": {
+      "looping": false,
+      "time": 1,
+      "time_down_event": {
+        "event": "minecraft:start_roar"
+      }
+    }
+  },
+  "roaring": {
+    "minecraft:behavior.knockback_roar": {
+      "priority": 1,
+      "duration": 1,
+      "attack_time": 0.91,
+      "knockback_damage": 18,
+      "knockback_horizontal_strength": 8,
+      "knockback_vertical_strength": 8,
+      "knockback_range": 5,
+      "knockback_filters": {
+        "test": "is_family",
+        "subject": "other",
+        "operator": "!=",
+        "value": "demon"
+      },
+      "damage_filters": {
+        "test": "is_family",
+        "subject": "other",
+        "operator": "!=",
+        "value": "demon"
+      },
+      "on_roar_end": {
+        "event": "minecraft:end_roar"
+      },
+      "cooldown_time": 0.1
+    }
+  }
+},
+    "components": {     
+        "minecraft:knockback_resistance": {
+            "value": 1.0
+          },
+        "minecraft:scale": {
+            "value": 1.2
+          },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 8 + (query.equipment_count * Math.Random(5,8)) : 0"
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_water": true
+      },
+      "minecraft:health": {
+        "value": 85,
+        "max": 85
+      },
+      "minecraft:equip_item": {
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 2.6
+      },
+      "minecraft:attack": {
+        "damage": 25
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/demon_meat.json"
+      },
+      "minecraft:movement": {
+        "value": 0.23
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "is_amphibious": false,
+        "avoid_sun": false,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:shareables": {
+        "items": [
+          {
+            "item": "minecraft:leather_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 5
+          }
+        ]
+      },
+      "minecraft:fire_immune": {
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "reselect_targets": true,
+        "must_see": true,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 16
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "piglin"
+                },
+                {
+                  "test": "is_difficulty",
+                  "operator": "!=",
+                  "value": "peaceful"
+                }
+              ]
+            },
+            "max_dist": 16
+          },
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "irongolem"
+            },
+            "max_dist": 16
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "baby_turtle"
+                },
+                {
+                  "test": "in_water",
+                  "subject": "other",
+                  "operator": "!=",
+                  "value": true
+                }
+              ]
+            },
+            "max_dist": 16
+          }
+        ]
+      },
+      "minecraft:behavior.equip_item": {
+        "priority": 3
+      },
+      "minecraft:behavior.pickup_items": {
+        "priority": 5,
+        "max_dist": 3,
+        "goal_radius": 2,
+        "speed_multiplier": 1.0,
+        "pickup_based_on_chance": true
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:type_family": {
+        "family": [ "demon", "mob" ]
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      }
+    },
+
+    "events": {
+      "minecraft:become_stunned": {
+        "randomize": [
+          {
+            "weight": 80,
+            "add": {
+              "component_groups": [
+                "minecraft:hostile"
+              ]
+            }
+          },
+          {
+            "weight": 20,
+            "add": {
+              "component_groups": [
+                "stunned"
+              ]
+            },
+            "remove": {
+              "component_groups": [
+                "minecraft:hostile"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:hostile"
+          ]
+        }
+      },
+      "minecraft:start_roar": {
+        "add": {
+          "component_groups": [
+            "roaring"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "stunned"
+          ]
+        }
+      },
+      "minecraft:end_roar": {
+        "add": {
+          "component_groups": [
+            "minecraft:hostile"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "roaring"
+          ]
+        }
+      }
+    }
+  }
+}

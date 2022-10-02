@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mushrife_planks_slab"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:mushrife_planks"
+      }
+    },
+    "result": {
+      "item": "heavy:mushrife_planks_slab",
+      "count": 6
+    }
+  }
+}

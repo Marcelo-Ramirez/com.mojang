@@ -1,0 +1,43 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+      "description": {
+          "identifier": "heavy:iglin_map",
+          "is_experimental": false
+      },
+      "components": {
+        "minecraft:creative_category": {
+          "category": "items",
+          "group": "itemGroup.name.diamond"
+        },
+        "minecraft:loot": "loot_tables/blocks/pirate_map.json",
+        "minecraft:material_instances" : {
+            "*" : {
+              "texture": "iglin_map",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:geometry":"geometry.iglin_map",
+          "minecraft:destroy_time": 0.5,
+          "minecraft:explosion_resistance": 1,
+                "minecraft:block_light_emission": 0.0,
+                "minecraft:block_light_absorption": 0.0,
+          "minecraft:map_color": "#ffffff",
+          "minecraft:pick_collision": {
+            "origin":  [-8.0, 0.0, -8.0],
+            "size":   [16.0, 0.5, 16.0]
+          },
+          "minecraft:entity_collision": {
+            "origin":  [-8.0, 0.0, -8.0],
+            "size":   [16.0, 0.5, 16.0]
+          }
+      },
+      "events": {
+        "drop_loot": { 
+            "spawn_loot": {
+             "table": "loot_tables/blocks/"
+            }
+          }
+        }
+      }
+    }

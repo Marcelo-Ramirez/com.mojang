@@ -1,0 +1,81 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:hedgehog_cactus_flower"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.cactus",
+				"category": "nature"
+			  },
+			"minecraft:on_interact": {
+				"event": "cut",
+				"target": "self"
+			},
+            "minecraft:on_step_on": {
+				"event": "damage_cactus",
+				"target": "self"
+			},
+			"minecraft:map_color": "#649832",
+			"minecraft:loot": "loot_tables/blocks/hedgehog_cactus/hedgehog_cactus_item.json",
+			"minecraft:geometry": "geometry.echinocactus",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "echinocactus_flower",
+					"render_method": "opaque",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+            "damage_cactus": {
+				"damage": {
+					"type": "magic",
+					"target": "other",
+					"amount": 2
+				}
+			},
+			"cut": {
+				"sequence": [
+                    {
+						"condition": "query.get_equipped_item_name == 'diamond_sword' || query.get_equipped_item_name == 'netherite_sword' || query.get_equipped_item_name == 'golden_sword' || query.get_equipped_item_name == 'iron_sword' || query.get_equipped_item_name == 'diamond_axe' || query.get_equipped_item_name == 'netherite_axe' || query.get_equipped_item_name == 'golden_axe' || query.get_equipped_item_name == 'iron_axe' || query.get_equipped_item_name == 'katana' || query.get_equipped_item_name == 'netherite_katana'",
+						"set_block": {
+							"block_type": "heavy:hedgehog_cactus_cut"
+						},
+						"run_command": {
+							"command": ["playsound sound.attack.sweep @a ~ ~ ~ 1"]
+						}
+                    },
+					{
+						"condition": "query.get_equipped_item_name == 'shears'",
+						"set_block": {
+							"block_type": "heavy:hedgehog_cactus"
+						},
+						"run_command": {
+							"command": ["playsound mob.sheep.shear @a ~ ~ ~ 0.8"]
+						},
+						"spawn_loot": {
+							"table": "loot_tables/blocks/echinocactus_flower.json"
+						}
+                    }
+                ]		
+			}
+        }
+	}
+}

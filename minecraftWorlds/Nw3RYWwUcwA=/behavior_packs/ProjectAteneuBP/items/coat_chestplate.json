@@ -1,0 +1,52 @@
+{
+  "format_version": "1.17.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "heavy:coat_chestplate",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "heavy_coat_chestplate"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.chestplate"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_torso"
+      },
+      "minecraft:durability": {
+        "max_durability": 250,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.0
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest"
+      },
+      "minecraft:render_offsets": "chestplates",
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:leather",
+              "heavy:coat_chestplate"
+            ],
+            "repair_amount": 250
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 5
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

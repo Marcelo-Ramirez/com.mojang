@@ -1,0 +1,41 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:hedgehog_cactus_cut_empty"
+		},
+		"components": {
+			"minecraft:map_color": "#649832",
+			"minecraft:loot": "loot_tables/blocks/none.json",
+			"minecraft:geometry": "geometry.echinocactus_cut",
+            "minecraft:entity_collision": {
+				"origin": [-8, 0, -8],
+				"size": [16, 8, 16]
+			  },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "hedgehog_cactus_cut_empty",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+        }
+	}
+}

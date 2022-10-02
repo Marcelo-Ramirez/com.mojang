@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "steel_hazard"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BA",
+			"AB"
+		],
+		"key": {
+			"B": {
+				"item": "heavy:steel_plate"
+			},
+            "A":{
+                "item":"minecraft:gold_ingot"
+            }
+		},
+		"result": {
+			"item": "heavy:steel_hazard",
+			"count": 1
+		}
+	}
+}

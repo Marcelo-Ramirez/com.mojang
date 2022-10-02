@@ -1,0 +1,21 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"tags": [
+			"furnace"
+		],
+		"output": {
+			"item": "minecraft:gold_nugget",
+			"count": 5,
+			"data": 0
+		},
+		"input": {
+			"item": "heavy:golden_quartz",
+			"data": 0
+		},
+		"description": {
+			"identifier": "gold_quartz"
+		}
+	}
+}

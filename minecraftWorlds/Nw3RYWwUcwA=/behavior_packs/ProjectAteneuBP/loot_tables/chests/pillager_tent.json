@@ -1,0 +1,176 @@
+{
+  "pools": [
+    {
+        "rolls": {
+            "min": 3,
+            "max": 8
+        },
+      "entries": [
+        {
+            "type": "item",
+            "name": "minecraft:sapling",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 3,
+                  "max": 7
+                }
+              }
+            ],
+            "weight": 5
+          },
+        {
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "weight": 1,
+          "functions": [
+            {
+                "function": "minecraft:set_damage",
+                "damage": {
+                    "min": 0.2,
+                    "max": 0.65
+                }
+            },
+            {
+                "function": "enchant_randomly"
+            }
+        ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "weight": 15,
+          "functions": [
+            {
+                "function": "minecraft:set_damage",
+                "damage": {
+                    "min": 0.4,
+                    "max": 0.95
+                }
+            }
+        ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:map",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "exploration_map",
+              "destination": "mansion"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ]
+        },
+        {
+            "type": "item",
+            "name": "heavy:hand_latern",
+            "weight": 1
+          },
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 5,
+          "functions": [
+            {
+                "function": "minecraft:set_damage",
+                "damage": {
+                    "min": 0.2,
+                    "max": 0.65
+                }
+            },
+            {
+                "function": "enchant_randomly"
+            }
+        ]
+        },
+        {
+          "type": "empty",
+          "weight": 12
+        }
+      ]
+    },
+    {
+        "rolls": {
+            "min": 4,
+            "max": 6
+        },
+      "entries": [
+        {
+          "type": "item",
+          "name": "heavy:bronze_ingot",
+          "weight": 12
+        },
+        {
+          "type": "item",
+          "name": "heavy:zinc_ingot",
+          "weight": 15,
+          "functions": [
+            {
+                "function": "set_count",
+                "count": {
+                    "min": 1,
+                    "max": 2
+                }
+            }
+        ]
+        },
+        {
+            "type": "item",
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 4
+                    }
+                }
+            ],
+            "name": "minecraft:iron_ingot",
+            "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+                "function": "minecraft:set_damage",
+                "damage": {
+                    "min": 0.2,
+                    "max": 0.82
+                }
+            },
+            {
+                "function": "enchant_randomly"
+            }
+        ]
+        },
+        {
+          "type": "empty",
+          "weight": 12
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "heavy:portable_dynamite",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/portable/player.dynamite",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.player.portable_dynamite"
+			},
+			"animations": {
+				"first_person": "animation.player.katana_tool.first_person",
+				"default": "animation.player.katana_tool"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"first_person": "c.is_first_person && c.item_slot == 'main_hand' && q.get_equipped_item_name == 'portable_dynamite'"
+					},
+					{
+						"default": "!c.is_first_person && c.item_slot == 'main_hand' && q.get_equipped_item_name == 'portable_dynamite'"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.hammer"
+			]
+		}
+	}
+}

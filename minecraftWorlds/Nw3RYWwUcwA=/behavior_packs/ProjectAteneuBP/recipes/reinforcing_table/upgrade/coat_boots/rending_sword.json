@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "rending_sword"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"AB",
+		"C  "
+	  ],
+	  "key": {
+		"A": {
+		  "item": "heavy:bone_sword"
+		},
+		"B": {
+		  "item": "heavy:revenant_bone"
+		},
+		"C": {
+			"item": "heavy:rending_book"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:rending_sword"
+	  }
+	}
+  }

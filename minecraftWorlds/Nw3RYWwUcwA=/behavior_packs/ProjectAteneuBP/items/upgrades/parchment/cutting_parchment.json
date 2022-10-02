@@ -1,0 +1,41 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:cutting_parchment",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:foil": true,
+			"minecraft:icon": {
+				"texture": "cutting_parchment"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.enchantedBook"
+			},
+			"minecraft:on_use":{
+				"on_use":{
+				   "event":"sweep"
+				}
+			 },
+			"minecraft:display_name": {}
+		},
+		"events": {
+			"sweep": {
+				"sequence": [
+                {
+					"transform_item": {
+						"transform": "air"
+					},
+                    "run_command": {
+                        "command": [
+                            "scoreboard players set @s sweep 1"
+                        ]
+                    }
+                }
+				]
+			 }
+		}
+	}
+}

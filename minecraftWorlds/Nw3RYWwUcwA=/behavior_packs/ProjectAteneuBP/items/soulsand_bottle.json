@@ -1,0 +1,43 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:soulsand_bottle",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_soulsand_bottle"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {},
+			"minecraft:on_use": {
+                "on_use": {
+                "event": "fill",
+                "target": "self"
+                    }
+              }
+		},
+		"events": {
+			"fill":{
+				"sequence":[
+					{
+						"decrement_stack": {},
+					  "condition": "query.is_in_water",
+					"run_command": {
+						"command": [
+							"gamerule sendcommandfeedback false",
+							"playsound bucket.fill_water",
+							"give @s heavy:soulsand_bottle_water",
+							"clear @s heavy:soulsand_bottle 0 1",
+							"gamerule sendcommandfeedback true"
+						]
+					}
+					}
+				  ]
+			}
+		}
+	}
+}

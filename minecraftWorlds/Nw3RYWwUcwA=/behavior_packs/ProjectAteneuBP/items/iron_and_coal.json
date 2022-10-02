@@ -1,0 +1,19 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:iron_and_coal",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "iron_and_coal"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

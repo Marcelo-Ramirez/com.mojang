@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "heavy:sakura_sapling_item",
+      "category": "nature"
+    },
+    "components": {
+	  "minecraft:max_stack_size": 64,
+	  "minecraft:icon": {
+        "texture": "adenium_obesum_sapling_item"
+    },
+	  "minecraft:creative_category": {
+      "parent": "itemGroup.name.sapling"
+    },
+    "minecraft:block_placer": {
+        "block": "heavy:adenium_obesum_sapling"
+    },
+    "minecraft:display_name": {},
+	  "minecraft:hand_equipped": false,
+    "minecraft:stacked_by_data": false
+    }
+  }
+}

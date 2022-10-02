@@ -1,0 +1,836 @@
+{
+  "namespace": "hud",
+  "bubbles_renderer": {
+    "type": "custom",
+    "size": [ 1, 1 ],
+    "renderer": "bubbles_renderer",
+    "layer": 1
+  },
+  "centered_gui_elements_at_bottom_middle": {
+    "type": "panel",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "size": [ 180, 50 ],
+    "controls": [
+      {
+        "heart_rend@heart_renderer": {
+          "offset": [ -1, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "horse_heart_rend_0@horse_heart_renderer": {
+          "offset": [ 180, -56 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "bindings": [
+            {
+              "binding_name": "#is_creative_mode",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "horse_heart_rend_1@horse_heart_renderer": {
+          "offset": [ 180, -57 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "bindings": [
+            {
+              "binding_name": "#is_not_creative_mode",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "armor_rend@armor_renderer": {
+          "offset": [ -1, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "hunger_rend@hunger_renderer": {
+          "offset": [ 180, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "bubbles_rend_0@bubbles_renderer": {
+          "offset": [ 180, -57 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "bindings": [
+            {
+              "binding_name": "#is_not_riding",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "bubbles_rend_1@bubbles_renderer": {
+          "offset": [ 180, -70 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "bindings": [
+            {
+              "binding_name": "#is_riding",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "horse_jump_rend@horse_jump_renderer": {
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "offset": [ 0, -30 ],
+          "layer": 7,
+          "bindings": [
+            {
+              "binding_name": "#is_riding",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      { "exp_rend@exp_progress_bar_and_hotbar": {} }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#hud_visible_centered",
+        "binding_name_override": "#visible",
+        "binding_type": "global"
+      }
+    ]
+  },
+  //armor
+  
+  "hud_actionbar_text": {
+    "type": "panel",
+    "offset": [ "16%-110px", "38%-27px" ],
+    "$hud_size": [ "32.15%", "-10%" ],
+    "$hud_player_rend_desktop_offset|default": [ 15, 15 ],
+    "variables": [
+      {
+          "requires": "($is_holographic and not $is_living_room_mode)",
+          "offset": [ 0, 0 ],
+          "$hud_player_rend_desktop_offset": [ 100, 50 ]
+      },
+      {
+          "requires": "($compress_hud_width)",
+          "$hud_size": [ "100%", "150%" ],
+          "offset": [ 0, 0 ]
+      }
+    ],
+    "size": "$hud_size",
+    "controls": [
+      {
+        "actionbar_message": {
+          "type": "label",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "color": "$tool_tip_text",
+          "text": "$actionbar_text",
+          "localize": false,
+          "alpha": "@hud.anim_actionbar_text_alpha_out",
+          "bindings": [
+            {
+                "binding_name": "#is_not_creative_mode",
+                "binding_name_override": "#visible"
+            }
+        ]
+        }
+      }
+    ]
+  },
+  "hud_actionbar_text/actionbar_message": {
+    "ignored": "(($actionbar_text = 'coat2freezing2') or ($actionbar_text = 'coat2freezing1') or ($actionbar_text = 'coat2freezing0') or($actionbar_text = 'coat0freezing2') or ($actionbar_text = 'coat1freezing2') or($actionbar_text = 'coat0freezing0') or ($actionbar_text = 'coat1freezing1') or ($actionbar_text = 'coat1freezing0') or ($actionbar_text = 'coat0freezing1'))"
+  },
+  "empty": {
+    "type": "image",
+    "offset": [ 0, "50%-54px" ],
+    "size": [18, 18],
+    "layer": 10,
+    "texture": "$texture",
+    "$texture|default": "textures/ui/freezing_system/normal", 
+        "variables": [
+        {
+            "requires": "($actionbar_text = 'coat0freezing0')",
+            "$texture": "textures/ui/freezing_system/normal"
+        },
+        {
+          "requires": "($actionbar_text = 'coat1freezing0')",
+          "$texture": "textures/ui/freezing_system/normal"
+        },
+        {
+          "requires": "($actionbar_text = 'coat2freezing0')",
+          "$texture": "textures/ui/freezing_system/normal"
+        },
+        {
+        "requires": "($actionbar_text = 'coat0freezing1')",
+        "$texture": "textures/ui/freezing_system/freezing"
+        },
+        {
+          "requires": "($actionbar_text = 'coat1freezing1')",
+          "$texture": "textures/ui/freezing_system/freezing"
+        },
+        {
+          "requires": "($actionbar_text = 'coat2freezing1')",
+          "$texture": "textures/ui/freezing_system/freezing"
+        },
+        {
+        "requires": "($actionbar_text = 'coat0freezing2')",
+        "$texture": "textures/ui/freezing_system/dehydration"
+        },
+        {
+          "requires": "($actionbar_text = 'coat1freezing2')",
+          "$texture": "textures/ui/freezing_system/dehydration"
+        },        
+        {
+          "requires": "($actionbar_text = 'coat2freezing2')",
+          "$texture": "textures/ui/freezing_system/dehydration"
+        }    
+    ],
+    "controls": [
+      {
+        "armor_file": {
+          "type": "image",
+          "texture": "$texture",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [9, 9],
+          "offset": [-102, 16],
+          "$texture|default": "textures/ui/freezing_system/empty_armor",
+          "variables": [
+            {
+                "requires": "($actionbar_text = 'coat0freezing0')",
+                "$texture": "textures/ui/freezing_system/empty_armor"
+            },
+            {
+              "requires": "($actionbar_text = 'coat0freezing1')",
+              "$texture": "textures/ui/freezing_system/empty_armor"
+          
+            },
+            {
+              "requires": "($actionbar_text = 'coat0freezing2')",
+              "$texture": "textures/ui/freezing_system/empty_armor"
+            },
+            {
+            "requires": "($actionbar_text = 'coat1freezing0')",
+            "$texture": "textures/ui/freezing_system/coat"
+            },
+            {
+              "requires": "($actionbar_text = 'coat1freezing1')",
+              "$texture": "textures/ui/freezing_system/coat"
+            },
+            {
+              "requires": "($actionbar_text = 'coat1freezing2')",
+              "$texture": "textures/ui/freezing_system/coat"
+            },
+            {
+            "requires": "($actionbar_text = 'coat2freezing0')",
+            "$texture": "textures/ui/freezing_system/heavy"
+            },
+            {
+              "requires": "($actionbar_text = 'coat2freezing1')",
+              "$texture": "textures/ui/freezing_system/heavy"
+            },
+            {
+              "requires": "($actionbar_text = 'coat2freezing2')",
+              "$texture": "textures/ui/freezing_system/heavy"
+              
+            }    
+        ],
+          "bindings": [
+            {
+              "binding_name": "#is_not_creative_mode",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "empty_full": {
+    "type": "panel",
+    "factory": {
+      "name": "hud_actionbar_text_factory",
+      "control_ids": {
+        "hud_actionbar_text": "empty@hud.empty"
+      }
+    }
+  },
+
+//atras armor
+
+  "root_panel": {
+    "type": "panel",
+    "$xp_control_offset|default": [ 0, -13 ],
+    "modifications": [
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"empty_full@hud.empty_full": {}
+				}
+			},
+			{
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_0@water_bar_full_0": {}
+				}
+			},
+            {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_1@water_bar_full_1": {}
+				}
+			},
+            {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_2@water_bar_full_2": {}
+				}
+			},
+            {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_3@water_bar_full_3": {}
+				}
+			},
+            {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_4@water_bar_full_4": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_5@water_bar_full_5": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_6@water_bar_full_6": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_7@water_bar_full_7": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_8@water_bar_full_8": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_9@water_bar_full_9": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_10@water_bar_full_10": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_11@water_bar_full_11": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_12@water_bar_full_12": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_13@water_bar_full_13": {}
+				}
+			},
+      {
+				"array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"water_bar_full_14@water_bar_full_14": {}
+				}
+			}
+
+		]
+  },
+  //title_uses
+  "hud_title_text/title_frame/title": {
+    "modifications": [
+        {
+            "array_name": "bindings",
+            "operation": "insert_back",
+            "value": {
+                "binding_type": "view",
+                "source_property_name": "(not ((#text = 'water_0') or (#text = 'water_1') or (#text = 'water_2')or (#text = 'water_3') or (#text = 'water_4') or (#text = 'water_5') or (#text = 'water_6') or (#text = 'water_7') or (#text = 'water_8') or (#text = 'water_9') or (#text = 'water_10') or (#text = 'water_11') or (#text = 'water_12') or (#text = 'water_13') or (#text = 'water_14') or (#text = 'water_15') or (#text = 'water_16') or (#text = 'water_17') or (#text = 'water_18') or (#text = 'water_19') or (#text = 'water_20')))",
+                "target_property_name": "#visible"
+            }
+        }
+    ]
+},
+  //full_0
+
+  "water_bar_0": {
+    "type": "image",
+    "texture": "textures/ui/water_bar/0",
+    "size": [121, 5],
+    "offset":[52,"50%-46px"],
+    "layer": 10,
+    "bindings": [
+        {
+            "binding_name": "#hud_title_text_string"
+        },
+        {
+            "binding_type": "view",
+            "source_property_name": "(#hud_title_text_string = 'water_0')",
+            "target_property_name": "#visible"
+        }
+    ]
+},
+"water_bar_full_0": {
+    "type": "panel",
+    "factory": {
+        "name": "hud_title_text_factory",
+        "control_ids": {
+            "hud_title_text": "water_bar_0@water_bar_0"
+        }
+    }
+},
+
+//water_1
+  "water_bar_1": {
+    "type": "image",
+    "texture": "textures/ui/water_bar/1",
+    "size": [121, 5],
+    "offset":[52,"50%-46px"],
+    "layer": 10,
+    "bindings": [
+        {
+            "binding_name": "#hud_title_text_string"
+        },
+        {
+            "binding_type": "view",
+            "source_property_name": "(#hud_title_text_string = 'water_1')",
+            "target_property_name": "#visible"
+        }
+    ]
+},
+"water_bar_full_1": {
+    "type": "panel",
+    "factory": {
+        "name": "hud_title_text_factory",
+        "control_ids": {
+            "hud_title_text": "water_bar_1@water_bar_1"
+        }
+    }
+},
+
+//water_2
+"water_bar_2": {
+    "type": "image",
+    "texture": "textures/ui/water_bar/2",
+    "size": [121, 5],
+    "offset":[52,"50%-46px"],
+    "layer": 10,
+    "bindings": [
+        {
+            "binding_name": "#hud_title_text_string"
+        },
+        {
+            "binding_type": "view",
+            "source_property_name": "(#hud_title_text_string = 'water_2')",
+            "target_property_name": "#visible"
+        }
+    ]
+},
+"water_bar_full_2": {
+    "type": "panel",
+    "factory": {
+        "name": "hud_title_text_factory",
+        "control_ids": {
+            "hud_title_text": "water_bar_2@water_bar_2"
+        }
+    }
+},
+
+//water_3
+
+"water_bar_3": {
+    "type": "image",
+    "texture": "textures/ui/water_bar/3",
+    "size": [121, 5],
+    "offset":[52,"50%-46px"],
+    "layer": 10,
+    "bindings": [
+        {
+            "binding_name": "#hud_title_text_string"
+        },
+        {
+            "binding_type": "view",
+            "source_property_name": "(#hud_title_text_string = 'water_3')",
+            "target_property_name": "#visible"
+        }
+    ]
+},
+"water_bar_full_3": {
+    "type": "panel",
+    "factory": {
+        "name": "hud_title_text_factory",
+        "control_ids": {
+            "hud_title_text": "water_bar_3@water_bar_3"
+        }
+    }
+},
+
+//water_4
+"water_bar_4": {
+    "type": "image",
+    "texture": "textures/ui/water_bar/4",
+    "size": [121, 5],
+    "offset":[52,"50%-46px"],
+    "layer": 10,
+    "bindings": [
+        {
+            "binding_name": "#hud_title_text_string"
+        },
+        {
+            "binding_type": "view",
+            "source_property_name": "(#hud_title_text_string = 'water_4')",
+            "target_property_name": "#visible"
+        }
+    ]
+},
+"water_bar_full_4": {
+    "type": "panel",
+    "factory": {
+        "name": "hud_title_text_factory",
+        "control_ids": {
+            "hud_title_text": "water_bar_4@water_bar_4"
+        }
+    }
+},
+
+//water 5
+
+"water_bar_5": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/5",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_5')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_5": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_5@water_bar_5"
+      }
+  }
+},
+
+//water 6
+
+"water_bar_6": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/6",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_6')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_6": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_6@water_bar_6"
+      }
+  }
+},
+
+//water 7
+
+"water_bar_7": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/7",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_7')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_7": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_7@water_bar_7"
+      }
+  }
+},
+
+//water 8
+
+"water_bar_8": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/8",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_8')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_8": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_8@water_bar_8"
+      }
+  }
+},
+
+//water 9 
+
+"water_bar_9": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/9",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_9')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_9": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_9@water_bar_9"
+      }
+  }
+},
+
+"water_bar_10": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/10",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_10')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_10": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_10@water_bar_10"
+      }
+  }
+},
+
+//11
+
+"water_bar_11": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/11",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_11')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_11": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_11@water_bar_11"
+      }
+  }
+},
+
+//12
+
+"water_bar_12": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/12",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_12')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_12": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_12@water_bar_12"
+      }
+  }
+},
+
+//13
+
+"water_bar_13": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/13",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_13')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_13": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_13@water_bar_13"
+      }
+  }
+},
+
+
+//14
+
+"water_bar_14": {
+  "type": "image",
+  "texture": "textures/ui/water_bar/14",
+  "size": [121, 5],
+  "offset":[52,"50%-46px"],
+  "layer": 10,
+  "bindings": [
+      {
+          "binding_name": "#hud_title_text_string"
+      },
+      {
+          "binding_type": "view",
+          "source_property_name": "(#hud_title_text_string = 'water_14')",
+          "target_property_name": "#visible"
+      }
+  ]
+},
+"water_bar_full_14": {
+  "type": "panel",
+  "factory": {
+      "name": "hud_title_text_factory",
+      "control_ids": {
+          "hud_title_text": "water_bar_14@water_bar_14"
+      }
+  }
+}
+}

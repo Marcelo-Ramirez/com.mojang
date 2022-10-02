@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.iglin.crossbow_item": {
+			"loop": true,
+			"animation_length": 10,
+			"bones": {
+				"rightarm": {
+					"rotation": {
+						"0.0": [-5, -25, 0],
+						"0.125": [-55, -25, 0]
+					}
+				},
+				"leftarm": {
+					"rotation": {
+						"0.0": [-27, 25, 0],
+						"0.125": [-42, 25, 0]
+					}
+				}
+			}
+		}
+	}
+}

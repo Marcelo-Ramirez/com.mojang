@@ -1,0 +1,45 @@
+{
+	"format_version": "1.17.11",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:demon_essence",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:use_animation": "drink",
+			"minecraft:use_duration":1.6,
+			"minecraft:food": {
+				"can_always_eat": true,
+				"using_converts_to": "glass_bottle",
+				  "on_consume": {
+			"event": "sed_0",
+			"target": "self"
+		  },
+				  "nutrition": 0,
+				  "saturation_modifier": "bad"
+			  },
+			  "minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "heavy_demon_essence"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.potion"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {
+			"sed_0": {
+			  "sequence": [
+				  {
+					  "run_command":{
+						  "command":[
+							"scoreboard players add @s sed 3"
+						  ],
+						  "target": "holder"
+						}
+				  }
+			  ]
+			}
+		  }
+	}
+}

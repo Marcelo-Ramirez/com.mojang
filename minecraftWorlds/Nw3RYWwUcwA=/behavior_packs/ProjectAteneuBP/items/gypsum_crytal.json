@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:gypsum_crytal",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "gypsum_crytal"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.amethyst_shard"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

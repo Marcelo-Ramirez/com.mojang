@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "heavy_golden_boots"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IFF"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "minecraft:golden_boots"
+		},
+		"F": {
+		  "item": "minecraft:gold_block"
+		}
+	  },
+	  "result": {
+		"item": "heavy:golden_boots"
+	  }
+	}
+  }
+  

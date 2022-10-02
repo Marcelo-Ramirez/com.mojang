@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "bradmob:lobster_raw"
+		},
+		"components": {
+			"minecraft:use_duration": 1,
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscFood"
+			},
+			"minecraft:stacked_by_data": true,
+			"minecraft:food": {
+				"nutrition": 5,
+				"saturation_modifier": "max"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:icon": {
+				"texture": "lobster_raw"
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_steel_sword2"
+		},
+		"tags": [
+			"reinforcing_table"
+		],
+		"pattern": [
+			" A ",
+			" B ",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:steel_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:iron_sword",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:steel_sword",
+			"count": 1
+		}
+	}
+}

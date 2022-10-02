@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:cooked_porkchop.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"p": {
+				"item": "porkchop"
+			},
+			"c": {
+				"item": "coal"
+			}
+		},
+		"pattern": [
+			"ppp",
+			"pcp",
+			"pcp"
+		],
+		"result": {
+			"item": "cooked_porkchop",
+			"count": 7
+		}
+	}
+}

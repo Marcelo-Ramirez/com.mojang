@@ -1,0 +1,30 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ravager_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BCB",
+			"A A",
+			"C C"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:leather"
+			},
+			"B": {
+				"item": "heavy:ravager_fragment"
+			},
+			"C": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"result": {
+			"item": "heavy:ravager_leggings"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "heavy:planks_tropical"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "heavy:tropical_log"
+			}
+		],
+		"result": [
+			{
+				"item": "heavy:planks_tropical",
+				"count": 4
+			}
+		]
+	}
+}

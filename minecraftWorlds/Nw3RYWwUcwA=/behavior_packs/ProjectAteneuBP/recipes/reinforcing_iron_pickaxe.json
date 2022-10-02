@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "heavy:reinforcing_iron_pickaxe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:iron_pickaxe"
+			},
+			{
+				"item": "heavy:chromium_ingot"
+			}
+		],
+		"result": [
+			{
+				"item": "heavy:reinforcing_iron_pickaxe"
+			}
+		]
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bradmob:lobster_cooked",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:use_duration": 1,
+			"minecraft:stacked_by_data": true,
+			"minecraft:icon": {
+				"texture": "lobster_cooked"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.cookedFood"
+			},
+			"minecraft:food": {
+				"nutrition": 12,
+				"saturation_modifier": "max"
+			},
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

@@ -1,0 +1,226 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"wooden_katana": {
+			"textures": [
+				"textures/items/katanas/wood"
+			]
+		},
+		"stone_katana": {
+			"textures": [
+				"textures/items/katanas/stone"
+			]
+		},
+		"gold_katana": {
+			"textures": [
+				"textures/items/katanas/gold"
+			]
+		},
+		"iron_katana": {
+			"textures": [
+				"textures/items/katanas/iron"
+			]
+		},
+		"diamond_katana": {
+			"textures": [
+				"textures/items/katanas/diamond"
+			]
+		},
+		"netherite_katana": {
+			"textures": [
+				"textures/items/katanas/netherite"
+			]
+		},
+		"wooden_long_sword": {
+			"textures": [
+				"textures/items/longs_sword/wood_sword"
+			]
+		},
+		"stone_long_sword": {
+			"textures": [
+				"textures/items/longs_sword/stone_sword"
+			]
+		},
+		"gold_long_sword": {
+			"textures": [
+				"textures/items/longs_sword/golden_sword"
+			]
+		},
+		"iron_long_sword": {
+			"textures": [
+				"textures/items/longs_sword/iron_sword"
+			]
+		},
+		"diamond_long_sword": {
+			"textures": [
+				"textures/items/longs_sword/diamond_sword"
+			]
+		},
+		"netherite_long_sword": {
+			"textures": [
+				"textures/items/longs_sword/netherite_sword"
+			]
+		},
+		"wooden_knife": {
+			"textures": [
+				"textures/items/knife/wood"
+			]
+		},
+		"stone_knife": {
+			"textures": [
+				"textures/items/knife/stone"
+			]
+		},
+		"iron_knife": {
+			"textures": [
+				"textures/items/knife/iron"
+			]
+		},
+		"gold_knife": {
+			"textures": [
+				"textures/items/knife/gold"
+			]
+		},
+		"diamond_knife": {
+			"textures": [
+				"textures/items/knife/diamond"
+			]
+		},
+		"netherite_knife": {
+			"textures": [
+				"textures/items/knife/netherite"
+			]
+		},
+		"wooden_barbed_mace": {
+			"textures": [
+				"textures/items/barbed_mace/wood"
+			]
+		},
+		"stone_barbed_mace": {
+			"textures": [
+				"textures/items/barbed_mace/stone"
+			]
+		},
+		"iron_barbed_mace": {
+			"textures": [
+				"textures/items/barbed_mace/iron"
+			]
+		},
+		"gold_barbed_mace": {
+			"textures": [
+				"textures/items/barbed_mace/gold"
+			]
+		},
+		"diamond_barbed_mace": {
+			"textures": [
+				"textures/items/barbed_mace/diamond"
+			]
+		},
+		"netherite_barbed_mace": {
+			"textures": [
+				"textures/items/barbed_mace/netherite"
+			]
+		},
+		"tessen_war_fan": {
+			"textures": [
+				"textures/items/tessen_war_fan/tessen_war_fan"
+			]
+		},
+		"wooden_kama": {
+			"textures": [
+				"textures/items/kama/wood"
+			]
+		},
+		"gold_kama": {
+			"textures": [
+				"textures/items/kama/gold"
+			]
+		},
+		"stone_kama": {
+			"textures": [
+				"textures/items/kama/stone"
+			]
+		},
+		"iron_kama": {
+			"textures": [
+				"textures/items/kama/iron"
+			]
+		},
+		"diamond_kama": {
+			"textures": [
+				"textures/items/kama/diamond"
+			]
+		},
+		"netherite_kama": {
+			"textures": [
+				"textures/items/kama/netherite"
+			]
+		},
+		"bo": {
+			"textures": [
+				"textures/items/bō/wood"
+			]
+		},
+		"wooden_bearded_axe": {
+			"textures": [
+				"textures/items/bearded_axe/wood"
+			]
+		},
+		"gold_bearded_axe": {
+			"textures": [
+				"textures/items/bearded_axe/gold"
+			]
+		},
+		"stone_bearded_axe": {
+			"textures": [
+				"textures/items/bearded_axe/stone"
+			]
+		},
+		"iron_bearded_axe": {
+			"textures": [
+				"textures/items/bearded_axe/iron"
+			]
+		},
+		"diamond_bearded_axe": {
+			"textures": [
+				"textures/items/bearded_axe/diamond"
+			]
+		},
+		"netherite_bearded_axe": {
+			"textures": [
+				"textures/items/bearded_axe/netherite"
+			]
+		},
+		"wooden_dane_axe": {
+			"textures": [
+				"textures/items/dane_axe/wood"
+			]
+		},
+		"gold_dane_axe": {
+			"textures": [
+				"textures/items/dane_axe/gold"
+			]
+		},
+		"stone_dane_axe": {
+			"textures": [
+				"textures/items/dane_axe/stone"
+			]
+		},
+		"iron_dane_axe": {
+			"textures": [
+				"textures/items/dane_axe/iron"
+			]
+		},
+		"diamond_dane_axe": {
+			"textures": [
+				"textures/items/dane_axe/diamond"
+			]
+		},
+		"netherite_dane_axe": {
+			"textures": [
+				"textures/items/dane_axe/netherite"
+			]
+		}
+	}
+}

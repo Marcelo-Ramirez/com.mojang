@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.zombie_multi.bleed": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"particle_effects": {
+				"0.0": {
+					"effect": "blood"
+				}
+			}
+		},
+		"animation.zombie_multi_stump.bleed": {
+			"loop": true,
+			"animation_length": 0.04167,
+			"particle_effects": {
+				"0.0": {
+					"effect": "blood",
+					"locator": "emitter_torso"
+				}
+			}
+		}
+	}
+}

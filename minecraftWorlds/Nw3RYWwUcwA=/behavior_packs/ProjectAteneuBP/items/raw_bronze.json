@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:raw_bronze",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_raw_bronze"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.raw_iron"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:dark_wolf_leather",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_dark_wolf_leather"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.rotten_flesh"
+			  },
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.team": {
+            "loop": true,
+            "bones": {
+                "team": {
+                    "rotation": ["query.camera_rotation(0)", "query.camera_rotation(1) - query.body_y_rotation", 0],
+                    "position": [0, 28, 0],
+                    "scale": "query.is_in_ui ? 0 : 1"
+                }
+            }
+        }
+    }
+}

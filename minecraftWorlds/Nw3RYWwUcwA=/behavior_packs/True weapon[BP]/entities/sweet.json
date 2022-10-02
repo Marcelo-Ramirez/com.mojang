@@ -1,0 +1,266 @@
+{
+   "format_version": "1.16.0",
+   "minecraft:entity": {
+     "description": {
+       "identifier": "heavy:sweep",
+       "is_spawnable": false,
+       "is_summonable": true,
+       "is_experimental": false
+     },
+    
+    "component_groups": {
+      "despawn": {
+       "minecraft:type_family": {
+         "family": [ "despawn" ]
+       }
+      }
+    },
+    
+     "components": {
+      "minecraft:despawn": {
+        "filters": {
+         "all_of": [
+           { "test": "is_family", "subject": "self", "value": "despawn" }
+         ]
+       }
+      },
+       "minecraft:collision_box": {
+         "width": 0.0,
+         "height": 0.0
+       },
+       "minecraft:health": {
+         "value": 1
+       },
+       "minecraft:scale": {
+         "value": 1
+       },
+       "minecraft:damage_sensor": {
+         "triggers": [
+           {
+             "cause": "all",
+             "deals_damage": false
+           }
+         ]
+       },
+       "minecraft:behavior.knockback_roar": {
+          "priority": 1,
+          "duration": 1,
+          "attack_time": 0.1,
+          "knockback_damage": 4,
+          "knockback_horizontal_strength": 0.5,
+          "knockback_vertical_strength": 0,
+          "knockback_range": 2,
+          "damage_filters": {
+             "all_of": [
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:demon_sword"
+               },
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:golden_sword"
+               },
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:onyx_scythe"
+               },
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:spider_sword"
+               },
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:netherite_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:emerald_katana"
+               },
+               {
+                "test": "is_family",
+                "subject": "self",
+                "operator": "!=",
+                "value": "carcaj"
+              },
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:wooden_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:stone_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:gold_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:iron_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:diamond_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:netherite_katana"
+               }
+            ]
+          },
+          "knockback_filters": {
+            "all_of": [              
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:demon_sword"
+               },
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:netherite_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:emerald_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:golden_sword"
+               },
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:onyx_scythe"
+               },
+              {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "heavy:spider_sword"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:wooden_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:stone_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:gold_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:iron_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:diamond_katana"
+               },
+               {
+                "test": "has_equipment",
+                "subject": "other",
+                "domain": "hand",
+                "operator": "!=",
+                "value": "true:netherite_katana"
+               }
+         ]
+        },
+        "on_roar_end": {
+         "event": "new:event_despawn"
+         }
+        },
+       "minecraft:physics": {}
+     },
+    
+    "events": {
+      "new:event_despawn": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      }
+    }
+   }
+ }

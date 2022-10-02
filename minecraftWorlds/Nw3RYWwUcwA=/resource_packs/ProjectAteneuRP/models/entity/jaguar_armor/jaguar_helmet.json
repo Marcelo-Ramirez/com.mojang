@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.jaguar_helmet",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 32.5, -2], "size": [8, 2, 5], "uv": [0, 16]},
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.55, "uv": [0, 0]},
+						{"origin": [-4, 31, 4], "size": [8, 8, 0], "pivot": [0, 34, 4], "rotation": [-25, 0, 0], "uv": [0, 23]},
+						{"origin": [-4, 31, 4.7], "size": [8, 8, 0], "pivot": [0, 34, 4], "rotation": [-25, 0, 0], "uv": [0, 38]},
+						{"origin": [-4, 31, 4.5], "size": [8, 8, 0], "pivot": [0, 34, 4], "rotation": [-25, 0, 0], "uv": [0, 31]},
+						{"origin": [-16, 24, 1], "size": [8, 8, 0], "pivot": [-4, 28, -4], "rotation": [0, 40, 0], "uv": [24, 0]},
+						{"origin": [8, 24, 1], "size": [8, 8, 0], "pivot": [4, 28, -4], "rotation": [0, -40, 0], "uv": [24, 0], "mirror": true},
+						{"origin": [-11.27163, 24, 5.73857], "size": [8, 8, 0], "pivot": [-6.27163, 28, 5.73857], "rotation": [0, 52.5, 0], "uv": [48, 0]},
+						{"origin": [3.27163, 24, 5.73857], "size": [8, 8, 0], "pivot": [6.27163, 28, 5.73857], "rotation": [0, -52.5, 0], "uv": [48, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

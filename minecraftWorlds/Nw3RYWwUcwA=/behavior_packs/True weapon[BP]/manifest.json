@@ -1,0 +1,47 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "True weapons BP (v1.1)",
+		"name": "§dTrue weapons BP (v1.1)",
+		"uuid": "f062015d-deda-4a09-b1f9-2614e0e0df6a",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			17,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "True weaponsBP (v1.1)",
+			"type": "data",
+			"uuid": "ecdc3d1c-4603-4f9d-b4f2-e7ba54f9838c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "8505f68a-8888-4c1b-911c-3f8782fab986",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	}
+}

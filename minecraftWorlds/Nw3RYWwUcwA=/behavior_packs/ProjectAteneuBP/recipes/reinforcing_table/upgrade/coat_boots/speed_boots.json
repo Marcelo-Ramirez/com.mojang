@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "speed_boots"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"A",
+		"C  "
+	  ],
+	  "key": {
+		"A": {
+		  "item": "minecraft:leather_boots"
+		},
+		"C": {
+			"item": "heavy:upgrade_speed_boots"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:speed_boots"
+	  }
+	}
+  }

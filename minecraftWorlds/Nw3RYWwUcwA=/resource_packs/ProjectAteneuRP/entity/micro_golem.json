@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "heavy:micro_golem",
+      "materials": { "default": "agent" },
+      "textures": {
+        "default": "textures/entity/golem/micro_golem"
+      },
+      "geometry": {
+        "default": "geometry.agent"
+      },
+      "animations": {
+        "move": "animation.micro.move",
+        "static": "animation.micro.static",
+        "attack": "animation.micro.attack",
+        "look_at_target": "animation.goat.look_at_target"
+    },
+    "scripts": {
+        "animate": [
+            {
+                "move": "query.modified_move_speed"
+            },
+            { "attack": "query.is_delayed_attacking" },
+                "static",
+                "look_at_target"
+        ]
+    },
+    "spawn_egg": {
+        "base_color": "#C2A48D",
+        "overlay_color": "#F4F4F4"
+    },
+    "render_controllers": ["controller.render.drowned"]
+}
+}
+}

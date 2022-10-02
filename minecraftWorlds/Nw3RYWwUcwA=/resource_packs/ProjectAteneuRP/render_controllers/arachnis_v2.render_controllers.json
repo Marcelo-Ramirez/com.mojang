@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.arachnis_v2": {
+      "arrays": {
+        "textures": {
+          "Array.levels": [
+            "Texture.level_stone",
+            "Texture.level_iron",
+            "Texture.level_gold",
+            "Texture.level_emerald",
+            "Texture.level_diamond",
+            "Texture.level_netherite"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.levels[variable.level_index]"
+      ]
+    }
+  }
+}

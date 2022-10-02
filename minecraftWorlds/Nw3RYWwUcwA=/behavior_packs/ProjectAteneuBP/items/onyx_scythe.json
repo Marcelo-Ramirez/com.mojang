@@ -1,0 +1,175 @@
+{
+	"format_version": "1.17.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:onyx_scythe",
+			"category": "equipment"
+		},
+
+		"components": {
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"third_person": {
+						"position": [0.6,1.9,-1.0],
+						"scale": [
+							0.1,
+							0.04,
+							0.1
+						 ]
+					},
+					"first_person": {
+						"position": [0.45,0.1,-1.1],
+						"scale": [
+						   0.035,
+						   0.02,
+						   0.035
+						]
+					 }
+				}
+			 },	
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 6,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:use_on": {
+				"blocks": [
+					"grass",
+					"dirt",
+					"grass_path"
+				]
+			},
+			"tag:minecraft:is_hoe": {},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [{
+						"block": "minecraft:nether_wart_block",
+						"speed": 40,
+						"on_dig": {
+							"event": "special"
+						}
+					},
+					{
+						"block": "minecraft:hay_block",
+						"speed": 40,
+						"on_dig": {
+							"event": "special"
+						}
+					},
+					{
+						"block": "minecraft:leaves",
+						"speed": 40,
+						"on_dig": {
+							"event": "special"
+						}
+					},
+					{
+						"block": "minecraft:leaves2",
+						"speed": 40,
+						"on_dig": {
+							"event": "special"
+						}
+					},
+					{
+						"block": "minecraft:warped_wart_block",
+						"speed": 40,
+						"on_dig": {
+							"event": "special"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "special"
+				}
+			},
+			"minecraft:display_name": {},
+			"minecraft:icon": {
+				"texture": "onyx_scythe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.hoe"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "drenation"
+				}
+			},
+			"minecraft:durability": {
+				"max_durability": 470
+			}
+		},
+		"events": {
+			"on_tool_used": {
+				"swing": {
+					},
+				"damage": {
+				"type": "durability",
+				"amount": 1
+				}
+			},
+			"drenation": {
+				"sequence":[
+					{
+						"trigger": {
+							"event": "scythe_sweep",
+							"target": "self"
+						},
+					"add_mob_effect": {
+						"effect": "regeneration",
+						"target": "self",
+						"duration": 6,
+						"amplifier": 0
+					  },
+					  "run_command": {
+						"command": [
+							"particle minecraft:redstone_ore_dust_particle ^^^",
+							"particle minecraft:redstone_ore_dust_particle ^^^",
+							"particle minecraft:redstone_ore_dust_particle ^^^",
+							"particle minecraft:redstone_ore_dust_particle ^^^"
+						]
+					},
+					"damage": {
+						"type": "magic",
+						"amount": 1,
+						"target": "self"
+					}
+				}
+
+				]
+			},
+			"scythe_sweep": {
+				"sequence": [
+                    {
+						"condition": "query.scoreboard('sweep') == 1",
+                        "run_command": {
+                            "command": [
+							 "playsound sound.attack.sweep @a ~ ~ ~ 1",
+							 "particle heavy:sweep_death ^ ^1.2 ^2.3"
+                            ]
+                        },
+						"shoot": {
+							"projectile": "heavy:sweep",
+							"launch_power": 1,
+							"angle_offset": "query.cardinal_facing"
+						  },
+						  "damage": {
+							"type": "durability",
+							"amount": 1
+						}
+                    }
+                ]
+			},
+			"special": {
+				"damage": {
+					"type": "magic",
+					"amount": 1,
+					"target": "self"
+				}
+			}
+		}
+	}
+}

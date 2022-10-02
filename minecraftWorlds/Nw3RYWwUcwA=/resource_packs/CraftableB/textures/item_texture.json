@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "propeller" : {"textures" : "textures/items/propeller"},
+    "wing" : {"textures": "textures/items/wing"},
+    "plane_tail" : {"textures" : "textures/items/plane_tail"},
+    "biplane_egg" : {"textures" : "textures/items/biplane_egg"}
+   }
+ }

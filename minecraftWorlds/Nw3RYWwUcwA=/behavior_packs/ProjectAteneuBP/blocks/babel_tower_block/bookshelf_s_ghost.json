@@ -1,0 +1,31 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "heavy:bookshelf_s_ghost"
+     },
+    "components": {
+      "minecraft:pick_collision": {
+        "origin": [ -8, 0, -8 ],
+        "size": [ 16, 16, 16 ]
+    },
+      "minecraft:destroy_time": 100,
+      "minecraft:explosion_resistance": 300,
+      "minecraft:entity_collision": false,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:map_color": "#D88C2A",
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      },
+      "minecraft:block_light_emission": 0.0
+},
+    "events": {
+        "drop_loot": { 
+      "spawn_loot": {
+       "table": "loot_tables/blocks/"
+        }
+      }
+    }
+  }
+} 

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "tizona"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"AB",
+		"C  "
+	  ],
+	  "key": {
+		"A": {
+		  "item": "minecraft:iron_sword"
+		},
+		"B": {
+		  "item": "minecraft:gold_ingot"
+		},
+		"C": {
+			"item": "heavy:upgrade_iron_sword"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:tizona"
+	  }
+	}
+  }

@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sapphire_boots_cd847669"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:sapphire",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:sapphire_boots",
+			"count": 1
+		}
+	}
+}

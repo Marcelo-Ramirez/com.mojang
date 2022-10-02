@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:eyebat",
+			"spawn_egg": {
+				"base_color": "#D200FF",
+				"overlay_color": "#FFBA00"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"purple": "textures/entity/eyebat/eyebat",
+				"warped": "textures/entity/eyebat/eyebat_warped",
+				"crimson": "textures/entity/eyebat/eyebat_crimson",
+				"delta": "textures/entity/eyebat/eyebat_basalt",
+				"soul": "textures/entity/eyebat/eyebat_soul",
+				"albino": "textures/entity/eyebat/eyebat_albino",
+				"green": "textures/entity/eyebat/eyebat_green",
+				"yellow": "textures/entity/eyebat/eyebat_yellow"
+			},
+			"geometry": {
+				"default": "geometry.eyebat"
+			},
+			"sound_effects": {
+				"flap": "mob.eyebat.flap"
+			},
+			"render_controllers": [
+				"controller.render.eyebat"
+			],
+			"animations": {
+				"stand": "animation.eyebat.stand",
+				"wingbeat": "animation.eyebat.wingbeat",
+				"wingtuck": "animation.eyebat.wingtuck",
+				"walk": "animation.eyebat.walk",
+				"airborne": "animation.eyebat.flight_legtuck",
+				"bob": "animation.eyebat.bob",
+				"controller_base": "controller.animation.eyebat_default",
+				"baby": "animation.eyebat.baby"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"baby": "query.is_baby"
+					},
+					"controller_base"
+				]
+			}
+		}
+	}
+}

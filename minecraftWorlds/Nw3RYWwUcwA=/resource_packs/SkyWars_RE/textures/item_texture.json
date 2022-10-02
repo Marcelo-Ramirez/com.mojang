@@ -1,0 +1,18 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "exit": {
+            "textures": "textures/items/exit"
+        },
+        "blue_chestplate": {
+            "textures": "textures/items/blue_chestplate"
+        },
+        "red_chestplate": {
+            "textures": "textures/items/red_chestplate"
+        },
+        "floating_text": {
+            "textures": "textures/items/floating_text"
+        }
+    }
+}

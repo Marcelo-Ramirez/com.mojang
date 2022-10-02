@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:onyx_scythe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"BBC",
+			"  C"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:onyx_block"
+			},
+			"B": {
+				"item": "minecraft:redstone_block"
+			},
+			"C": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "heavy:onyx_scythe"
+		}
+	}
+}

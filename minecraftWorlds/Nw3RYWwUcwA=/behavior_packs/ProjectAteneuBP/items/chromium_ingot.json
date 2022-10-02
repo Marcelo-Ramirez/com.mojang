@@ -1,0 +1,19 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:chromium_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_chromium_ingot"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.iron_ingot"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

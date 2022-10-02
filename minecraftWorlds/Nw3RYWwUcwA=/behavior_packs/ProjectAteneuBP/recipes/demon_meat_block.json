@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "demon_meat_block_00193362"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:demon_meat",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:demon_meat_block",
+			"count": 1
+		}
+	}
+}

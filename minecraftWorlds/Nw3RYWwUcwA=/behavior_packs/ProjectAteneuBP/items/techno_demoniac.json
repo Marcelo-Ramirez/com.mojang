@@ -1,0 +1,63 @@
+{
+  "format_version": "1.17.30",
+  "minecraft:item": {
+      "description": {
+          "category": "equipment",
+          "identifier": "heavy:item_techno_demoniac"
+      },
+      "components": {
+         "minecraft:shooter": {
+            "max_draw_duration": 1
+         },
+          "minecraft:max_stack_size": 1,
+          "minecraft:use_duration": 2,
+          "minecraft:hand_equipped": true,
+       "minecraft:durability":{
+          "max_durability":3210
+       },
+       "minecraft:repairable":{
+          "repair_items":[
+             {
+                "repair_amount":350,
+                "items":[
+                   "heavy:demon_essence"
+                ]
+             }
+          ]
+       },
+          "minecraft:enchantable": {
+              "value": 15,
+              "slot": "bow"
+          },
+          "minecraft:icon": {
+              "texture": "techno_demoniac"
+          },
+          "minecraft:display_name": {
+          },
+       "minecraft:on_use":{
+          "on_use":{
+             "event":"demon"
+          }
+       }
+    },
+    "events":{
+      "demon": {
+         "shoot": {
+            "launch_power": 1,
+            "angle_offset": "query.cardinal_facing",
+            "projectile": "heavy:techno_demoniac"
+         },
+         "run_command": {
+            "command": [
+               "playsound mob.ghast.fireball @a ~~~"
+            ]
+         },
+         "damage": {
+            "type": "magic",
+            "amount": 1,
+            "target": "self"
+         }
+      }
+   }
+ }
+}

@@ -1,0 +1,44 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "heavy:bush"
+        },
+        "components": {
+            "minecraft:creative_category": {
+				"group": "itemGroup.name.cactus",
+				"category": "nature"
+			  },
+            "minecraft:preventsjumping": true,
+            "minecraft:material_instances": {
+                "*": {
+					"texture": "bush",
+					"render_method": "alpha_test",
+                    "face_dimming": false,
+                    "ambient_occlusion": false
+                }
+            },
+            "minecraft:pick_collision": {
+                "origin": [-8, 0, -8],
+                "size": [16, 13, 16]
+            },
+            "minecraft:loot": "loot_tables/blocks/bush.json",
+            "minecraft:geometry": "geometry.bush",
+            "minecraft:destroy_time": 0.1,
+            "minecraft:entity_collision": false,
+            "minecraft:breakonpush": true,
+            "minecraft:breathability": "air",
+            "minecraft:block_light_absorption": 0,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": ["minecraft:dirt", "minecraft:grass", "minecraft:podzol"],
+                        "allowed_faces": ["up"]
+                    }
+                ]
+            }
+        },
+        "events": {
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "golden_conduit"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:nautilus_shell"
+			},
+			"B": {
+				"item": "heavy:golden_heart"
+			}
+		},
+		"result": {
+			"item": "heavy:golden_conduit"
+		}
+	}
+}

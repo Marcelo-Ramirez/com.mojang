@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:shulker_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"Z Z"
+		],
+		"key": {
+			"Z": {
+				"item": "minecraft:shulker_shell"
+			}
+		},
+		"result": {
+			"item": "heavy:shulker_boots"
+		}
+	}
+}

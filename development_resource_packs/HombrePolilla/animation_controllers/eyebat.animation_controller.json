@@ -1,0 +1,56 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.eyebat_default": {
+			"initial_state": "ground_default",
+			"states": {
+				"ground_default": {
+					"animations": [
+						"stand",
+						"wingtuck"
+					],
+					"blend_transition": 0,
+					"transitions": [
+						{
+							"walk": "(query.ground_speed>0.01)&&query.is_on_ground"
+						},
+						{
+							"flight": "!query.is_on_ground"
+						}
+					]
+				},
+				"walk": {
+					"animations": [
+						"walk",
+						"wingtuck"
+					],
+					"blend_transition": 0.5,
+					"transitions": [
+						{
+							"ground_default": "(query.ground_speed<0.01)&&query.is_on_ground"
+						},
+						{
+							"flight": "!query.is_on_ground"
+						}
+					]
+				},
+				"flight": {
+					"animations": [
+						"bob",
+						"airborne",
+						"wingbeat"
+					],
+					"blend_transition": 0.5,
+					"transitions": [
+						{
+							"ground_default": "(query.ground_speed<0.01)&&query.is_on_ground"
+						},
+						{
+							"walk": "(query.ground_speed>0.01)&&query.is_on_ground"
+						}
+					]
+				}
+			}
+		}
+	}
+}

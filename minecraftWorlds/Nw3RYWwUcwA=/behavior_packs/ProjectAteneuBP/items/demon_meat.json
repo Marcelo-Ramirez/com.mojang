@@ -1,0 +1,41 @@
+{
+    "format_version": "1.17.11",
+    "minecraft:item": {
+        "description": {
+            "identifier": "heavy:demon_meat",
+            "category": "nature"
+        },
+        "components": {
+             "minecraft:use_animation": "eat",
+            "minecraft:use_duration":1.6,
+            "minecraft:food": {
+                "on_consume": {
+          "event": "new:effect",
+          "target": "self"
+        },
+                "nutrition": 4,
+                "saturation_modifier": "low"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:icon": {
+                "texture": "heavy_demon_meat"
+            },
+            "minecraft:display_name": {
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.rawFood"
+
+}
+        },
+        "events": {
+      "new:effect": {
+        "add_mob_effect": {
+          "effect": "strength",
+          "target": "holder",
+          "duration": 15,
+          "amplifier": 1
+        }
+      }
+    }
+  }
+}

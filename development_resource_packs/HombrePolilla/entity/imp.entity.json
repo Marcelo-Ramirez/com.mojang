@@ -1,0 +1,54 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:imp",
+			"materials": {
+				"eyes": "entity_emissive_alpha",
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/imp",
+				"snow": "textures/entity/imp"
+			},
+			"geometry": {
+				"default": "geometry.mothman"
+			},
+			"spawn_egg": {
+				"base_color": "#803c35",
+				"overlay_color": "#53de12"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				],
+				"animate": [
+					"controller",
+					"look_at_target",
+					"zombie_attack_bare_hand",
+					{
+						"move": "query.is_on_ground"
+					},
+					"controller_posture"
+				]
+			},
+			"render_controllers": [
+				"controller.render.mothman"
+			],
+			"animations": {
+				"look_at_target": "animation.humanoid.look_at_target.default",
+				"zombie_attack_bare_hand": "animation.zombie.attack_bare_hand",
+				"attack.rotations": "controller.animation.humanoid.attack.rotations",
+				"move": "animation.humanoid.move",
+				"controller": "controller.animation.mothman_default",
+				"wingtuck": "animation.mothman.wingtuck",
+				"flap": "animation.mothman.flap",
+				"body_fly": "animation.mothman.body_fly",
+				"controller_posture": "controller.animation.mothman_posture"
+			},
+			"sound_effects": {
+				"flap": "mob.eyebat.flap"
+			}
+		}
+	}
+}

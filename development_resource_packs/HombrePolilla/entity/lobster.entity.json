@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:lobster",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/lobster"
+			},
+			"geometry": {
+				"default": "geometry.lobster"
+			},
+			"animations": {
+				"setup": "animation.lobster.idle_twitch",
+				"walk": "animation.lobster.walk",
+				"idle": "animation.lobster.idle_twitch"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"idle"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#A83603",
+				"overlay_color": "#2E1406"
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Daniye"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.4"
+			],
+			"dash": [
+				"0.7.1"
+			]
+		}
+	},
+	"header": {
+		"name": "Hide Gamertags",
+		"description": "",
+		"min_engine_version": [
+			1,
+			16,
+			0
+		],
+		"uuid": "dbc388bb-9147-4a1f-af42-c2365cf142ef",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "133cca65-3d6d-4808-906e-63286a0b8a5b",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "stone_kama"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			" B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:cobblestone"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "true:stone_kama"
+			}
+		]
+	}
+}

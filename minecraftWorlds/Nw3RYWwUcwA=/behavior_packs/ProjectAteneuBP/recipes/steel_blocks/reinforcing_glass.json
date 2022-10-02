@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "reinforcing_glass_steel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"AAA",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:glass"
+			},
+			"B": {
+				"item": "heavy:steel_plate"
+			}
+		},
+		"result": {
+			"item": "heavy:reinforcing_glass",
+			"count": 4
+		}
+	}
+}

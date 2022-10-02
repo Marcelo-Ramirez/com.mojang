@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+		"identifier": "recipes_up_speed_boots"
+	  },
+	  "tags": [
+		"stonecutter"
+	  ],
+	  "priority": 1,
+	  "ingredients": [
+		{
+		  "item": "heavy:marine_treasure",
+		  "data": 0
+		}
+	  ],
+	  "result": {
+		"item": "heavy:upgrade_speed_boots",
+		"count": 1,
+		"data": 0
+	  }
+	}
+  }

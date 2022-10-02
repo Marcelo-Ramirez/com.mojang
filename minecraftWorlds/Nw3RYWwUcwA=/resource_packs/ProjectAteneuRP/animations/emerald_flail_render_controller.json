@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.emerald_flail": {
+      "arrays": {
+        "textures": {
+          "array.emerald_flail": [
+            "texture.default",
+            "texture.bow_pulling_0",
+            "texture.bow_pulling_1",
+            "texture.bow_pulling_2"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+      "textures": [ "array.emerald_flail[query.get_animation_frame]", "texture.enchanted" ]
+    }
+  }
+}

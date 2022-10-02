@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mushrife_fence_gate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:mushrife_planks"
+      },
+      "B": {
+        "item": "minecraft:sticks"
+      }
+    },
+    "result": {
+      "item": "heavy:mushrife_fence_gate",
+      "count": 1
+    }
+  }
+}

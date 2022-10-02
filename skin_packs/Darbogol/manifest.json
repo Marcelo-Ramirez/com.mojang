@@ -1,0 +1,16 @@
+{
+    "header":{
+        "name":"Darbogol",
+        "description":"Darbogol",
+        "uuid":"a8ffe14d-e1c3-4f10-b202-e495e110a47a",
+        "version":[1,0,0]
+        },
+    "modules":[
+        {
+            "type":"skin_pack",
+            "uuid":"e5a9b8a1-b311-42fb-b725-32c7f16c82a6",
+            "version":[1,0,0]
+        }
+    ],
+    "format_version":1
+}

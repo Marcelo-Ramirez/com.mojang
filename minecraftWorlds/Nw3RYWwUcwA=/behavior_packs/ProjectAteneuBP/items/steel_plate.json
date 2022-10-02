@@ -1,0 +1,19 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:steel_plate",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "steel_plate"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.diamond"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:dragonfly",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/dragonfly/dragonfly_darner_green",
+				"blue": "textures/entity/dragonfly/dragonfly_darner_blue",
+				"red": "textures/entity/dragonfly/dragonfly_flame_skimmer",
+				"white": "textures/entity/dragonfly/dragonfly_petaltail"
+			},
+			"geometry": {
+				"default": "geometry.dragonfly"
+			},
+			"animations": {
+				"scale": "animation.dragonfly.scale",
+				"flap": "animation.dragonfly.flap",
+				"scale_large": "animation.dragonfly.scale_large"
+			},
+			"scripts": {
+				"animate": [
+					"flap",
+					"scale"
+				]
+			},
+			"render_controllers": [
+				"controller.render.dragonfly"
+			],
+			"spawn_egg": {
+				"base_color": "#2B5883",
+				"overlay_color": "#5BD656"
+			}
+		}
+	}
+}

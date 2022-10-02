@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.water_scuba": {
+			"arrays": {
+				"geometries": {
+					"Array.water": [
+						"Geometry.default",
+						"Geometry.water"
+					]
+				}
+			},
+			"textures": [
+				"Texture.default"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Array.water[query.is_in_water]"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "pure_netherite_scrap"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "heavy:ancient_netherite",
+		"output": "heavy:pure_netherite_scrap"
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "diamond_long_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+            "B",
+			"B",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:diamond_sword"
+			},
+			"B": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": [
+			{
+				"item": "true:diamond_long_sword"
+			}
+		]
+	}
+}

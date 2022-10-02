@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:endtinum_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			"AA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:endtinum_nugget"
+			}
+		},
+		"result": {
+			"item": "heavy:endtinum_ingot"
+		}
+	}
+}

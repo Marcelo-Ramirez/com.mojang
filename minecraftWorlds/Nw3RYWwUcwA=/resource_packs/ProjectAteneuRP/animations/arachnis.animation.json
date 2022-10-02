@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.arachnis.move": {
+			"loop": true,
+			"bones": {
+				"leftear": {
+					"rotation": [0, 0, "variable.tcos0 * 0.5"]
+				},
+				"rightear": {
+					"rotation": [0, 0, "-variable.tcos0 * 0.5"]
+				},
+				"leftarm": {
+					"rotation": ["variable.tcos0", 0, 0]
+				},
+				"rightarm": {
+					"rotation": ["-variable.tcos0", 0, 0]
+				},
+				"leftarm2": {
+					"rotation": ["variable.tcos0", 0, 0]
+				},
+				"rightarm2": {
+					"rotation": ["-variable.tcos0", 0, 0]
+				},
+				"leftleg": {
+					"rotation": ["-variable.tcos0 * 1.4", 0, 0]
+				},
+				"rightleg": {
+					"rotation": ["variable.tcos0 * 1.4", 0, 0]
+				}
+			}
+		},
+		"animation.arachnis_v2.bed": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -22, 9]
+				},
+				"head": {
+					"rotation": [-82.5, 0, 0]
+				},
+				"hat": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

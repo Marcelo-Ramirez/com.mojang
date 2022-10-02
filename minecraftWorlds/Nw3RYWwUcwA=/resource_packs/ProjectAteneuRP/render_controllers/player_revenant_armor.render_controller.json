@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.player_revenant_armor": {
+			"arrays": {
+				"geometries": {
+					"Array.player": [
+						"Geometry.default",
+						"Geometry.player"
+					]
+				}
+			},
+			"textures": [ "Texture.default", "Texture.enchanted" ],
+			"materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
+			"geometry": "Array.player[q.owner_identifier == 'minecraft:player']"
+		}
+	}
+}

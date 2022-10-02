@@ -1,0 +1,512 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "heavy:villager_samurai",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"become_zombie": {
+				"minecraft:transformation": {
+				  "into": "heavy:zombie_samurai_villager",
+				  "keep_level": true
+				}
+			  },
+			"samurai": {
+				        "minecraft:shareables": {
+							"items": [
+								{
+								  "item": "minecraft:bread",
+								  "want_amount": 3,
+								  "surplus_amount": 6,
+								  "stored_in_inventory": true
+								},
+								{
+								  "item": "minecraft:carrot",
+								  "want_amount": 12,
+								  "surplus_amount": 24,
+								  "stored_in_inventory": true
+								},
+								{
+								  "item": "minecraft:potato",
+								  "want_amount": 12,
+								  "surplus_amount": 24,
+								  "stored_in_inventory": true
+								},
+								{
+								  "item": "minecraft:beetroot",
+								  "want_amount": 12,
+								  "surplus_amount": 24,
+								  "stored_in_inventory": true
+								}
+							  ]
+        },
+				"minecraft:behavior.harvest_farm_block": {
+					"priority": 8,
+					"max_seconds_before_search": 1.0,
+					"search_cooldown_max_seconds": 8.0,
+					"seconds_until_new_task": 0.5,
+					"speed_multiplier": 0.5
+				  },
+				"minecraft:behavior.trade_interest": {
+					"priority": 5,
+					"within_radius": 6,
+					"interest_time": 45,
+					"remove_item_time": 1,
+					"carried_item_switch_time": 2,
+					"cooldown": 2
+				},
+				"minecraft:type_family": {
+					"family": [
+						"mob",
+						"villager",
+						"nitwit",
+						"peasant"
+					]
+				},
+				"minecraft:behavior.random_stroll": {
+					"priority": 5,
+					"speed_multiplier": 0.6
+				},
+				"minecraft:dweller": {
+					"dwelling_type": "village",
+					"dweller_role": "inhabitant",
+					"preferred_profession": "weaponsmith",
+					"update_interval_base": 60,
+					"update_interval_variant": 40,
+					"can_migrate": true,
+					"can_find_poi": true,
+					"first_founding_reward": 5
+				}
+			},
+			"bed_schedule_villager": {
+				"minecraft:damage_sensor": {
+					"triggers": [
+					  {
+						"on_damage": {
+						  "filters": {
+							"all_of": [
+							  {
+								"test": "family",
+								"subject": "other",
+								"operator": "==",
+								"value": "undead"
+							  }
+							]
+						  },
+						  "event":"minecraft:schedule_wake_up"
+						},
+						"deals_damage":true
+					  }
+					]
+				  },
+				  "minecraft:behavior.sleep": {
+					"priority": 3,
+					"goal_radius": 1.8,
+					"speed_multiplier": 1.0,
+					"sleep_collider_height": 0.3,
+					"sleep_collider_width": 1,
+					"sleep_y_offset": 0.6,
+					"timeout_cooldown": 10
+				}
+			},
+			"samurai_schedule": {
+				"minecraft:scheduler": {
+					"min_delay_secs": 0,
+					"max_delay_secs": 10,
+					"scheduled_events": [
+						{
+							"filters": {
+								"all_of": [
+									{ "test": "hourly_clock_time", "operator": ">=", "value": 0 },
+									{ "test": "hourly_clock_time", "operator": "<", "value": 11200 }
+								  ]
+							},
+							"event": "minecraft:schedule_wake_up"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{ "test": "hourly_clock_time", "operator": ">=", "value": 11200 },
+									{ "test": "hourly_clock_time", "operator": "<", "value": 12000 }
+								  ]
+							},
+							"event": "minecraft:schedule_work_samurai"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{ "test": "hourly_clock_time", "operator": ">=", "value": 12000 },
+									{ "test": "hourly_clock_time", "operator": "<", "value": 24000 }
+								  ]
+							},
+							"event": "minecraft:schedule_bed_villager"
+						}
+					]
+				}
+			},
+			"work_schedule_samurai": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 7,
+					"tick_interval": 1,
+					"start_chance": 0.5,
+					"search_range": 64,
+					"search_height": 16,
+					"goal_radius": 1,
+					"stay_duration": 5,
+					"target_offset": [
+						0,
+						0.25,
+						0
+					],
+					"target_blocks": [
+						"heavy:smithing_table_samurai"
+					],
+					"on_stay_completed": {
+						"event": "minecraft:resupply_trades"
+					},
+					"target_selection_method": "nearest",
+					"speed_multiplier": 0.6
+				}
+			},
+			"trade_resupply_component_group": {
+				"minecraft:trade_resupply": {}
+			},
+			"minecraft:vindicator_aggro": {
+			  "minecraft:angry": {
+				"duration": -1,
+				"broadcast_anger": false,
+				"calm_event": {
+				  "event": "minecraft:stop_aggro",
+				  "target": "self"
+				}
+			  }
+			},
+			"minecraft:default_targeting": {
+				"minecraft:damage_sensor": {
+					"triggers": [
+					  {
+						"on_damage": {
+						  "filters": {
+							"any_of": [
+							  {"test": "is_family", "subject": "other", "value": "zombie"},
+							  {"test": "is_family", "subject": "other", "value": "husk"}
+							],
+							"all_of": [
+							  {"test": "has_damage", "value": "fatal"}
+							]
+						  },
+						  "event": "become_zombie"
+						}
+					  }
+					]
+				  },
+				"minecraft:behavior.nearest_attackable_target": {
+				  "priority": 2,
+				  "must_see": true,
+				  "within_radius": 12.0,
+				  "must_see_forget_duration": 40.0,
+		
+				  "entity_types": [
+					{
+					  "filters": {
+						  "all_of": [
+							  { "test" :  "is_family", "subject" : "other", "value" :  "monster" },
+							  { "test" :  "is_family", "subject" : "other", "operator": "!=", "value" :  "creeper" }
+							]
+					  },
+					  "max_dist": 8
+					}
+				  ]
+				}
+			  }
+		  },
+	  
+		  "components": {
+			"minecraft:economy_trade_table": {
+				"display_name": "entity.heavy:villager_samurai.name",
+				"table": "trading/economy_trades/samurai_trades.json",
+				"new_screen": true,
+				"persist_trades": true,
+				"cured_discount": [-100, -100],
+				"max_cured_discount": [-500, -500]
+			},
+			"minecraft:behavior.trade_with_player": {
+				"priority": 2
+			  },
+			  "minecraft:behavior.pickup_items": {
+				"priority": 4,
+				"max_dist": 3,
+				"goal_radius": 2,
+				"speed_multiplier": 0.5,
+				"can_pickup_to_hand_or_equipment": false
+			  },
+			  "minecraft:behavior.look_at_trading_player": {
+				"priority": 7
+			  },
+			  "minecraft:behavior.share_items": {
+				"priority": 9,
+				"max_dist": 3,
+				"goal_radius":  2.0,
+				"speed_multiplier": 0.5,
+				"entity_types": [
+				  {
+					"filters": { "test" :  "is_family", "subject" : "other", "value" :  "villager"}
+				  }
+				]
+			  },
+			  "minecraft:behavior.make_love": {
+				"priority": 5
+			  },
+			  "minecraft:behavior.receive_love": {
+				"priority": 5
+			  },
+			"minecraft:inventory": {
+				"inventory_size": 8,
+				"private": true
+			  },
+			"minecraft:preferred_path":{
+				"max_fall_blocks":1,
+				"jump_cost":5,
+				"default_block_cost":1.5,
+				"preferred_path_blocks":[
+					{
+						"cost":0,
+						"blocks":[
+							"grass_path"
+						]
+					},
+					{
+						"cost":1,
+						"blocks":[
+							"cobblestone",
+							"stone"
+						]
+					},
+					{
+						"cost":50,
+						"blocks":[
+							"bed",
+							"lectern"
+						]
+					}
+				]
+			},
+			  "minecraft:behavior.move_indoors":{
+				"priority":5
+			},
+			"minecraft:behavior.restrict_open_door":{
+				"priority": 5
+			},
+			"minecraft:annotation.open_door":{
+				"priority": 5
+			},
+			"minecraft:behavior.open_door":{
+				"priority":6,
+				"close_door_after":true
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"can_pass_doors": true,
+				"can_open_doors": true,
+				"avoid_water": true
+			  },
+			"minecraft:experience_reward": {
+			  "on_death": "query.last_hit_by_player ? (query.is_baby ? 12 : 5) + (Math.die_roll(query.equipment_count,1,3)) : 0"
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+			},
+			"minecraft:type_family": {
+			  "family": [ "villager", "peasant", "shepherd", "mob" ]
+			},
+			"minecraft:variant": {
+			  "value": 0
+			},
+			"minecraft:breathable": {
+			  "total_supply": 15,
+			  "suffocate_time": 0
+			},
+			"minecraft:collision_box": {
+			  "width": 0.6,
+			  "height": 1.9
+			},
+			"minecraft:health": {
+			  "value": 52,
+			  "max": 52
+			},
+			"minecraft:hurt_on_condition": {
+			  "damage_conditions": [
+				{
+				  "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+				  "cause": "lava",
+				  "damage_per_tick": 4
+				}
+			  ]
+			},
+			"minecraft:attack": {
+			  "damage": 25
+			},
+			"minecraft:movement": {
+			  "value": 0.30
+			},
+			"minecraft:movement.basic": {
+			},
+			"minecraft:jump.static": {
+			},
+			"minecraft:follow_range": {
+			  "value": 64
+			},
+			"minecraft:loot": {
+			  "table": "loot_tables/entities/vindication_illager.json"
+			},
+			"minecraft:equipment": {
+			  "table": "loot_tables/equipment/katana.json"
+			},
+			"minecraft:behavior.float": {
+			  "priority": 0
+			},
+			"minecraft:behavior.melee_attack": {
+			  "priority": 3
+			},
+			"minecraft:behavior.random_stroll": {
+			  "priority": 9,
+			  "speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+			  "priority": 10,
+			  "look_distance": 8,
+			  "probability": 0.02
+			},
+			"minecraft:behavior.hurt_by_target": {
+			  "priority": 1
+			},
+			"minecraft:on_target_acquired": {
+			  "event": "minecraft:become_aggro",
+			  "target": "self"
+			},
+			"minecraft:on_target_escape": {
+			  "event": "minecraft:stop_aggro",
+			  "target": "self"
+			},
+			"minecraft:physics": {
+			},
+			"minecraft:pushable": {
+			  "is_pushable": true,
+			  "is_pushable_by_piston": true
+			}
+		  },
+	  
+		  "events": {
+			"become_zombie": {
+				"sequence": [
+				  {
+					"filters": {"test": "is_difficulty", "value": "normal"},
+					"randomize": [
+					  {
+						"weight": 50,
+						"add": { "component_groups": [ "become_zombie" ] }
+					  },
+					  {
+						"weight": 50
+					  }
+					]
+				  },
+				  {
+					"filters": {"test": "is_difficulty", "value": "hard"},
+					"add": {
+					  "component_groups": [
+						"become_zombie"
+					  ]
+					}
+				  }
+				]
+			  },
+			"minecraft:entity_spawned": {
+			  "add": {
+				"component_groups": [
+				  "minecraft:default_targeting",
+				  "samurai",
+				  "samurai_schedule"
+				]
+			  }
+			},
+			"minecraft:schedule_bed_villager": {
+				"add": {
+					"component_groups": [
+						"bed_schedule_villager"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"work_schedule_samurai",
+						"minecraft:vindicator_aggro",
+						"minecraft:default_targeting"
+					]
+				}
+			},
+			"minecraft:schedule_wake_up": {
+				"remove": {
+					"component_groups": [
+						"bed_schedule_villager",
+						"trade_resupply_component_group"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"samurai",
+						"minecraft:default_targeting"
+					]
+				}
+			},
+			"minecraft:schedule_work_samurai": {
+				"remove": {
+					"component_groups": [
+						"bed_schedule_villager"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"work_schedule_samurai",
+						"minecraft:default_targeting"
+					]
+				}
+			},
+			"minecraft:resupply_trades": {
+				"add": {
+					"component_groups": [
+						"trade_resupply_component_group"
+					]
+				},
+				"run_command": {
+					"command": [
+						"playsound smithing_table.use @a[r=5] ~~~"
+					]
+				}
+			},
+			"minecraft:spawn_as_patrol_follower": {
+			  "add": {
+				"component_groups": [
+				  "minecraft:default_targeting",
+				  "minecraft:patrol_follower"
+				]
+			  }
+			},
+			"minecraft:become_aggro": {
+			  "add": {
+				"component_groups": [
+				  "minecraft:vindicator_aggro"
+				]
+			  }
+			},
+			"minecraft:stop_aggro": {
+			  "remove": {
+				"component_groups": [
+				  "minecraft:vindicator_aggro"
+				]
+			  }
+			}
+		  }
+		}
+	  }

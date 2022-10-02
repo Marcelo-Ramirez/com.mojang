@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "emerald_flail_t2"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"AB",
+		"C  "
+	  ],
+	  "key": {
+		"A": {
+		  "item": "heavy:emerald_flail_t1"
+		},
+		"B": {
+			"item": "minecraft:chain"
+		  },
+		"C": {
+			"item": "heavy:upgrade_emerald_flail_fire"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:emerald_flail_t2"
+	  }
+	}
+  }

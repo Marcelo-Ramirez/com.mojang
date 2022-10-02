@@ -1,0 +1,26 @@
+{
+  "format_version": "1.17.30",
+  "minecraft:block": {
+      "description": {
+          "identifier": "heavy:demon_meat_block",
+          "is_experimental": false
+      },
+      "components": {
+        "minecraft:creative_category": {
+          "group": "itemGroup.name.cactus",
+          "category": "nature"
+      },
+          "minecraft:destroy_time": 1,
+          "minecraft:explosion_resistance": 1,
+                "minecraft:block_light_emission": 0.0,
+          "minecraft:map_color": "#BB0000"
+      },
+      "events": {
+        "drop_loot": { 
+            "spawn_loot": {
+             "table": "loot_tables/blocks/"
+              }
+            }
+          }
+        }
+      } 

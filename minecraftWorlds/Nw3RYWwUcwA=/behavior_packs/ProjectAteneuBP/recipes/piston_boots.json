@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "piston_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BBB",
+			"CAC",
+			"D D"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_boots"
+			},
+			"B": {
+				"item": "minecraft:copper_ingot"
+			},
+			"C": {
+				"item": "minecraft:redstone"
+			},
+			"D": {
+				"item": "minecraft:piston"
+			}
+		},
+		"result": {
+			"item": "heavy:piston_boots"
+		}
+	}
+}

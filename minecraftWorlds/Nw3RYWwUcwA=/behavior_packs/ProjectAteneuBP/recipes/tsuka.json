@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "tsuka_1e6c25c9"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			" B ",
+			"CCC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:wood",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:wood",
+				"data": 0
+			},
+			"C": {
+				"item": "minecraft:diamond",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:tsuka",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:grasshopper",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/grasshopper"
+			},
+			"geometry": {
+				"default": "geometry.grasshopper"
+			},
+			"render_controllers": [
+				"controller.render.cricket"
+			],
+			"spawn_egg": {
+				"base_color": "#AAFF1C",
+				"overlay_color": "#ffc000"
+			},
+			"animations": {
+				"scale": "animation.cricket.scale",
+				"stand": "animation.cricket.stand",
+				"jump": "animation.cricket.jump",
+				"controller": "controller.animation.cricket"
+			},
+			"scripts": {
+				"animate": [
+					"controller",
+					"scale"
+				]
+			}
+		}
+	}
+}

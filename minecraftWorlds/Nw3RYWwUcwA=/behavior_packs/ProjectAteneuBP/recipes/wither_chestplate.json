@@ -1,0 +1,39 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wither_chestplate_796b1d81"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"CBC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:skull",
+				"data": 1
+			},
+			"B": {
+				"item": "heavy:bone_whiter_block",
+				"data": 0
+			},
+			"C": {
+				"item": "heavy:whiter_bone",
+				"data": 0
+			},
+			"D": {
+				"item": "minecraft:netherstar",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:wither_chestplate",
+			"count": 1
+		}
+	}
+}

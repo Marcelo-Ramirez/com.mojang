@@ -1,0 +1,32 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "heavy:dirt_brick"
+    },
+		"components": {
+			"tag:bricks": {},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.stoneBrick",
+				"category": "Construction"
+			  },
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+				   },
+			"minecraft:explosion_resistance": 15,
+			"minecraft:friction": 0.6,
+			"minecraft:destroy_time": 3,
+			"minecraft:map_color": "#583C1D",
+			"minecraft:unit_cube": {},
+			"minecraft:block_light_absorption": 0
+		},
+		"events": {
+			"drop_loot": { 
+				"spawn_loot": {
+				 "table": "loot_tables/blocks/"
+				}
+			  }
+			}
+  }
+}

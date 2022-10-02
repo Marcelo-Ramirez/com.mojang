@@ -1,0 +1,32 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.team": {
+            "arrays": {
+                "textures": {
+                    "Array.skins": ["Texture.none", "Texture.red", "Texture.blue"]
+                }
+            },
+            "geometry": "geometry.team",
+            "materials": [{
+                "*": "Material.team"
+            }],
+            "textures": ["Array.skins[query.variant]"],
+            "is_hurt_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "0.0"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "0.0"
+            },
+            "part_visibility": [{
+                "team*": "!query.is_invisible && query.distance_from_camera <= 50 && !query.is_sneaking"
+            }]
+        }
+    }
+}

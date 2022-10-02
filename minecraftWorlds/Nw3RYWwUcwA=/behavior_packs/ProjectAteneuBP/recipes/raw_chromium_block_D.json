@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:raw_chromium"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:raw_chromium_block"
+			}
+		},
+		"result": {
+			"item": "heavy:raw_chromium"
+		}
+	}
+}

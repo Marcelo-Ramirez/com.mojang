@@ -1,0 +1,36 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:reinforcing_table_item"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DBD",
+			"AEA",
+			"CCC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:anvil"
+			},
+            "B": {
+				"item": "minecraft:crafting_table"
+			},
+            "C": {
+				"item": "minecraft:iron_block"
+			},
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"E": {
+				"item": "minecraft:gold_block"
+			}
+		},
+		"result": {
+			"item": "heavy:reinforcing_table_item"
+		}
+	}
+}

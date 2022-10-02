@@ -1,0 +1,1 @@
+effect @e[r=10] slowness 8 4 true

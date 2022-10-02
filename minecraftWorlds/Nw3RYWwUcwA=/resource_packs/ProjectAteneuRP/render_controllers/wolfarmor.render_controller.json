@@ -1,0 +1,13 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.wolf_armor": {
+      "geometry": "geometry.default",
+      "materials": [ { "*": "v.is_enchanted ? Material.enchanted : Material.default" } ],
+      "textures": [ "Texture.default", "texture.enchanted" ],
+      "part_visibility": [
+        { "*": "q.owner_identifier == 'true:backpack' || q.owner_identifier == 'heavy:dark_wolf' || q.owner_identifier == 'heavy:artic_wolf' || q.owner_identifier == 'heavy:vanilla_dark_wolf' || q.owner_identifier == 'heavy:vanilla_artic_wolf' || q.owner_identifier == 'heavy:dark_artic_wolf' ||q.owner_identifier == 'heavy:combined_wolf'" }
+      ]
+    }
+  }
+}

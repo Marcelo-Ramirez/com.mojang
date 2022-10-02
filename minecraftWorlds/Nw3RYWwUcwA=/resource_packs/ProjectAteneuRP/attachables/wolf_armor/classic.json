@@ -1,0 +1,21 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "heavy:wolf_armor",
+      "item": { "heavy:wolf_armor": "query.owner_identifier == 'wolf'"},
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/armor/wolf_armor/classic_wolf_armor",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.wolf_armor"
+      },
+      "render_controllers": [ "controller.render.wolf_armor" ]
+    }
+  }
+}

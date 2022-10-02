@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wooden_barbed_mace_3"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"ABA",
+			" B"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:stick"
+			},
+			"A": {
+				"item": "minecraft:warped_planks"
+			}
+		},
+		"result": [
+			{
+				"item": "true:wooden_barbed_mace"
+			}
+		]
+	}
+}

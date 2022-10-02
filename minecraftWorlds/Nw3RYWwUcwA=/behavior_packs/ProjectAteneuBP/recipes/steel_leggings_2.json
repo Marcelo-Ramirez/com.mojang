@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "steel_leggings_2"
+		},
+		"tags": [
+			"reinforcing_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:steel_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "heavy:reinforced_iron_leggings",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:steel_leggings",
+			"count": 1
+		}
+	}
+}

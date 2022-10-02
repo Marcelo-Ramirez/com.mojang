@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:rabbit_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"C C",
+			"AAA",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald_block"
+			},
+			"C": {
+				"item": "minecraft:rabbit_hide"
+			}
+		},
+		"result": {
+			"item": "heavy:rabbit_helmet"
+		}
+	}
+}

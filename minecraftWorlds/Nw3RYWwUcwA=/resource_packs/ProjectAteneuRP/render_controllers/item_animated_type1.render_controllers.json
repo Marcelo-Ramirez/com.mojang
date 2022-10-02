@@ -1,0 +1,35 @@
+//Hero Studios and Andriel Games
+//type 1 for static items
+//example: items that only change appearance
+{
+    "format_version": "1.10",
+    "render_controllers": {
+      "controller.render.item_animated_type_1": {
+        "arrays": {
+          "textures": {
+            "array.item_frames": [
+           //frame 1 do not change if it is not available on the model
+              "texture.item_frame_1",
+        //here you can put any name that is in the attachable
+              "texture.item_frame_2"
+            ]
+          },
+          "geometries": {
+            "array.model_frames": [
+           //model frames for each non-static frame
+          //please do not use reused geometries, create new models different from the default
+              "geometry.model_frame_1",
+              "geometry.model_frame_2"
+            ]
+          }
+        },
+        "geometry": "array.model_frames[query.biome_has_any_tag('nether')]",
+        "materials": [
+          {
+            "*": "variable.is_enchanted ? material.enchanted : material.default"
+          }
+        ],
+        "textures": [ "array.item_frames[query.biome_has_any_tag('nether')]", "texture.enchanted" ]
+      }
+    }
+  }  

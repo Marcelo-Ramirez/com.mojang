@@ -1,0 +1,229 @@
+    {
+      "format_version": "1.17.10",
+      "minecraft:entity": {
+          "description": {
+              "identifier": "heavy:carcaj_3",
+              "is_spawnable": false,
+              "is_summonable": true,
+              "is_experimental": false
+          },
+		  "component_groups": {
+			  //retirar
+			  "transform_un":{
+				"minecraft:transformation": {
+					"into": "heavy:carcaj_2"
+				  }
+			  }
+		  },
+		  "components": {
+			"minecraft:collision_box": {
+				"width": 0.2,
+				"height": 0.2
+			  },
+			"minecraft:type_family": {
+			  "family": ["carcaj","carcaj3"]
+		  },
+			"minecraft:nameable": {
+				  "always_show": true
+			  },
+			  "minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+						"filters": {
+						  "any_of": [
+						  {
+							"test": "has_damage",
+							"subject": "self",
+							"operator": "==",
+							"value": "wither"
+						  }
+						  ]
+						}
+						},
+						"deals_damage": false
+					  },
+					{
+						"on_damage": {
+						"filters": {
+						  "any_of": [
+						  {
+							"test": "has_damage",
+							"subject": "self",
+							"operator": "==",
+							"value": "void"
+						  }
+						  ]
+						}
+						},
+						"deals_damage": true
+					  },
+					{
+						"on_damage": {
+						"filters": {
+						  "any_of": [
+						  {
+							"test": "has_damage",
+							"subject": "self",
+							"operator": "==",
+							"value": "suffocation"
+						  }
+						  ]
+						}
+						},
+						"deals_damage": false
+					  },
+					  {
+						"on_damage": {
+						"filters": {
+						  "any_of": [
+						  {
+							"test": "has_damage",
+							"subject": "self",
+							"operator": "==",
+							"value": "freezing"
+						  }
+						  ]
+						}
+						},
+						"deals_damage": false
+					  },
+				  {
+					"on_damage": {
+					"filters": {
+					  "any_of": [
+					  {
+						"test": "has_damage",
+						"subject": "self",
+						"operator": "==",
+						"value": "fall"
+					  }
+					  ]
+					}
+					},
+					"deals_damage": false
+				  },
+				  {
+					"on_damage": {
+					"filters": {
+					  "any_of": [
+					  {
+						"test": "has_damage",
+						"subject": "self",
+						"operator": "==",
+						"value": "attack"
+					  }
+					  ]
+					}
+					},
+					"deals_damage": false
+				  },
+				  {
+					"on_damage": {
+					"filters": {
+					  "any_of": [
+					  {
+						"test": "has_damage",
+						"subject": "self",
+						"operator": "==",
+						"value": "lava"
+					  }
+					  ]
+					}
+					},
+					"deals_damage": true
+				  },
+				  {
+					"on_damage": {
+					"filters": {
+					  "any_of": [
+					  {
+						"test": "has_damage",
+						"subject": "self",
+						"operator": "==",
+						"value": "anvil"
+					  }
+					  ]
+					}
+					},
+					"deals_damage": false
+				  },
+				  {
+					"on_damage": {
+					"filters": {
+					  "any_of": [
+					  {
+						"test": "has_damage",
+						"subject": "self",
+						"operator": "==",
+						"value": "magic"
+					  }
+					  ]
+					}
+					},
+					"deals_damage": false
+				  },
+				  {
+					"on_damage": {
+					"filters": {
+					  "any_of": [
+					  {
+						"test": "has_damage",
+						"subject": "self",
+						"operator": "==",
+						"value": "entity_explosion"
+					  }
+					  ]
+					}
+					},
+					"deals_damage": false
+				  },
+				  {
+					"on_damage": {
+					"filters": {
+					  "all_of": [
+					  {
+						"test": "has_damage",
+						"subject": "self",
+						"operator": "==",
+						"value": "block_explosion"
+					  }
+					  ]
+					}
+					},
+					"deals_damage": false
+				  }
+				  ]
+			  },
+			"minecraft:knockback_resistance": {
+			  "value": 1
+			},
+			"minecraft:health": {
+			  "value": 5
+			},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:physics": {
+                "has_gravity": true,
+                "has_collision": true
+            }
+		  },
+		  "events": {
+			"retirar_carcaj_3": {
+				"add": {
+					"component_groups": [
+					  "transform_un"
+					]
+				  },
+				"run_command": {
+					"command":[
+						"gamerule sendcommandfeedback false",
+						"give @p arrow 64 0",
+						"gamerule sendcommandfeedback true"]
+				}
+			  }
+		  }
+		}
+	  }

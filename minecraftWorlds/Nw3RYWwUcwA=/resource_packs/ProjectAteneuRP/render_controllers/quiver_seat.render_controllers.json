@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.quiver_seat": {
+      "arrays": {
+				"geometries": {
+					"Array.quiver": [
+						"Geometry.default",
+						"Geometry.seat"
+					]
+				}
+			},
+      "geometry": "Array.quiver[query.is_riding]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}

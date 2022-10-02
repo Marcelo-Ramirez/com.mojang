@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "demon_meat_block_d"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:demon_meat_block"
+			}
+		},
+		"result": {
+			"item": "heavy:demon_meat",
+			"count": 9
+		}
+	}
+}

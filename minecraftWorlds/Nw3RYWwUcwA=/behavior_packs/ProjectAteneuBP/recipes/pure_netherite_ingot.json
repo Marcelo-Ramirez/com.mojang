@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "pure_netherite_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "netherite_scrap"
+			},
+			{
+				"item": "netherite_scrap"
+			},
+			{
+				"item": "netherite_scrap"
+			}
+		],
+		"result": [
+			{
+				"item": "heavy:pure_netherite_ingot"
+			}
+		]
+	}
+}

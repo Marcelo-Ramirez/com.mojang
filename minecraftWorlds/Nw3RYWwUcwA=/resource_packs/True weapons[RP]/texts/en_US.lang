@@ -1,0 +1,49 @@
+item.true:wooden_barbed_mace.name=Wooden barbed mace
+item.true:stone_barbed_mace.name=Stone barbed mace
+item.true:iron_barbed_mace.name=Iron barbed mace
+item.true:gold_barbed_mace.name=Gold barbed mace
+item.true:diamond_barbed_mace.name=Diamond barbed mace
+item.true:netherite_barbed_mace.name=Netherite barbed mace
+item.true:wooden_katana.name=Wooden katana
+item.true:stone_katana.name=Stone katana
+item.true:gold_katana.name=Gold katana
+item.true:iron_katana.name=Iron katana
+item.true:diamond_katana.name=Diamond katana
+item.true:netherite_katana.name=Netherite katana
+item.true:wooden_knife.name=Wooden knife
+item.true:stone_knife.name=Stone knife
+item.true:iron_knife.name=Iron knife
+item.true:gold_knife.name=Gold knife
+item.true:diamond_knife.name=Diamond knife
+item.true:netherite_knife.name=Netherite knife
+item.true:wooden_long_sword.name=Wooden long sword
+item.true:stone_long_sword.name=Stone long sword
+item.true:iron_long_sword.name=Iron long sword
+item.true:gold_long_sword.name=Gold long sword
+item.true:diamond_long_sword.name=Diamond long sword
+item.true:netherite_long_sword.name=Netherite long sword
+
+item.true:bō.name=bō
+
+item.true:tessen_war_fan.name=Tessen war fan
+
+item.true:wooden_kama.name=Wooden kama
+item.true:gold_kama.name=Gold kama
+item.true:stone_kama.name=Stone kama
+item.true:iron_kama.name=Iron kama
+item.true:diamond_kama.name=Diamond kama
+item.true:netherite_kama.name=Netherite kama
+
+item.true:wooden_bearded_axe.name=Wooden bearbed axe
+item.true:gold_bearded_axe.name=Gold bearbed axe
+item.true:stone_bearded_axe.name=Stone bearbed axe
+item.true:iron_bearded_axe.name=Iron bearbed axe
+item.true:diamond_bearded_axe.name=Diamond bearbed axe
+item.true:netherite_bearded_axe.name=Netherite bearbed axe
+
+item.true:wooden_dane_axe.name=Wooden dane axe
+item.true:gold_dane_axe.name=Gold dane axe
+item.true:stone_dane_axe.name=Stone dane axe
+item.true:iron_dane_axe.name=Iron dane axe
+item.true:diamond_dane_axe.name=Diamond dane axe
+item.true:netherite_dane_axe.name=Netherite dane axe

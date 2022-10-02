@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_soulsand_bottle"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:soul_glass"
+			}
+		},
+		"result": {
+			"item": "heavy:soulsand_bottle",
+			"count": 1
+		}
+	}
+}

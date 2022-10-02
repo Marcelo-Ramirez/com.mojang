@@ -1,0 +1,96 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"bradmob:meatball": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1
+				],
+				"events": {
+					"ambient": "mob.meatball.idle",
+					"hurt": "mob.meatball.hurt",
+					"death": "mob.meatball.death",
+					"shoot": {
+						"sound": "mob.meatball.shoot",
+						"volume": 2
+					}
+				}
+			},
+			"bradmob:eyebat": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1
+				],
+				"events": {
+					"ambient": "mob.eyebat.idle",
+					"hurt": "mob.eyebat.hurt",
+					"death": "mob.eyebat.death"
+				}
+			},
+			"bradmob:grasshopper": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.1
+				],
+				"events": {
+					"ambient": "mob.grasshopper.idle"
+				}
+			},
+			"bradmob:mothman": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1
+				],
+				"events": {
+					"ambient": "mob.mothman.idle",
+					"hurt": "mob.mothman.hurt",
+					"death": "mob.mothman.death"
+				}
+			},
+			"bradmob:cricket": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.1
+				],
+				"events": {
+					"ambient": "mob.cricket.idle"
+				}
+			},
+			"bradmob:robin": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"ambient": "mob.robin.idle"
+				}
+			},
+			"bradmob:bluejay": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"ambient": "mob.bluejay.idle"
+				}
+			},
+			"bradmob:sparrow": {
+				"volume": 1,
+				"pitch": [
+					1,
+					1
+				],
+				"events": {
+					"ambient": "mob.sparrow.idle"
+				}
+			}
+		}
+	}
+}

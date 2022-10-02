@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "piglin_chestplate"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IFC"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "heavy:pure_netherite_chestplate"
+		},
+		"F": {
+		  "item": "minecraft:gold_ingot"
+		},
+		"C": {
+			"item": "minecraft:netherite_ingot"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:piglin_chestplate"
+	  }
+	}
+  }
+  

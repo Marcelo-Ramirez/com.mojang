@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+		"identifier": "heavy:gold_quartz_block_chiseled_1"
+	  },
+	  "tags": [
+		"stonecutter"
+	  ],
+	  "priority": 1,
+	  "ingredients": [
+		{
+		  "item": "heavy:gold_quartz_block",
+		  "data": 0
+		}
+	  ],
+	  "result": {
+		"item": "heavy:gold_quartz_block_chiseled_1",
+		"count": 1,
+		"data": 0
+	  }
+	}
+  }

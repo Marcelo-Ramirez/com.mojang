@@ -1,0 +1,54 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.shaking": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "hot_biome": "query.biome_has_any_tag('mesa','desert','nether')"
+                        },
+                        {
+                            "shaking": "query.biome_has_any_tag('frozen','extreme_hills','ice_plains','ice') && query.scoreboard('abrigo') == 0 || query.scoreboard('abrigo') == 2"
+                        },
+                        {
+                            "no_shaking": "!query.biome_has_any_tag('mesa','desert','nether','frozen','extreme_hills','ice_plains','ice')"
+                        }
+                    ]
+                },
+                "no_shaking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/scoreboard players set @s freezing 0"
+                    ]
+                },
+
+                "shaking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/scoreboard players set @s freezing 1"
+                    ]
+                },
+
+                "hot_biome": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/scoreboard players set @s freezing 2"
+                    ]
+                }
+            }
+        }
+    }
+}

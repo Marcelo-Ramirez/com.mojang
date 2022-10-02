@@ -1,0 +1,139 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.eyebat.flap": {
+			"category": "neutral",
+			"max_distance": 10,
+			"sounds": [
+				"sounds/eyebat/wingbeat"
+			]
+		},
+		"mob.eyebat.idle": {
+			"category": "neutral",
+			"max_distance": 20,
+			"sounds": [
+				"sounds/eyebat/squeak1",
+				"sounds/eyebat/squeak2"
+			]
+		},
+		"mob.eyebat.death": {
+			"category": "neutral",
+			"max_distance": 20,
+			"sounds": [
+				"sounds/eyebat/death"
+			]
+		},
+		"mob.eyebat.hurt": {
+			"category": "neutral",
+			"max_distance": 20,
+			"sounds": [
+				"sounds/eyebat/hurt"
+			]
+		},
+		"mob.meatball.idle": {
+			"category": "hostile",
+			"max_distance": 45,
+			"sounds": [
+				"sounds/meatball/grunt",
+				"sounds/meatball/grunt2"
+			]
+		},
+		"mob.meatball.death": {
+			"category": "hostile",
+			"max_distance": 45,
+			"sounds": [
+				"sounds/meatball/death1"
+			]
+		},
+		"mob.meatball.hurt": {
+			"category": "hostile",
+			"max_distance": 45,
+			"sounds": [
+				"sounds/meatball/yelp",
+				"sounds/meatball/yelp1"
+			]
+		},
+		"mob.meatball.shoot": {
+			"category": "hostile",
+			"max_distance": 45,
+			"sounds": [
+				"sounds/meatball/fire1",
+				"sounds/meatball/fire2"
+			]
+		},
+		"mob.meatball.boom": {
+			"category": "hostile",
+			"max_distance": 45,
+			"sounds": [
+				"sounds/meatball/explosion"
+			]
+		},
+		"mob.mothman.idle": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mothman/idle",
+				"sounds/mothman/idle1"
+			]
+		},
+		"mob.mothman.hurt": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mothman/hurt",
+				"sounds/mothman/hurt1"
+			]
+		},
+		"mob.mothman.death": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/mothman/death"
+			]
+		},
+		"mob.cricket.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/cricket/idle",
+				"sounds/cricket/idle1",
+				"sounds/cricket/idle2",
+				"sounds/cricket/idle3"
+			],
+			"max_distance": 75
+		},
+		"mob.grasshopper.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/grasshopper/idle",
+				"sounds/grasshopper/idle1"
+			],
+			"max_distance": 75
+		},
+		"mob.bluejay.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/bluejay/idle",
+				"sounds/bluejay/idle1",
+				"sounds/bluejay/idle2",
+				"sounds/bluejay/idle3",
+				"sounds/bluejay/idle4"
+			],
+			"max_distance": 75
+		},
+		"mob.sparrow.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/sparrow/idle",
+				"sounds/sparrow/idle1"
+			],
+			"max_distance": 75
+		},
+		"mob.robin.idle": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/robin/idle",
+				"sounds/robin/idle1",
+				"sounds/robin/idle2",
+				"sounds/robin/idle3"
+			],
+			"max_distance": 75
+		}
+	}
+}

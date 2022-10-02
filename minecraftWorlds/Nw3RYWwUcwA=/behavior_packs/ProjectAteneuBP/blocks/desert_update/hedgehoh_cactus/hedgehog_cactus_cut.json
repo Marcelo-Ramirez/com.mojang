@@ -1,0 +1,82 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:hedgehog_cactus_cut"
+		},
+		"components": {
+			"minecraft:entity_collision": {
+				"origin": [-8, 0, -8],
+				"size": [16, 8, 16]
+			  },
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					630,
+					862
+				],
+				"on_tick": {
+					"event": "baby_growth",
+					"target": "self"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "nice",
+				"target": "other"
+			},
+			"minecraft:map_color": "#649832",
+			"minecraft:loot": "loot_tables/blocks/none.json",
+			"minecraft:geometry": "geometry.echinocactus_cut",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "hedgehog_cactus_cut",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+            "nice": {
+                "sequence": [
+                    {
+						"condition": "query.get_equipped_item_name == 'glass_bottle'",
+                        "run_command": {
+                            "command": [
+								"gamerule sendcommandfeedback false",
+								"give @p heavy:bottled_cactus_water",
+								"gamerule sendcommandfeedback true",
+								"fill ~ ~ ~ ~ ~-1 ~ heavy:hedgehog_cactus_cut_empty 0 replace heavy:hedgehog_cactus_cut",
+								"playsound cauldron.takewater @a"
+                            ]
+                        },
+                        "decrement_stack": {}
+                    }
+                ]
+            },
+			"baby_growth": {
+				"sequence": [
+					{
+						"set_block": {
+							"block_type": "heavy:hedgehog_cactus_cut_rege1"
+						}
+					}
+				]
+			}
+        }
+	}
+}

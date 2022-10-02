@@ -1,0 +1,819 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:gypsum_crytal",
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 16,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stone_shovel",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "treasure": false,
+                      "levels": {
+                        "min": 0,
+                        "max": 30
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:stone_sword",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "treasure": false,
+                      "levels": {
+                        "min": 0,
+                        "max": 30
+                      }
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 1,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 3,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:arachnis_stew",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 5,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:string",
+                  "quantity": 8
+                }
+              ],
+              "trader_exp": 3,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 2,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:deepslate",
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 3,
+                  "price_multiplier": 0.005
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:pebble",
+                  "quantity": 46
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 17,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 35,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "quantity": 3,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:web",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 8,
+              "max_uses": 10,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "quantity": 3,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:rail",
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 5,
+              "max_uses": 18,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 2,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:arachnis_egg_block",
+                  "quantity": 3
+                }
+              ],
+              "trader_exp": 7,
+              "max_uses": 18,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "quantity": 2,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:cobweb_deepslate",
+                  "quantity": 3
+                }
+              ],
+              "trader_exp": 7,
+              "max_uses": 18,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:brown_mushroom",
+                  "quantity": 4,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:bone",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 5,
+              "max_uses": 18,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_shovel",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "quantity": 3
+                }
+              ],
+              "trader_exp": 14,
+              "max_uses": 1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:honey_bottle",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "minecraft:golden_helmet",
+                      "quantity": 1,
+                      "functions": [
+                        {
+                          "function": "enchant_with_levels",
+                          "treasure": false,
+                          "levels": {
+                            "min": 0,
+                            "max": 30
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "item": "minecraft:golden_chestplate",
+                      "quantity": 1,
+                      "functions": [
+                        {
+                          "function": "enchant_with_levels",
+                          "treasure": false,
+                          "levels": {
+                            "min": 0,
+                            "max": 30
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "item": "minecraft:golden_leggings",
+                      "quantity": 1,
+                      "functions": [
+                        {
+                          "function": "enchant_with_levels",
+                          "treasure": false,
+                          "levels": {
+                            "min": 0,
+                            "max": 30
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "item": "minecraft:golden_boots",
+                      "quantity": 1,
+                      "functions": [
+                        {
+                          "function": "enchant_with_levels",
+                          "treasure": false,
+                          "levels": {
+                            "min": 0,
+                            "max": 30
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 8,
+              "max_uses": 1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:soul_torch",
+                  "quantity": 4
+                }
+              ],
+              "trader_exp": 6,
+              "max_uses": 12,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:rotten_flesh",
+                  "quantity": 7,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 6,
+              "max_uses": 6,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 120,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:raw_zinc",
+                  "quantity": 3
+                }
+              ],
+              "trader_exp": 9,
+              "max_uses": 8,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "heavy:zinc_ingot",
+                  "quantity": 8,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:flint",
+                  "quantity": 48
+                }
+              ],
+              "trader_exp": 6,
+              "max_uses": 12,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 2,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:raw_tin",
+                  "quantity": 3
+                }
+              ],
+              "trader_exp": 9,
+              "max_uses": 8,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 150,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:bronze_ingot",
+                  "quantity": 3,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:gunpowder",
+                  "quantity": 8
+                }
+              ],
+              "trader_exp": 5,
+              "max_uses": 8,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:honeycomb_block",
+                  "quantity": 3,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 3,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 32,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:diamond",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 3,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 28,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:ruby",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 6,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 28,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:sapphire",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 15,
+              "max_uses": 6,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond_pickaxe",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "heavy:bronze_ingot",
+                  "quantity": 6
+                },
+                {
+                  "item": "minecraft:diamond_sword",
+                  "quantity": 1
+                }
+              ],
+              "trader_exp": 45,
+              "max_uses": 1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:diamond_sword",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "heavy:golden_quartz",
+                      "quantity": 28
+                    },
+                    {
+                      "item": "heavy:chromium_ingot",
+                      "quantity": 3
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 35,
+              "max_uses": 1,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:clock",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "minecraft:diamond_helmet",
+                      "quantity": 1
+                    },
+                    {
+                      "item": "minecraft:diamond_chestplate",
+                      "quantity": 1
+                    },
+                    {
+                      "item": "minecraft:diamond_leggings",
+                      "quantity": 1
+                    },
+                    {
+                      "item": "minecraft:diamond_boots",
+                      "quantity": 1
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 12,
+              "max_uses": 1,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 250,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 64
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 64
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "heavy:spider_helmet",
+                      "quantity": 1
+                    },
+                    {
+                      "item": "heavy:spider_sword",
+                      "quantity": 1
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 45,
+              "max_uses": 1,
+              "reward_exp": true
+            }
+          ]
+        },
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 8,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "minecraft:arrow:15",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:18",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:20",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:22",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:24",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:26",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:29",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:32",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:35",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:37",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "minecraft:arrow:38",
+                      "quantity": 5
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 7,
+              "max_uses": 15,
+              "reward_exp": true
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 3,
+                  "price_multiplier": 0.05
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "minecraft:coal_block",
+                      "quantity": 1
+                    },
+                    {
+                      "item": "minecraft:coal",
+                      "quantity": 9
+                    },
+                    {
+                      "item": "minecraft:charcoal",
+                      "quantity": 10
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 2,
+              "max_uses": 30,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 525,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 12
+                }
+              ],
+              "gives": [
+                {
+                  "choice": [
+                    {
+                      "item": "heavy:steel_nugget",
+                      "quantity": 1
+                    }
+                  ]
+                }
+              ],
+              "trader_exp": 8,
+              "max_uses": 25,
+              "reward_exp": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

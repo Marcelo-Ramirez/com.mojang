@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:demonic_chainsaw"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" C",
+			"CAC",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:sword_chainsaw"
+			},
+			"B": {
+				"item": "heavy:demonic_chainsaw_engine"
+			},
+			"C": {
+				"item": "heavy:chainsaw_chain"
+			  }
+		},
+		"result": {
+			"item": "heavy:demonic_chainsaw"
+		}
+	}
+}

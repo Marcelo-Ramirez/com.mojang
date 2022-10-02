@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:babel_tower_spawn"
+		},
+		"components": {
+			"minecraft:destroy_time": 100,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:immovable": true,
+			"minecraft:ticking": {
+				"range": [
+					18,
+					18
+				],
+				"on_tick": {
+					"event": "spawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"spawn": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"structure load babel_tower ~ ~-4 ~",
+								"fill ~~~ ~~~ air"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

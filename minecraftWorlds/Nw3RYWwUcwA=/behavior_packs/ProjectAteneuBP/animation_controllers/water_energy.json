@@ -1,0 +1,169 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.water_energy": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "water": "(query.get_equipped_item_name == 'potion' || query.get_equipped_item_name == 'apple' || query.get_equipped_item_name == 'golden_apple' || query.get_equipped_item_name == 'enchanted_golden_apple') && (query.is_using_item)"
+            },
+            {
+              "reset": "(query.get_equipped_item_name == 'potion' || query.get_equipped_item_name == 'apple' || query.get_equipped_item_name == 'golden_apple' || query.get_equipped_item_name == 'enchanted_golden_apple') && (!query.is_using_item)"
+            }
+          ]
+        },
+        "water": {
+          "transitions": [
+            {
+              "default": "(query.is_using_item)"
+            },
+            {
+              "reset": "(!query.is_using_item)"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard objectives add water dummy",
+            "/scoreboard players add @s[m=0] water 1",
+            "/execute @s[scores={water=15}] ~~~ /event entity @s water_bottle",
+           "/execute @s[m=0,scores={water=15}] ~~~",
+            "/execute @s[scores={water=15},m=0] ~~~ /scoreboard players reset @s water"
+          ]
+        },
+        "reset": {
+          "transitions": [
+            {
+              "default": "(query.get_equipped_item_name == 'potion' || query.get_equipped_item_name == 'apple' || query.get_equipped_item_name == 'golden_apple' || query.get_equipped_item_name == 'enchanted_golden_apple') && (query.is_using_item)"
+            }
+          ],
+          "on_entry": [
+"/scoreboard players reset @s water"
+          ]
+        }
+      }
+    },
+    "controller.animation.milk": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "milk": "(query.get_equipped_item_name == 'milk_bucket'|| query.get_equipped_item_name == 'beetroot_soup' || query.get_equipped_item_name == 'mushroom_stew'|| query.get_equipped_item_name == 'rabbit_stew') && (query.is_using_item)"
+            },
+            {
+              "reset": "(query.get_equipped_item_name == 'milk_bucket'|| query.get_equipped_item_name == 'beetroot_soup' || query.get_equipped_item_name == 'mushroom_stew'|| query.get_equipped_item_name == 'rabbit_stew') && (!query.is_using_item)"
+            }
+          ]
+        },
+        "milk": {
+          "transitions": [
+            {
+              "default": "(query.is_using_item)"
+            },
+            {
+              "reset": "(!query.is_using_item)"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard objectives add water dummy",
+            "/scoreboard players add @s[m=0] water 1",
+            "/execute @s[scores={water=15}] ~~~ /event entity @s milk_add",
+           "/execute @s[m=0,scores={water=15}] ~~~",
+            "/execute @s[scores={water=15},m=0] ~~~ /scoreboard players reset @s water"
+          ]
+        },
+        "reset": {
+          "transitions": [
+            {
+              "default": "(query.get_equipped_item_name == 'milk_bucket'|| query.get_equipped_item_name == 'beetroot_soup' || query.get_equipped_item_name == 'mushroom_stew'|| query.get_equipped_item_name == 'rabbit_stew') && (query.is_using_item)"
+            }
+          ],
+          "on_entry": [
+"/scoreboard players reset @s water"
+          ]
+        }
+      }
+    },
+    "controller.animation.melon_slice": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "milk": "(query.get_equipped_item_name == 'melon_slice') && (query.is_using_item)"
+            },
+            {
+              "reset": "(query.get_equipped_item_name == 'melon_slice') && (!query.is_using_item)"
+            }
+          ]
+        },
+        "milk": {
+          "transitions": [
+            {
+              "default": "(query.is_using_item)"
+            },
+            {
+              "reset": "(!query.is_using_item)"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard objectives add water dummy",
+            "/scoreboard players add @s[m=0] water 1",
+            "/execute @s[scores={water=15}] ~~~ /event entity @s melon_add",
+           "/execute @s[m=0,scores={water=15}] ~~~",
+            "/execute @s[scores={water=15},m=0] ~~~ /scoreboard players reset @s water"
+          ]
+        },
+        "reset": {
+          "transitions": [
+            {
+              "default": "(query.get_equipped_item_name == 'melon_slice') && (query.is_using_item)"
+            }
+          ],
+          "on_entry": [
+"/scoreboard players reset @s water"
+          ]
+        }
+      }
+    },
+    "controller.animation.sweet_berries": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "milk": "(query.get_equipped_item_name == 'sweet_berries'|| query.get_equipped_item_name == 'glow_berries') && (query.is_using_item)"
+            },
+            {
+              "reset": "(query.get_equipped_item_name == 'sweet_berries'|| query.get_equipped_item_name == 'glow_berries') && (!query.is_using_item)"
+            }
+          ]
+        },
+        "milk": {
+          "transitions": [
+            {
+              "default": "(query.is_using_item)"
+            },
+            {
+              "reset": "(!query.is_using_item)"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard objectives add water dummy",
+            "/scoreboard players add @s[m=0] water 1",
+            "/execute @s[scores={water=15}] ~~~ /event entity @s sweet_add",
+           "/execute @s[m=0,scores={water=15}] ~~~",
+            "/execute @s[scores={water=15},m=0] ~~~ /scoreboard players reset @s water"
+          ]
+        },
+        "reset": {
+          "transitions": [
+            {
+              "default": "(query.get_equipped_item_name == 'sweet_berries'|| query.get_equipped_item_name == 'glow_berries') && (query.is_using_item)"
+            }
+          ],
+          "on_entry": [
+"/scoreboard players reset @s water"
+          ]
+        }
+      }
+    }
+  }
+}

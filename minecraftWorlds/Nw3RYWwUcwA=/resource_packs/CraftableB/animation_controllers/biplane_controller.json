@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.biplane.general": {
+			"states": {
+				"default": {
+					"variables": {
+						"moving_speed": {
+							"input": "query.modified_move_speed"
+						}
+					},
+					"animations": [
+						"turn",
+						{
+							"move": "variable.moving_speed"
+						}
+					]
+				}
+			}
+		}
+	}
+}

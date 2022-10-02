@@ -1,0 +1,31 @@
+
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "steel_chestplate_2"
+		},
+		"tags": [
+			"reinforcing_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:steel_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "heavy:reinforce_iron_breastplate",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:steel_chestplate",
+			"count": 1
+		}
+	}
+}

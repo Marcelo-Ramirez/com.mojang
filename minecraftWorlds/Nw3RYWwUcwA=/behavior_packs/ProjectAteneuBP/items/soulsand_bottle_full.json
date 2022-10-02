@@ -1,0 +1,44 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:soulsand_bottle_full",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:use_animation": "drink",
+			"minecraft:use_duration":2.2,
+			"minecraft:food": {
+				"can_always_eat": true,
+				"using_converts_to": "heavy:soulsand_bottle",
+				  "on_consume": {
+			"event": "sed_0",
+			"target": "self"
+		  },
+				  "nutrition": 2,
+				  "saturation_modifier": "bad"
+			  },
+			"minecraft:icon": {
+				"texture": "soulsand_bottle_full"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.potion"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {
+			"sed_0": {
+			  "sequence": [
+				  {
+					  "run_command":{
+						  "command":[
+							"scoreboard players add @s sed 2"
+						  ],
+						  "target": "holder"
+						}
+				  }
+			  ]
+			}
+		  }
+	}
+}

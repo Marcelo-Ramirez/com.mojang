@@ -1,0 +1,58 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:cow_skull_block"
+		},
+		"components": {
+            "minecraft:loot": "loot_tables/blocks/cow_skull_helmet.json",
+			"minecraft:map_color": "#979797",
+			"minecraft:geometry": "geometry.cow_skull_block",
+			"minecraft:entity_collision":
+			{
+				"origin": [
+					-4,
+					0,
+					-3
+				],
+				"size": [
+					8,
+					8,
+					6
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-4,
+					0,
+					-3
+				],
+				"size": [
+					8,
+					8,
+					6
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cow_skull_block",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.0,
+			"minecraft:breakonpush": true,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

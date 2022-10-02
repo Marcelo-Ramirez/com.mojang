@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+			"animation.biplane.turn": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [0, 0, "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"]
+				}
+			}
+		},
+		"animation.biplane.move": {
+			"loop": true,
+			"animation_length": 0.16,
+			"bones": {
+				"propeller": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, 0, 420]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, 0, 0]
+					}
+				},
+				"leg0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

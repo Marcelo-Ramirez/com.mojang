@@ -1,0 +1,40 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:spawn_p6"
+		},
+		"components": {
+			"minecraft:destroy_time": 100,
+			"minecraft:explosion_resistance": 100,
+			"minecraft:immovable": true,
+			"minecraft:ticking": {
+				"range": [
+					120,
+					120
+				],
+				"on_tick": {
+					"event": "spawn",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"spawn": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"summon ravager ~~~",
+								"summon ravager ~~~",
+								"summon ravager ~~~",
+								"summon ravager ~~~",
+								"fill ~~~ ~~~ air"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

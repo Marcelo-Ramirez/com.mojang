@@ -1,0 +1,50 @@
+{
+    "format_version": "1.17.11",
+    "minecraft:item": {
+        "description": {
+            "identifier": "heavy:soulsand_bottle_water",
+            "category": "equipment"
+        },
+        "components": {
+             "minecraft:use_animation": "drink",
+            "minecraft:use_duration":1.6,
+            "minecraft:food": {
+              "can_always_eat": true,
+              "using_converts_to": "heavy:soulsand_bottle",
+                "on_consume": {
+          "event": "sed_0",
+          "target": "self"
+        },
+                "nutrition": 0,
+                "saturation_modifier": "bad"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "soulsand_bottle_water"
+            },
+            "minecraft:display_name": {
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.potion"
+
+}
+        },
+        "events": {
+      "sed_0": {
+        "sequence": [
+            {
+                "transform_item": {
+                    "transform": "heavy:soulsand_bottle"
+                },
+                "run_command":{
+                    "command":[
+                      "scoreboard players add @s sed 4"
+                    ],
+                    "target": "holder"
+                  }
+            }
+        ]
+      }
+    }
+  }
+}

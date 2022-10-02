@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_super_marine_slingshot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B B",
+			" A ",
+			"CCC"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:marine_slingshot"
+			},
+			"B": {
+				"item": "minecraft:turtle_shell_piece"
+			},
+			"C": {
+				"item": "minecraft:prismarine"
+			}
+		},
+		"result": {
+			"item": "heavy:super_marine_slingshot",
+			"count": 1
+		}
+	}
+}

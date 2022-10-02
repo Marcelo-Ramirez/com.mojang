@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.emerald_flail" : {
+      "states" : {
+        "default" : {
+          "on_entry" : [
+          ],
+          "transitions" : [
+            { 
+              "emerald_flail" : "variable.attack_time>0"
+            }
+          ]
+        },
+        "emerald_flail" : {
+            "on_entry": [
+                "variable.afk = q.life_time;"
+        ],
+        "transitions": [
+            {
+                "afk": "(q.life time - v.afk) >= 1"
+            }
+        ]
+        },
+        "afk": {
+            "on_entry": [
+                "/event entity @s vine_whip_attack", 
+                "/say I'm now AFK"
+            ],
+            "animations": ["afk_animation"],
+            "transitions": [
+                {
+                    "default": "!variable.attack_time>0"
+                }
+            ],
+            "on_exit": [
+                "/event entity @s vine_whip_remove", 
+                "/say I'm no longer AFK"
+            ]
+        }
+      }
+    }
+  }
+}

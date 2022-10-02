@@ -1,0 +1,27 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bone_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B B",
+      "ABA",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:part_of_bone_canyon"
+      },
+      "B": {
+        "item": "minecraft:bone"
+      }
+    },
+    "result": {
+      "item": "heavy:bone_chestplate"
+    }
+  }
+}

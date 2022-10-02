@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:rabbit_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"ACA",
+			"D D"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald_block"
+			},
+			"C": {
+				"item": "minecraft:rabbit_hide"
+			},
+			"D": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"result": {
+			"item": "heavy:rabbit_boots"
+		}
+	}
+}

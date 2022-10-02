@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.soulsphere": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"pestaa1": {
+					"position": {
+						"0.0": [0, 0, -1],
+						"1.0": [0, 0, 0],
+						"2.0": [0, 0, -1]
+					}
+				},
+				"pestaa2": {
+					"position": {
+						"0.0": [0, 0, -1],
+						"1.0": [0, 0, 0],
+						"2.0": [0, 0, -1]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "heavy:cow_skull_block_feature"
+		},
+		"places_block": "heavy:cow_skull_block",
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			{
+				"name": "minecraft:air"
+			}
+		]
+	}
+}

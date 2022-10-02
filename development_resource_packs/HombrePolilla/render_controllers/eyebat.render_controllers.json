@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.eyebat": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.purple",
+						"Texture.warped",
+						"Texture.crimson",
+						"Texture.delta",
+						"Texture.soul"
+					]
+				}
+			},
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"array.skins[query.variant]"
+			]
+		}
+	}
+}

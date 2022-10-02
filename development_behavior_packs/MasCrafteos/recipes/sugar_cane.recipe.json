@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:sugar_cane.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"sss",
+			"bbb",
+			"ddd"
+		],
+		"key": {
+			"b": {
+				"item": "bone_meal"
+			},
+			"d": {
+				"item": "dirt"
+			},
+			"s": {
+				"item": "sugar"
+			}
+		},
+		"result": {
+			"item": "sugar_cane"
+		}
+	}
+}

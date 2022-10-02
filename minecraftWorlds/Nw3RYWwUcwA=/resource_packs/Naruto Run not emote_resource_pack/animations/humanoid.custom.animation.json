@@ -1,0 +1,1 @@
+{"format_version":"1.8.0","animations":{"animation.player.sneaking":{"loop":true,"animation_length":1.04,"bones":{"leftArm":{"rotation":{"0.0":[-90,0,0],"0.3167":[-90,15,0],"0.5333":[-70,15,0]}},"rightArm":{"rotation":{"0.0":[-90,0,0],"0.3167":[-90,-35,0]}}}}}}

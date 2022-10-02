@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "heavy:guardian_ball_entity",
+            "materials": {
+                "default": "villager_v2"
+            },
+            "textures": {
+                "default": "textures/entity/guardian_ball"
+            }, 
+            "geometry": {
+				"default": "geometry.guardian_ball"
+			},
+            "animations": {
+                "active": "animation.guardian_ball.action"
+            },
+            "scripts": {
+                "animate": [
+                        "active"
+                ]
+            },
+			"render_controllers": ["controller.render.creeper"]
+        }
+    }
+}

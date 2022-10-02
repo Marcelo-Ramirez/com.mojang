@@ -1,0 +1,71 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.meatball_base": {
+			"states": {
+				"default": {
+					"animations": [
+						"scale",
+						"drip",
+						"sway",
+						"tentacles"
+					],
+					"particle_effects": [
+						{
+							"effect": "drip"
+						},
+						{
+							"effect": "charge"
+						}
+					],
+					"transitions": [
+						{
+							"dead": "!query.is_alive"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"dead": {
+					"blend_transition": 0.2,
+					"animations": [
+						"dead",
+						"scale"
+					]
+				}
+			},
+			"initial_state": "default"
+		},
+		"controller.animation.meatball_attack": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"charged": "query.has_target"
+						}
+					],
+					"blend_transition": 0.5
+				},
+				"charging": {
+					"particle_effects": [
+						{
+							"effect": "charge"
+						}
+					],
+					"animations": [
+						"chew",
+						"chargeR",
+						"chargeL",
+						"frown"
+					],
+					"transitions": [
+						{
+							"default": "!query.has_target"
+						}
+					],
+					"blend_transition": 0.5
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sapphire_chestplate_e6dacf5e"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:sapphire",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:sapphire_chestplate",
+			"count": 1
+		}
+	}
+}

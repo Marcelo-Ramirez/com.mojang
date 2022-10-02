@@ -1,0 +1,124 @@
+{
+  "format_version": "1.17.30",
+  "minecraft:block": {
+      "description": {
+          "identifier": "heavy:normal_treasure",
+          "properties": {
+              "glass:face": [ 2, 3, 4, 5 ]
+          }
+      },
+      "permutations": [
+        {
+            "condition": "query.block_property('glass:face') == 3",
+            "components": {
+                "minecraft:rotation": [ 0, 180, 0 ]
+            }
+        },
+        {
+            "condition": "query.block_property('glass:face') == 4",
+            "components": {
+                "minecraft:rotation": [ 0, 90, 0 ]
+            }
+        },
+        {
+            "condition": "query.block_property('glass:face') == 5",
+            "components": {
+                "minecraft:rotation": [ 0, 270, 0 ]
+            }
+        }
+    ],
+      "components": {
+        "tag:wood": {},
+        "minecraft:creative_category": {
+            "group": "itemGroup.name.diamond",
+                    "category": "items"
+                },
+        "minecraft:placement_filter": {
+            "conditions": [
+                {
+                    "allowed_faces": [
+                        "up"
+                    ]
+                }
+            ]
+        },
+        "minecraft:on_interact": {
+            "event": "open",
+            "target": "self"
+        },
+          "minecraft:material_instances": {
+              "*": {
+                  "texture": "normal_treasure",
+                  "render_method": "opaque"
+              }
+            },
+          "minecraft:pick_collision": {
+              "origin": [ -6, 0, -5 ],
+              "size": [ 12, 10, 10 ]
+          },
+          "minecraft:entity_collision":{
+            "origin": [ -6, 0, -5 ],
+            "size": [ 12, 10, 10 ]
+            },   
+          "minecraft:geometry": "geometry.treasure",
+          "minecraft:destroy_time": 3.0,
+    "minecraft:block_light_absorption": 0.0,
+        "minecraft:on_player_placing": {
+              "event": "treasure:place"
+          },
+          "minecraft:friction": 0.6,
+          "minecraft:map_color": "#385b53",
+          "minecraft:flammable": {
+              "flame_odds": 0,
+              "burn_odds": 0
+          }
+      },
+      "events": {
+        "drop_loot": { 
+            "spawn_loot": {
+             "table": "loot_tables/blocks/"
+            }
+          },
+    "treasure:place": {
+          "set_block_property": {
+            "glass:face": "(query.cardinal_player_facing)"
+          }
+        },
+        "open": {
+            "sequence": [
+                {
+                    "condition": "query.get_equipped_item_name == 'simple_key'",
+                    "trigger": {
+                        "event": "mushroom_fail",
+                        "target": "self"
+                    }
+                }
+            ]
+        },
+        "mushroom_fail": {
+            "randomize": [
+                {
+                    "weight": 20,
+                    "run_command": {
+                        "command": ["fill ~ ~ ~ ~ ~-1 ~ air 0 replace heavy:normal_treasure",
+                            "playsound random.chestopen @a"]
+                    },
+                    "decrement_stack": {},
+                    "spawn_loot": {
+                        "table": "loot_tables/treasure/treasure.json"
+                    }
+                },
+                {
+                    "weight": 80,
+                    "decrement_stack": {},
+                    "run_command": {
+                        "command": [
+                            "playsound random.break @a"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+  }
+}

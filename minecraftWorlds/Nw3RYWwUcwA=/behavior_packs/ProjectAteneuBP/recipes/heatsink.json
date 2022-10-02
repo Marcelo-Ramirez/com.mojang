@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heatsink_651c9438"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"BAB",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_ingot",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:gold_ingot",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:heatsink",
+			"count": 1
+		}
+	}
+}

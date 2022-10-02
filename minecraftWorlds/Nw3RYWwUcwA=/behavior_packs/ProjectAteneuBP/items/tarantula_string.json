@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:tarantula_string",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "tarantula_string"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.rotten_flesh"
+			  },
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

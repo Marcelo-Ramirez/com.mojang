@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:steel_ingot",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_steel_ingot"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.iron_ingot"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

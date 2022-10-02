@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "heavy:dead_tallgrass_carried_feature"
+		},
+		"places_block": "heavy:dead_tallgrass_carried",
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			{
+				"name": "minecraft:air"
+			}
+		]
+	}
+}

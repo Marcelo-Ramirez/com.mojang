@@ -1,0 +1,368 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "heavy:gold_conduit_entity",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "golden_conduit_timer": {
+        "minecraft:timer": {
+          "looping": true,
+          "time": 5,
+          "time_down_event": {
+            "event": "detect_structure"
+          }
+        }
+      },
+      "despawn_conduit": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:is_saddled": {},
+      "minecraft:collision_box": {
+        "width": 0.50,
+        "height": 0.50
+      },
+      "minecraft:entity_sensor": {
+        "sensor_range": 15,
+        "event_filters": {
+            "all_of": [
+              {
+                "any_of":[
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "camo"
+              }
+                ]
+              },
+              {
+                "test": "in_water",
+                "subject": "self",
+                "operator": "=="
+        }
+
+            ]
+        },
+        "event": "gold_conduit_base"
+    },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "falling_block"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "stalactite"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "stalagmite"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "piston"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "fire_tick"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "fire"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "lava"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "wither"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "projectile"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "suffocation"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "fall"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "attack"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "anvil"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "magic"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "entity_explosion"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "all_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "block_explosion"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "all_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "freezing"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          }
+          ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "golden_conduit_timer"
+          ]
+        }
+      },
+      "detect_structure": {
+				"run_command": {
+					"command": [
+            "execute @s ~ ~ ~ detect ~ ~-1 ~ air 0 function golden_conduct",
+            "execute @s ~ ~ ~ detect ~1 ~-2 ~ water 0 function golden_conduct",
+            "execute @s ~ ~ ~ detect ~-1 ~-2 ~ water 0 function golden_conduct",
+            "execute @s ~ ~ ~ detect ~ ~-2 ~-1 water 0 function golden_conduct",
+            "execute @s ~ ~ ~ detect ~ ~-2 ~1 water 0 function golden_conduct"
+					]
+				}
+      },
+      "gold_conduit_base": {
+				"run_command": {
+					"command": [
+						"effect @p[r=15] conduit_power 14 1 true",
+            "effect @e[family=undead,r=10] wither 1 255 true"
+					]
+				}
+        },
+        "despawn": {
+          "add": {
+              "component_groups": [
+                  "despawn_conduit"]
+    }
+  }
+    }
+  }
+}

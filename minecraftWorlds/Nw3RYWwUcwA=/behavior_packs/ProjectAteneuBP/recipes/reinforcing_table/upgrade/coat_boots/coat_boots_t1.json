@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "coat_boots_t1"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"AB",
+		"C  "
+	  ],
+	  "key": {
+		"A": {
+		  "item": "heavy:coat_boots"
+		},
+		"B": {
+		  "item": "minecraft:iron_ingot"
+		},
+		"C": {
+			"item": "heavy:upgrade_coat_boots"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:coat_boots_t1"
+	  }
+	}
+  }

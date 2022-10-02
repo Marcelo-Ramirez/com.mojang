@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+      "description": {
+        "identifier": "heavy:iglin_ship_spawn"
+      },
+      "components": {
+        "minecraft:ticking": {
+          "looping": false,
+          "range": [ 30, 30 ],
+          "on_tick": {
+            "event": "spawn",
+            "target": "self"
+          }
+        },    
+        "minecraft:loot": "loot_tables/none",
+        "minecraft:destroy_time": 200,
+        "minecraft:block_light_absorption": 1
+      },
+      "events": {
+        "spawn": {
+          "run_command":{
+            "command":[
+              "structure load iglin_ship ^-10^-1^-10",
+              "setblock ~~~ air 0"
+            ]
+          }
+        }
+      }
+   }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mud_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA ",
+      "AA "
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:mudball_item"
+      }
+    },
+    "result": {
+      "item": "heavy:mud"
+    }
+  }
+}

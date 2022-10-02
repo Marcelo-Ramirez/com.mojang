@@ -1,0 +1,30 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "diamond_prism_3bfddec5"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:diamond",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:diamond_block",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:diamond_prism",
+			"count": 1
+		}
+	}
+}

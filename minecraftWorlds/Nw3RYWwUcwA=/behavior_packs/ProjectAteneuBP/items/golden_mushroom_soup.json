@@ -1,0 +1,53 @@
+{
+  "format_version": "1.17.10",
+  "minecraft:item": {
+      "description": {
+          "identifier": "heavy:golden_mushroom_soup",
+          "category": "equipment"
+      },
+      "components": {
+           "minecraft:use_animation": "eat",
+          "minecraft:use_duration":1.6,
+          "minecraft:food": {
+            "can_always_eat": true,
+            "using_converts_to": "bowl",
+              "on_consume": {
+        "event": "new:effect",
+        "target": "self"
+      },
+              "nutrition": 6,
+              "saturation_modifier": "normal"
+          },
+          "minecraft:max_stack_size": 1,
+          "minecraft:icon": {
+              "texture": "golden_mushroom_soup"
+          },
+          "minecraft:display_name": {
+          },
+          "minecraft:creative_category": {
+              "parent": "itemGroup.name.miscFood"
+
+}
+      },
+      "events": {
+    "new:effect": {
+      "sequence": [
+        {
+          "add_mob_effect": {
+            "effect": "absorption",
+            "target": "holder",
+            "duration": 200,
+            "amplifier": 0
+          },
+          "run_command":{
+            "command":[
+              "scoreboard players add @s sed 6"
+            ],
+            "target": "holder"
+            }
+        }
+    ]
+    }
+  }
+}
+}

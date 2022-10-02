@@ -1,0 +1,390 @@
+{
+	"format_version": "1.17.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:ice_axe",
+			"category": "equipment"
+		},
+
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 4,
+			"minecraft:enchantable": {
+				"slot": "axe",
+				"value": 5
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+                "destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood', 'pumpkin', 'plant')"
+						},
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:chest",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crafting_table",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_stem",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_hyphae",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_hyphae",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_slab",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_pressure_plate",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_fence",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_trapdoor",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_fence_gate",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stairs",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_button",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_wall_sign",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_planks",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_stem",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_stem",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:stripped_warped_hyphae",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_hyphae",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_slab",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_pressure_plate",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_trapdoor",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_fence_gate",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_button",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_door",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_wall_sign",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:crimson_door",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:loom",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:trapped_chest",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:lectern",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:bookshelf",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:composter",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:jukebox",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:soul_campfire",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:campfire",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:bee_nest",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:beehive",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:cartography_table",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:scaffolding",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:warped_stairs",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					},
+					{
+						"block": "minecraft:noteblock",
+						"speed": 6,
+						"on_dig": {
+							"event": "damage_item"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "damage_item",
+					"target": "self"
+				}
+			},
+			"minecraft:display_name": {
+			},
+			"minecraft:icon": {
+				"texture": "ice_axe"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.axe"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "ice"
+				}
+			},
+			"minecraft:durability": {
+				"max_durability": 275
+			}
+		},
+		"events": {
+            "damage_item": {
+                "damage": {
+                   "type": "durability",
+                     "amount": 1
+                }
+            },
+			"ice": {
+				"run_command": {
+					"command": [
+						"fill ~-1 ~ ~-1 ~1 ~2 ~1 heavy:temporal_ice 0 replace air",
+						"particle heavy:status_freezing ~~~"
+					],
+					"target": "other"
+				},
+				"add_mob_effect": {
+					"effect": "slowness",
+					"target": "other",
+					"duration": 3,
+					"amplifier": 4
+				  },
+				"damage": {
+					"type": "magic",
+					"amount": 1,
+					"target": "self"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wither_bone_powder"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:bone_whiter_block"
+			}
+		},
+		"result": {
+			"item": "heavy:wither_bone_powder",
+			"count":9
+		}
+	}
+}

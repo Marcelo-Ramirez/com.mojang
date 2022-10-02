@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:gold_quartz_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"A A",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:golden_quartz",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:gold_quartz_leggings",
+			"count": 1
+		}
+	}
+}

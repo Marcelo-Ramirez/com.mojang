@@ -1,0 +1,69 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hunter.attack": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["query.is_riding ? 0.0 : ((math.cos(query.life_time * 20.0 * 10.89) * 28.65) + (math.sin(variable.attack_time * 180.0) * 68.76 - (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0)) * 22.92))", 0, 0]
+				},
+				"rightArm": {
+					"rotation": ["(-108 + math.cos(query.life_time * 20.0 * 3.84) * 2.87) + (math.sin(variable.attack_time * 180.0) * 126.05 - (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0)) * 22.92)", 0, 0]
+				}
+			}
+		},
+		"animation.hunter.hand_attack": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["(-108 + math.cos(query.life_time * 20.0 * 3.84) * 2.87) + (math.sin(variable.attack_time * 180.0) * 126.05 - (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0)) * 22.92)", 0, 0]
+				},
+				"rightArm": {
+					"rotation": ["(-108 + math.cos(query.life_time * 20.0 * 3.84) * 2.87) + (math.sin(variable.attack_time * 180.0) * 126.05 - (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0)) * 22.92)", 0, 0]
+				}
+			}
+		},
+		"animation.hunter.general": {
+			"loop": true,
+			"bones": {
+				"arms": {
+					"rotation": ["-42.97 - this", 0, 0],
+					"position": [0, -1, -1]
+				}
+			}
+		},
+		"animation.hunter.riding.legs": {
+			"loop": true,
+			"bones": {
+				"leg0": {
+					"rotation": ["-72.0 - this", "18.0 - this", "-this"]
+				},
+				"leg1": {
+					"rotation": ["-72.0 - this", "-18.0 - this", "-this"]
+				}
+			}
+		},
+		"animation.hunter.move": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": ["(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0]
+				},
+				"leg1": {
+					"rotation": ["(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0]
+				}
+			}
+		},
+		"animation.hunter.get_in_bed": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -21, 6]
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

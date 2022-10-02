@@ -1,0 +1,32 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "§gby Andiuber §bTwitter: §f@AndiuberOficial\n§9©TEAM CUBITOS MC §7www.cubitosmc.com",
+		"name": "§aBehavior §l§eSky§6Wars §r§7v4.0",
+		"uuid": "be292c04-f875-11eb-9a03-0242ac130003",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "data",
+			"uuid": "be292ec0-f875-11eb-9a03-0242ac130003",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4"
+			]
+		}
+	}
+}

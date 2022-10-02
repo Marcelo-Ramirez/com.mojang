@@ -1,0 +1,67 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.netherite_pro": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "on_entry": [
+            "/tag @s[name=\"Ancient helmet\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Ancient chestplate\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Ancient leggings\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Ancient boots\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Ancient ingot\"] add pure_netherite_ingot",
+            "/tag @s[name=\"piglin chestplate\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"§enetherite chestplate\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Netherite rod\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Ancient pickaxe\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Netherite katana\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Netherite hammer\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Wild board netherite armor\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"§aNetherite helmet\"] add pure_netherite_ingot",
+            "/tag @s[name=\"§aNetherite chestplate\"] add pure_netherite_ingot",
+            "/tag @s[name=\"§aNetherite boots\"] add pure_netherite_ingot",
+
+
+            "/tag @s[name=\"Netherite leggings\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Netherite helmet\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Netherite chestplate\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Netherite boots\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Netherite sword\"] add pure_netherite_ingot",
+            "/tag @s[name=\"§bNetherite pirate sword\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"steel hazard\"] add pure_netherite_ingot",
+            "/tag @s[name=\"steel floor\"] add pure_netherite_ingot",
+            "/tag @s[name=\"steel wall\"] add pure_netherite_ingot",
+
+
+
+            "/tag @s[name=\"Netherite barbed mace\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Maza de puas de inframundita\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Netherite katana\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Katana de inframundita\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Netherite knife\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Cuchillo de inframundita\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Netherite long sword\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Espada larga de inframundita\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Netherite kama\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Kama de netherite\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Netherite bearbed axe\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Hacha barbuda de inframundita\"] add pure_netherite_ingot",
+
+            "/tag @s[name=\"Netherite dane axe\"] add pure_netherite_ingot",
+            "/tag @s[name=\"Hacha danesa de inframundita\"] add pure_netherite_ingot"
+          ]
+        }
+      }
+    }
+  }
+}

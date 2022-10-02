@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strider_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B B",
+			"B B"
+		],
+		"key": {
+			"B": {
+				"item": "heavy:strider_fragment"
+			}
+		},
+		"result": {
+			"item": "heavy:magma_boots"
+		}
+	}
+}

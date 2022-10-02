@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "Creado por Janb",
+    "name": "§bArmaduras Invisibles",
+    "uuid": "44a376e0-f7c7-35eb-a5ec-a8e356c0b297",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      2,
+      6
+    ]
+  },
+  "modules": [
+    {
+      "description": "Creado por Janb",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "uuid": "cc01fb57-1c61-4f95-b65e-c54b56126fd5",
+      "type": "resources"
+    }
+  ]
+}

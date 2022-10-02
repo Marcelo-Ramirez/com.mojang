@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:raw_zinc",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "raw_zinc"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.raw_iron"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

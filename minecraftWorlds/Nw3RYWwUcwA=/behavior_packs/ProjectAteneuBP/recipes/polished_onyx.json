@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "onyx"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "heavy:onyx",
+		"output": "heavy:polished_onyx"
+	}
+}

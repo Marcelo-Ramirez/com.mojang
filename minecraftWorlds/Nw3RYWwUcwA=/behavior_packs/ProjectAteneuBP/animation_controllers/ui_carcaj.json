@@ -1,0 +1,536 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ui_scores": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "scores": "query.is_riding"
+            }
+          ]
+        },
+        "scores": {
+          "transitions": [
+            {
+              "default": "!query.is_riding"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @p[r=1] carcaj 1"
+          ],
+          "on_exit": [
+            "/scoreboard players set @p[r=1] carcaj 0"
+          ]
+        }
+      }
+    },
+    "controller.animation.ui_title": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "scores": "query.scoreboard('freezing') == 0 && query.scoreboard('abrigo') == 0 && query.scoreboard('arena') == 0"
+            },
+            {
+              "scores1": "query.scoreboard('freezing') == 1 && query.scoreboard('abrigo') == 1 && query.scoreboard('arena') == 0"
+            },
+            {
+              "scores2": "query.scoreboard('freezing') == 1 && query.scoreboard('abrigo') == 0 && query.scoreboard('arena') == 0"
+            },
+            {
+              "scores3": "query.scoreboard('freezing') == 0 && query.scoreboard('abrigo') == 1 && query.scoreboard('arena') == 0"
+            },
+            {
+              "scores4": "query.scoreboard('freezing') == 2 && query.scoreboard('abrigo') == 0 && query.scoreboard('arena') == 1"
+            },
+            {
+              "scores5": "query.scoreboard('freezing') == 2 && query.scoreboard('abrigo') == 1 && query.scoreboard('arena') == 1"
+            },
+
+            {
+              "scores6": "query.scoreboard('freezing') == 1 && query.scoreboard('abrigo') == 2 && query.scoreboard('arena') == 0"
+            },
+            {
+              "scores7": "query.scoreboard('freezing') == 0 && query.scoreboard('abrigo') == 2 && query.scoreboard('arena') == 0"
+            },
+            {
+              "scores8": "query.scoreboard('freezing') == 2 && query.scoreboard('abrigo') == 2 && query.scoreboard('arena') == 1"
+            }
+          ]
+        },
+        "scores": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat0freezing0"
+          ]
+        },
+        "scores1": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat1freezing1"
+          ]
+        },
+        "scores_s": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat0freezing3"
+          ]
+        },
+        "scores1_s": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat1freezing3"
+          ]
+        },
+        "scores2": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat0freezing1"
+          ]
+        },
+        "scores3": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat1freezing0"
+          ]
+        },
+        "scores4": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat0freezing2"
+          ]
+        },
+        "scores5": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat1freezing2"
+          ]
+        },
+        "scores6": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat2freezing1"
+          ]
+        },
+        "scores7": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat2freezing0"
+          ]
+        },
+        "scores8": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @s actionbar coat2freezing2"
+          ]
+        }
+      }
+    },
+    "controller.animation.ui_new_sed": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "scores0": "query.scoreboard('sed') == 0"
+            },
+            {
+              "scores1": "query.scoreboard('sed') == 1"
+            },
+            {
+              "scores2": "query.scoreboard('sed') == 2"
+            },
+            {
+              "scores3": "query.scoreboard('sed') == 3"
+            },
+            {
+              "scores4": "query.scoreboard('sed') == 4"
+            },
+            {
+              "scores5": "query.scoreboard('sed') == 5"
+            },
+            {
+              "scores6": "query.scoreboard('sed') == 6"
+            },
+            {
+              "scores7": "query.scoreboard('sed') == 7"
+            },
+            {
+              "scores8": "query.scoreboard('sed') == 8"
+            },
+            {
+              "scores9": "query.scoreboard('sed') == 9"
+            },
+            {
+              "scores10": "query.scoreboard('sed') == 10"
+            },
+            {
+              "scores11": "query.scoreboard('sed') == 11"
+            },
+            {
+              "scores12": "query.scoreboard('sed') == 12"
+            },
+            {
+              "scores13": "query.scoreboard('sed') == 13"
+            },
+            {
+              "scores14": "query.scoreboard('sed') == 14"
+            },
+            {
+              "scores15": "query.scoreboard('sed') == 15"
+            },
+            {
+              "scores16": "query.scoreboard('sed') == 16"
+            }
+          ]
+        },
+        "scores0": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_0"
+          ]
+        },
+        "scores1": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_1"
+          ]
+        },
+        "scores2": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_2"
+          ]
+        },
+        "scores3": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_3"
+          ]
+        },
+        "scores4": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_4"
+          ]
+        },
+        "scores5": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_5"
+          ]
+        },
+        "scores6": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_6"
+            
+          ]
+        },
+        "scores7": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_7"
+    
+          ]
+        },
+        "scores8": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_8"
+            
+          ]
+        },
+        "scores9": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_9"
+            
+          ]
+        },
+        "scores10": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_10"   
+          ]
+        },
+        "scores11": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_11"   
+          ]
+        },
+        "scores12": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_12"   
+          ]
+        },
+        "scores13": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_13"   
+          ]
+        },
+        "scores14": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_14"   
+          ]
+        },
+        "scores15": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_14"   
+          ]
+        },
+        "scores16": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/title @p title water_14"   
+          ]
+        }
+      }
+    },
+    "controller.animation.q_sed": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "scores0": "query.scoreboard('sed') == -1"
+            },
+            {
+              "scores1": "query.scoreboard('sed') == 17"
+            },
+            {
+              "scores2": "query.scoreboard('sed') == 18"
+            },
+            {
+              "scores3": "query.scoreboard('sed') == 19"
+            },
+            {
+              "scores4": "query.scoreboard('sed') == 20"
+            },
+            {
+              "scores5": "query.scoreboard('sed') == 21"
+            },
+            {
+              "scores6": "query.scoreboard('sed') == 22"
+            },
+            {
+              "scores7": "query.scoreboard('sed') == 23"
+            },
+            {
+              "scores8": "query.scoreboard('sed') == 24"
+            }
+          ]
+        },
+        "scores0": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 0"
+          ]
+        },
+        "scores1": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 16"
+          ]
+        },
+        "scores2": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 16"
+          ]
+        },
+        "scores3": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 16"
+          ]
+        },
+        "scores4": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 16"
+          ]
+        },
+        "scores5": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 16"
+          ]
+        },
+        "scores6": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 16"
+            
+          ]
+        },
+        "scores7": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 16"
+    
+          ]
+        },
+        "scores8": {
+          "transitions": [
+            {
+              "default": "1.0"
+            }
+          ],
+          "on_entry": [
+            "/scoreboard players set @s sed 16"
+            
+          ]
+        }
+      }
+    }
+  }
+}

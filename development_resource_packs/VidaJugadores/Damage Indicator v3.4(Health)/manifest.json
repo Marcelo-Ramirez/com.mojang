@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§lDamage Indicator Addon §cv3.4",
+    "description": "§cby §bCoptaine\n§rHealth Indicator Only",
+    "uuid": "2767b381-8baa-4f6f-9494-59cc63645ff2",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 18, 0 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "0dd925d3-3945-493c-8af9-5a2cf28aa152",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "Health Bar",
+      "memory_tier": 2,
+      "name": "Health Bar"
+    },
+    {
+      "folder_name": "Heart Value",
+      "memory_tier": 1,
+      "name": "Heart Value"
+    },
+    {
+      "folder_name": "Heart + Health Bar",
+      "memory_tier": 0,
+      "name": "Heart + Health Bar"
+    }
+  ],
+  "metadata": {
+    "authors": [ "Coptaine" ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:mushrife_planks"
+		},
+		"components": {
+			"tag:wood":{},
+			"minecraft:map_color": "#5C6D32",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.planks"
+			},
+		"minecraft:loot": "loot_tables/blocks/mushrife/mushrife_planks.json",
+		"minecraft:destroy_time": 1,
+		"minecraft:explosion_resistance": 1,
+		"minecraft:friction": 0.6,
+		"minecraft:flammable": {
+		  "flame_odds": 50,
+		  "burn_odds": 50
+			 },
+			 "minecraft:on_player_placing": {
+			  "event": "set_facing_direction"
+			}
+	  }
+	  }
+  }

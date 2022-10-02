@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "minecraft:arachnis_village_mcstructure"
+    },
+    "structure_name": "mystructure:arachnis_village_spawn",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:air",
+					"minecraft:stone"
+				]
+			}
+		}
+  }
+}

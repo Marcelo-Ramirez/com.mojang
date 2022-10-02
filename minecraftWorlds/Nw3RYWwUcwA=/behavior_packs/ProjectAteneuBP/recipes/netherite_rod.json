@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "netherite_rod_8165f452"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BC"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:blaze_rod",
+				"data": 0
+			},
+			"C": {
+				"item": "minecraft:netherite_ingot",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:netherite_rod",
+			"count": 1
+		}
+	}
+}

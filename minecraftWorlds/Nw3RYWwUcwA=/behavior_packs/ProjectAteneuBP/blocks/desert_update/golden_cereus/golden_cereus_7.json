@@ -1,0 +1,74 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:golden_cereus_7"
+		},
+		"components": {
+			"minecraft:on_interact": {
+				"event": "clear_bone_meal",
+				"target": "self",
+				"condition": "query.get_equipped_item_name == 'bone_meal'"
+			},
+			"minecraft:on_step_on": {
+				"event": "damage_cactus",
+				"target": "self"
+			},
+			"minecraft:map_color": "#649832",
+			"minecraft:loot": "loot_tables/blocks/golden_cereus/golden_cereus_7.json",
+			"minecraft:geometry": "geometry.golden_cereus_7",
+			"minecraft:pick_collision": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					10,
+					11
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [-6, 0, -6],
+				"size": [12, 10, 11]
+			  },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "golden_cereus_block",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"damage_cactus": {
+				"damage": {
+					"type": "magic",
+					"target": "other",
+					"amount": 1
+				}
+			},
+			"clear_bone_meal": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/golden_cereus/golden_cereus_1.json"
+				}
+			}
+		}
+	}
+}

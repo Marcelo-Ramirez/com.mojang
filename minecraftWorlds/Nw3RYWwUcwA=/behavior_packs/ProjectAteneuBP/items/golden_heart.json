@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:golden_heart",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_golden_heart"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.heart_of_the_sea"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

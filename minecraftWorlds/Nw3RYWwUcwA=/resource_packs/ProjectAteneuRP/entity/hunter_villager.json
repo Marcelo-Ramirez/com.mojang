@@ -1,0 +1,48 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+      "description": {
+              "identifier": "heavy:hunter_villager",
+              "materials": {
+                  "default": "villager_v2"
+              },
+              "textures": {
+                  "default": "textures/entity/villagers/hunter_villager",
+                  "level_stone": "textures/entity/villagers/hunter_villager",
+                  "level_iron": "textures/entity/villagers/hunter/iron",
+                  "level_gold": "textures/entity/villagers/hunter/gold",
+                  "level_emerald": "textures/entity/villagers/hunter/emerald",
+                  "level_diamond": "textures/entity/villagers/hunter/diamond"
+              },
+              "geometry": {
+                  "default": "geometry.hunter_villager_v2"
+              },
+              "scripts": {
+                "pre_animation": [
+                  "variable.level_index = query.trade_tier;"
+                ]
+              },
+              "animations": {
+                "look_at_target_default": "animation.humanoid.look_at_target.default.v1.0",
+                "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+                "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0",
+                "vindicator_base": "animation.vindicator.base",
+                "vindicator_attack": "animation.vindicator.attack",
+                "vindicator_walk": "animation.vindicator.walk",
+                "get_in_bed": "animation.villager.get_in_bed"
+              },
+              "animation_controllers": [
+                { "look_at_target": "controller.animation.humanoid.look_at_target" },
+                { "vindicator_base": "controller.animation.vindicator.base.v1.0" },
+                { "move": "controller.animation.villager_v2.move" }
+              ],
+              "render_controllers": [
+                "controller.render.vindicator","controller.render.villagers_level"
+              ],
+              "spawn_egg": {
+                "base_color": "#345A5C",
+                "overlay_color": "#BE886C"
+              }
+      }
+    }
+  }

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:chainsaw_engine"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DDD",
+			"ABA",
+			"ECE"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_block"
+			},
+			"B": {
+				"item": "heavy:battery"
+			},
+			"C": {
+				"item": "heavy:sockets"
+			},
+			"D": {
+				"item": "minecraft:copper_ingot"
+			},
+			"E": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"result": {
+			"item": "heavy:chainsaw_engine"
+		}
+	}
+}

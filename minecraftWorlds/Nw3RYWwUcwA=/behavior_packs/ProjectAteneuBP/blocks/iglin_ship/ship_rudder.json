@@ -1,0 +1,59 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:ship_rudder",
+		"properties": {
+			"glass:face": [ 2, 3, 4, 5 ]
+		}
+	  },
+	  "permutations": [
+        {
+            "condition": "query.block_property('glass:face') == 3",
+            "components": {
+                "minecraft:rotation": [ 0, 180, 0 ]
+            }
+        },
+        {
+            "condition": "query.block_property('glass:face') == 4",
+            "components": {
+                "minecraft:rotation": [ 0, 90, 0 ]
+            }
+        },
+        {
+            "condition": "query.block_property('glass:face') == 5",
+            "components": {
+                "minecraft:rotation": [ 0, 270, 0 ]
+            }
+        }
+    ],
+	  "components": {
+		"minecraft:on_player_placing": {
+			"event": "glass:place"
+		},
+		"minecraft:destroy_time": 3,
+		"minecraft:explosion_resistance": 2,
+  
+		"minecraft:block_light_emission": 0,
+		   "minecraft:material_instances": {
+			  "*": {
+				 "texture": "ship_rudder",
+				 "render_method": "alpha_test"
+			  }
+		   },
+		   "minecraft:geometry": "geometry.timon",
+		   "minecraft:block_light_absorption": 0,
+		  "minecraft:pick_collision": {
+			  "origin":  [-8.0, 0.0, -8.0],
+			  "size":   [16.0, 16.0, 16.0]
+		  }
+	  },
+	  "events": {
+		"glass:place": {
+			  "set_block_property": {
+				"glass:face": "(query.cardinal_player_facing)"
+			  }
+			}
+		}
+	}
+  }

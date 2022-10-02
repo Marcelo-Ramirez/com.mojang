@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:pure_netherite_ingot",
+			"category": "items"
+		},
+		"components": {
+			"tag:pure_netherite_ingot":{},
+			"minecraft:icon": {
+				"texture": "heavy_pure_netherite_ingot"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.iron_ingot"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

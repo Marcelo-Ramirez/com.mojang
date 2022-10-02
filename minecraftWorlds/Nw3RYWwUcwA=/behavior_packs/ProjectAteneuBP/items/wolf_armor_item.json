@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:wolf_armor_item",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "wolf_armor"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.saddle"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

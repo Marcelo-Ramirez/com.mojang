@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.visor": {
+			"arrays": {
+				"geometries": {
+					"Array.visor": [
+						"Geometry.default",
+						"Geometry.visor"
+					]
+				}
+			},
+			"textures": [
+				"texture.default",
+				"texture.enchanted"
+			],
+			"materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.default" } ],
+			"geometry": "Array.visor[query.is_sneaking]"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+      "description": {
+          "identifier": "heavy:undead_heart",
+          "category": "nature"
+      },
+      "components": {
+        "minecraft:creative_category": {
+          "parent": "itemGroup.name.rotten_flesh"
+        },
+           "minecraft:use_animation": "eat",
+          "minecraft:use_duration":1.6,
+          "minecraft:food": {
+              "on_consume": {
+        "event": "new:effect",
+        "target": "self"
+      },
+              "nutrition": 2,
+              "saturation_modifier": "low"
+          },
+          "minecraft:max_stack_size": 64,
+          "minecraft:icon": {
+              "texture": "heavy_undead_heart"
+          },
+          "minecraft:display_name": {
+          }
+      },
+      "events": {
+    "new:effect": {
+      "add_mob_effect": {
+        "effect": "hunger",
+        "target": "holder",
+        "duration": 10,
+        "amplifier": 1}
+      }
+    }
+  }
+}

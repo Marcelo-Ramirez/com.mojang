@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bradmob:phlogiston",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 16,
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "bradmob:meatball_bullet"
+			},
+			"minecraft:icon": {
+				"texture": "phlogiston"
+			}
+		}
+	}
+}

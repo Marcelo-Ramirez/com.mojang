@@ -1,0 +1,37 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "heavy:deepslate_chromiun_ore",
+      "is_experimental": false
+     },
+     "components": {
+      "tag:ore_t2": {},
+      "minecraft:destroy_time": 40,
+      "minecraft:friction": 0.6,
+      "minecraft:loot": "loot_tables/blocks/heavy_chromiun_ore.json",
+      "minecraft:creative_category": {
+				"group": "itemGroup.name.ore",
+				"category": "Nature"
+			},
+      "minecraft:on_player_destroyed": {
+        "event": "destroyed",
+        "target": "self"
+    }
+     },
+     "events": {
+      "destroyed": {
+        "sequence": [
+            {
+                "run_command": {
+                    "command": [
+                        "summon xp_orb ~ ~ ~"
+                    ],
+                    "target": "self"
+                }
+            }
+        ]
+      }
+     }
+    }
+  }

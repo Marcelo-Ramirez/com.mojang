@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "endtinum_helmet"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IF"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "minecraft:diamond_helmet"
+		},
+		"F": {
+		  "item": "heavy:endtinum_block"
+		}
+	  },
+	  "result": {
+		"item": "heavy:endtinum_helmet"
+	  }
+	}
+  }

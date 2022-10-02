@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "heavy:carcaj_2",
+            "materials": {
+                "default": "villager_v2"
+            },
+            "textures": {
+                "default": "textures/entity/carcaj/quiver_1"
+            }, 
+            "geometry": {
+				"default": "geometry.quiver_2",
+                "seat": "geometry.quiver_seat2"
+			},
+            "spawn_egg": {
+                "texture": "carcaj",
+                "texture_index": 50
+            },
+			"render_controllers": ["controller.render.quiver_seat"]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"geometry.shield": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 1,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [0, 0.5, 0],
+		"bones": [
+			{
+				"name": "shield",
+				"pivot": [1, 15.5, 3],
+				"cubes": [
+					{"origin": [0, 25, 0], "size": [2, 6, 6], "uv": [48, 0]},
+					{"origin": [-3, 20, -1], "size": [8, 16, 1], "uv": [16, 0]},
+					{"origin": [-4, 22, -1], "size": [1, 14, 1], "uv": [11, 19]},
+					{"origin": [-5, 25, -1], "size": [1, 10, 1], "uv": [5, 19]},
+					{"origin": [-6, 29, -1], "size": [1, 5, 1], "uv": [1, 19]},
+					{"origin": [7, 29, -1], "size": [1, 5, 1], "uv": [25, 19]},
+					{"origin": [6, 25, -1], "size": [1, 10, 1], "uv": [20, 19]},
+					{"origin": [5, 22, -1], "size": [1, 14, 1], "uv": [16, 19]}
+				]
+			}
+		]
+	}
+}

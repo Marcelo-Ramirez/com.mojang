@@ -1,0 +1,72 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:mushrife_log",
+		"properties": {
+		  "cf:facing_direction": [0,1,2]
+		  }
+		},
+		"permutations": [
+		{
+		  "condition": "query.block_property('cf:facing_direction') == 0",
+	  "components": {
+		"minecraft:rotation": [0,0,0]
+			  }
+			},
+		  {
+		  "condition": "query.block_property('cf:facing_direction') == 1",
+	  "components": {
+		"minecraft:rotation": [90,0,0]
+			  }
+			},
+		 {
+		 "condition": "query.block_property('cf:facing_direction') == 2",
+	  "components": {
+		"minecraft:rotation": [0,0,90]
+			}
+		  }
+		],
+		"components": {
+			"tag:wood":{},
+			"minecraft:map_color": "#5C6D32",
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.mushroom",
+				"category": "nature"
+			},
+            "minecraft:block_light_emission": 0.5,
+			"tag:wood": {},
+		"minecraft:loot": "loot_tables/blocks/none.json",
+		"minecraft:destroy_time": 1.5,
+		"minecraft:explosion_resistance": 1,
+		"minecraft:friction": 0.6,
+		"minecraft:flammable": {
+		  "flame_odds": 50,
+		  "burn_odds": 50
+			 },
+			 "minecraft:on_player_placing": {
+			  "event": "set_facing_direction"
+			},
+			"minecraft:unit_cube": {},
+			  "minecraft:material_instances": {
+				"*": {
+				  "texture": "mushrife_log_side",
+				  "render_method": "opaque"
+				},
+				"log": {
+				  "texture": "mushrife_log_top",
+				  "render_method": "opaque"
+				},
+				"up": "log",
+				"down": "log"
+			}
+	  },
+		  "events": {
+			"set_facing_direction": {
+			  "set_block_property": {
+				"cf:facing_direction": "math.floor( query.block_face / 2.0 )"
+			  }
+			}
+		  }
+	  }
+  }

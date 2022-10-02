@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "Craftable Biplane PE (Resource)",
+    "description": "Addon by MB217\nyoutube.com/MB217\nMade in Indonesia",
+    "uuid": "e448b318-3adb-44e6-86f1-c1819b26fd64",
+    "platform_locked": false,
+    "min_engine_version": [1, 8, 0],
+    "version": [0, 0, 2]
+  },
+  "modules": [
+    {
+      "description": "by MB217@youtube",
+      "type": "resources",
+      "uuid": "e60734e0-e72a-4b31-88aa-a028f9332b6c",
+      "version": [0, 0, 2]
+    }
+  ]
+}

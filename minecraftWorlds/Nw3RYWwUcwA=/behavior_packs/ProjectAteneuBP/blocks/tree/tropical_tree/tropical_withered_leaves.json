@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "heavy:tropical_withered_leaves"
+    },
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.leaves"
+			},
+      "tag:leaves": {},
+			"minecraft:destroy_time": 0.3,
+			"minecraft:map_color": "#AC7613",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "tropical_withered_leaves",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+      "minecraft:flammable": {
+				"burn_odds": 50,
+				"flame_odds": 50
+			},
+			"minecraft:loot": "loot_tables/tropical_leaves.json"
+		}
+  }
+}

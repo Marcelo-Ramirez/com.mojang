@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "steel_chestplate"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IFF"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "heavy:reinforce_iron_breastplate"
+		},
+		"F": {
+		  "item": "heavy:steel_ingot"
+		}
+	  },
+	  "result": {
+		"item": "heavy:steel_chestplate"
+	  }
+	}
+  }
+  

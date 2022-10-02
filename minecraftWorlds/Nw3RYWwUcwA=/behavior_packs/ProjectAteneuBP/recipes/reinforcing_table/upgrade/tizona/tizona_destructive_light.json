@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "tizona_destructive_light"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"AB",
+		"C  "
+	  ],
+	  "key": {
+		"A": {
+		  "item": "heavy:tizona"
+		},
+		"B": {
+		  "item": "minecraft:gold_ingot"
+		},
+		"C": {
+			"item": "heavy:upgrade_tizona_s"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:tizona_destructive_light"
+	  }
+	}
+  }

@@ -1,0 +1,29 @@
+Copyright [2022] [Raboy13]
+This addon is made by none other than Raboy13, all rights reserved.
+
+[Lava Creeper]
+-spawns in the nether
+-immune to fire damage
+-takes damage when in contact with water
+-slightly more powerful than a regular creeper
+-same health as a regular creeper
+-sets everything around them on fire when exploding
+-drops gunpowder when killed
+
+[Cyclops]
+-large mob that spawns in the roofed forest biome
+-eats livestock, villagers, and players
+-neutral to iron golems
+-has 200 health
+-10 attack damage
+-drops a couple of items when killed
+
+[Lush Cow]
+-mutated cow that has found its way to the lush caves of minecraft
+-spawns in lush caves
+-can be bred using glow berries
+-babies can be fed glow berries to grow up faster
+-drops beef, leather, and moss carpets when killed
+
+It is reaffirmed that all rights go to their respective creators and that these terms are accepted when obtaining and / or using this Minecraft Addon
+Copyright [2022] [Raboy13]

@@ -1,0 +1,2105 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:entity": {
+	  "description": {
+		"identifier": "minecraft:player",
+		"is_spawnable": false,
+		"is_summonable": false,
+		"is_experimental": false,
+		"scripts": {
+			"animate": [
+			  "quiver_off",
+			  "ui_title",
+				"ui_function",
+				"water_o",
+				"sed_damage",
+				"water_energy",
+				"milk",
+				"melon",
+				"sweet",
+				"sed_death",
+				"new_sed",
+				"moving",
+				"q_sed",
+				"axe_shield",
+				"shaking",
+				"desfill",
+				"phantom_cape",
+				"endtinum",
+				"piston",
+				{"water_block": "query.is_in_contact_with_water"},
+				{"sed_v2": "query.is_moving && !query.biome_has_any_tag('mesa','desert','nether')"},
+				{"sed_hot":"query.is_moving && query.biome_has_any_tag('mesa','desert','nether') && query.scoreboard('arena') == 1"}
+			]
+		  },
+		  "animations": {
+			"water_block":"animation.water_block",
+			  "sed_hot":"animation.sed_hot",
+			  "sed_v2":"animation.sed_v2",
+			  "piston":"controller.animation.boots",
+			  "endtinum":"controller.animation.marine_helmet",
+			  "phantom_cape":"controller.animation.phantom_cape",
+			"desfill":"controller.animation.retirar_flechas",
+			"shaking":"controller.animation.shaking",
+			"axe_shield":"controller.animation.axe_shield",
+			"sed_death":"controller.animation.sed_death",
+			"water_o":"controller.animation.water_on",
+			"quiver_off": "controller.animation.quiver_off",
+			"ui_title": "controller.animation.ui_title",
+			"ui_function": "controller.animation.ui_function",
+			"sed_damage":"controller.animation.sed_damage",
+			"water_energy": "controller.animation.water_energy",
+			"melon":"controller.animation.melon_slice",
+			"sweet":"controller.animation.sweet_berries",
+			"milk":"controller.animation.milk",
+			"new_sed":"controller.animation.ui_new_sed",
+			"q_sed":"controller.animation.q_sed"
+		  }
+		},
+	  "component_groups": {
+		"totem_effect": {
+			"minecraft:spell_effects": {
+				"add_effects": [
+					{
+						"effect": "regeneration",
+						"duration": 8,
+						"amplifier": 1,
+						"visible": false,
+						"display_on_screen_animation": true
+					}
+				]
+			}
+		},
+		"soul_effect": {
+			"minecraft:spell_effects": {
+				"add_effects": [
+					{
+						"effect": "regeneration",
+						"duration": 2,
+						"amplifier": 255,
+						"visible": false,
+						"display_on_screen_animation": true
+					}
+				]
+			}
+		},
+		"standard_player": {
+			"minecraft:type_family": {
+				"family": [ "player" ]
+			  },
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:underwater_movement": {
+				"value": 0.02
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			}
+		},
+		"bronze_netherite_armor":{
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "magic",
+					"deals_damage": true,
+					"damage_modifier": -1
+				  }
+			}
+		  },
+		  "ancient_armor":{
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+					  "on_damage": {
+						"filters": {
+						  "any_of": [
+							{
+							  "test": "has_damage",
+							  "subject": "self",
+							  "operator": "==",
+							  "value": "entity_explosion"
+							}
+						  ]
+						}
+					  },
+					  "deals_damage": false
+					},
+					{
+					  "on_damage": {
+						"filters": {
+						  "all_of": [
+							{
+							  "test": "has_damage",
+							  "subject": "self",
+							  "operator": "==",
+							  "value": "block_explosion"
+							}
+						  ]
+						}
+					  },
+					  "deals_damage": false
+					}
+				  ]
+			  }
+		  },
+		  "endtinum_last_stand": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "projectile"
+							},
+							"event": "endtinum_shuff"
+						},
+						"deals_damage": true
+					}
+				]
+			}
+		},
+		"reviving_event": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "fatal"
+							},
+							"event": "reviving_totem_event"
+						},
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"soul_event": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"subject": "self",
+								"operator": "==",
+								"value": "fatal"
+							},
+							"event": "soul_totem_event"
+						},
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"freezing_damage": {
+			"minecraft:damage_over_time": {
+				"damage_per_hurt": 1,
+				"time_between_hurt": 8
+			}
+		},
+		  "leaves_family":{
+			"minecraft:type_family": {
+				"family": [ "camo" ]
+			  }
+		  },
+		  "leaves_family_remove":{
+			"minecraft:type_family": {
+				"family": [ "player" ]
+			  }
+		  },
+		  "heavy:carcaj_on": {
+			"minecraft:rideable": {
+			  "seat_count": 1,
+			  "family_types": [
+				  "carcaj",
+				  "parrot_tame"
+			  ],
+			  "pull_in_entities": true,
+			  "seats": [
+				{
+					"position": [ 0.4, -0.2, -0.1 ],
+					"min_rider_count": 0,
+					"max_rider_count": 1,
+					"lock_rider_rotation": 1
+				  }
+			  ]
+			}
+		  },
+		  "strider_on":{
+			"minecraft:lava_movement": {
+				"value": 0.1
+			  }
+		  },
+		  "strider_off":{
+			"minecraft:lava_movement": {
+				"value": 0.01
+			  }
+		  },
+		"jaguar_add":{
+			"minecraft:movement":{
+				"value":0.12
+			}
+		},
+		"samurai_speed":{
+			"minecraft:movement":{
+				"value":0.12
+			}
+		},
+		"super_heavy_add":{
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "projectile",
+					"deals_damage": true,
+					"damage_modifier": -5
+				  }
+			},
+			"minecraft:movement":{
+				"value":0.08
+			}
+		},
+		"aqua_speed":{
+			"minecraft:movement":{
+				"value":0.13
+			}
+		},
+		"totem_add": {
+			"minecraft:health": {
+				"value": 24,
+				"max": 24
+			  }
+		},
+		"minecraft:add_bad_omen": {
+		  "minecraft:spell_effects": {
+			"add_effects": [
+			  {
+				"effect": "bad_omen",
+				"duration": 6000,
+				"display_on_screen_animation": true
+			  }
+			]
+		  },
+		  "minecraft:timer": {
+			"time": [ 0.0, 0.0 ],
+			"looping": false,
+			"time_down_event": {
+			  "event": "minecraft:clear_add_bad_omen",
+			  "target": "self"
+			}
+		  }
+		},
+		"minecraft:clear_bad_omen_spell_effect": {
+		  "minecraft:spell_effects": {
+		  }
+		},
+		"minecraft:raid_trigger": {
+		  "minecraft:raid_trigger": {
+			"triggered_event": {
+			  "event": "minecraft:remove_raid_trigger",
+			  "target": "self"
+			}
+		  },
+		  "minecraft:spell_effects": {
+			"remove_effects": "bad_omen"
+		  }
+		}
+	  },
+  
+  "components": {
+	"minecraft:health": {
+		"value": 20,
+		"max": 20
+	  },
+		"minecraft:experience_reward": {
+		  "on_death": "Math.Min(query.player_level * 7, 100)"
+		},
+		"minecraft:type_family": {
+		  "family": [ "player" ]
+		},
+		"minecraft:is_hidden_when_invisible": {
+		},
+		"minecraft:loot": {
+		  "table": "loot_tables/empty.json"
+		},
+		"minecraft:collision_box": {
+		  "width": 0.6,
+		  "height": 1.8
+		},
+		"minecraft:can_climb": {
+		},
+		"minecraft:movement": {
+		  "value": 0.1
+		},
+		"minecraft:hurt_on_condition": {
+		  "damage_conditions": [
+			{
+			  "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+			  "cause": "lava",
+			  "damage_per_tick": 4
+			}
+		  ]
+		},
+		"minecraft:attack": {
+		  "damage": 1
+		},
+		"minecraft:player.saturation": {
+		  "value": 20
+		},
+		"minecraft:player.exhaustion": {
+		  "value": 0,
+		  "max": 4
+		},
+		"minecraft:player.level": {
+		  "value": 0,
+		  "max": 24791
+		},
+		"minecraft:player.experience": {
+		  "value": 0,
+		  "max": 1
+		},
+		"minecraft:breathable": {
+		  "total_supply": 15,
+		  "suffocate_time": -1,
+		  "inhale_time": 3.75,
+		  "generates_bubbles": false
+		},
+		"minecraft:nameable": {
+		  "always_show": true,
+		  "allow_name_tag_renaming": false
+		},
+		"minecraft:physics": {
+		},
+		"minecraft:pushable": {
+		  "is_pushable": false,
+		  "is_pushable_by_piston": true
+		},
+		"minecraft:insomnia": {
+		  "days_until_insomnia": 3
+		},
+		"minecraft:conditional_bandwidth_optimization": {
+		},
+		"minecraft:block_climber": {},
+		"minecraft:environment_sensor": {
+		  "triggers":[
+			{
+				"filters": {
+					"all_of": [
+						{
+							"test": "is_family",
+							"subject": "self",
+							"value": "player"
+						}
+					]
+				},
+				"event": "reset_player"
+			},
+			{
+				"filters": {
+					"test": "is_temperature_type",
+					"value": "cold",
+					"subject": "self",
+					"operator": "!="
+				},
+				"event": "normal",
+				"target": "self"
+			},
+			{
+				"filters": {
+					"test": "is_temperature_type",
+					"subject": "self",
+					"value": "warm",
+					"operator": "=="
+				},
+				"event": "evaporation_icon",
+				"target": "self"
+			},
+			{
+				"filters": {
+					"test": "is_temperature_type",
+					"subject": "self",
+					"value": "cold",
+					"operator": "=="
+				},
+				"event": "freezing",
+				"target": "self"
+			},
+			{
+				"filters": {
+					"any_of": [
+						{
+							"test": "is_temperature_type",
+							"subject": "self",
+							"value": "cold",
+							"operator": "!="
+						}
+					]
+				},
+				"event": "damage_freezing_on",
+				"target": "self"
+			},
+
+			{
+				"filters":{
+					"all_of": [
+						{
+							"any_of": [
+								{
+									"test": "is_temperature_type",
+									"subject": "self",
+									"value": "cold",
+									"operator": "=="
+								}
+							]
+						},
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "head",
+									"value": "heavy:coat_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "head",
+									"value": "heavy:yeti_coat_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "head",
+									"value": "heavy:black_wolf_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "head",
+									"value": "heavy:jaguar_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "head",
+									"value": "leather_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:coat_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:leaves_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:yeti_coat_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:black_wolf_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "leather_chestplate"
+								}
+							]
+						},
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "leg",
+									"value": "heavy:coat_legging"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "leg",
+									"value": "heavy:yeti_coat_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "leg",
+									"value": "leather_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "feet",
+									"value": "heavy:coat_boots"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "feet",
+									"value": "heavy:coat_boots_t1"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "feet",
+									"value": "leather_boots"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "feet",
+									"value": "heavy:magma_boots"
+								}
+							]
+						}
+					]
+				},
+				"event": "damage_freezing_on"
+			},
+
+			
+			{
+				 "filters": {
+				   "all_of": [
+					 {
+					   "test": "has_equipment",
+					   "subject": "self",
+					   "domain": "head",
+					   "value": "heavy:spider_helmet"
+					 }
+				   ]
+				 },
+				 "event":"spider_helmet"
+			},
+			{
+				"filters": {
+				  "all_of": [
+					{
+					  "test": "has_equipment",
+					  "subject": "self",
+					  "domain": "head",
+					  "value": "heavy:soul_body"
+					}
+				  ]
+				},
+				"event":"soul_body"
+		   },
+			{
+				"filters":{
+					"all_of":[
+						{
+							"test": "has_equipment",
+							"subject": "self",
+							"operator": "==",
+							"domain": "torso",
+							"value": "heavy:wither_chestplate"	
+						}
+					]
+				},
+				"event":"wither_chestplate"
+			},
+			{
+				"filters":{
+					"all_of":[
+						{
+							"test": "has_equipment",
+							"subject": "self",
+							"operator": "==",
+							"domain": "torso",
+							"value": "heavy:guardian_elder_chestplate"	
+						}
+					]
+				},
+				"event":"guardian_chestplate"
+			},
+			{
+				"filters":{
+					"all_of":[
+						{
+							"test": "has_equipment",
+							"subject": "self",
+							"operator": "==",
+							"domain": "torso",
+							"value": "heavy:nether_wart_chestplate"	
+						}
+					]
+				},
+				"event":"nether_wart"
+			},
+			{
+			  "filters": {
+				"all_of": [
+				  {
+				   "test": "has_equipment",
+				   "subject": "self",
+				   "domain": "feet",
+				   "value": "heavy:magma_boots"
+				  }
+				]
+			  },
+			  "event":"strider_boots"
+			},
+			{
+				"filters": {
+				  "all_of": [
+					{
+					 "test": "has_equipment",
+					 "subject": "self",
+					 "operator": "!=",
+					 "domain": "feet",
+					 "value": "heavy:magma_boots"
+					}
+				  ]
+				},
+				"event":"strider_off"
+			  },
+			{
+				"filters": {
+				  "all_of": [
+					{
+					 "test": "has_equipment",
+					 "subject": "self",
+					 "domain": "feet",
+					 "value": "heavy:speed_boots"
+					}
+				  ]
+				},
+				"event":"speed_boots"
+			  },
+			{
+				"filters": {
+				  "all_of": [
+					{
+					 "test": "has_equipment",
+					 "subject": "self",
+					 "domain": "feet",
+					 "value": "heavy:mushroom_boots1"
+					}
+				  ]
+				},
+				"event":"mushroom_effect"
+			  },
+			  {
+				"filters": {
+					"all_of": [
+					  {
+					   "test": "has_equipment",
+					   "subject": "self",
+					   "domain": "hand",
+					   "value": "heavy:sky_gem"
+					  },
+					  {
+						"test": "is_sneaking",
+						"subject": "self"
+				}
+					]
+				  },
+				  "event":"sky_gem" 
+			  },
+			  {
+				  "filters":{
+					"all_of": [
+						{
+							"test": "has_equipment",
+							"subject": "self",
+							"operator": "==",
+							"domain": "head",
+							"value": "heavy:rabbit_helmet"
+						},
+						{
+							"test": "has_equipment",
+							"subject": "self",
+							"operator": "==",
+							"domain": "leg",
+							"value": "heavy:heavy_emerald_leggings"
+						},
+						{
+							"test": "has_equipment",
+							"subject": "self",
+							"operator": "==",
+							"domain": "feet",
+							"value": "heavy:rabbit_boots"
+						},
+						{
+							"test": "has_equipment",
+							"subject": "self",
+							"operator": "==",
+							"domain": "torso",
+							"value": "heavy:heavy_emerald_chestplate"
+						}
+					]
+				},
+				"event":"emerald_armor"
+			  },
+			  {
+				"filters":{
+					"any_of":[
+						{
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "head",
+									"value": "heavy:pure_netherite_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "leg",
+									"value": "heavy:pure_netherite_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "feet",
+									"value": "heavy:pure_netherite_boots"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:pure_netherite_chestplate"
+								}
+							]
+						}
+					]
+			  },
+			  "event":"ancient_armor_on"
+			},
+			  {
+				"filters": {
+					"all_of": [
+					  {
+						"test": "has_equipment",
+					   "subject": "self",
+					   "operator": "==",
+					   "domain": "head",
+					   "value": "heavy:totem_helmet"
+					  }
+					]
+				  },
+				  "event":"totem_add" 
+			  },
+			  {
+				"filters": {
+					"all_of":[
+					{
+						"any_of": [
+							{
+								"test": "has_equipment",
+							   "subject": "self",
+							   "domain": "torso",
+							   "operator": "==",
+							   "value": "heavy:golden_chestplate"
+							  },
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "torso",
+								"operator": "==",
+								"value": "heavy:piglin_chestplate"	
+							},
+							{
+								"test": "has_equipment",
+							   "subject": "self",
+							   "domain": "torso",
+							   "operator": "==",
+							   "value": "heavy:steel_chestplate"
+							  },
+							  {
+								"test": "has_equipment",
+							   "subject": "self",
+							   "domain": "torso",
+							   "operator": "==",
+							   "value": "heavy:heavy_diamond_chestplate"
+							  }
+						]
+					},
+					{
+						"any_of": [
+							  {
+								"test": "has_equipment",
+							   "subject": "self",
+							   "domain": "leg",
+							   "operator": "==",
+							   "value": "heavy:golden_leggings"
+							  },
+							  {
+								"test": "has_equipment",
+							   "subject": "self",
+							   "domain": "leg",
+							   "operator": "==",
+							   "value": "heavy:steel_leggings"
+							  },
+							  {
+								"test": "has_equipment",
+							   "subject": "self",
+							   "domain": "leg",
+							   "operator": "==",
+							   "value": "heavy:heavy_diamond_leggings"
+							  }
+						]
+					}
+				]
+				  },
+				  "event":"super_heavy_add" 
+			  },
+			  {
+				"filters": {
+					"all_of": [
+					  {
+						"test": "has_equipment",
+					   "subject": "self",
+					   "domain": "torso",
+					   "value": "heavy:jaguar_chestplate"
+					  },
+					  {
+						"test": "has_equipment",
+					   "subject": "self",
+					   "domain": "head",
+					   "value": "heavy:jaguar_helmet"
+					  }
+					]
+				  },
+				  "event":"jaguar_add" 
+			  },
+			  {
+				"filters": {
+					"any_of":[
+						{
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:leaves_chestplate"
+								}
+							]
+						}
+					]
+				  },
+				  "event":"leaves_on" 
+			  },
+			  {
+				"filters": {
+					"any_of":[
+						{
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "!=",
+									"domain": "torso",
+									"value": "heavy:leaves_chestplate"
+								}
+							]
+						}
+					]
+				  },
+				  "event":"leaves_off" 
+			  },
+			  {
+				"filters":{
+				  "all_of": [
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "head",
+						  "value": "heavy:shulker_helmet"
+					  },
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "leg",
+						  "value": "heavy:shulker_leggings"
+					  },
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "feet",
+						  "value": "heavy:shulker_boots"
+					  },
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "torso",
+						  "value": "heavy:shulker_chestplate"
+					  },
+					  {
+						"test": "is_sneaking",
+						"subject": "self"
+				}
+				  ]
+			  },
+			  "event":"shulker_armor"
+			},
+			{
+				"filters":{
+				  "all_of": [
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "head",
+						  "value": "heavy:ravager_helmet"
+					  },
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "leg",
+						  "value": "heavy:ravager_leggings"
+					  },
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "feet",
+						  "value": "heavy:ravager_boots"
+					  },
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "torso",
+						  "value": "heavy:ravager_chestplate"
+					  }
+				  ]
+			  },
+			  "event":"bad_ravager"
+			},
+			{
+                "filters":{
+					"all_of": [
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"domain": "head",
+									"operator": "==",
+									"value": "heavy:scuba_helmet"
+								}
+							]
+						},
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:scuba_chestplate"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:scuba_chestplate_t1"
+								}
+							]
+						},
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "leg",
+									"value": "heavy:scuba_leggings"
+								}
+							]
+						},
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "feet",
+									"value": "heavy:scuba_boots"
+								}
+							]
+						},
+						{
+							"any_of":[
+								{
+									"test": "in_water",
+									"subject": "self",
+									"operator": "!="
+							}
+							]
+						}
+					]
+        },
+              "event":"scuba"
+            },
+			{
+				"filters":{
+					"all_of": [
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "head",
+									"value": "heavy:endtinum_helmet"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:endtinum_chestplate"
+								}
+							]
+						},
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "torso",
+									"value": "heavy:endtinum_chestplate"
+								}
+							]
+						},
+						{
+							"any_of":[
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "leg",
+									"value": "heavy:endtinum_leggings"
+								},
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"operator": "==",
+									"domain": "feet",
+									"value": "heavy:endtinum_boots"
+								}
+							]
+						}
+					]
+			  },
+			  "event":"endtinum_special"
+			},
+
+
+			{
+				"filters":{
+				  "all_of": [
+					  {
+						  "all_of":[
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "head",
+								"operator": "==",
+								"value": "heavy:magnarita_helmet"
+							}
+						]
+					},
+					{
+						"all_of":[
+							{
+								"any_of":[
+									{
+										"test": "in_lava",
+										"subject": "self",
+										"operator": "=="
+									},
+									{
+										"test": "is_temperature_type",
+										"subject": "self",
+										"value": "warm",
+										"operator": "=="
+									}
+								]
+							}
+					  ]
+				  }
+			]
+		},
+			  "event":"magnarita_helmet"
+			},
+			{
+				"filters":{
+				  "all_of": [
+					  {
+						  "all_of":[
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "torso",
+								"operator": "==",
+								"value": "heavy:magnarita_chestplate"
+							}
+						]
+					},
+					{
+						"all_of":[
+							{
+								"any_of":[
+									{
+										"test": "in_lava",
+										"subject": "self",
+										"operator": "=="
+									},
+									{
+										"test": "is_temperature_type",
+										"subject": "self",
+										"value": "warm",
+										"operator": "=="
+									}
+								]
+							}
+					  ]
+				  }
+			]
+		},
+			  "event":"magnarita_chestplate"
+			},
+			{
+				"filters":{
+				  "all_of": [
+					  {
+						  "all_of":[
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "leg",
+								"operator": "==",
+								"value": "heavy:magnarita_leggings"
+							}
+						]
+					},
+					{
+						"all_of":[
+							{
+								"any_of":[
+									{
+										"test": "in_lava",
+										"subject": "self",
+										"operator": "=="
+									},
+									{
+										"test": "is_temperature_type",
+										"subject": "self",
+										"value": "warm",
+										"operator": "=="
+									}
+								]
+							}
+					  ]
+				  }
+			]
+		},
+			  "event":"magnarita_leggings"
+			},
+			{
+				"filters":{
+				  "all_of": [
+					  {
+						  "all_of":[
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "feet",
+								"operator": "==",
+								"value": "heavy:magnarita_boots"
+							}
+						]
+					},
+					{
+						"all_of":[
+							{
+								"any_of":[
+									{
+										"test": "in_lava",
+										"subject": "self",
+										"operator": "=="
+									},
+									{
+										"test": "is_temperature_type",
+										"subject": "self",
+										"value": "warm",
+										"operator": "=="
+									}
+								]
+							}
+					  ]
+				  }
+			]
+		},
+			  "event":"magnarita_boots"
+			},
+			{
+				"filters":{
+				  "all_of": [
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "head",
+						  "value": "heavy:black_wolf_helmet"
+					  },
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "torso",
+						  "value": "heavy:black_wolf_chestplate"
+					  },
+					  {
+						"test": "is_daytime",
+						"operator": "!=",
+						"value": true
+				}
+			]
+		},
+			  "event":"wolf_power"
+			},
+			{
+				"filters":{
+				  "all_of": [
+					  {
+						  "test": "has_equipment",
+						  "subject": "self",
+						  "operator": "==",
+						  "domain": "torso",
+						  "value": "heavy:phantom_chestplate"
+					  },
+					  {
+						"test": "has_equipment",
+						"subject": "self",
+						"operator": "==",
+						"domain": "head",
+						"value": "heavy:phantom_helmet"
+					},
+					{
+						"test": "is_sneaking",
+						"subject": "self"
+				}
+				  ]
+			  },
+			  "event":"phantom_armor_plus"
+			},
+						{
+				"filters":{
+					"all_of":
+					[
+						{
+							"all_of": [
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "head",
+								"value": "heavy:samurai_helmet"
+							},
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "torso",
+								"value": "heavy:samurai_chestplate"
+							},
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "leg",
+								"value": "heavy:samurai_leggings"
+							},
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "feet",
+								"value": "heavy:samurai_boots"
+							}
+						]
+					},
+					{
+						"any_of": [
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "heavy:katana"
+							},
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"value": "heavy:netherite_katana"
+							}
+						]
+					}
+				]
+			  },
+			  "event":"samurai_speed"
+			},
+			{
+				"filters":{
+					"all_of":
+					[
+						{
+							"any_of": [
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "head",
+								"value": "heavy:netherite_bronze_helmet"
+							},
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "torso",
+								"value": "heavy:netherite_bronze_chestplate"
+							},
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "leg",
+								"value": "heavy:netherite_bronze_leggings"
+							},
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "feet",
+								"value": "heavy:netherite_bronze_boots"
+							}
+						]
+					}
+				]
+			  },
+			  "event":"bronze_netherite"
+			},
+			 {
+			  "filters": {
+				"all_of": [
+				  {
+					"test": "has_mob_effect",
+					"subject": "self",
+					"value": "bad_omen"
+				  },
+				  {
+					"test":"is_in_village",
+					"subject":"self",
+					"value":true
+				  }
+				]
+			  },
+			  "event":"minecraft:trigger_raid"
+			},
+			{
+				"filters": {
+				  "all_of": [
+					{
+					  "test": "is_sneaking",
+					  "subject": "self",
+					  "operator": "equals",
+					  "value": false
+					}
+				  ]
+				},
+				"event": "heavy:carcaj_on_on"
+			},
+
+
+				{
+					"filters":{
+						"all_of": [
+							{
+								"any_of":[
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "head",
+										"value": "heavy:coat_helmet"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "head",
+										"value": "heavy:yeti_coat_helmet"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "head",
+										"value": "heavy:black_wolf_helmet"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "head",
+										"value": "heavy:jaguar_helmet"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "head",
+										"value": "leather_helmet"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "torso",
+										"value": "heavy:coat_chestplate"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "torso",
+										"value": "heavy:leaves_chestplate"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "torso",
+										"value": "heavy:yeti_coat_chestplate"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "torso",
+										"value": "heavy:black_wolf_chestplate"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "torso",
+										"value": "leather_chestplate"
+									}
+								]
+							},
+							{
+								"any_of":[
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "leg",
+										"value": "heavy:coat_legging"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "leg",
+										"value": "heavy:yeti_coat_leggings"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "leg",
+										"value": "leather_leggings"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "feet",
+										"value": "heavy:coat_boots"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "feet",
+										"value": "heavy:coat_boots_t1"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "feet",
+										"value": "leather_boots"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"operator": "==",
+										"domain": "feet",
+										"value": "heavy:magma_boots"
+									}
+								]
+							}
+						]
+					},
+					"event": "new:coat_ui"
+				},
+				{
+					"filters": {
+						"all_of": [
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"operator": "==",
+								"value": "heavy:reviving_totem"
+							}
+						]
+					},
+					"event": "reviving_event_item"
+				},
+				{
+					"filters": {
+						"all_of": [
+							{
+								"test": "has_equipment",
+								"subject": "self",
+								"domain": "hand",
+								"operator": "==",
+								"value": "heavy:soul_sphere"
+							}
+						]
+					},
+					"event": "soul_event_item"
+				}
+		   ]
+		}
+	  },
+	  "events": {
+		"reviving_event_item": {
+			"add": {
+				"component_groups": [
+					"reviving_event"
+				]
+			}
+		},
+		"soul_event_item": {
+			"add": {
+				"component_groups": [
+					"soul_event"
+				]
+			}
+		},
+		"reviving_totem_event": {
+			"add": {
+				"component_groups": [
+					"totem_effect"
+				]
+			},
+			"run_command": {
+				"command": [
+					"playsound random.totem",
+					"particle minecraft:totem_particle ~ ~ ~",
+					"particle minecraft:totem_particle ~ ~1 ~",
+					"particle minecraft:totem_particle ~ ~2 ~",
+					"clear @s heavy:reviving_totem 0 1",
+					"effect @s fire_resistance 80 0 true",
+					"effect @s absorption 15 0 true",
+					"effect @s resistance 40 0 true",
+					"event entity @s death_water",
+					"effect @s instant_damage 1 0"
+				]
+			}
+		},
+		"soul_totem_event": {
+			"add": {
+				"component_groups": [
+					"soul_effect"
+				]
+			},
+			"run_command": {
+				"command": [
+					"playsound step.soul_sand",
+					"particle heavy:dead_buff ~ ~ ~",
+					"particle heavy:dead_buff ~ ~1 ~",
+					"clear @s heavy:soul_sphere 0 1",
+					"effect @s resistance 3 255 true",
+					"scoreboard players set @s sed 16",
+					"effect @s instant_damage 1 0"
+				]
+			}
+		},
+		"reset_player": {
+			"add": {
+				"component_groups": [
+					"standard_player"
+				]
+			},
+			"remove": {
+				"component_groups": [
+					"ancient_armor",
+					"strider_on",
+					"samurai_speed",
+					"super_heavy_add",
+					"jaguar_add",
+					"totem_add",
+					"variant_endtinum"
+				]
+			},
+			"run_command":{
+				"command":[
+					"scoreboard players set @s abrigo 0"
+				]
+			}
+		},
+		"endtinum_damage": {
+			"add": {
+				"component_groups": [
+					"endtinum_hurt"
+				]
+			}
+		},
+		"endtinum_remove": {
+			"remove": {
+				"component_groups": [
+					"endtinum_hurt"
+				]
+			}
+		},
+		"endtinum_special": {
+			"add": {
+				"component_groups": [
+					"endtinum_last_stand"
+				]
+			}
+		},
+		"endtinum_on": {
+			"add": {
+				"component_groups": [
+					"endtinum_active"
+				]
+			}
+		},
+		"endtinum_off": {
+			"remove": {
+				"component_groups": [
+					"endtinum_active"
+				]
+			}
+		},
+
+		"death_water": {
+			"add":{
+				"component_groups": [
+					"death_water"
+				]
+			}
+		},
+
+		  "new:sed_play":{
+			"add": {
+				"component_groups": [
+					"sed_go"
+				]
+			},
+			"run_command":{
+				"command":[
+					"scoreboard players set @s sed 16"
+				]
+			}
+		},
+		"sed_spawn_on":{
+			"add": {
+				"component_groups": [
+					"sed_spawn"
+				]
+			}
+		},
+		"sed_16":{
+			"run_command":{
+				"command":[
+					"scoreboard players set @s sed 16",
+					"say bruh"
+				]
+			}
+		},
+		
+		"down_sed_controller":{
+			"add": {
+				"component_groups": [
+					"down_sed"
+				]
+			}
+		},
+		"down_sed_evaporation":{
+			"add": {
+				"component_groups": [
+					"desert_down_sed"
+				]
+			}
+		},
+		"sed_controller_!":{
+			"remove": {
+				"component_groups": [
+					"down_sed",
+					"desert_down_sed"
+				]
+			}
+		},
+		"water_block":{
+			"run_command":{
+				"command":[
+					"scoreboard players add @s sed 1",
+					"say bruh"
+				]
+			}
+		},
+		"normal":{
+			"run_command":{
+				"command":[
+					"scoreboard players set @s freezing 0"
+				]
+			}
+		},
+		"freezing":{
+			"run_command":{
+				"command":[
+					"scoreboard players set @s freezing 1"
+				]
+			}
+		},
+
+		"evaporation_icon":{
+			"run_command":{
+				"command":[
+					"scoreboard players set @s freezing 2"
+				]
+			}
+		},
+
+
+		"undrink":{
+			"run_command":{
+				"command":[
+					"scoreboard players remove @s sed 1"
+				]
+			}
+		},
+		"water_bottle":{
+			"run_command":{
+				"command":[
+					"scoreboard players add @s sed 4"
+				]
+			}
+		},
+		"milk_add":{
+			"run_command":{
+				"command":[
+					"scoreboard players add @s sed 6"
+				]
+			}
+		},
+		"melon_add":{
+			"run_command":{
+				"command":[
+					"scoreboard players add @s sed 2"
+				]
+			}
+		},
+		"sweet_add":{
+			"run_command":{
+				"command":[
+					"scoreboard players add @s sed 1"
+				]
+			}
+		},
+
+			"new:coat_ui":{
+				"run_command":{
+					"command":[
+						"scoreboard players set @s abrigo 1"
+					]
+				}
+			},
+		"heavy:carcaj_on_on": {
+			"add": {
+			  "component_groups": [
+				"heavy:carcaj_on"
+			  ]
+			}
+		  },
+		  "heavy:carcaj_off": {
+			"remove": {
+			  "component_groups": [
+				"heavy:carcaj_on"
+			  ]
+			}
+		  },
+
+
+
+		"minecraft:gain_bad_omen": {
+		  "add": {
+			"component_groups": [
+			  "minecraft:add_bad_omen"
+			]
+		  }
+		},
+		"minecraft:clear_add_bad_omen": {
+		  "remove": {
+			"component_groups": [
+			  "minecraft:add_bad_omen"
+			]
+		  },
+		  "add": {
+			"component_groups": [
+			  "minecraft:clear_bad_omen_spell_effect"
+			]
+		  }
+		},
+		"minecraft:trigger_raid": {
+		  "add": {
+			"component_groups": [ "minecraft:raid_trigger" ]
+		  }
+		},
+		  "minecraft:remove_raid_trigger": {
+			"remove": {
+			  "component_groups": [ "minecraft:raid_trigger" ]}
+		  },
+
+
+		  "spider_helmet": {
+			"run_command": {
+				"command": ["effect @s night_vision 1 0 true"]
+			}
+		},
+		"wolf_power": {
+			"run_command": {
+				"command": ["effect @s strength 1 0 true"]
+			}
+		},
+		"magnarita_helmet":{
+			"add": {
+				"component_groups": [
+					"strider_on"
+				]
+			}
+		},
+		"magnarita_chestplate":{
+			"run_command":{
+				"command":["effect @s resistance 5 0 true",
+				"effect @s fire_resistance 1 0 true"]}
+		},
+		"magnarita_leggings":{
+			"run_command":{
+				"command":[
+				"effect @s fire_resistance 1 0 true",
+				"effect @s strength 1 1 true"]}
+		},
+		"magnarita_boots":{
+			"run_command":{
+				"command":[
+				"effect @s speed 5 0 true",
+				"effect @s fire_resistance 1 0 true"]}
+		},
+		"phantom_armor_plus": {
+			"run_command": {
+				"command": ["effect @s invisibility 1 0"]
+			}
+		},
+		"wither_chestplate":{
+			"run_command": {
+				"command":["effect @s wither 0 0 true"]
+			}
+		},
+		  "soul_body": {
+			"run_command": {
+			  "command": ["effect @s speed 1 3 true",
+				  "effect @s invisibility 1 0 true",
+				  "effect @s weakness 1 5 true",
+				  "effect @s hunger 1 1 true"]}
+			},
+		  "scuba": {
+			"run_command": {
+				"command":["effect @s water_breathing 30 0 true"]
+			}
+		},
+		"emerald_armor": {
+			"run_command": {
+				"command": ["effect @s jump_boost 1 4 true"]
+			}
+		},
+		"shulker_armor": {
+			"run_command": {
+				"command": ["effect @s resistance 1 4 true"]
+			}
+		},
+		"mushroom_effect": {
+			"run_command": {
+				"command": ["fill ~ ~ ~ ~ ~-1 ~ mycelium 0 replace grass"]
+			}
+		},
+		"nether_wart": {
+			"run_command": {
+				"command": ["fill ~ ~ ~ ~ ~-1 ~ crimson_nylium 0 replace netherrack"]
+			}
+		},
+		"bad_ravager": {
+			"run_command": {
+				"command": ["effect @s bad_omen 1 0 true"]
+			}
+		},
+		"guardian_chestplate": {
+			"run_command": {
+				"command": ["effect @s mining_fatigue 1 0 true"]
+			}
+		},
+		"speed_boots": {
+			"run_command": {
+				"command": ["effect @s speed 1 0 true"]
+			}
+		},
+		"sky_gem": {
+			"run_command": {
+				"command": ["effect @s levitation 1 0 true"]
+			}
+		},
+		"totem_add": {
+			"add": {
+				"component_groups": [
+					"totem_add"
+				]
+			}
+		},
+			"super_heavy_add": {
+				"add": {
+					"component_groups": [
+						"super_heavy_add"
+					]
+				},
+				"run_command": {
+					
+					"command": [
+					"scoreboard players set @s abrigo 2"]
+				}
+			},
+			"jaguar_add": {
+				"add": {
+					"component_groups": [
+						"jaguar_add"
+					]
+				}
+			},
+			"strider_boots": {
+				"add": {
+					"component_groups": [
+						"strider_on"
+					]
+				},
+				"run_command": {
+					"command":["effect @s fire_resistance 1 0 true"]
+				}
+			},
+			"strider_off": {
+				"add": {
+					"component_groups": [
+						"strider_off"
+					]
+				}
+			},
+			"samurai_speed": {
+				"add": {
+					"component_groups": [
+						"samurai_speed"
+					]
+				}
+			},
+			"damage_freezing_on": {
+				"add": {
+					"component_groups": [
+						"freezing_damage"
+					]
+                }
+			},
+			"ancient_armor_on": {
+				"add": {
+					"component_groups": [
+						"ancient_armor"
+					]
+                }
+			},
+			"bronze_netherite": {
+				"add": {
+					"component_groups": [
+						"bronze_netherite_armor"
+					]
+                }
+			},
+			"leaves_on": {
+				"add": {
+					"component_groups": [
+						"leaves_family"
+					]
+                }
+			},
+			"leaves_off": {
+				"add": {
+					"component_groups": [
+						"leaves_family_remove"
+					]
+                }
+			},
+			"endtinum_shuff": {
+				"run_command": {
+					"command": [
+						"playsound random.totem",
+						"spreadplayers ~~ 5 8 @s"
+					]
+				}
+			}
+		}
+	}
+}

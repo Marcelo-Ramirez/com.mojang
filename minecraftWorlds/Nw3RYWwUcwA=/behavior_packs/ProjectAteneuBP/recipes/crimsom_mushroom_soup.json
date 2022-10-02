@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "crimsom_mushroom_soup_e594dcfd"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:crimson_fungus",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:bowl",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:crimsom_mushroom_soup",
+			"count": 1
+		}
+	}
+}

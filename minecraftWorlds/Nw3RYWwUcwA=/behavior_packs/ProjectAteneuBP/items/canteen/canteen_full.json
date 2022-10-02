@@ -1,0 +1,47 @@
+{
+    "format_version": "1.17.11",
+    "minecraft:item": {
+        "description": {
+            "identifier": "heavy:canteen_full",
+            "category": "equipment"
+        },
+        "components": {
+             "minecraft:use_animation": "drink",
+            "minecraft:use_duration":2.0,
+            "minecraft:food": {
+              "can_always_eat": true,
+              "using_converts_to": "heavy:canteen_midle",
+                "on_consume": {
+          "event": "sed_0",
+          "target": "self"
+        },
+                "nutrition": 0,
+                "saturation_modifier": "good"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "canteen_full"
+            },
+            "minecraft:display_name": {
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.potion"
+
+}
+        },
+        "events": {
+      "sed_0": {
+        "sequence": [
+            {
+                "run_command":{
+                    "command":[
+                      "scoreboard players add @s sed 4"
+                    ],
+                    "target": "holder"
+                  }
+            }
+        ]
+      }
+    }
+  }
+}

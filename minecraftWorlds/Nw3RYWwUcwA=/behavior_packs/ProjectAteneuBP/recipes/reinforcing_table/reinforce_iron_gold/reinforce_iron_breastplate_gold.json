@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "reinforce_iron_breastplate_gold"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IF"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "heavy:reinforce_iron_breastplate"
+		},
+		"F": {
+		  "item": "minecraft:gold_ingot"
+		}
+	  },
+	  "result": {
+		"item": "heavy:reinforce_iron_breastplate_gold"
+	  }
+	}
+  }

@@ -1,0 +1,525 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "heavy:arachnis",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"set_egg": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 7,
+					"tick_interval": 1,
+					"start_chance": 0.5,
+					"search_range": 64,
+					"search_height": 16,
+					"goal_radius": 1,
+					"stay_duration": 2,
+					"target_offset": [
+						0,
+						0.25,
+						0
+					],
+					"target_blocks": [
+						"minecraft:gold_block"
+					],
+					"on_stay_completed": {
+						"event": "spawn_egg"
+					},
+					"target_selection_method": "nearest",
+					"speed_multiplier": 0.6
+				}
+			},
+			"minecraft:goliath": {
+				"minecraft:experience_reward": {
+				  "on_death": "query.last_hit_by_player ? 25 + (query.equipment_count * Math.Random(1,3)) : 0"
+				},
+				"minecraft:scale": {
+				  "value": 1.5
+				},
+				"minecraft:movement": {
+				  "value": 0.35
+				},
+				"minecraft:attack": {
+					"damage": 25,
+					"effect_name": "poison",
+					"effect_duration": 1000
+				  },
+				  "minecraft:behavior.move_through_village": {
+					"priority": 3,
+					"speed_multiplier": 0.6,
+					"only_at_night": true
+				},
+				"minecraft:dweller": {
+					"dwelling_type": "village",
+					"dweller_role": "defender",
+					"update_interval_base": 60,
+					"update_interval_variant": 40,
+					"first_founding_reward": 5
+				}
+			  },
+			"minecraft:arachni_baby": {
+				"minecraft:ageable": {
+					"duration": 1800,
+					"feed_items": [ "minecraft:brown_mushroom" , "minecraft:red_mushroom" , "heavy:mushrife_item"],
+					"grow_up": {
+					  "event": "grow_arachnis",
+					  "target": "self"
+					}
+				  },
+				"minecraft:experience_reward": {
+				  "on_death": "query.last_hit_by_player ? 12 + (query.equipment_count * Math.Random(1,3)) : 0"
+				},
+				"minecraft:is_baby": {},
+				"minecraft:scale": {
+				  "value": 0.5
+				},
+				"minecraft:movement": {
+				  "value": 0.35
+				}
+			  },
+						"trade_resupply_component_group": {
+				"minecraft:trade_resupply": {}
+			},
+			"work_schedule_samurai": {
+				"minecraft:behavior.work":{
+					"priority":4,
+					"active_time":250,
+					"speed_multiplier":0.5,
+					"goal_cooldown":200,
+					"sound_delay_min":100,
+					"sound_delay_max":200,
+					"can_work_in_rain":true,
+					"work_in_rain_tolerance":1000,
+					"on_arrival":{
+						"event":"minecraft:resupply_trades",
+						"target":"self"
+					}
+				}
+			},
+			"bed_schedule_villager": {
+				"minecraft:behavior.sleep": {
+					"priority": 3,
+					"goal_radius": 1.5,
+					"speed_multiplier": 0.6,
+					"sleep_collider_height": 0.3,
+					"sleep_collider_width": 1,
+					"sleep_y_offset": 0.6,
+					"timeout_cooldown": 10
+				}
+			},
+			"samurai": {
+				"minecraft:equipment": {
+					"table": "loot_tables/equipment/stone_sword.json"
+				  },
+				"minecraft:economy_trade_table": {
+					"display_name": "entity.heavy:arachnis.name",
+					"table": "trading/economy_trades/arachnis.json",
+					"new_screen": true,
+					"persist_trades": true,
+					"cured_discount": [-100, -100],
+					"max_cured_discount": [-500, -500]
+				},
+				"minecraft:behavior.trade_interest": {
+					"priority": 5,
+					"within_radius": 6,
+					"interest_time": 45,
+					"remove_item_time": 1,
+					"carried_item_switch_time": 2,
+					"cooldown": 2
+				},
+				"minecraft:type_family": {
+					"family": [
+						"mob",
+						"spider"
+					]
+				},
+				"minecraft:behavior.random_stroll": {
+					"priority": 5,
+					"speed_multiplier": 0.6
+				},
+				"minecraft:dweller": {
+					"dwelling_type": "village", 
+					"dweller_role": "inhabitant",
+					"preferred_profession": "farmer",
+					"update_interval_base": 60,
+					"update_interval_variant": 40,
+					"can_find_poi": true,
+					"can_migrate": true,
+					"first_founding_reward": 5
+				}
+			},
+			"samurai_schedule": {
+				"minecraft:scheduler": {
+					"min_delay_secs": 0,
+					"max_delay_secs": 10,
+					"scheduled_events": [
+						{
+							"filters": {
+								"all_of": [
+									{ "test": "hourly_clock_time", "operator": ">=", "value": 0 },
+									{ "test": "hourly_clock_time", "operator": "<", "value": 11200 }
+								  ]
+							},
+							"event": "minecraft:schedule_wake_up"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{ "test": "hourly_clock_time", "operator": ">=", "value": 11200 },
+									{ "test": "hourly_clock_time", "operator": "<", "value": 13000 }
+								  ]
+							},
+							"event": "minecraft:schedule_work_samurai"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{ "test": "hourly_clock_time", "operator": ">=", "value": 13000 },
+									{ "test": "hourly_clock_time", "operator": "<", "value": 15000 }
+								  ]
+							},
+							"event": "minecraft:set_egg"
+						},
+						{
+							"filters": {
+								"all_of": [
+									{ "test": "hourly_clock_time", "operator": ">=", "value": 13000 },
+									{ "test": "hourly_clock_time", "operator": "<", "value": 24000 }
+								  ]
+							},
+							"event": "minecraft:schedule_bed_villager"
+						}
+					]
+				}
+			},
+			"minecraft:default_targeting": {
+				"minecraft:equipment": {
+					"table": "loot_tables/equipment/stone_sword.json"
+				  },
+			  "minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"within_radius": 12.0,
+				"must_see_forget_duration": 40.0,
+	  
+				"entity_types": [
+				  {
+					"filters": {
+					  "any_of": [
+						{ "test": "is_family", "subject": "other", "value": "undead" }
+					  ]
+					},
+					"max_dist": 12
+				  }
+				]
+			  }
+			}
+		  },
+	  
+		  "components": {
+			"minecraft:behavior.trade_with_player": {
+				"priority": 2
+			  },
+			  "minecraft:behavior.look_at_trading_player": {
+				"priority": 7
+			  },
+			"minecraft:preferred_path":{
+				"max_fall_blocks":1,
+				"jump_cost":5,
+				"default_block_cost":1.5, 
+				"preferred_path_blocks":[
+					{
+						"cost":0,
+						"blocks":[
+							"grass_path",
+							"heavy:cobweb_deepslate"
+						]
+					},
+					{
+						"cost":1,
+						"blocks":[
+							"cobblestone",
+							"stone"
+						]
+					},
+					{
+						"cost":50,
+						"blocks":[
+							"bed",
+							"lectern"
+						]
+					}
+				]
+			},
+			"minecraft:behavior.move_indoors":{
+				"priority":5
+			},
+			"minecraft:behavior.restrict_open_door":{
+				"priority": 5
+			},
+			"minecraft:annotation.open_door":{
+				"priority": 5
+			},
+			"minecraft:navigation.walk":{
+				"can_pass_doors":true,
+				"can_open_doors":true
+			},
+			"minecraft:behavior.open_door":{
+				"priority":6,
+				"close_door_after":true
+			},
+			"minecraft:experience_reward": {
+			  "on_death": "query.last_hit_by_player ? (query.is_baby ? 12 : 5) + (Math.die_roll(query.equipment_count,1,3)) : 0"
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+			},
+			"minecraft:nameable": {
+			  "default_trigger": {
+				"event": "minecraft:stop_johnny",
+				"target": "self"
+			  },
+			  "name_actions": [
+				{
+				  "name_filter": "VS",
+				  "on_named": {
+					"event": "minecraft:start_johnny",
+					"target": "self"
+				  }
+				}
+			  ]
+			},
+			"minecraft:type_family": {
+			  "family": [ "spider", "mob" ]
+			},
+			"minecraft:breathable": {
+			  "total_supply": 15,
+			  "suffocate_time": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			  },
+			"minecraft:health": {
+			  "value": 35,
+			  "max": 35
+			},
+			"minecraft:hurt_on_condition": {
+			  "damage_conditions": [
+				{
+				  "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+				  "cause": "lava",
+				  "damage_per_tick": 4
+				}
+			  ]
+			},
+			"minecraft:attack": {
+			  "damage": 2,
+			  "effect_name": "poison",
+			  "effect_duration": 1000
+			},
+			"minecraft:movement": {
+			  "value": 0.30
+			},
+			"minecraft:movement.basic": {
+			},
+			"minecraft:jump.static": {
+			},
+			"minecraft:follow_range": {
+			  "value": 64
+			},
+			"minecraft:loot": {
+			  "table": "loot_tables/entities/spider.json"
+			},
+			"minecraft:behavior.float": {
+			  "priority": 0
+			},
+			"minecraft:behavior.melee_attack": {
+			  "priority": 3
+			},
+			"minecraft:behavior.random_stroll":{
+				"priority":9,
+				"speed_multiplier":0.55,
+				"xz_dist":10,
+				"y_dist":5 
+			},
+			"minecraft:behavior.look_at_player": {
+			  "priority": 10,
+			  "look_distance": 8,
+			  "probability": 0.02
+			},
+			"minecraft:behavior.hurt_by_target": {
+			  "priority": 1
+			},
+			"minecraft:on_target_acquired": {
+			  "event": "minecraft:become_aggro",
+			  "target": "self"
+			},
+			"minecraft:on_target_escape": {
+			  "event": "minecraft:stop_aggro",
+			  "target": "self"
+			},
+			"minecraft:physics": {
+			},
+			"minecraft:pushable": {
+			  "is_pushable": true,
+			  "is_pushable_by_piston": true
+			}
+		  },
+	  
+		  "events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+				  {
+					"weight": 380,
+					"remove": {},
+					"add": {
+					  "component_groups": [
+						"minecraft:default_targeting",
+						"samurai",
+						"samurai_schedule"
+					  ]
+					}
+				  },
+				  {
+					"weight": 17,
+					"remove": {
+					},
+					"add": {
+					  "component_groups": [
+						"minecraft:arachni_baby"
+					  ]
+		
+					}
+				  },
+				  {
+					"weight": 17,
+					"remove": {
+					},
+					"add": {
+					  "component_groups": [
+						"minecraft:goliath"
+					  ]
+		
+					}
+				  }
+				]
+			  },
+			  "arachnis_baby": {
+				"add": {
+					"component_groups": [
+						"minecraft:arachni_baby"
+					]
+				}
+			},
+			  "grow_arachnis": {
+				"add": {
+					"component_groups": [
+						"minecraft:default_targeting",
+						"samurai",
+						"samurai_schedule"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"minecraft:arachni_baby"
+					]
+				}
+			},
+			"minecraft:set_egg": {
+				"add": {
+					"component_groups": [
+						"set_egg"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"work_schedule_samurai"
+					]
+				}
+			},
+			"minecraft:schedule_bed_villager": {
+				"add": {
+					"component_groups": [
+						"bed_schedule_villager"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"work_schedule_samurai",
+						"set_egg"
+					]
+				}
+			},
+			"minecraft:schedule_wake_up": {
+				"remove": {
+					"component_groups": [
+						"bed_schedule_villager",
+						"trade_resupply_component_group"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"samurai"
+					]
+				}
+			},
+			"minecraft:schedule_work_samurai": {
+				"remove": {
+					"component_groups": [
+						"bed_schedule_villager"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"work_schedule_samurai"
+					]
+				}
+			},
+			"minecraft:resupply_trades": {
+				"add": {
+					"component_groups": [
+						"trade_resupply_component_group"
+					]
+				},
+				"run_command": {
+					"command": [
+						"playsound smithing_table.use @a[r=5] ~~~"
+					]
+				}
+			},
+			"spawn_egg": {
+				"run_command": {
+					"command": [
+						"fill ~ ~ ~ ~ ~ ~ heavy:arachnis_egg",
+						"playsound block.turtle_egg.drop @a ~~~ 2"
+					]
+				}
+			},
+			"minecraft:spawn_as_patrol_follower": {
+			  "add": {
+				"component_groups": [
+				  "minecraft:default_targeting",
+				  "minecraft:patrol_follower"
+				]
+			  }
+			},
+			"minecraft:become_aggro": {
+			  "add": {
+				"component_groups": [
+				  "minecraft:vindicator_aggro"
+				]
+			  }
+			},
+			"minecraft:stop_aggro": {
+			  "remove": {
+				"component_groups": [
+				  "minecraft:vindicator_aggro"
+				]
+			  }
+			}
+		  }
+		}
+	  }

@@ -1,0 +1,43 @@
+{
+    "format_version": "1.17.11",
+    "minecraft:item": {
+        "description": {
+            "identifier": "heavy:canteen_midle",
+            "category": "command"
+        },
+        "components": {
+             "minecraft:use_animation": "drink",
+            "minecraft:use_duration":2.0,
+            "minecraft:food": {
+              "can_always_eat": true,
+              "using_converts_to": "heavy:canteen_empty",
+                "on_consume": {
+          "event": "sed_0",
+          "target": "self"
+        },
+                "nutrition": 0,
+                "saturation_modifier": "good"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "canteen_full"
+            },
+            "minecraft:display_name": {
+            }
+        },
+        "events": {
+      "sed_0": {
+        "sequence": [
+            {
+                "run_command":{
+                    "command":[
+                      "scoreboard players add @s sed 4"
+                    ],
+                    "target": "holder"
+                  }
+            }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_chromium_block_D"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:chromium_block"
+			}
+		},
+		"result": {
+			"item": "heavy:chromium_ingot",
+			"count":9
+		}
+	}
+}

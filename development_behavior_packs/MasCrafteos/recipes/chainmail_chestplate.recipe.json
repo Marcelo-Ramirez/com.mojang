@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:chainmail_chestplate.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"c c",
+			"ccc",
+			"ccc"
+		],
+		"key": {
+			"c": {
+				"item": "chain"
+			}
+		},
+		"result": {
+			"item": "chainmail_chestplate"
+		}
+	}
+}

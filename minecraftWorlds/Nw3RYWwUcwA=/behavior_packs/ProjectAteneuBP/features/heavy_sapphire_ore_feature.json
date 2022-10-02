@@ -1,0 +1,27 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "heavy_sapphire_ore_feature"
+    },
+    "count": 8,
+    "replace_rules": [
+      {
+        "places_block": "heavy:sapphire_ore",
+        "may_replace": [
+          {
+            "name": "minecraft:stone"
+          }
+        ]
+      },
+      {
+        "places_block": "heavy:deepslate_sapphire_ore",
+        "may_replace": [
+          {
+            "name": "minecraft:deepslate"
+          }
+        ]
+      }
+    ]
+  }
+}

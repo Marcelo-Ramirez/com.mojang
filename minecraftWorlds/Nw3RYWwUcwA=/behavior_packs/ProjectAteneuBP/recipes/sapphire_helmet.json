@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sapphire_helmet_aa1a4ec0"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:sapphire",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:sapphire_helmet",
+			"count": 1
+		}
+	}
+}

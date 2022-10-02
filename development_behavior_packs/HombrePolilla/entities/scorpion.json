@@ -1,0 +1,214 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "bradmob:scorpion",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"group_default": {
+				"minecraft:mark_variant": {
+					"value": 0
+				},
+				"minecraft:entity_sensor": {
+					"sensor_range": 3,
+					"event_filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "player"
+					},
+					"event": "event_threatened"
+				},
+				"minecraft:behavior.random_stroll": {
+					"priority": 4,
+					"interval": 20,
+					"xz_dist": 5,
+					"y_dist": 5
+				}
+			},
+			"group_angry": {
+				"minecraft:attack": {
+					"damage": 2,
+					"effect_name": "poison",
+					"effect_duration": 5
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 1,
+					"entity_types": {
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						}
+					}
+				},
+				"minecraft:on_target_escape": {
+					"event": "event_calm"
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 0
+				},
+				"minecraft:behavior.hurt_by_target": {
+					"priority": 1
+				},
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			},
+			"group_threatened": {
+				"minecraft:mark_variant": {
+					"value": 1
+				},
+				"minecraft:entity_sensor": {
+					"sensor_range": 3,
+					"event_filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "player"
+					},
+					"event": "event_threatened"
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						2
+					],
+					"time_down_event": {
+						"random_interval": true,
+						"event": "event_calm"
+					}
+				},
+				"minecraft:behavior.look_at_player": {
+					"priority": 0,
+					"probability": 1
+				}
+			},
+			"variant_brown": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"variant_black": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.4,
+				"height": 0.4
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			},
+			"minecraft:on_hurt_by_player": {
+				"event": "event_angry"
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:type_family": {
+				"family": [
+					"arthropod",
+					"mob"
+				]
+			},
+			"minecraft:jump.static": {},
+			"minecraft:navigation.walk": {
+				"avoid_damage_blocks": true,
+				"avoid_water": true,
+				"can_swim": false
+			},
+			"minecraft:nameable": {},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:breathable": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "jungle",
+							"operator": "!="
+						},
+						"add": {
+							"component_groups": [
+								"variant_brown"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_biome_tag",
+							"value": "jungle",
+							"operator": "=="
+						},
+						"add": {
+							"component_groups": [
+								"variant_black"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"group_default"
+							]
+						}
+					}
+				]
+			},
+			"event_calm": {
+				"add": {
+					"component_groups": [
+						"group_default"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"group_angry",
+						"group_threatened"
+					]
+				}
+			},
+			"event_angry": {
+				"add": {
+					"component_groups": [
+						"group_angry"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"group_default",
+						"group_threatened"
+					]
+				}
+			},
+			"event_threatened": {
+				"add": {
+					"component_groups": [
+						"group_threatened"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"group_default",
+						"group_angry"
+					]
+				}
+			}
+		}
+	}
+}

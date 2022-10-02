@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bone_whiter_block_07ea77c4"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:wither_bone_powder",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:bone_whiter_block",
+			"count": 1
+		}
+	}
+}

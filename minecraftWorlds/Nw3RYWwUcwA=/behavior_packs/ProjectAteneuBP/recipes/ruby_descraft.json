@@ -1,0 +1,25 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ruby_descraft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:ruby_block",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:ruby",
+			"count": 9
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "stone_long_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+            "B",
+			"B",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:stone_sword"
+			},
+			"B": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"result": [
+			{
+				"item": "true:stone_long_sword"
+			}
+		]
+	}
+}

@@ -1,0 +1,403 @@
+{
+   "entity_sounds" : {
+      "defaults" : {
+      },
+      "entities" : {
+         "heavy:arachnis" : {
+            "events" : {
+               "ambient" : "mob.spider.say",
+               "death" : "mob.spider.death",
+               "hurt" : "mob.spider.say",
+               "step" : {
+                  "pitch" : [ 0.90, 1.10 ],
+                  "sound" : "mob.spider.step",
+                  "volume" : 0.350
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:zombie_hunter_villager" : {
+            "events" : {
+               "ambient" : "mob.zombie_villager.say",
+               "death" : "mob.zombie_villager.death",
+               "hurt" : "mob.zombie_villager.hurt",
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.zombie.step",
+                  "volume" : 0.450
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:zombie_samurai_villager" : {
+            "events" : {
+               "ambient" : "mob.zombie_villager.say",
+               "death" : "mob.zombie_villager.death",
+               "hurt" : "mob.zombie_villager.hurt",
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.zombie.step",
+                  "volume" : 0.450
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:gold_conduit_entity" : {
+            "events" : {
+               "conduit.ambient" : {
+                  "pitch" : 1.0,
+                  "sound" : "conduit.ambient",
+                  "volume" : 1.0
+               }
+            },
+            "pitch" : [ 1, 1 ],
+            "volume" : 10
+         },
+         "heavy:tarantula" : {
+            "events" : {
+               "ambient" : "mob.spider.say",
+               "death" : "mob.spider.death",
+               "hurt" : "mob.spider.say",
+               "step" : {
+                  "pitch" : [ 0.90, 1.10 ],
+                  "sound" : "mob.spider.step",
+                  "volume" : 0.350
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:wild_pig" : {
+            "events" : {
+               "boost" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.piglin_brute.angry",
+                  "volume" : 1.0
+               },
+               "ambient" : "mob.hoglin.ambient",
+               "angry" : "mob.hoglin.angry",
+               "death" : "mob.hoglin.death",
+               "hurt" : "mob.hoglin.hurt",
+               "retreat" : "mob.hoglin.retreat",
+               "step" : {
+                  "pitch" : 1.5,
+                  "sound" : "mob.hoglin.step",
+                  "volume" : 1.5
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:strong_zombie" : {
+            "events" : {
+               "ambient" : {
+                  "pitch":0.3,
+                  "sound": "mob.zombie.say",
+                  "volume": 30.0
+               }
+                  ,
+               "death" : "mob.zombie.death",
+               "hurt" : {
+               "pitch":0.3,
+               "sound": "mob.zombie.hurt",
+               "volume": 25.0
+            },
+               "step" : {
+                  "pitch" : 0.3,
+                  "sound" : "mob.zombie.step",
+                  "volume" : 15.0
+               },
+               "throw" : {
+                  "pitch" : 1.5,
+                  "sound" : "mob.irongolem.throw",
+                  "volume" : 5.0
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:brown_mushroom_zombie" : {
+            "events" : {
+               "ambient" : "mob.husk.ambient",
+               "death" : "mob.husk.death",
+               "hurt" : "mob.husk.hurt",
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.husk.step",
+                  "volume" : 0.350
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:demon_torment" : {
+            "events" : {
+               
+               "ambient" : {
+                  "pitch":0.5,
+                  "sound":"mob.goat.ambient",
+                  "volume":10
+               },
+               "death" : {
+                  "pitch":0.8,
+                  "sound": "mob.goat.death",
+                  "volume":12
+               },
+               "roar" : {
+                  "pitch":0.6,
+                  "sound": "mob.goat.ambient.screamer",
+                  "volume":50
+               },
+               "hurt" : {
+                  "pitch":0.5,
+                  "sound": "mob.goat.hurt",
+                  "volume":10
+               },
+               "step" : {
+                  "pitch" : 0.6,
+                  "sound" : "mob.goat.step",
+                  "volume" : 10
+               }
+            },
+            "pitch" : [ 0.5, 0.8],
+            "volume" : 1.0
+         },
+         "heavy:evil_regv" : {
+            "events" : {
+               "ambient" : "mob.husk.ambient",
+               "death" : "mob.husk.death",
+               "hurt" : "mob.husk.hurt",
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.husk.step",
+                  "volume" : 0.350
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:red_mushroom_zombie" : {
+            "events" : {
+               "ambient" : "mob.husk.ambient",
+               "death" : "mob.husk.death",
+               "hurt" : "mob.husk.hurt",
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.husk.step",
+                  "volume" : 0.350
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:iglin" : {
+            "events" : {
+               "admire" : "mob.piglin.admiring_item",
+               "ambient" : "mob.piglin.ambient",
+               "angry" : "mob.piglin.angry",
+               "attack" : "mob.piglin.attack",
+               "celebrate" : "mob.piglin.celebrate",
+               "death" : "mob.piglin.death",
+               "hurt" : "mob.piglin.hurt",
+               "jealous" : "mob.piglin.jealous",
+               "retreat" : "mob.piglin.retreat",
+               "step" : {
+                  "sound" : "mob.piglin.step",
+                  "volume" : 0.350
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:revenant" : {
+            "events" : {
+               "ambient" : "mob.skeleton.say",
+               "death" : "mob.skeleton.death",
+               "hurt" : {
+                  "sound" : "mob.skeleton.hurt",
+                  "volume" : 0.70
+               },
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.skeleton.step",
+                  "volume" : 1.0
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:revenant_t" : {
+            "events" : {
+               "ambient" : "mob.skeleton.say",
+               "death" : "mob.skeleton.death",
+               "hurt" : {
+                  "sound" : "mob.skeleton.hurt",
+                  "volume" : 0.70
+               },
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.skeleton.step",
+                  "volume" : 1.0
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:scorpion" : {
+            "events" : {
+               "ambient" : {
+                  "pitch" : [ 0.7],
+                  "sound":"mob.spider.say"
+               },
+               "death" : {
+                  "pitch" : [ 0.8],
+                  "sound":"mob.spider.death"
+               },
+               "hurt" : {
+                  "pitch" : [ 0.7],
+                  "sound":"mob.spider.say"
+               },
+               "step" : {
+                  "pitch" : [ 0.7],
+                  "sound" : "mob.spider.step",
+                  "volume" : 0.350
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:good_ghost" : {
+            "events" : {
+               "ambient" : "mob.vex.ambient",
+               "charge" : "mob.vex.charge",
+               "death" : "mob.vex.death",
+               "hurt" : "mob.vex.hurt"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:villager_hero" : {
+            "events" : {
+               "ambient" : "mob.villager.idle",
+               "death" : "mob.villager.death",
+               "death.to.zombie" : "mob.villager.death",
+               "haggle" : "mob.villager.haggle",
+               "haggle.no" : "mob.villager.no",
+               "haggle.yes" : "mob.villager.yes",
+               "hurt" : "mob.villager.hit"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:villager_samurai" : {
+            "events" : {
+               "ambient" : "mob.villager.idle",
+               "death" : "mob.villager.death",
+               "death.to.zombie" : "mob.villager.death",
+               "haggle" : "mob.villager.haggle",
+               "haggle.no" : "mob.villager.no",
+               "haggle.yes" : "mob.villager.yes",
+               "hurt" : "mob.villager.hit"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:elite_vindicator" : {
+            "events" : {
+               "ambient" : "mob.vindicator.idle",
+               "ambient.in.raid" : {
+                  "pitch" : [ 0.80, 1.20 ],
+                  "sound" : "mob.vindicator.idle",
+                  "volume" : 3.0
+               },
+               "celebrate" : "mob.vindicator.celebrate",
+               "death" : "mob.vindicator.death",
+               "hurt" : "mob.vindicator.hurt"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:dark_wolf" : {
+            "events" : {
+               "ambient" : "mob.wolf.bark",
+               "death" : "mob.wolf.death",
+               "growl" : "mob.wolf.growl",
+               "hurt" : "mob.wolf.hurt",
+               "pant" : "mob.wolf.panting",
+               "shake" : {
+                  "pitch" : [ 0.80, 1.20 ],
+                  "sound" : "mob.wolf.shake"
+               },
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.wolf.step",
+                  "volume" : 0.650
+               },
+               "whine" : "mob.wolf.whine"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:zombie_nether" : {
+            "events" : {
+               "ambient" : "mob.zombie.say",
+               "death" : "mob.zombie.death",
+               "hurt" : "mob.zombie.hurt",
+               "step" : {
+                  "pitch" : 1.0,
+                  "sound" : "mob.zombie.step",
+                  "volume" : 0.450
+               }
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:pumpkin_creeper" : {
+            "events" : {
+               "death" : "mob.creeper.death",
+               "fuse" : {
+                  "pitch" : 0.50,
+                  "sound" : "random.fuse",
+                  "volume" : 1.0
+               },
+               "hurt" : "mob.creeper.say"
+            },
+            "pitch" : [ 0.80, 1.20 ],
+            "volume" : 1.0
+         },
+         "heavy:sentinel_vindicator" : {
+            "events" : {
+               "ambient" : "mob.vindicator.idle",
+               "ambient.in.raid" : {
+                  "pitch" : [ 0.60, 1.20 ],
+                  "sound" : "mob.vindicator.idle",
+                  "volume" : 4.0
+               },
+               "celebrate" : "mob.vindicator.celebrate",
+               "death" : "mob.vindicator.death",
+               "hurt" : "mob.vindicator.hurt"
+            },
+            "pitch" : [ 0.70, 1.20 ],
+            "volume" : 3.0
+         },
+         "heavy:white_vindicator" : {
+            "events" : {
+               "ambient" : "mob.vindicator.idle",
+               "ambient.in.raid" : {
+                  "pitch" : [ 0.80, 1.20 ],
+                  "sound" : "mob.vindicator.idle",
+                  "volume" : 4.0
+               },
+               "celebrate" : "mob.vindicator.celebrate",
+               "death" : "mob.vindicator.death",
+               "hurt" : "mob.vindicator.hurt"
+            },
+            "pitch" : [ 1.0, 1.20 ],
+            "volume" : 1.0
+         }
+      }
+   }
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sapphire_descraft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:sapphire_block",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:sapphire",
+			"count": 9
+		}
+	}
+}

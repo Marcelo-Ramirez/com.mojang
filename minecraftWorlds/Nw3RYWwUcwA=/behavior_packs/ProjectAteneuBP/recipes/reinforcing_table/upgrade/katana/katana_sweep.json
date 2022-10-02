@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "katana_sweep"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"A",
+		"C"
+	  ],
+	  "key": {
+		"A": {
+		  "item": "heavy:katana"
+		},
+		"C": {
+			"item": "heavy:cutting_parchment"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:katana_sweep"
+	  }
+	}
+  }

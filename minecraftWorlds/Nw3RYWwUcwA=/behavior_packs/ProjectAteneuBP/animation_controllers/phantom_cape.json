@@ -1,0 +1,117 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.phantom_cape": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"slow": "query.equipped_item_any_tag('slot.armor.chest','heavy:phantom_chestplate') && !query.is_on_ground"
+						}
+					]
+				},
+				"slow": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @p slow_falling 1 0 true"
+					]
+				}
+			}
+		},
+        "controller.animation.boots": {
+			"states": {
+				"default": {
+					"transitions": [
+                        {
+							"piston": "query.equipped_item_any_tag('slot.armor.feet','heavy:piston_boots') && query.is_sneaking"
+						}
+					]
+				},
+                "piston": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @s jump_boost 2 3 true"
+					]
+				}
+			}
+		},
+        "controller.animation.marine_helmet": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"golden_ocean": "query.equipped_item_any_tag('slot.armor.head','heavy:golden_marine_helmet') && !query.is_in_water"
+						},
+                        {
+							"ocean": "query.equipped_item_any_tag('slot.armor.head','heavy:marine_helmet') && !query.is_in_water"
+						},
+						{
+							"gold_quartz": "query.equipped_item_any_tag('slot.armor.head','heavy:gold_quartz') && query.health < 4"
+						},
+                        {
+							"onyx": "query.equipped_item_any_tag('slot.armor.head','heavy:onyx_helmet') && query.health > 18"
+						},
+						{
+							"magnarita": "query.equipped_item_any_tag('slot.armor.head','heavy:onyx_helmet') && query.health > 18"
+						}
+					]
+				},
+				"golden_ocean": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @s water_breathing 18 0 true"
+					]
+				},
+                "ocean": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @s water_breathing 13 0 true"
+					]
+				},
+				"gold_quartz": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @s regeneration 3 0 true"
+					]
+				},
+                "onyx": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @s slowness 0 0 true",
+					"/effect @s mining_fatigue 0 0 true",
+					"/effect @s poison 0 0 true",
+					"/effect @s bad_omen 0 0 true",
+					"/effect @s weakness 0 0 true",
+					"/effect @s darkness 0 0 true",
+					"/function helper",
+				"/particle minecraft:redstone_ore_dust_particle ~ ~2 ~"
+					]
+				}
+			}
+		}
+	}
+}

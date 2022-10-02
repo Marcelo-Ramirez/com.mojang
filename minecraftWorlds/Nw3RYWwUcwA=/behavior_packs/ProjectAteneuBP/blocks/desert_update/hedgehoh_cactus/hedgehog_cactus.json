@@ -1,0 +1,92 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:hedgehog_cactus"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.cactus",
+				"category": "nature"
+			  },
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					950,
+					1200
+				],
+				"on_tick": {
+					"event": "baby_growth",
+					"target": "self"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "cut",
+				"target": "self",
+				"condition": "query.get_equipped_item_name == 'diamond_sword' || query.get_equipped_item_name == 'netherite_sword' || query.get_equipped_item_name == 'golden_sword' || query.get_equipped_item_name == 'iron_sword' || query.get_equipped_item_name == 'diamond_axe' || query.get_equipped_item_name == 'netherite_axe' || query.get_equipped_item_name == 'golden_axe' || query.get_equipped_item_name == 'iron_axe' || query.get_equipped_item_name == 'katana' || query.get_equipped_item_name == 'netherite_katana'"
+			},
+			"minecraft:on_step_on": {
+				"event": "damage_cactus",
+				"target": "self"
+			},
+			"minecraft:map_color": "#649832",
+			"minecraft:geometry": "geometry.echinocactus",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "echinocactus",
+					"render_method": "opaque",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"spawn_loot": {
+				"table": "loot_tables/blocks/"
+			   },
+			"damage_cactus": {
+				"damage": {
+					"type": "magic",
+					"target": "other",
+					"amount": 2
+				}
+			},
+			"cut": {
+				"sequence":[
+					{
+						"set_block": {
+							"block_type": "heavy:hedgehog_cactus_cut"
+						},
+				"run_command": {
+					"command": [
+						"playsound sound.attack.sweep @a ~ ~ ~ 1"]
+					}
+				}
+			]
+		},
+			"baby_growth": {
+				"sequence": [
+					{
+						"set_block": {
+							"block_type": "heavy:hedgehog_cactus_flower"
+						}
+					}
+				]
+			}
+		}
+	}
+}

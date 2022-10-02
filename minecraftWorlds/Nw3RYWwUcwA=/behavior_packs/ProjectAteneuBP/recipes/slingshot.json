@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_slingshot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			" A ",
+			" C"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:bamboo"
+			},
+			"B": {
+				"item": "minecraft:string"
+			},
+			"C": {
+				"item": "minecraft:leather"
+			}
+		},
+		"result": {
+			"item": "heavy:slingshot",
+			"count": 1
+		}
+	}
+}

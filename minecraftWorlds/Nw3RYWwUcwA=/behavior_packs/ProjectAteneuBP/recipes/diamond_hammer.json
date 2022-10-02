@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:diamond_hammer"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BBB",
+			" C ",
+			" C "
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:diamond_block"
+			},
+			"C": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "heavy:diamond_hammer"
+		}
+	}
+}

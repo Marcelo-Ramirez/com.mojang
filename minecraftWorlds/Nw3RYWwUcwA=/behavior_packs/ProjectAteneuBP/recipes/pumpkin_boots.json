@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pumpkin_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B B",
+			"B B"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:pumpkin"
+			}
+		},
+		"result": {
+			"item": "heavy:pumpkin_boots"
+		}
+	}
+}

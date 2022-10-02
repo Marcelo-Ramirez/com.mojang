@@ -1,0 +1,69 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:tropical_log",
+		"properties": {
+		  "cf:facing_direction": [0,1,2]
+		  }
+		},
+		"permutations": [
+		{
+		  "condition": "query.block_property('cf:facing_direction') == 0",
+	  "components": {
+		"minecraft:rotation": [0,0,0]
+			  }
+			},
+		  {
+		  "condition": "query.block_property('cf:facing_direction') == 1",
+	  "components": {
+		"minecraft:rotation": [90,0,0]
+			  }
+			},
+		 {
+		 "condition": "query.block_property('cf:facing_direction') == 2",
+	  "components": {
+		"minecraft:rotation": [0,0,90]
+			}
+		  }
+		],
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.wood"
+			},
+			"tag:wood": {},
+		"minecraft:loot": "loot_tables/blocks/none.json",
+		"minecraft:destroy_time": 0.5,
+		"minecraft:explosion_resistance": 1,
+		"minecraft:friction": 0.6,
+		"minecraft:flammable": {
+		  "flame_odds": 0,
+		  "burn_odds": 0
+			 },
+			 "minecraft:on_player_placing": {
+			  "event": "set_facing_direction"
+			},
+			"minecraft:unit_cube": {},
+			  "minecraft:material_instances": {
+				"*": {
+				  "texture": "log_tropical",
+				  "render_method": "opaque"
+				},
+				"tropical": {
+				  "texture": "log_tropical_top",
+				  "render_method": "opaque"
+				},
+				"up": "tropical",
+				"down": "tropical"
+			}
+	  },
+		  "events": {
+			"set_facing_direction": {
+			  "set_block_property": {
+				"cf:facing_direction": "math.floor( query.block_face / 2.0 )"
+			  }
+			}
+		  }
+	  }
+  }

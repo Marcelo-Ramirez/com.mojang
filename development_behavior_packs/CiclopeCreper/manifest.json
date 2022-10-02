@@ -1,0 +1,53 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Raboy13"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.4",
+				"1.8.4"
+			],
+			"dash": [
+				"0.7.1"
+			]
+		}
+	},
+	"header": {
+		"name": "Your Mob Ideas Episode 3",
+		"description": "Raboy13's YouTube series \"Your Mob ideas\" Episode 3 mobs. Mob Ideas by his subscribers",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "16d52546-0adc-4d23-8269-5c900442b868",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "71ba8830-c4a3-4a6d-867b-dfee9106132e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a9bf313b-779a-4ed6-84c6-62c47a90377f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

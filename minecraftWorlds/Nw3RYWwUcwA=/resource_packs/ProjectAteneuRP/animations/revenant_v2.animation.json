@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.revenant_v2.static": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"rightArm": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -0.5, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"leftArm": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -0.5, 0],
+						"2.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

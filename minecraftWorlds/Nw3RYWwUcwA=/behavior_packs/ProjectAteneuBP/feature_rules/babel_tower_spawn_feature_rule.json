@@ -1,0 +1,30 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "minecraft:babel_tower_spawn_feature_rule",
+            "places_feature": "minecraft:babel_tower_spawn_mcstructure"
+        },
+        "conditions": {
+          "placement_pass": "first_pass",
+          "minecraft:biome_filter": {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "extreme_hills"
+          }
+        },
+        "distribution": {
+          "iterations": 1,
+          "scatter_chance": 0.025,
+          "x": {
+            "extent": [0, 16],
+            "distribution": "uniform"
+          },
+          "y": "query.heightmap(v.worldx, v.worldz)",
+          "z": {
+            "extent": [0, 16],
+            "distribution": "uniform"
+          }
+        }
+      }
+    }

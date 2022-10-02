@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.scythe.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": ["c.is_first_person ? 150 : 0", "c.is_first_person ? 0 : 0", "c.is_first_person ? 55 : 0"],
+					"position": [" c.is_first_person ? 0 : 0", "c.is_first_person ? -s : 0", "c.is_first_person ? 0 : 0"]
+				}
+			}
+		},
+		"animation.player.scythe": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [90, 0, 90],
+					"position": [0, -6, 0.5]
+				}
+			}
+		}
+	}
+}

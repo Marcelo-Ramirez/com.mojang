@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:bronze_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:bronze_ingot",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:bronze_block",
+			"count": 1
+		}
+	}
+}

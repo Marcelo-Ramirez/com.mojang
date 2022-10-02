@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "guardian_elder_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:guardian_elder_meet"
+			},
+			"B": {
+				"item": "minecraft:chainmail_chestplate"
+			}
+		},
+		"result": {
+			"item": "heavy:guardian_elder_chestplate"
+		}
+	}
+}

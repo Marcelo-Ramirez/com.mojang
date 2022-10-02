@@ -1,0 +1,37 @@
+{
+  "format_version":"1.13.0",
+  "minecraft:entity":{
+     "description":{
+        "identifier":"heavy:techno_demoniac_sniper",
+        "is_spawnable":false,
+        "is_summonable":true,
+        "is_experimental":false,
+        "runtime_identifier":"minecraft:arrow"
+     },
+     "components":{
+        "minecraft:collision_box":{
+           "width":0.25,
+           "height":0.25
+        },
+        "minecraft:projectile":{
+           "on_hit":{
+             "remove_on_hit": {
+             },
+             "impact_damage": {
+               "damage": 120,
+               "knockback": true,
+               "semi_random_diff_damage": false,
+               "destroy_on_hit": true
+             }
+           },
+           "power":2.5,
+           "gravity":0.01,
+           "anchor":0.0
+        },
+        "minecraft:physics":{},
+        "minecraft:scale":{
+           "value":2
+        }
+     }
+  }
+}

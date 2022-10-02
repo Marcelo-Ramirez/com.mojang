@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "brave_axe"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"AB",
+		"C  "
+	  ],
+	  "key": {
+		"A": {
+		  "item": "minecraft:iron_axe"
+		},
+		"B": {
+		  "item": "minecraft:crimson_fungus"
+		},
+		"C": {
+			"item": "heavy:upgrade_iron_axe"
+		  }
+	  },
+	  "result": {
+		"item": "heavy:brave_axe"
+	  }
+	}
+  }

@@ -1,0 +1,92 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hand_latern.animation.hand": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["-102.5 + query.target_x_rotation - query.is_sneaking * 15.0 - this", 0, 0]
+				}
+			}
+		},
+		"animation.spear.animation.hand": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["-60 + query.target_x_rotation - query.is_sneaking * 15.0 - this", 25, 0]
+				},
+				"rightItem": {
+					"rotation": [0, -62.5, 10],
+					"position": [-1, -0.5, -1]
+				}
+			}
+		},
+		"animation.player.attack.rotations_spear": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "variable.attack_body_rot_y", 0]
+				},
+				"rightArm": {
+					"rotation": ["-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) * 1.2 + math.sin(variable.attack_time * 180)) * -25.0", "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) ? (-90.0 * math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180)) + 30.0 : 0.0)", 0]
+				}
+			}
+		},
+		"animation.player.battle_axe": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["-60 + - query.is_sneaking * 0.0 - this", 0, 0]
+				},
+				"leftArm": {
+					"rotation": ["-80 + - query.is_sneaking * 0.0 - this", 0, 0]
+				},
+				"rightItem": {
+					"rotation": [0, -70, 7.5],
+					"position": [3, 0.5, -2]
+				}
+			}
+		},
+		"animation.slingshot.animation.hand": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["-82.5 + query.target_x_rotation - query.is_sneaking * 15.0 - this", 0, 0]
+				},
+				"rightItem": {
+					"rotation": [0, 0, -80],
+					"position": [-2, -1, -0.5]
+				}
+			}
+		},
+		"animation.player.attack.rotations_axe": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "variable.attack_body_rot_y", 0]
+				},
+				"leftArm": {
+					"rotation": [0, "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 0) ? (-90.0 * math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 90)) + 30.0 : 0.0)", 0]
+				},
+				"rightArm": {
+					"rotation": [0, "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 0) ? (-45.0 * math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 90)) + 30.0 : 0.0)", 0]
+				}
+			}
+		},
+		"animation.axe.animation.hand": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["-60 + - query.is_sneaking * 0.0 - this", 0, 0]
+				},
+				"leftArm": {
+					"rotation": ["-80 + - query.is_sneaking * 0.0 - this", 0, 0]
+				},
+				"rightItem": {
+					"rotation": [0, -70, 7.5],
+					"position": [3, 0.5, -2]
+				}
+			}
+		}
+	}
+}

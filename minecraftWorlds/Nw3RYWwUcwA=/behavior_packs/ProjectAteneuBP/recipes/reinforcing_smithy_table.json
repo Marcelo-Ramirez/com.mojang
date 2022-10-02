@@ -1,0 +1,33 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "reinforcing_smithy_table"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BCB",
+      "DDD"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:steel_ingot"
+      },
+      "B": {
+        "item": "minecraft:diamond"
+      },
+      "C": {
+        "item": "minecraft:planks"
+      },
+      "D": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "heavy:reinforcing_smithy_table"
+    }
+  }
+}

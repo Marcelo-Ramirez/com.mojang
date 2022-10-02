@@ -1,0 +1,47 @@
+{
+    "format_version": "1.17.11",
+    "minecraft:item": {
+        "description": {
+            "identifier": "heavy:distilled_water_bottle",
+            "category": "equipment"
+        },
+        "components": {
+             "minecraft:use_animation": "drink",
+            "minecraft:use_duration":1.8,
+            "minecraft:food": {
+              "can_always_eat": true,
+              "using_converts_to": "minecraft:glass_bottle",
+                "on_consume": {
+          "event": "sed_0",
+          "target": "self"
+        },
+                "nutrition": 0,
+                "saturation_modifier": "normal"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "distilled_water_bottle"
+            },
+            "minecraft:display_name": {
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.potion"
+
+}
+        },
+        "events": {
+      "sed_0": {
+        "sequence": [
+            {
+                "run_command":{
+                    "command":[
+                      "event entity @s new:sed_0"
+                    ],
+                    "target": "holder"
+                  }
+            }
+        ]
+      }
+    }
+  }
+}

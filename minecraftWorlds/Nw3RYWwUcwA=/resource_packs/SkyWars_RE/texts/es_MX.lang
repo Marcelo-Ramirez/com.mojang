@@ -1,0 +1,53 @@
+## SKYWARS V4 (by Andiuber) ##
+
+item.spawn_egg.entity.add:picture_credits.name=Imagen de créditos
+item.add:exit=§f[ §7Haga clic para §l§cSalir §r§f]
+item.add:blue_chestplate=Coraza azul
+item.add:red_chestplate=Coraza roja
+item.spawn_egg.entity.add:floating_text.name=Texto flotante
+item.spawn_egg.entity.add:boss_bar.name=Barra de jefe
+
+translate.text.one=§7Para comenzar el juego,
+translate.text.two=§7se necesita un mínimo de 2
+translate.text.three=§7jugadores en el área de juego.
+translate.text.four=§7El juego comienza en:
+translate.text.five=§7El juego comienza en: §a!Vamos!
+translate.text.six=§cMínimo 2 jugadores: §4¡ERROR!
+translate.text.seven=§7Se unió al juego
+translate.text.eight=§a¡Vamos!
+translate.text.nine=§c[ §4Reparando mapa §c]
+translate.text.ten=§3Ahora eres espectador
+translate.text.eleven=[ Noche ]
+translate.text.twelve=[ Día ]
+translate.text.thirteen=[ Normal ]
+translate.text.fourteen=[ Extremo ]
+translate.text.fifteen=§l§aGanador:§r 
+translate.text.sixteen=§a¡Ganaste!
+translate.text.seventeen=§b¡GANÓ EL EQUIPO AZUL!
+translate.text.eighteen=§c¡GANÓ EL EQUIPO ROJO!
+translate.text.nighteen=[ Próximamente... ]
+translate.text.twenty=[ Normal ]
+translate.text.twenty_one=§8[ Por defecto ]
+translate.text.twenty_two=§7[ Modo ]
+translate.text.twenty_three=§6= Aleatorio =
+translate.text.twenty_four=§9= Secuencia =
+translate.text.twenty_five=§3[ Ciclo Activado ]
+translate.text.twenty_six=§c░ Eres del equipo rojo ░
+translate.text.twenty_seven=§b░ Eres del equipo azul ░
+
+translate.text.map_one=§2= Ruins =
+translate.text.map_two=§c= Flower§bPot =
+translate.text.map_three=§4= Nether =
+translate.text.map_four=§f= Snowy =
+translate.text.map_five=§3= Tr§6on =
+translate.text.map_six=§a= Natural =
+translate.text.map_seven=§e= Oasis =
+translate.text.map_eight=§b= Ice §dCream =
+translate.text.map_nine=§6= Mushroom =
+translate.text.map_ten=§3= París =
+
+entity.add:floating_text.name=Texto flotante
+entity.add:boss_bar.name=Barra de jefe
+entity.add:picture_credits.name=Imagen de créditos
+
+## ©TEAM CUBITOS MC ##

@@ -1,0 +1,68 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+      "description": {
+          "identifier": "heavy:lock_block",
+          "is_experimental": false
+      },
+      "components": {
+        "tag:steel_block": {},
+          "minecraft:destroy_time": 1000,
+          "minecraft:explosion_resistance": 1000,
+                "minecraft:block_light_emission": 0.0,
+          "minecraft:map_color": "#406278",
+          "minecraft:creative_category": {
+            "group": "ItemGroup.name.Construction",
+            "category": "Construction"
+          },
+        "minecraft:on_interact": {
+            "event": "open",
+            "target": "other"
+        }
+      },
+      "events": {
+        "open": {
+            "sequence": [
+                {
+                    "condition": "query.get_equipped_item_name == 'simple_key'",
+                    "trigger": {
+                        "event": "mushroom_fail",
+                        "target": "self"
+                    }
+                },
+                {
+                    "condition": "query.get_equipped_item_name == 'master_key'",
+                    "run_command": {
+                        "command": ["fill ~ ~ ~ ~ ~-1 ~ air 0 replace heavy:lock_block",
+                            "fill ~ ~ ~ ~ ~1 ~ air 0 replace heavy:lock_block",
+                            "playsound random.totem @a ~ ~ ~ 1"]
+                    },
+                    "decrement_stack": {}
+                }
+            ]
+        },
+        "mushroom_fail": {
+            "randomize": [
+                {
+                    "weight": 1,
+                    "run_command": {
+                        "command": ["fill ~ ~ ~ ~ ~-1 ~ air 0 replace heavy:lock_block",
+                            "fill ~ ~ ~ ~ ~1 ~ air 0 replace heavy:lock_block",
+                            "playsound random.totem @a ~ ~ ~ 1"]
+                    },
+                    "decrement_stack": {}
+                },
+                {
+                    "weight": 99,
+                    "decrement_stack": {},
+                    "run_command": {
+                        "command": [
+                            "playsound random.break @a ~ ~ ~ 1"
+                        ]
+                    }
+                }
+            ]
+        }
+        }
+      }
+    }

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tc:propeller",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "propeller",
+      "minecraft:render_offsets": "miscellaneous"
+      
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+      "description": "True weapons RP (v1.1)",
+      "name": "§dTrue weapons RP (v1.1)",
+      "uuid": "8505f68a-8888-4c1b-911c-3f8782fab986",
+      "version": [1, 0, 0],
+      "min_engine_version": [ 1, 17, 0 ]
+  },
+  "modules": [
+      {
+          "description": "True weapons RP (v1.1)",
+          "type": "resources",
+          "uuid": "70d60ef1-2aaa-4442-b871-96ab330b2716",
+          "version": [1, 0, 0]
+      }
+  ],
+  "dependencies": [
+    {
+        "uuid": "f062015d-deda-4a09-b1f9-2614e0e0df6a",
+        "version": [1, 0, 0]
+    }
+]
+}

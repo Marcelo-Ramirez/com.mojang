@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Give your friend a ride on your horse, mule, donkey, or strider!",
+    "name": "Two Person Rider",
+    "uuid": "369b3045-f939-43f3-8f4e-a905de3027eb",
+    "version": [ 1, 0, 1 ],
+    "min_engine_version": [ 1, 16, 0 ]
+  },
+  "metadata": {
+		"authors": ["ProfePlaysMinecraft on YouTube"]
+		},
+  "modules": [
+    {
+      "description": "Give your friend a ride on your horse, mule, donkey, or strider!",
+      "type": "data",
+      "uuid": "aa44efcb-a9f8-43b6-aad6-973d9204a324",
+      "version": [ 1, 0, 1 ]
+    }
+  ]
+}

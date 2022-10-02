@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:scorpion",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/scorpion",
+				"black": "textures/entity/scorpion/scorpion_black"
+			},
+			"geometry": {
+				"default": "geometry.scorpion"
+			},
+			"render_controllers": [
+				"controller.render.scorpion"
+			],
+			"spawn_egg": {
+				"base_color": "#d2b36d",
+				"overlay_color": "#764c35"
+			},
+			"animations": {
+				"default": "animation.scorpion.default",
+				"threatened": "animation.scorpion.threatened",
+				"walk": "animation.scorpion.legs_walking",
+				"sting": "animation.scorpion.sting",
+				"walk_controller": "controller.animation.scorpion.walk",
+				"body_controller": "controller.animation.scorpion.posture"
+			},
+			"scripts": {
+				"animate": [
+					"walk_controller",
+					"body_controller"
+				]
+			}
+		}
+	}
+}

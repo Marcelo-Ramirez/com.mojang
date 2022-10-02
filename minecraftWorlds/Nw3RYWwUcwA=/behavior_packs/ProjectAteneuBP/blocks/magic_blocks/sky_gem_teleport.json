@@ -1,0 +1,41 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+      "description": {
+          "identifier": "heavy:sky_gem_teleporter",
+          "is_experimental": false
+      },
+      "components": {
+        "tag:stone":{},
+        "minecraft:loot": "loot_tables/blocks/sky_gem.json",
+        "minecraft:material_instances" : {
+          "*" : {
+            "texture": "sky_gem_teleporter",
+            "render_method": "alpha_test",
+            "ambient_occlusion":false
+          }
+        },
+        "minecraft:geometry":"geometry.sky_gem_teleporter",
+        "minecraft:pick_collision": {
+          "origin":  [-2.0, 0.0, -2.0],
+          "size":   [4.0, 12.0, 4.0]
+        },
+          "minecraft:destroy_time": 40,
+          "minecraft:explosion_resistance": 100,
+          "minecraft:block_light_absorption": 0,
+          "minecraft:block_light_emission": 0.0,
+          "minecraft:map_color": "#75B9DE",
+          "minecraft:on_interact": {
+            "event": "teleport",
+            "target": "self"
+          }
+      },
+      "events": {
+        "teleport": {
+          "run_command": {
+            "command": ["tp @p ~ ~10 ~"]
+          }
+        }
+      }
+    }
+  }

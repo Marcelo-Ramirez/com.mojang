@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "echinocactus_petal"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "heavy:echinocactus_petal"
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:yellow_dye",
+				"count": 1
+			}
+		]
+	}
+}

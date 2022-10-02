@@ -1,0 +1,30 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "demon_essence_2041e03a"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:demon_meat",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:glass_bottle",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:demon_essence",
+			"count": 1
+		}
+	}
+}

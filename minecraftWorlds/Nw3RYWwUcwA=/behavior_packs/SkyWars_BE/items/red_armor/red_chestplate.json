@@ -1,0 +1,57 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "add:red_chestplate",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.chestplate"
+            },
+            "minecraft:icon": {
+                "texture": "red_chestplate",
+                "frame": 0
+            },
+            "minecraft:foil": false,
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 15,
+                "slot": "armor_torso"
+            },
+            "minecraft:durability": {
+                "max_durability": 80,
+                "damage_chance": {
+                    "min": 60,
+                    "max": 100
+                }
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest"
+            },
+            "minecraft:armor": {
+                "protection": 3
+            },
+            "minecraft:repairable": {
+                "repair_items": [{
+                    "items": ["add:red_chestplate"],
+                    "repair_amount": 10
+                }]
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "sound",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "sound": {
+                "run_command": {
+                    "command": ["playsound armor.equip_leather @s"],
+                    "target": "self"
+                }
+            }
+        }
+    }
+}

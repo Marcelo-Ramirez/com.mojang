@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:meatball_explosion",
+			"materials": {
+				"default": "entity"
+			},
+			"textures": {
+				"default": "textures/entity/meatball_bullet"
+			},
+			"geometry": {
+				"default": "geometry.emitter"
+			},
+			"animations": {
+				"emitter": "animation.emitter.emitter"
+			},
+			"scripts": {
+				"animate": [
+					"emitter"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {},
+			"particle_effects": {
+				"emitter": "bradmob:part_phlogiston_spray"
+			}
+		}
+	}
+}

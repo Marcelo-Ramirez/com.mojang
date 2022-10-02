@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:guardian_elder_meet",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "guardian_elder_meet"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.rotten_flesh"
+			  },
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.demonican_shoot",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0.5, 4, 5],
+					"cubes": [
+						{"origin": [-2, 2, -3], "size": [5, 7, 10], "pivot": [1, 5, 5], "rotation": [55, 0, 0], "uv": [0, 0]}
+					],
+					"locators": {
+						"demon": [0, 6, 6]
+					}
+				},
+				{
+					"name": "right_horn",
+					"parent": "body",
+					"pivot": [1, 5, 5]
+				},
+				{
+					"name": "left_horn",
+					"parent": "body",
+					"pivot": [1, 5, 5],
+					"cubes": [
+						{"origin": [0.99, 6, 3], "size": [2, 7, 2], "uv": [0, 0]},
+						{"origin": [-1.99, 6, 3], "size": [2, 7, 2], "uv": [0, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "body",
+					"pivot": [0.5, 4, 5]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:natural_quartz_block"
+	   },
+	   "components": {
+		"tag:stone": {},
+		"tag:ore_t1": {},
+		"minecraft:creative_category": {
+            "group": "ItemGroup.name.Construction",
+            "category": "Construction"
+          },
+		"minecraft:destroy_time": 3,
+		"minecraft:friction": 0.6,
+		"minecraft:loot": "loot_tables/blocks/gypsum_crytal.json",
+		"minecraft:on_player_destroyed": {
+			"event": "destroyed",
+			"target": "self"
+		}
+	},
+	"events": {
+		"destroyed": {
+			"sequence": [
+				{
+					"run_command": {
+						"command": [
+							"summon xp_orb ~ ~ ~",
+							"summon xp_orb ~ ~ ~"
+						],
+						"target": "self"
+					}
+				}
+			]
+		  }
+	}
+}
+}

@@ -1,0 +1,94 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.giantcrab.pose": {
+			"loop": true,
+			"bones": {
+				"arm": {
+					"rotation": [
+						0,
+						-25,
+						0
+					]
+				},
+				"claw": {
+					"rotation": [
+						0,
+						-65,
+						0
+					]
+				},
+				"pincer": {
+					"rotation": [
+						0,
+						-30,
+						0
+					]
+				},
+				"leg": {
+					"rotation": [
+						-8.0634,
+						-21.07593,
+						21.50238
+					]
+				},
+				"foreleg": {
+					"rotation": [
+						0,
+						0,
+						-62.5
+					]
+				},
+				"foot": {
+					"rotation": [
+						0,
+						0,
+						-65
+					]
+				},
+				"leg2": {
+					"rotation": [
+						0,
+						0,
+						20
+					]
+				},
+				"foreleg2": {
+					"rotation": [
+						0,
+						0,
+						-62.5
+					]
+				},
+				"foot2": {
+					"rotation": [
+						0,
+						0,
+						-65
+					]
+				},
+				"leg3": {
+					"rotation": [
+						18.88172,
+						41.64114,
+						27.23631
+					]
+				},
+				"foreleg3": {
+					"rotation": [
+						0,
+						0,
+						-62.5
+					]
+				},
+				"foot3": {
+					"rotation": [
+						0,
+						0,
+						-65
+					]
+				}
+			}
+		}
+	}
+}

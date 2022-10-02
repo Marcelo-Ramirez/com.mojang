@@ -1,0 +1,22 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+	  "description": {
+		"identifier": "heavy_steel_remover"
+	  },
+	  "tags": [
+		"stonecutter"
+	  ],
+	  "priority": 1,
+	  "ingredients": [
+		{
+		  "item": "heavy:steel_pickaxe",
+		  "data": 0
+		}
+	  ],
+	  "result": {
+		"item": "heavy:steel_remover",
+		"count": 1
+	  }
+	}
+  }

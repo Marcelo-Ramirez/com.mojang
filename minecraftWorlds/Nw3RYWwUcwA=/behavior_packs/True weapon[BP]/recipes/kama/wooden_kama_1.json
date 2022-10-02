@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "wooden_kama_1"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AA",
+			" B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:crimson_planks"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "true:wooden_kama"
+			}
+		]
+	}
+}

@@ -1,0 +1,1 @@
+give @s firework_rocket 64 0

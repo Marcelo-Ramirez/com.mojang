@@ -1,0 +1,32 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "serrated_axe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BCB",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stone_axe"
+      },
+      "B": {
+        "item": "heavy:pebble"
+      },
+      "C":{
+          "item":"minecraft:vine"
+      }
+    },
+    "result": [
+      {
+      "item": "heavy:serrated_axe",
+      "count": 1
+      }
+    ]
+  }
+}

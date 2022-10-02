@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:cooked_mutton.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"c": {
+				"item": "coal"
+			},
+			"m": {
+				"item": "mutton"
+			}
+		},
+		"pattern": [
+			"mmm",
+			"mcm",
+			"mcm"
+		],
+		"result": {
+			"item": "cooked_mutton",
+			"count": 7
+		}
+	}
+}

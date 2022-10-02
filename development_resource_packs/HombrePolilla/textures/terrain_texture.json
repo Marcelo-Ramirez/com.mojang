@@ -1,0 +1,19 @@
+{
+	"texture_data": {
+		"bradmob_kimberlite": {
+			"textures": "textures/blocks/stone_kimberlite"
+		},
+		"bradmob_schist": {
+			"textures": "textures/blocks/stone_schist"
+		},
+		"bradmob_microcline": {
+			"textures": "textures/blocks/stone_microcline"
+		},
+		"bradmob_raw_garnet": {
+			"textures": "textures/blocks/stone_raw_garnet"
+		},
+		"bradmob_meatball_heart": {
+			"textures": "textures/blocks/meatball_heart"
+		}
+	}
+}

@@ -1,0 +1,192 @@
+{
+	"format_version": "1.17.11",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:gypsum_pitchfork",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:repairable": {
+				"repair_items": [
+                    {
+                        "items": [
+                          "heavy:gypsum_crytal"
+                        ],
+                        "repair_amount": "40"
+                      },
+				  {
+					"items": [
+					  "heavy:gypsum_pitchfork"
+					],
+					"repair_amount": "query.max_durability"
+				  }
+				]
+			  },
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 6,
+			"tag:minecraft:is_axe": {
+			},
+            "tag:minecraft:is_hoe": {},
+			"minecraft:use_on": {
+				"blocks": [
+					"log",
+					"log2",
+					"wood",
+                    "grass",
+					"dirt",
+					"grass_path"
+				]
+			},
+			"minecraft:enchantable": {
+				"value": 5,
+				"slot": "axe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('wood', 'pumpkin', 'plant')"
+						},
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:chest",
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:crafting_table",
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:crimson_planks",
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:crimson_stem",
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_stem",
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:stripped_crimson_hyphae",
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:crimson_hyphae",
+						"speed": 4,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow', 'dirt')"
+						},
+						"speed": 6,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:concretePowder",
+						"speed": 6,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:mycelium",
+						"speed": 6,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:podzol",
+						"speed": 6,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:snow",
+						"speed": 6,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					},
+					{
+						"block": "minecraft:clay",
+						"speed": 6,
+						"on_dig": {
+							"event": "destroy_block"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "destroy_block",
+					"target": "self"
+				}
+			},
+			"minecraft:display_name": {},
+			"minecraft:durability": {
+				"max_durability": 187
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.trident"
+			},
+			"minecraft:icon": {
+				"texture": "gypsum_pitchfork"
+			}
+		},
+		"events": {
+			"destroy_block": {
+				"damage": {
+				   "type": "durability",
+					 "amount": 1
+				}
+			},
+			"on_tool_used": {
+				"swing": {
+					},
+				"damage": {
+				"type": "durability",
+				"amount": 1
+				}
+			}
+		}
+	}
+}

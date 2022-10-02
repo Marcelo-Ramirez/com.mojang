@@ -1,0 +1,15 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "heavy:soulsand_bottle_full"
+    },
+
+    "tags": [ "brewing_stand" ],
+
+    "input": "heavy:soulsand_bottle",
+    "reagent": "minecraft:soul_sand",
+    "output": "heavy:soulsand_bottle_full"
+  }
+
+}

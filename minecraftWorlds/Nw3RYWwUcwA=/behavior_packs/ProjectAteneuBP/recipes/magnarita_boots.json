@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:magnarita_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:magnarita",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:magnarita_boots",
+			"count": 1
+		}
+	}
+}

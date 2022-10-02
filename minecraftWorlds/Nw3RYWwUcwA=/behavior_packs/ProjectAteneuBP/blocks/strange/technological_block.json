@@ -1,0 +1,38 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:channelizer_block"
+		},
+		"components": {
+			"tag:metal":{},
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "ItemGroup.name.Construction"
+			},
+		"minecraft:loot": "loot_tables/blocks/channeler.json",
+		"minecraft:destroy_time": 2,
+		"minecraft:explosion_resistance": 25,
+		"minecraft:friction": 0.6,
+		"minecraft:flammable": {
+		  "flame_odds": 0,
+		  "burn_odds": 0
+			 },
+			"minecraft:unit_cube": {},
+			  "minecraft:material_instances": {
+				"*": {
+				  "texture": "technological_block_side",
+				  "render_method": "opaque"
+				},
+				"bone": {
+				  "texture": "technological_block_top",
+				  "render_method": "opaque"
+				},
+				"up": "bone",
+				"down": "bone"
+			}
+	  },
+		  "events": {
+		  }
+	  }
+  }

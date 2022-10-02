@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:fabricated_gypsum_block"
+	   },
+	   "components": {
+		"tag:stone": {},
+		"tag:ore_t1": {},
+		"minecraft:creative_category": {
+            "group": "ItemGroup.name.Construction",
+            "category": "Construction"
+          },
+		"minecraft:destroy_time": 3,
+		"minecraft:friction": 0.6,
+		"minecraft:loot": "loot_tables/blocks/none.json",
+		"minecraft:on_player_destroyed": {
+			"event": "mod:drop",
+			"target": "self"
+		}
+	},
+	"events": {
+		"mod:drop": {}
+	}
+}
+}

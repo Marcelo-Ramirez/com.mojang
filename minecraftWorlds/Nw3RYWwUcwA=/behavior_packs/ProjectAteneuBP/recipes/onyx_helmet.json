@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:onyx_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"BAB",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:polished_onyx",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:redstone_block",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:onyx_helmet",
+			"count": 1
+		}
+	}
+}

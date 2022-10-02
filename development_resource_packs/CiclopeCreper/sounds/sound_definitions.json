@@ -1,0 +1,76 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.cyclops.idle": {
+			"__use_legacy_max_distance": true,
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/cyclops/idle1",
+				"sounds/mob/cyclops/idle2",
+				"sounds/mob/cyclops/idle3",
+				"sounds/mob/cyclops/idle4"
+			]
+		},
+		"mob.cyclops.hit": {
+			"__use_legacy_max_distance": true,
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/cyclops/hit1",
+				"sounds/mob/cyclops/hit2",
+				"sounds/mob/cyclops/hit3"
+			]
+		},
+		"mob.cyclops.attack": {
+			"__use_legacy_max_distance": true,
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/cyclops/attack1",
+				"sounds/mob/cyclops/attack2"
+			]
+		},
+		"mob.cyclops.death": {
+			"__use_legacy_max_distance": true,
+			"category": "hostile",
+			"sounds": [
+				"sounds/mob/cyclops/death"
+			]
+		},
+		"mob.lush_cow.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/cow/hurt1",
+				"sounds/mob/cow/hurt2",
+				"sounds/mob/cow/hurt3"
+			]
+		},
+		"mob.lush_cow.say": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/cow/say1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/cow/say2",
+				"sounds/mob/cow/say3",
+				"sounds/mob/cow/say4"
+			]
+		},
+		"mob.lush_cow.step": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/cow/step1",
+				"sounds/mob/cow/step2",
+				"sounds/mob/cow/step3",
+				"sounds/mob/cow/step4"
+			]
+		},
+		"mob.lush_cow.milk": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/cow/milk1",
+				"sounds/mob/cow/milk2",
+				"sounds/mob/cow/milk3"
+			]
+		}
+	}
+}

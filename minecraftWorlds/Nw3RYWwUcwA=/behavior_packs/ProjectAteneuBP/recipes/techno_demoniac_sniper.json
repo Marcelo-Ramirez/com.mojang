@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "item_techno_demoniac"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "heavy:item_techno_demoniac"
+			},
+			{
+				"item": "heavy:death_gem"
+			}
+		],
+		"result": [
+			{
+				"item": "heavy:item_techno_demoniac_sniper"
+			}
+		]
+	}
+}

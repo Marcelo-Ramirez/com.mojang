@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ice_sword_c10a3b69"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			" A ",
+			"BCB"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:icicle",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:blue_ice",
+				"data": 0
+			},
+			"C": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:ice_sword",
+			"count": 1
+		}
+	}
+}

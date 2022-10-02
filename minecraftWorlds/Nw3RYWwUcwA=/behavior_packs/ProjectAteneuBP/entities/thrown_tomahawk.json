@@ -1,0 +1,121 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "heavy:thrown_tomahawk",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:ender_pearl"
+    },
+    "component_groups": {
+      "minecraft:tomahawk":{
+        "minecraft:entity_sensor": {
+          "sensor_range": 0.1,
+          "event_filters": {
+              "all_of": [
+                  {
+                      "test": "is_family",
+                      "subject": "other",
+                      "value": "player"
+                  }
+              ]
+          },
+          "event": "tomahawk_des"
+      },
+        "minecraft:projectile": {
+          "onHit": {
+            "impact_damage": {
+              "damage": 9,
+              "knockback": true,
+              "semi_random_diff_damage": false,
+              "destroy_on_hit": false
+            },
+            "stick_in_ground": {
+              "shake_time": 0.35
+            },
+            "arrow_effect": {}
+          },
+          "power": 2,
+          "gravity": 0.08,
+          "angleoffset": 0.0
+        }
+      },
+      "minecraft:pillager_tomahawk":{
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": [ 18, 25 ],
+              "knockback": true,
+              "semi_random_diff_damage": false,
+              "destroy_on_hit": true
+            },
+            "stick_in_ground": {
+              "shake_time": 0.15
+            },
+            "arrow_effect": {
+            }
+          },
+          "hit_sound": "bow.hit",
+          "power": 1.6,
+          "gravity": 0.05,
+          "uncertainty_base": 16,
+          "uncertainty_multiplier": 4,
+          "anchor": 1,
+          "should_bounce": true,
+          "offset": [ 0, -0.1, 0 ]
+        }
+      },
+      "tomahawk_des": {
+        "minecraft:spawn_entity": [
+          {
+            "min_wait_time": 0,
+            "max_wait_time": 0,
+            "single_use": true,
+            "spawn_item": "heavy:tomahawk",
+            "num_to_spawn": 1
+          }
+        ],
+          "minecraft:instant_despawn": {}
+        }
+      },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:physics": {},
+      "minecraft:conditional_bandwidth_optimization": {
+				"default_values": {
+					"max_optimized_distance": 80.0,
+					"max_dropped_ticks": 7,
+					"use_motion_prediction_hints": true
+				  }
+			}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "filters": {"test": "is_family", "subject": "other", "value": "player"},
+            "add": {
+              "component_groups" : [ "minecraft:tomahawk" ]
+            }
+          },
+          {
+            "filters": {"test": "is_family", "subject": "other", "value": "elite"},
+            "add": {
+              "component_groups": [ "minecraft:pillager_tomahawk" ]
+            }
+          }
+        ]
+      },
+      "tomahawk_des": {
+				"add": {
+					"component_groups": [
+						"tomahawk_des"]
+          }
+        }
+      }
+    }
+  }

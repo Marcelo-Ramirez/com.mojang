@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:soul_glass_panel"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:soul_glass"
+			}
+		},
+		"result": {
+			"item": "heavy:soul_glass_panel",
+			"count": 3
+		}
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "warped_fungus_soup_49448922"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:warped_fungus",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:bowl",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:warped_fungus_soup",
+			"count": 1
+		}
+	}
+}

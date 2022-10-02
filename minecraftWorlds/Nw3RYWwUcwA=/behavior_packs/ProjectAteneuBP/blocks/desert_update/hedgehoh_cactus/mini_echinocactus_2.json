@@ -1,0 +1,104 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:mini_echinocactus_2"
+		},
+		"components": {
+			"minecraft:on_interact": {
+				"event": "clear_bone_meal",
+				"target": "self",
+				"condition": "query.get_equipped_item_name == 'bone_meal'"
+			},
+            "minecraft:ticking": {
+				"looping": true,
+				"range": [
+					630,
+					852
+				],
+				"on_tick": {
+					"event": "baby_growth",
+					"target": "self"
+				}
+			},
+			"minecraft:map_color": "#649832",
+			"minecraft:geometry": "geometry.echinocactus_baby2",
+			"minecraft:pick_collision": {
+				"origin": [
+					-6,
+					0,
+					-6
+				],
+				"size": [
+					12,
+					6,
+					12
+				]
+			},
+            "minecraft:entity_collision": {
+				"origin": [-4, 0, -4],
+				"size": [8, 5, 8]
+			  },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mini_echinocactus_2",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+            "spawn_loot": {
+				"table": "loot_tables/blocks/"
+			   },
+            "baby_growth": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name('main_hand') == 'bone_meal'",
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~ ~ ~",
+								"playsound item.bone_meal.use @a ~ ~ ~"
+							]
+						},
+						"trigger": {
+							"event": "clear_bone_meal",
+							"target": "self"
+						}
+					},
+					{
+						"condition": "query.get_equipped_item_name('main_hand') != 'bone_meal'",
+						"set_block": {
+							"block_type": "heavy:hedgehog_cactus"
+						}
+					}
+				]
+			},
+            "clear_bone_meal": {
+                "sequence": [
+					{
+						"decrement_stack": {},
+						"set_block": {
+							"block_type": "heavy:hedgehog_cactus"
+						}
+					}
+				]
+			}
+        }
+	}
+}

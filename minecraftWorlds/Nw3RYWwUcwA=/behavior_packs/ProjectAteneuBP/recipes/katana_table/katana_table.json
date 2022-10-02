@@ -1,0 +1,28 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "katana_table_katana"
+		},
+		"tags": [
+			"katana_table"
+		],
+		"pattern": [
+			"CBA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:katana_blade"
+			},
+			"B": {
+				"item": "heavy:tsuba"
+			},
+			"C": {
+				"item": "heavy:tsuka"
+			}
+		},
+		"result": {
+			"item": "heavy:katana"
+		}
+	}
+}

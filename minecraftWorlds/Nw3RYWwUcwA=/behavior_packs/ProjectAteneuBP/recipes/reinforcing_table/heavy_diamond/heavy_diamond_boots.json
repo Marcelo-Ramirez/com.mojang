@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "heavy:diamond_boots_r"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IFF"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "minecraft:diamond_boots"
+		},
+		"F": {
+		  "item": "minecraft:diamond_block"
+		}
+	  },
+	  "result": {
+		"item": "heavy:heavy_diamond_boots"
+	  }
+	}
+  }
+  

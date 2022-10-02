@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:phantom_bone",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_phantom_bone"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.rotten_flesh"
+			  },
+			  "minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:magnarita"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DCD",
+			"ABA",
+			"DAD"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:magmanita",
+				"data": 0
+			},
+			"B": {
+				"item": "heavy:steel_ingot",
+				"data": 0
+			},
+			"C": {
+				"item": "minecraft:netherite_scrap",
+				"data": 0
+			},
+			"D": {
+				"item": "minecraft:gold_ingot",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:magnarita",
+			"count": 1
+		}
+	}
+}

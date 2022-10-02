@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "tessen_war_fan"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"BCB"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:paper"
+			},
+			"B": {
+				"item": "minecraft:iron_ingot"
+			},
+			"C": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "true:tessen_war_fan"
+			}
+		]
+	}
+}

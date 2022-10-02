@@ -1,0 +1,93 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:hedgehog_cactus_cut_rege1"
+		},
+		"components": {
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					630,
+					762
+				],
+				"on_tick": {
+					"event": "baby_growth",
+					"target": "self"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "cut",
+				"target": "self"
+			},
+			"minecraft:map_color": "#649832",
+			"minecraft:loot": "loot_tables/blocks/none.json",
+			"minecraft:geometry": "geometry.echinocactus_cut_rege_1",
+			"minecraft:pick_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					11,
+					14
+				]
+			},
+            "minecraft:entity_collision": {
+				"origin": [-7, 0, -7],
+				"size": [14, 11, 14]
+			  },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "echinocactus_cut_rege_1",
+					"render_method": "opaque",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.3,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:sand"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"cut": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name == 'shears'",
+						"run_command": {
+							"command": ["playsound mob.sheep.shear @a"]
+						},
+						"set_block": {
+							"block_type": "heavy:hedgehog_cactus_cut"
+						},
+						"spawn_loot": {
+							"table": "loot_tables/blocks/mini_echinocactus_1.json"
+						}
+                    }
+                ]		
+			},
+			"baby_growth": {
+				"sequence": [
+					{
+						"set_block": {
+							"block_type": "heavy:echinocactus_cut_rege2"
+						}
+					}
+				]
+			}
+        }
+	}
+}

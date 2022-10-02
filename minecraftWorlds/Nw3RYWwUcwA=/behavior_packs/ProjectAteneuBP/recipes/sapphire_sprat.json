@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:sapphire_sprat"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			" A ",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:sapphire"
+			},
+			"B": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "heavy:sapphire_sprat"
+		}
+	}
+}

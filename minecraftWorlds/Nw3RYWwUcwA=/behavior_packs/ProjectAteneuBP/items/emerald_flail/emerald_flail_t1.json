@@ -1,0 +1,66 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+      "description": {
+          "category": "commands",
+          "identifier": "heavy:emerald_flail_t1"
+      },
+      "components": {
+          "minecraft:max_stack_size": 1,
+          "minecraft:use_duration": 2,
+          "minecraft:hand_equipped": true,
+       "minecraft:durability":{
+          "max_durability":1346
+       },
+       "minecraft:repairable":{
+          "repair_items":[
+             {
+                "repair_amount":50,
+                "items":[
+                   "minecraft:emerald"
+                ]
+             }
+          ]
+       },
+          "minecraft:enchantable": {
+              "value": 14,
+              "slot": "bow"
+          },
+          "minecraft:icon": {
+              "texture": "heavy_emerald_flail_t1"
+          },
+          "minecraft:display_name": {
+          },
+       "minecraft:on_use":{
+          "on_use":{
+             "event":"used"
+          }
+       }
+    },
+    "events":{
+      "used": {
+         "sequence": [
+            {
+               "swing": {
+					},
+                      "shoot":{
+                          "launch_power":1,
+                          "angle_offset":"query.cardinal_facing",
+                          "projectile":"heavy:emerald_flail_ball_2"
+                       },
+                       "damage":{
+                          "type":"magic",
+                          "amount":1,
+                          "target":"self"
+                       },
+         "run_command": {
+         "command": [
+          "playanimation @s animation.geometry.special.emerald_flail"
+                  ]
+               }
+            }
+         ]
+      }
+    }
+ }
+}

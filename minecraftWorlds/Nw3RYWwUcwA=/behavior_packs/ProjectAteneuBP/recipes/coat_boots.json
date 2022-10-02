@@ -1,0 +1,25 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "coat_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:wool"
+			},
+			"B": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"result": {
+			"item": "heavy:coat_boots"
+		}
+	}
+}

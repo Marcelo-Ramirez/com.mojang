@@ -1,0 +1,1470 @@
+{
+  "resource_pack_name": "Addon Maker Resource",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "dead_tallgrass_carried": {
+      "textures": [
+        "textures/blocks/desert/dead_tallgrass_carried"
+      ]
+         },
+    "omega_key": {
+      "textures": [
+        "textures/items/key/omega_key"
+      ]
+         },
+    "arachnis_stew": {
+      "textures": [
+        "textures/items/arachnis_stew"
+      ]
+         },
+    "echinocactus_petal": {
+      "textures": [
+        "textures/items/echinocactus_petal"
+      ]
+         },
+         "serrated_axe": {
+          "textures": [
+            "textures/items/serrated_axe"
+          ]
+             },
+             "gypsum_pitchfork": {
+              "textures": [
+                "textures/items/gypsum_pitchfork"
+              ]
+                 },
+                 "bone_chestplate": {
+                  "textures": [
+                    "textures/items/bone_chestplate"
+                  ]
+                     },
+    "soulsand_bottle_water": {
+      "textures": [
+        "textures/items/soul_bottle_water"
+      ]
+         },
+         "tin_helmet": {
+          "textures": [
+            "textures/items/tin_helmet"
+          ]
+             },
+             "tin_leggings": {
+              "textures": [
+                "textures/items/tin_leggings"
+              ]
+                 },
+                 "tin_boots": {
+                  "textures": [
+                    "textures/items/tin_boots"
+                  ]
+                     },
+    "rending_book": {
+      "textures": [
+        "textures/items/rending_book"
+      ]
+         },
+    "hand_latern": {
+      "textures": [
+        "textures/items/hand_lantern"
+      ]
+         },
+    "zinc_hoe": {
+      "textures": [
+        "textures/items/zinc_hoe"
+      ]
+         },
+         "zinc_shovel": {
+          "textures": [
+            "textures/items/zinc_shovel"
+          ]
+             },
+    "revenant_helmet": {
+      "textures": [
+        "textures/items/revenant_helmet"
+      ]
+         },
+    "revenant_leggings": {
+      "textures": [
+        "textures/items/revenant_leggings"
+      ]
+         },
+    "gypsum_crytal": {
+      "textures": [
+        "textures/items/gypsum_crystal"
+      ]
+         },
+    "heavy_golden_leggings": {
+ "textures": [
+   "textures/items/heavy_golden_leggings"
+ ]
+    },
+    "heavy_golden_sword": {
+ "textures": "textures/items/heavy_golden_sword"
+    },
+    "giant_golden_sword": {
+      "textures": "textures/items/giant_golden_sword"
+         },
+    "heavy_golden_chestplate": {
+ "textures": [
+   "textures/items/heavy_golden_chestplate"
+ ]
+    },
+    "heavy_soul_body": {
+ "textures": [
+   "textures/items/heavy_soul_body"
+ ]
+    },
+    "heavy_coat_helmet": {
+ "textures": [
+   "textures/items/heavy_coat_helmet"
+ ]
+    },
+    "heavy_coat_chestplate": {
+ "textures": [
+   "textures/items/heavy_coat_chestplate"
+ ]
+    },
+    "heavy_golden_boots": {
+ "textures": [
+   "textures/items/heavy_golden_boots"
+ ]
+    },
+    "heavy_golden_helmet": {
+ "textures": [
+   "textures/items/heavy_golden_helmet"
+ ]
+    },
+    "heavy_coat_legging": {
+ "textures": [
+   "textures/items/heavy_coat_legging"
+ ]
+    },
+    "heavy_coat_boots": {
+ "textures": [
+   "textures/items/heavy_coat_boots"
+ ]
+    },
+    "heavy_marine_helmet": {
+ "textures": [
+   "textures/items/heavy_marine_helmet"
+ ]
+    },
+    "heavy_wither_bone_powder": {
+ "textures": "textures/items/heavy_wither_bone_powder"
+    },
+    "heavy_wither_chestplate": {
+ "textures": [
+   "textures/items/heavy_wither_chestplate"
+ ]
+    },
+    "heavy_emerald_pickaxe": {
+ "textures": "textures/items/heavy_emerald_pickaxe"
+    },
+    "heavy_obsidian_pickaxe": {
+ "textures": "textures/items/heavy_obsidian_pickaxe"
+    },
+    "heavy_pure_netherite_pickaxe": {
+ "textures": "textures/items/pure_netherite_pickaxe"
+    },
+    "heavy_reinforcing_iron_pickaxe": {
+ "textures": "textures/items/heavy_reinforce_iron_pickaxe"
+    },
+    "heavy_ruby_pickaxe": {
+ "textures": "textures/items/heavy_ruby_pickaxe"
+    },
+    "heavy_sapphire_pickaxe": {
+ "textures": "textures/items/heavy_sapphire_pickaxe"
+    },
+    "heavy_steel_pickaxe": {
+ "textures": "textures/items/heavy_steel_pickaxe"
+    },
+    "heavy_heavy_emerald_leggings": {
+ "textures": [
+   "textures/items/rabbit_leggings"
+ ]
+    },
+    "heavy_heavy_emerald_chestplate": {
+ "textures": [
+   "textures/items/rabbit_chestplate"
+ ]
+    },
+    "heavy_pumpkin_boots": {
+ "textures": [
+   "textures/items/heavy_pumpkin_boots"
+ ]
+    },
+    "heavy_magma_boots": {
+ "textures": [
+   "textures/items/heavy_magma_boots"
+ ]
+    },
+    "heavy_rabbit_boots": {
+ "textures": [
+   "textures/items/rabbit_boots"
+ ]
+    },
+    "spider_helmet": {
+ "textures": [
+   "textures/items/spider_helmet"
+ ]
+    },
+    "guardian_elder_chestplate": {
+ "textures": [
+   "textures/items/guardian_elder_chestplate"
+ ]
+    },
+    "guardian_elder_meet": {
+ "textures": "textures/items/heavy_guardian_elder_meet"
+    },
+    "ocean_spear": {
+ "textures": "textures/items/ocean_spear"
+    },
+    "master_key":{
+      "textures":"textures/items/key/master_key"
+    },
+    "heavy_strider_fragment": {
+ "textures": "textures/items/heavy_strider_fragment"
+    },
+    "heavy_ravager_leggings": {
+ "textures": [
+   "textures/items/ravager_leggings"
+ ]
+    },
+    "heavy_ravager_fragment": {
+ "textures": "textures/items/ravager_fragment"
+    },
+    "heavy_whiter_bone": {
+ "textures": "textures/items/heavy_whiter_bone"
+    },
+    "heavy_rabbit_helmet": {
+ "textures": [
+   "textures/items/rabbit_helmet"
+ ]
+    },
+    "heavy_shulker_helmet": {
+ "textures": [
+   "textures/items/heavy_shulker_helmet"
+ ]
+    },
+    "heavy_katana": {
+ "textures": "textures/items/heavy_katana"
+    },
+    "heavy_pumpkin_helmet": {
+ "textures": [
+   "textures/items/heavy_pumpkin_helmet"
+ ]
+    },
+    "heavy_inca_mallet": {
+ "textures": "textures/items/heavy_inca_mallet"
+    },
+    "heavy_totem_helmet": {
+ "textures": [
+   "textures/items/heavy_totem_helmet"
+ ]
+    },
+    "heavy_golden_marine_helmet": {
+ "textures": [
+   "textures/items/heavy_golden_marine_helmet"
+ ]
+    },
+    "heavy_golden_heart": {
+ "textures": "textures/items/heavy_golden_heart"
+    },
+    "heavy_tsuba": {
+ "textures": "textures/items/heavy_tsuba"
+    },
+    "heavy_chainsaw": {
+ "textures": "textures/items/chainsaw"
+    },
+    "heavy_tsuka": {
+ "textures": "textures/items/heavy_tsuka"
+    },
+    "heavy_chainsaw_engine": {
+ "textures": "textures/items/chainsaw_engine"
+    },
+    "heavy_netherite_katana": {
+ "textures": "textures/items/heavy_netherite_katana"
+    },
+    "heavy_katana_piece": {
+ "textures": "textures/items/heavy_katana_piece"
+    },
+    "heavy_katana_blade": {
+ "textures": "textures/items/heavy_katana_blade"
+    },
+    "heavy_sword_chainsaw": {
+ "textures": "textures/items/sword_chainsaw"
+    },
+    "heavy_gear": {
+ "textures": "textures/items/heavy_gear"
+    },
+    "reviving_totem": {
+ "textures": "textures/items/heavy_reviving_totem"
+    },
+    "heavy_undead_heart": {
+ "textures": "textures/items/heavy_undead_heart"
+    },
+    "heavy_battery": {
+ "textures": "textures/items/heavy_battery"
+    },
+    "heavy_demon_meat": {
+ "textures": "textures/items/heavy_demon_meat"
+    },
+    "heavy_revived_heart": {
+ "textures": "textures/items/heavy_revived_heart"
+    },
+    "demonican": {
+ "textures": "textures/items/demonican"
+    },
+    "heavy_part_of_bone_canyon": {
+ "textures": "textures/items/heavy_part_of_bone_canyon"
+    },
+    "heavy_demon_essence": {
+ "textures": "textures/items/heavy_demon_essence"
+    },
+    "heavy_bone_canyon": {
+ "textures": "textures/items/heavy_bone_canyon"
+    },
+    "heavy_netherite_rod": {
+ "textures": "textures/items/heavy_netherite_rod"
+    },
+    "techno_demoniac": {
+ "textures": "textures/items/techmoniac"
+    },
+    "heavy_heatsink": {
+ "textures": "textures/items/heavy_heatsink"
+    },
+    "heavy_shell": {
+ "textures": "textures/items/heavy_shell"
+    },
+    "heavy_diamond_prism": {
+ "textures": "textures/items/heavy_diamond_prism"
+    },
+    "heavy_strange_technology": {
+ "textures": "textures/items/heavy_strange_technology"
+    },
+    "heavy_icicle": {
+ "textures": "textures/items/heavy_icicle"
+    },
+    "heavy_desert_guardian_eye": {
+ "textures": "textures/items/heavy_desert_guardian_eye"
+    },
+    "heavy_ice_helmet": {
+ "textures": [
+   "textures/items/heavy_ice_helmet"
+ ]
+    },
+    "heavy_ice_sword": {
+ "textures": "textures/items/heavy_ice_sword"
+    },
+    "heavy_legendary_wooden_sword": {
+ "textures": "textures/items/heavy_legendary_wooden_sword"
+    },
+    "heavy_macuahuitl": {
+ "textures": "textures/items/heavy_macuahuitl"
+    },
+    "heavy_jaguar_helmet": {
+ "textures": [
+   "textures/items/heavy_jaguar_helmet"
+ ]
+    },
+    "spider_sword": {
+ "textures": "textures/items/heavy_spider_sword"
+    },
+    "heavy_jaguar_chestplate": {
+ "textures": [
+   "textures/items/heavy_jaguar_chestplate"
+ ]
+    },
+    "heavy_obsidian_razor": {
+ "textures": "textures/items/heavy_obsidian_razor"
+    },
+    "heavy_demonic_chainsaw_engine": {
+ "textures": "textures/items/heavy_demonic_chainsaw_engine"
+    },
+    "heavy_ravager_chestplate": {
+ "textures": [
+   "textures/items/ravager_chestplate"
+ ]
+    },
+    "heavy_crimsom_mushroom_soup": {
+ "textures": "textures/items/crimsom_mushroom_soup"
+    },
+    "heavy_ravager_helmet": {
+ "textures": [
+   "textures/items/ravager_helmet"
+ ]
+    },
+    "heavy_ravager_boots": {
+ "textures": [
+   "textures/items/ravager_boots"
+ ]
+    },
+    "heavy_demonic_chainsaw": {
+ "textures": "textures/items/heavy_demonic_chainsaw"
+    },
+    "heavy_chromium_ingot": {
+ "textures": "textures/items/heavy_chromium_ingot"
+    },
+    "heavy_reinforced_iron_hull": {
+ "textures": [
+   "textures/items/heavy_reinforced_iron_hull"
+ ]
+    },
+    "heavy_reinforced_gold_hull": {
+ "textures": [
+   "textures/items/heavy_reinforced_gold_hull"
+ ]
+    },
+    "heavy_reinforced_iron_boots": {
+ "textures": [
+   "textures/items/heavy_reinforced_iron_boots"
+ ]
+    },
+    "heavy_reinforced_gold_boots": {
+ "textures": [
+   "textures/items/heavy_reinforced_gold_boots"
+ ]
+    },
+    "heavy_reinforce_iron_breastplate": {
+ "textures": [
+   "textures/items/heavy_reinforce_iron_breastplate"
+ ]
+    },
+    "heavy_reinforce_gold_breastplate": {
+ "textures": [
+   "textures/items/heavy_reinforce_gold_breastplate"
+ ]
+    },
+    "heavy_reinforced_iron_leggings": {
+ "textures": [
+   "textures/items/heavy_reinforced_iron_leggings"
+ ]
+    },
+    "heavy_reinforced_gold_leggings": {
+ "textures": [
+   "textures/items/heavy_reinforced_gold_leggings"
+ ]
+    },
+    "heavy_ruby": {
+ "textures": "textures/items/ruby"
+    },
+    "heavy_ruby_war_hammer": {
+ "textures": "textures/items/heavy_ruby_war_hammer"
+    },
+    "heavy_ruby_helmet": {
+ "textures": [
+   "textures/items/heavy_ruby_helmet"
+ ]
+    },
+    "heavy_ruby_boots": {
+ "textures": [
+   "textures/items/heavy_ruby_boots"
+ ]
+    },
+    "heavy_ruby_leggings": {
+ "textures": [
+   "textures/items/heavy_ruby_leggings"
+ ]
+    },
+    "heavy_ruby_chestplate": {
+ "textures": [
+   "textures/items/heavy_ruby_chestplate"
+ ]
+    },
+    "blaze_axe": {
+ "textures": "textures/items/blaze_axe"
+    },
+    "heavy_golden_mushroom": {
+ "textures": "textures/items/heavy_golden_mushroom"
+    },
+    "heavy_tomahawk": {
+ "textures": "textures/items/heavy_tomahawk"
+    },
+    "heavy_yeti_coat_helmet": {
+ "textures": [
+   "textures/items/heavy_yeti_coat_helmet"
+ ]
+    },
+    "heavy_yeti_coat_boots": {
+ "textures": [
+   "textures/items/heavy_yeti_coat_boots"
+ ]
+    },
+    "heavy_yeti_coat_leggings": {
+ "textures": [
+   "textures/items/heavy_yeti_coat_leggings"
+ ]
+    },
+    "heavy_leather_yeti": {
+ "textures": "textures/items/heavy_leather_yeti"
+    },
+    "heavy_yeti_coat_chestplate": {
+ "textures": [
+   "textures/items/heavy_yeti_coat_chestplate"
+ ]
+    },
+    "heavy_sapphire": {
+ "textures": "textures/items/heavy_sapphire"
+    },
+    "heavy_sapphire_helmet": {
+ "textures": [
+   "textures/items/heavy_sapphire_helmet"
+ ]
+    },
+    "heavy_sapphire_boots": {
+ "textures": [
+   "textures/items/heavy_sapphire_boots"
+ ]
+    },
+    "heavy_sapphire_leggings": {
+ "textures": [
+   "textures/items/heavy_sapphire_leggings"
+ ]
+    },
+    "heavy_sapphire_chestplate": {
+ "textures": [
+   "textures/items/heavy_sapphire_chestplate"
+ ]
+    },
+    "heavy_unrefined_steel": {
+ "textures": "textures/items/heavy_unrefined_steel"
+    },
+    "heavy_steel_ingot": {
+ "textures": "textures/items/steel_ingot"
+    },
+    "heavy_sapphire_sprat": {
+ "textures": "textures/items/heavy_sapphire_sprat"
+    },
+    "death_gem": {
+      "textures": [
+        "textures/items/death_gem"
+      ]
+         },
+    "heavy_steel_helmet": {
+ "textures": [
+   "textures/items/steel_helmet"
+ ]
+    },
+    "heavy_steel_chestplate": {
+ "textures": [
+   "textures/items/steel_chestplate"
+ ]
+    },
+    "heavy_steel_leggings": {
+ "textures": [
+   "textures/items/steel_leggings"
+ ]
+    },
+    "heavy_steel_boots": {
+ "textures": [
+   "textures/items/steel_boots"
+ ]
+    },
+    "heavy_steel_sword": {
+ "textures": "textures/items/steel_sword"
+    },
+    "heavy_javeline": {
+ "textures": "textures/items/heavy_javeline"
+    },
+    "heavy_portable_dynamite": {
+ "textures": "textures/items/heavy_portable_dynamite"
+    },
+    "heavy_samurai_helmet": {
+ "textures": [
+   "textures/items/heavy_samurai_helmet"
+ ]
+    },
+    "heavy_samurai_boots": {
+ "textures": [
+   "textures/items/heavy_samurai_boots"
+ ]
+    },
+    "heavy_samurai_leggings": {
+ "textures": [
+   "textures/items/heavy_samurai_leggings"
+ ]
+    },
+    "heavy_samurai_chestplate": {
+ "textures": [
+   "textures/items/heavy_samurai_chestplate"
+ ]
+    },
+    "heavy_yeti": {
+ "textures": "textures/items/heavy_yeti"
+    },
+    "heavy_golden_quartz": {
+ "textures": "textures/items/heavy_golden_quartz"
+    },
+    "heavy_pure_netherite_scrap": {
+ "textures": "textures/items/heavy_pure_netherite_scrap"
+    },
+    "heavy_pure_netherite_ingot": {
+ "textures": "textures/items/heavy_pure_netherite_ingot"
+    },
+    "heavy_warped_fungus_soup": {
+ "textures": "textures/items/heavy_warped_fungus_soup"
+    },
+    "heavy_emerald_flail": {
+ "textures": "textures/items/heavy_emerald_flail"
+    },
+    "heavy_pure_netherite_chestplate": {
+ "textures": [
+   "textures/items/heavy_pure_netherite_chestplate"
+ ]
+    },
+    "heavy_pure_netherite_boots": {
+ "textures": [
+   "textures/items/heavy_pure_netherite_boots"
+ ]
+    },
+    "heavy_pure_netherite_leggings": {
+ "textures": [
+   "textures/items/heavy_pure_netherite_leggings"
+ ]
+    },
+    "heavy_piglin_chestplate": {
+ "textures": [
+   "textures/items/heavy_piglin_chestplate"
+ ]
+    },
+    "heavy_pure_netherite_helmet": {
+ "textures": [
+   "textures/items/heavy_pure_netherite_helmet"
+ ]
+    },
+    "heavy_piglin_handband": {
+ "textures": [
+   "textures/items/heavy_piglin_handband"
+ ]
+    },
+    "heavy_strangers_leggings": {
+ "textures": [
+   "textures/items/heavy_strangers_leggings"
+ ]
+    },
+    "heavy_diamond_leggings": {
+ "textures": [
+   "textures/items/heavy_diamond_leggings"
+ ]
+    },
+    "heavy_diamond_chestplate": {
+ "textures": [
+   "textures/items/heavy_diamond_chestplate"
+ ]
+},
+    "heavy_diamond_boots": {
+ "textures": [
+   "textures/items/heavy_diamond_boots"
+ ]
+    },
+    "heavy_diamond_helmet": {
+ "textures": [
+   "textures/items/heavy_diamond_helmet"
+ ]
+    },
+    "heavy_slingshot": {
+ "textures": [
+   "textures/items/slingshot"]
+ },
+ "heavy_marine_slingshot": {
+   "textures": [
+"textures/items/marine_slingshot"]
+   },
+   "heavy_nether_slingshot": {
+"textures": [
+  "textures/items/nether_slingshot"]
+},
+"heavy_super_marine_slingshot": {
+  "textures": [
+    "textures/items/super_marine_slingshot"]
+  },
+  "heavy_super_nether_slingshot": {
+    "textures": [
+ "textures/items/super_nether_slingshot"]
+    },
+    "heavy_gold_slingshot": {
+ "textures": [
+   "textures/items/gold_slingshot"]
+ },
+ "heavy_techno_gold_slingshot": {
+   "textures": [
+"textures/items/techno_gold_slingshot"]
+   },
+   "heavy_techno_gold_slingshot_w": {
+"textures": [
+  "textures/items/techno_gold_slingshot_w"]
+},
+"heavy_shulker_chestplate": {
+  "textures": [
+    "textures/items/heavy_shulker_chestplate"
+  ]
+},
+"heavy_shulker_leggings": {
+  "textures": [
+    "textures/items/heavy_shulker_leggings"
+  ]
+},
+"heavy_shulker_boots": {
+  "textures":[
+    "textures/items/heavy_shulker_boots"
+  ]
+},
+"heavy_polished_onyx": {
+  "textures":[
+    "textures/items/heavy_onix"
+  ]
+},
+"heavy_onyx":{
+  "textures":[
+    "textures/items/heavy_onixN"
+  ]
+},
+"heavy_onix_helmet":{
+  "textures": [
+    "textures/items/heavy_onix_helmet"
+  ]
+},
+"heavy_dark_fabric":{
+  "textures": [
+    "textures/items/dark_fabric"
+  ]
+},
+"heavy_techno_demoniac_sniper":{
+  "textures": [
+    "textures/items/heavy_techno_demoniac_sniper"
+  ]
+},
+"heavy_demon_Sword":{
+  "textures":[
+    "textures/items/demon_sword"
+  ]
+},
+"heavy_phantom_bone":{
+  "textures":[
+    "textures/items/phantom_bone"
+  ]
+},
+"heavy_scuba_helmet":{
+  "textures":[
+    "textures/items/scuba_helmet"
+  ]
+},
+"heavy_scuba_chestplate":{
+  "textures":[
+    "textures/items/scuba_chestplate"
+  ]
+},
+"heavy_scuba_chestplate_t1":{
+  "textures":[
+    "textures/items/scuba_chestplate_full"
+  ]
+},
+"heavy_scuba_leggings":{
+  "textures":[
+    "textures/items/scuba_leggings"
+  ]
+},
+"heavy_scuba_boots":{
+  "textures":[
+    "textures/items/scuba_boots"
+  ]
+},
+"heavy_phantom_helmet":{
+  "textures":[
+    "textures/items/phantom_helmet"
+  ]
+},
+"heavy_phantom_chestplate":{
+  "textures":[
+    "textures/items/phantom_chestplate"
+  ]
+},
+"heavy_magnarita":{
+  "textures":[
+    "textures/items/magnarita"
+  ]
+},
+"heavy_magmanita":{
+  "textures":[
+    "textures/items/magmanita_scrap"
+  ]
+},
+"heavy_magnarita_helmet":{
+  "textures":[
+    "textures/items/magnarita_helmet"
+  ]
+},
+"heavy_magnarita_chestplate":{
+  "textures":[
+    "textures/items/magnarita_chestplate"
+  ]
+},
+"heavy_magnarita_leggings":{
+  "textures":[
+    "textures/items/magnarita_leggings"
+  ]
+},
+"heavy_magnarita_boots":{
+  "textures":[
+    "textures/items/magnarita_boots"
+  ]
+},
+"heavy_netherite_chestplate":{
+  "textures":[
+    "textures/items/netherite_armor_gold"
+  ]
+},
+"heavy_chainsawD":{
+  "textures":[
+    "textures/items/heavy_chainsawD"
+  ]
+},
+"heavy_axe":{
+  "textures":[
+    "textures/items/iron_axe_t1"
+  ]
+},
+"heavy_emerald_flail_t1":{
+  "textures":[
+    "textures/items/heavy_emerald_flail"
+  ]
+},
+"heavy_coat_boots_t1":{
+  "textures":[
+    "textures/items/heavy_coat_boots_t1"
+  ]
+},
+"heavy_upgrade_scuba_chestplate":{
+  "textures":[
+    "textures/items/scuba_chestplate_upgrade"
+  ]
+},
+"upgrade_iron_axe":{
+  "textures":[
+    "textures/items/upgrade/iron_axe/iron_axe_upgrade"
+  ]
+},
+"upgrade_emerald_flail":{
+  "textures":[
+    "textures/items/upgrade/emerald_flail/emerald_flail_upgrade_1"
+  ]
+},
+"strange_treasure_chest":{
+  "textures":[
+    "textures/items/treasure_t1"
+  ]
+},
+"heavy_marine_treasure":{
+  "textures":[
+    "textures/items/marine_treasure"
+  ]
+},
+"upgrade_iron_sword":{
+  "textures":[
+    "textures/items/upgrade/tizona/tizona_upgrade_1"
+  ]
+},
+"heavy_tizona":{
+  "textures":[
+    "textures/items/tizona"
+  ]
+},
+"upgrade_coat_boots_1":{
+  "textures":[
+    "textures/items/upgrade/coat_boots/coat_boots_upgrade_1"
+  ]
+},
+"heavy_neopreno":{
+  "textures":[
+    "textures/items/neopreno"
+  ]
+},
+"heavy_magnarita_axe":{
+  "textures":[
+    "textures/items/magnarita_axe"
+  ]
+},
+"heavy_pirate_sword":{
+  "textures":[
+    "textures/items/pirata_sword"
+  ]
+},
+"heavy_netherite_pig_armor":{
+  "textures":[
+    "textures/items/netherite_pig_armor"
+  ]
+},
+"heavy_emerald_battle_axe":{
+  "textures":[
+    "textures/items/emerald_battle_axe"
+  ]
+},
+"heavy_mushroom_boots1":{
+  "textures":[
+    "textures/items/mushroom_boots1"
+  ]
+},
+"heavy_soul_glass": {
+  "textures": [
+    "textures/blocks/heavy_soul_glass"
+  ]
+},
+"heavy_dark_wolf_leather": {
+  "textures": [
+    "textures/items/dark_wolf_leather"
+  ]
+},
+"heavy_black_wolf_helmet": {
+  "textures": [
+    "textures/items/dark_wolf_helmet"
+  ]
+},
+"heavy_black_wolf_chestplate": {
+  "textures": [
+    "textures/items/dark_wolf_chestplate"
+  ]
+},
+"heavy_bronze_ingot": {
+  "textures": [
+    "textures/items/bronze_ingot"
+  ]
+},
+"heavy_raw_bronze": {
+  "textures": [
+    "textures/items/raw_bronze"
+  ]
+},
+"bronze_helmet": {
+  "textures": [
+    "textures/items/bronze_helmet"
+  ]
+},
+"heavy_bronze_chestplate": {
+  "textures": [
+    "textures/items/bronze_chestplate"
+  ]
+},
+"heavy_bronze_leggings": {
+  "textures": [
+    "textures/items/bronze_leggings"
+  ]
+},
+"heavy_bronze_boots": {
+  "textures": [
+    "textures/items/bronze_boots"
+  ]
+},
+"bronze_Sword": {
+  "textures": [
+    "textures/items/bronze_sword"
+  ]
+},
+"heavy_endtinum_helmet": {
+  "textures": [
+    "textures/items/endtinum_helmet"
+  ]
+},
+"heavy_endtinum_chestplate": {
+  "textures": [
+    "textures/items/endtinum_chestplate"
+  ]
+},
+"heavy_endtinum_leggings": {
+  "textures": [
+    "textures/items/endtinum_leggings"
+  ]
+},
+"heavy_endtinum_boots": {
+  "textures": [
+    "textures/items/endtinum_boots"
+  ]
+},
+"heavy_endtinum_ingot": {
+  "textures": [
+    "textures/items/endtinum"
+  ]
+},
+"heavy_endtinum_nugget": {
+  "textures": [
+    "textures/items/endtinum_nugget"
+  ]
+},
+"heavy_gold_quartz_helmet": {
+  "textures": [
+    "textures/items/quartzhelmet"
+  ]
+},
+"heavy_gold_quartz_chestplate": {
+  "textures": [
+    "textures/items/quartzchestplate"
+  ]
+},
+"heavy_gold_quartz_leggings": {
+  "textures": [
+    "textures/items/quartzleggings"
+  ]
+},
+"heavy_gold_quartz_boots": {
+  "textures": [
+    "textures/items/quartzboots"
+  ]
+},
+"heavy_soulsand_bottle": {
+  "textures": [
+    "textures/items/soul_bottle"
+  ]
+},
+"heavy_elite_axe": {
+  "textures": [
+    "textures/items/heavy_iron_axe_elite"
+  ]
+},
+"heavy_nether_wart_chestplate": {
+  "textures": [
+    "textures/items/nether_wart_chestplate"
+  ]
+},
+"heavy_combat_hammer": {
+  "textures": [
+    "textures/items/netherite_hammer"
+  ]
+},
+"diamond_hammer": {
+  "textures": [
+    "textures/items/diamond_hammer"
+  ]
+},
+"heavy_speed_boots": {
+  "textures": [
+    "textures/items/heavy_speed_boots"
+  ]
+},
+"upgrade_coat_boots_s": {
+  "textures": [
+    "textures/items/upgrade/coat_boots/coat_boots_upgrade_S"
+  ]
+},
+"heavy_golden_glove": {
+  "textures": [
+    "textures/items/golden_glove"
+  ]
+},
+"heavy_raw_chromium": {
+  "textures": [
+    "textures/items/heavy_raw_chromiun"
+  ]
+},
+"heavy_revenant_bone": {
+  "textures": [
+    "textures/items/revenant_bone"
+  ]
+},
+"tarantula_eye": {
+  "textures": [
+    "textures/items/tarantula_eye"
+  ]
+},
+"tarantula_string": {
+  "textures": [
+    "textures/items/tarantula_string"
+  ]
+},
+"heavy_aqua_plane": {
+  "textures": [
+    "textures/items/aqua_spear_plane"
+  ]
+},
+"scorpion_stinger": {
+  "textures": [
+    "textures/items/scorpion_stinger"
+  ]
+},
+"onyx_scythe": {
+  "textures": [
+    "textures/items/onyx_scythe"
+  ]
+},
+"raw_tin": {
+  "textures": [
+    "textures/items/raw_tin"
+  ]
+},
+"tin_ingot": {
+  "textures": [
+    "textures/items/tin_ingot"
+  ]
+},
+"tin_juga": {
+  "textures": [
+    "textures/items/tin_guja"
+  ]
+},
+"tin_armguard": {
+  "textures": [
+    "textures/items/tin_handband"
+  ]
+},
+"heavy_bomb": {
+  "textures": [
+    "textures/items/bomb"
+  ]
+},
+"orange_gunpowder": {
+  "textures": [
+    "textures/items/orange_gunpowder"
+  ]
+},
+"netherite_helmet_emerald":{
+  "textures":[
+    "textures/items/netherite_emerald_helmet"
+  ]
+},
+"netherite_chestplalte_emerald":{
+  "textures":[
+    "textures/items/sentinel_chestplate"
+  ]
+},
+"netherite_boots_emerald":{
+  "textures":[
+    "textures/items/centinel_boots"
+  ]
+},
+"weathered_copper_helmet":{
+  "textures":[
+    "textures/items/weathered_copper_helmet"
+  ]
+},
+"ground_mushroom":{
+  "textures":[
+    "textures/items/o_mushroom"
+  ]
+},
+"sky_gem":{
+  "textures":[
+    "textures/items/sky_gem"
+  ]
+},
+"iron_and_coal":{
+  "textures":[
+    "textures/items/iron_and_coal"
+  ]
+},
+"steel_nugget":{
+  "textures":[
+    "textures/items/steel_nugget"
+  ]
+},
+"reinforcing_table_item":{
+  "textures":[
+    "textures/items/reinforcing_table"
+  ]
+},
+"steel_remover":{
+  "textures":[
+    "textures/items/steel_remover"
+  ]
+},
+"sockets":{
+  "textures":[
+    "textures/items/socket"
+  ]
+},
+"micro_chip":{
+  "textures":[
+    "textures/items/micro_chip"
+  ]
+},
+"chainsaw_chain":{
+  "textures":[
+    "textures/items/chainsaw_chain"
+  ]
+},
+"gold_quarz_spear":{
+  "textures":[
+    "textures/items/gold_quartz_spear"
+  ]
+},
+"carcaj":{
+  "textures":[
+    "textures/items/quiver"
+  ]
+},
+"big_arrow_bundle":{
+  "textures":[
+    "textures/items/arrow_mont_full"
+  ]
+},
+"arrow_bundle":{
+  "textures":[
+    "textures/items/arrow_mont"
+  ]
+},
+"pebble":{
+  "textures":[
+    "textures/items/pebble"
+  ]
+},
+"slingshot":{
+  "textures":[
+    "textures/items/slingshot"
+  ]
+},
+"firework_box_full":{
+  "textures":[
+    "textures/items/fireworks_box_full"
+  ]
+},
+"firework_box":{
+  "textures":[
+    "textures/items/fireworks_box"
+  ]
+},
+"soulsand_bottle_full":{
+  "textures":[
+    "textures/items/soul_bottle_full"
+  ]
+},
+"soul_sphere":{
+  "textures":[
+    "textures/items/soulsphere"
+  ]
+},
+"bottled_cactus_water":{
+  "textures":[
+    "textures/items/bottled_cactus_water"
+  ]
+},
+"golden_cereus_item":{
+  "textures":[
+    "textures/items/golden_cereus"
+  ]
+},
+"cow_skull_helmet":{
+  "textures":[
+    "textures/items/cow_skull_helmet"
+  ]
+},
+"ocean_key_texture":{
+  "textures":[
+    "textures/items/key/ocen_key"
+  ]
+},
+"gold_key_texture":{
+  "textures":[
+    "textures/items/key/gold_key"
+  ]
+},
+"simple_key":{
+  "textures":[
+    "textures/items/key/simple_key"
+  ]
+},
+"strange_bundle":{
+  "textures":[
+    "textures/items/strange_bundle"
+  ]
+},
+"steel_plate":{
+  "textures":[
+    "textures/items/steel_plate"
+  ]
+},
+"leaves_chestplate":{
+  "textures":[
+    "textures/items/leaves_chestplate"
+  ]
+},
+"adenium_obesum_sapling_item":{
+  "textures":[
+    "textures/blocks/adenium_obesum/adenium_obesum_sapling"
+  ]
+},
+"pirate_bronze_sword":{
+  "textures":[
+    "textures/items/bronze_pirate_sword"
+  ]
+},
+"hedgehog_cactus_item":{
+  "textures":[
+    "textures/items/hedgehog_cactus_item"
+  ]
+},
+"hedgehog_cactus_baby_item":{
+  "textures":[
+    "textures/items/hedgehog_cactus_baby_item"
+  ]
+},
+"cactus_flower_item":{
+  "textures":[
+    "textures/items/cactus_flower"
+  ]
+},
+"raw_zinc":{
+  "textures":[
+    "textures/items/raw_zinc"
+  ]
+},
+"zinc_ingot":{
+  "textures":[
+    "textures/items/zinc_ingot"
+  ]
+},
+"bone_sword":{
+  "textures":[
+    "textures/items/bone_sword"
+  ]
+},
+"pirate_hat":{
+  "textures":[
+    "textures/items/pirate_hat"
+  ]
+},
+"mudball_item":{
+  "textures":[
+    "textures/items/mud_ball"
+  ]
+},
+"piston_boots":{
+  "textures":[
+    "textures/items/piston_boots"
+  ]
+},
+"canteen_empty":{
+  "textures":[
+    "textures/items/canteen"
+  ]
+},
+"canteen_full":{
+  "textures":[
+    "textures/items/canteen"
+  ]
+},
+"distilled_water_bottle":{
+  "textures":[
+    "textures/items/water/distilled_water_bottle"
+  ]
+},
+"mushrife_soup":{
+  "textures":[
+    "textures/items/mushrife_stew"
+  ]
+},
+"netherite_bronze_helmet":{
+  "textures":[
+    "textures/items/bronze/netherite_helmet"
+  ]
+},
+"netherite_bronze_chestplate":{
+  "textures":[
+    "textures/items/bronze/netherite_chestplate"
+  ]
+},
+"netherite_bronze_leggings":{
+  "textures":[
+    "textures/items/bronze/netherite_leggings"
+  ]
+},
+"netherite_bronze_boots":{
+  "textures":[
+    "textures/items/bronze/netherite_boots"
+  ]
+},
+"netherite_bronze_sword":{
+  "textures":[
+    "textures/items/bronze/netherite_sword"
+  ]
+},
+"tizona_destructive_light":{
+  "textures":[
+    "textures/items/omega_tizona"
+  ]
+},
+"upgrade_emerald_flail_fire":{
+  "textures":[
+    "textures/items/upgrade/emerald_flail/emerald_flail_upgrade_2"
+  ]
+},
+"upgrade_tizona_s":{
+  "textures":[
+    "textures/items/upgrade/tizona/tizona_upgrade_S"
+  ]
+},
+"sakura_sweet_berrys":{
+  "textures":[
+    "textures/items/sakura_sweet_berrys"
+  ]
+},
+"emerald_katana":{
+  "textures":[
+    "textures/items/emerald_katana"
+  ]
+},
+"cutting_parchment":{
+  "textures":[
+    "textures/items/parchment"
+  ]
+},
+"netherite_pirate_bronze_sword":{
+  "textures":[
+    "textures/items/bronze/netherite_pirate_sword"
+  ]
+},
+"yeti_fur":{
+  "textures":[
+    "textures/items/yeti_fur"
+  ]
+},
+"wolf_armor":{
+  "textures":[
+    "textures/items/wolf_armor"
+  ]
+},
+"ice_axe":{
+  "textures":[
+    "textures/items/ice_axe"
+  ]
+},
+"ancient_doubloon":{
+  "textures":[
+    "textures/items/iglin_token"
+  ]
+},
+"cooked_demon_meat":{
+  "textures":[
+    "textures/items/cooked_demon_meat"
+  ]
+},
+"revenant_chestplate":{
+  "textures":[
+    "textures/items/revenant_chestplate"
+  ]
+},
+"antidote":{
+  "textures":[
+    "textures/items/antidote"
+  ]
+},
+"golden_mushroom_soup":{
+  "textures":[
+    "textures/items/golden_mushroom_stew"
+  ]
+},
+"wild_boar_golden_armor":{
+  "textures":[
+    "textures/items/wild_pig_armor/gold_armor"
+  ]
+},
+"wild_boar_diamond_armor":{
+  "textures":[
+    "textures/items/wild_pig_armor/diamond_armor"
+  ]
+},
+"wild_boar_netherite_armor":{
+  "textures":[
+    "textures/items/wild_pig_armor/netherite_armor"
+  ]
+},
+"rending_sword": {
+  "textures": "textures/items/rending_sword"
+     }
+   }
+ }

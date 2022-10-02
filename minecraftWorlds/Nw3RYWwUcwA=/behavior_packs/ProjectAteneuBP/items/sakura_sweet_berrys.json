@@ -1,0 +1,45 @@
+{
+    "format_version": "1.17.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "heavy:sakura_sweet_berrys",
+            "category": "nature"
+        },
+        "components": {
+             "minecraft:use_animation": "eat",
+            "minecraft:use_duration":0.4,
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation_modifier": "bad",
+                "on_consume": {
+                    "event": "sed_0",
+                    "target": "self"
+                  }
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:icon": {
+                "texture": "sakura_sweet_berrys"
+            },
+            "minecraft:display_name": {
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.crop"
+
+}
+        },
+        "events": {
+            "sed_0": {
+                "sequence": [
+                    {
+                        "run_command":{
+                            "command":[
+                              "scoreboard players add @s sed 1"
+                            ],
+                            "target": "holder"
+                          }
+                    }
+                ]
+              }
+    }
+  }
+}

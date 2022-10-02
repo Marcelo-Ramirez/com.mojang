@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:tin_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:tin_block"
+			}
+		},
+		"result": {
+			"item": "heavy:tin_ingot",
+			"count": 9
+		}
+	}
+}

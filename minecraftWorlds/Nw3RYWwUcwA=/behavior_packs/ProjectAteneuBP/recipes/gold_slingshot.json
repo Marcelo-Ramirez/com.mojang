@@ -1,0 +1,32 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_gold_slingshot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"AAA",
+			"DAD"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:gold_ingot"
+			},
+			"B": {
+				"item": "minecraft:string"
+			},
+            "D": {
+				"item": "minecraft:gold_nugget"
+			}
+		},
+		"result": {
+			"item": "heavy:gold_slingshot",
+			"count": 1
+		}
+	}
+}

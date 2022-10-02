@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pure_netherite_chestplate_f5368e28"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:pure_netherite_ingot",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:pure_netherite_chestplate",
+			"count": 1
+		}
+	}
+}

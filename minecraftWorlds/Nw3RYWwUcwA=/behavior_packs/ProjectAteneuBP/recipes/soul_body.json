@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_Soul_body"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BAB",
+			"ABA",
+			"BAB"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:soulsand_bottle_full"
+			},
+			"B": {
+				"item": "minecraft:bone"
+			}
+		},
+		"result": {
+			"item": "heavy:soul_body"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "add:boss_bar",
+            "materials": {
+                "default": "boss_bar"
+            },
+            "textures": {
+                "default": "textures/entity/empty"
+            },
+            "geometry": {
+                "default": "geometry.empty"
+            },
+            "render_controllers": ["controller.render.floating_text"],
+            "spawn_egg": {
+                "base_color": "#FFE15B",
+                "overlay_color": "#ECC100"
+            }
+        }
+    }
+}

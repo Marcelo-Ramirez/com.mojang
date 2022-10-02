@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sakura_leaves_carpet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:sakura_leaves"
+      }
+    },
+    "result": {
+      "item": "heavy:sakura_leaves_carpet",
+      "count": 3
+    }
+  }
+}

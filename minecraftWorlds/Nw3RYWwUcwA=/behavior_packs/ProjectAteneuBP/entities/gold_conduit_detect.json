@@ -1,0 +1,347 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "heavy:gold_conduit_detect",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+        "timer": {
+			"minecraft:timer": {
+				"looping": true,
+				"time": 5,
+				"time_down_event": {
+					"event": "despawn"
+				}
+			}
+		},
+        "despawn_conduit": {
+            "minecraft:instant_despawn": {}
+          }
+        },
+    "components": {
+        "minecraft:type_family": {
+            "family": [ "conduit_detect"]
+          },
+      "minecraft:is_saddled": {},
+      "minecraft:collision_box": {
+        "width": 0.0,
+        "height": 0.0
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "falling_block"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "stalactite"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "stalagmite"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "piston"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "fire_tick"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "fire"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "lava"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "wither"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "projectile"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "suffocation"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "fall"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "attack"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "anvil"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "magic"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "any_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "entity_explosion"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "all_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "block_explosion"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+            "filters": {
+              "all_of": [
+              {
+                "test": "has_damage",
+                "subject": "self",
+                "operator": "==",
+                "value": "freezing"
+              }
+              ]
+            }
+            },
+            "deals_damage": false
+          }
+          ]
+      },
+      "minecraft:knockback_resistance": {
+        "value": 100
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+            "component_groups": [
+                "timer"
+            ]
+  },
+				"run_command": {
+					"command": [
+                        "execute @s ~ ~ ~ detect ~ ~-2 ~ prismarine 0 tag @s add prismarine1",
+
+                        "execute @s[tag=prismarine1] ~ ~ ~ detect ~-2 ~2 ~ gold_block 0 tag @s[tag=prismarine1] add gold_block2",
+
+                        "execute @s[tag=prismarine1, tag=gold_block2] ~ ~ ~ detect ~2 ~2 ~ gold_block 0 tag @s[tag=prismarine1, tag=gold_block2] add gold_block3",
+
+                        "execute @s[tag=prismarine1, tag=gold_block2, tag=gold_block3] ~ ~ ~ detect ~ ~2 ~2 gold_block 0 tag @s[tag=prismarine1, tag=gold_block2, tag=gold_block3] add gold_block4",
+
+                        "execute @s[tag=prismarine1, tag=gold_block2, tag=gold_block3 , tag=gold_block4] ~ ~ ~ detect ~ ~2 ~-2 gold_block 0 tag @s[tag=prismarine1, tag=gold_block2, tag=gold_block3,tag=gold_block4] add gold_block5",
+
+                        "execute @s[tag=prismarine1, tag=gold_block2, tag=gold_block3 , tag=gold_block4 ,tag=gold_block5] ~ ~ ~ detect ~ ~-2 ~-2 gold_block 0 tag @s[tag=prismarine1, tag=gold_block2, tag=gold_block3,tag=gold_block4,tag=gold_block5] add gold_block6",
+
+                        "execute @s[tag=prismarine1, tag=gold_block2, tag=gold_block3 , tag=gold_block4 ,tag=gold_block5 ,tag=gold_block6] ~ ~ ~ detect ~ ~-2 ~2 gold_block 0 tag @s[tag=prismarine1, tag=gold_block2, tag=gold_block3,tag=gold_block4,tag=gold_block5,tag=gold_block6] add gold_block7",
+
+                        "execute @s[tag=prismarine1, tag=gold_block2, tag=gold_block3 , tag=gold_block4 ,tag=gold_block5 ,tag=gold_block6] ~ ~ ~ detect ~ ~-2 ~2 gold_block 0 tag @s[tag=prismarine1, tag=gold_block2, tag=gold_block3,tag=gold_block4,tag=gold_block5,tag=gold_block6,tag=gold_block7] add spawn_conduit",
+
+                        "execute @s[tag=prismarine1, tag=gold_block2, tag=gold_block3, tag=gold_block4,tag=gold_block5,tag=gold_block6,tag=gold_block7 ,tag=spawn_conduit] ~ ~ ~ summon heavy:gold_conduit_entity ~ ~ ~",
+
+                        "execute @s[tag=prismarine1, tag=gold_block2, tag=gold_block3, tag=gold_block4,tag=gold_block5,tag=gold_block6,tag=gold_block7 ,tag=spawn_conduit] ~ ~ ~ fill ~~~ ~~~ air"
+					]
+				}
+      },
+      "despawn": {
+        "add": {
+            "component_groups": [
+                "despawn_conduit"]
+  }
+}
+    }
+  }
+}

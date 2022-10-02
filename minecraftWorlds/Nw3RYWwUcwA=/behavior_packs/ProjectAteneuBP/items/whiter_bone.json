@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:whiter_bone",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "heavy_whiter_bone"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.bone"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

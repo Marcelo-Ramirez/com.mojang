@@ -1,0 +1,114 @@
+{
+	"format_version": "1.17.11",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:mushrife"
+		},
+		"components": {
+			"tag:wood":{},
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					2000,
+					2500
+				],
+				"on_tick": {
+					"event": "mushroo_grow",
+					"target": "self"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "mushroo_grow",
+				"target": "self",
+				"condition": "query.get_equipped_item_name == 'bone_meal'"
+			},
+			"minecraft:map_color": "#5C6D32",
+			"minecraft:loot": "loot_tables/blocks/mushrife_mushroom.json",
+			"minecraft:geometry": "geometry.mushrife",
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					8,
+					6
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mushrife",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0.5,
+			"minecraft:breakonpush": true,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"minecraft:dirt",
+							"minecraft:grass",
+                            "minecraft:podzol",
+							"minecraft:farmland",
+                            "minecraft:mycelium"
+                            
+						],
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+			"mushroo_grow": {
+				"sequence": [
+					{
+						"condition": "query.get_equipped_item_name('main_hand') == 'bone_meal'",
+						"run_command": {
+							"command": [
+								"particle minecraft:crop_growth_emitter ~ ~ ~",
+								"playsound item.bone_meal.use @a ~ ~ ~"
+							]
+						},
+						"trigger": {
+							"event": "mushroom_fail",
+							"target": "self"
+						}
+					},
+					{
+						"condition": "query.get_equipped_item_name('main_hand') != 'bone_meal'",
+						"run_command": {
+							"command": [
+								"structure load big_mushrife ~-2 ~ ~-3"
+							]
+						}
+					}
+				]
+			},
+			"mushroom_fail": {
+				"randomize": [
+					{
+						"weight": 50,
+						"decrement_stack": {}
+					},
+					{
+						"weight": 50,
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"structure load big_mushrife ~-2 ~ ~-3"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

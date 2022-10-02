@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ruby_block_750c9a03"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:ruby",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:ruby_block",
+			"count": 1
+		}
+	}
+}

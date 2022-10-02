@@ -1,0 +1,43 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "demon_weapon_164d924c"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"CDC",
+			"AEA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:demon_meat",
+				"data": 0
+			},
+			"B": {
+				"item": "heavy:bone_canyon",
+				"data": 0
+			},
+			"C": {
+				"item": "heavy:netherite_rod",
+				"data": 0
+			},
+			"D": {
+				"item": "heavy:revived_heart",
+				"data": 0
+			},
+			"E": {
+				"item": "heavy:demon_essence",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:demon_weapon",
+			"count": 1
+		}
+	}
+}

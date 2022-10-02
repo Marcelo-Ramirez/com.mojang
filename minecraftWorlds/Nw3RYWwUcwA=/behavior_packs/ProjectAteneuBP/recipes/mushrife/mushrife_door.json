@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mushrife_door"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "heavy:mushrife_planks"
+      }
+    },
+    "result": {
+      "item": "heavy:mushrife_door",
+      "count": 3
+    }
+  }
+}

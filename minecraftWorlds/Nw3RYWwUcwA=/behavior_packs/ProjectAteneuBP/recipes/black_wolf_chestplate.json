@@ -1,0 +1,26 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:black_wolf_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"AAA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:dark_wolf_leather",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:black_wolf_chestplate",
+			"count": 1
+		}
+	}
+}

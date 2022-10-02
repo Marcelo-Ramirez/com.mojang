@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:meatball",
+			"spawn_egg": {
+				"base_color": "#42200C",
+				"overlay_color": "#5C7A3F"
+			},
+			"materials": {
+				"glow": "entity_emissive_alpha",
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/meatball"
+			},
+			"geometry": {
+				"default": "geometry.meatball"
+			},
+			"render_controllers": [
+				"controller.render.meatball"
+			],
+			"scripts": {
+				"animate": [
+					"controller_base",
+					"controller_attack"
+				]
+			},
+			"animations": {
+				"controller_base": "controller.animation.meatball_base",
+				"scale": "animation.meatball.scale",
+				"chew": "animation.meatball.idle_chew",
+				"tentacles": "animation.meatball.tentacle_sway",
+				"sway": "animation.meatball.body_sway",
+				"attack": "animation.meatball.attack_mouth",
+				"mouth_open": "animation.meatball.open",
+				"boggle": "animation.meatball.funny_mode",
+				"drip": "animation.meatball.particle_drips",
+				"controller_attack": "controller.animation.meatball_attack",
+				"chargeR": "animation.meatball.particle_charge_r",
+				"chargeL": "animation.meatball.particle_charge_l",
+				"frown": "animation.meatball.frown",
+				"dead": "animation.meatball.dead"
+			},
+			"particle_effects": {
+				"drip": "bradmob:part_meatball_drip",
+				"charge": "bradmob:part_phlogiston_simmer"
+			}
+		}
+	}
+}

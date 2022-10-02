@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "yeti_coat_chestplate"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" A ",
+			"ABA",
+			" A "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:yeti_fur"
+			},
+			"B": {
+				"item": "heavy:coat_chestplate"
+			}
+		},
+		"result": {
+			"item": "heavy:yeti_coat_chestplate"
+		}
+	}
+}

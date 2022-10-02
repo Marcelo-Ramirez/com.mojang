@@ -1,0 +1,60 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:powder_snow_step"
+		},
+		"components": {
+			"minecraft:on_interact": {
+				"event": "cut",
+				"target": "self",
+				"condition": "query.get_equipped_item_name == 'bucket'"
+			},
+		"minecraft:loot": "loot_tables/blocks/none.json",
+		"minecraft:destroy_time": 0.3,
+		"minecraft:explosion_resistance": 0,
+		"minecraft:friction": 0.6,
+		"minecraft:flammable": {
+		  "flame_odds": 0,
+		  "burn_odds": 0
+			 },
+             "minecraft:ticking": {
+                "looping": true,
+                "range": [5, 5],
+                "on_tick": {
+                    "event": "un_tramp",
+                    "target": "self"
+                }
+            }
+	  },
+		  "events": {
+			"un_tramp": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"fill ~ ~ ~ ~ ~-1 ~ powder_snow 0 replace heavy:powder_snow_step"
+							]
+						}
+					}
+				]
+			},
+			"cut": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+								"gamerule sendcommandfeedback false",
+								"give @p powder_snow_bucket",
+								"gamerule sendcommandfeedback true",
+								"fill ~ ~ ~ ~ ~-1 ~ air 0 replace heavy:powder_snow_step",
+								"playsound bucket.fill_powder_snow @a"
+                            ]
+                        },
+                        "decrement_stack": {}
+                    }
+                ]
+			}
+		  }
+	  }
+  }

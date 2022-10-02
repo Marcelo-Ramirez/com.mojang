@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "heavy:pebble_t",
+      "materials": {
+        "default": "slime"
+      },
+      "textures": {
+        "default": "textures/entity/projectiles/pebble/pebble"
+      },
+      "geometry": {
+        "default": "geometry.pebble"
+      },
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "controller.animation.heavy_javeline"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 99
+      },
+      "render_controllers": [
+        "controller.render.slime"
+      ]
+    }
+  }
+}

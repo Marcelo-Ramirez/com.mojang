@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy_demon_sword"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:demon_meat_block"
+			},
+			"B": {
+				"item": "heavy:pure_netherite_ingot"
+			}
+		},
+		"result": {
+			"item": "heavy:demon_sword"
+		}
+	}
+}

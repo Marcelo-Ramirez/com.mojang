@@ -1,0 +1,35 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "heavy:cobweb_block"
+    },
+    "components": {
+      "minecraft:creative_category": {
+				"category": "Nature"
+			},
+      "minecraft:material_instances" : {
+        "*" : {
+          "texture": "cobweb_block",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:entity_collision": {
+        "origin": [-8.0,0.0,-8.0],
+        "size": [16.0,0.5,16.0]
+      },
+      "minecraft:pick_collision":{
+        "origin": [-8.0,0.0,-8.0],
+        "size": [16.0,0.5,16.0]
+    },
+      "minecraft:destroy_time": 3,
+      "minecraft:friction": 0.1,
+      "minecraft:map_color": "#FFFFFF",
+      "minecraft:explosion_resistance": 1.0,
+      "minecraft:block_light_absorption": 0.0,
+      "minecraft:block_light_emission": 0.0,
+      "minecraft:geometry": "geometry.cobweb_custom",
+        "minecraft:preventsjumping": true
+    }
+  }
+}

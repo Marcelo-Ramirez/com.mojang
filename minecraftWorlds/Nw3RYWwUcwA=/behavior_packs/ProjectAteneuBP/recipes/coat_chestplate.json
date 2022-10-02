@@ -1,0 +1,30 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "coat_chestplate_craft"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"CBC",
+			"CAC"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:wool"
+			},
+			"B": {
+				"item": "minecraft:leather_chestplate"
+			},
+			"C": {
+				"item": "minecraft:leather"
+			}
+		},
+		"result": {
+			"item": "heavy:coat_chestplate"
+		}
+	}
+}

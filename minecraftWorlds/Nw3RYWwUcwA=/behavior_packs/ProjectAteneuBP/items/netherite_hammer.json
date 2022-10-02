@@ -1,0 +1,79 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:combat_hammer",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 9,
+			"minecraft:enchantable": {
+				"value": 12,
+				"slot": "sword"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "(query.any_tag('stone','metal','cobblestone','bricks','iron_pick_diggable'))"
+                        },
+                        "speed": 6
+                    }
+				],
+				"on_dig": {
+					"event": "break",
+					"target": "self"
+				}
+			},
+			"minecraft:display_name": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.shield"
+			},
+			"minecraft:icon": {
+				"texture": "heavy_combat_hammer"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "smack"
+				}
+			},
+			"minecraft:durability": {
+				"max_durability": 2500
+			}
+		},
+		"events": {
+			"break":{
+				"damage": {
+					"type": "durability",
+					"amount": 1
+				}
+			},
+			"smack":{
+				"sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+								"particle heavy:kill_head ^ ^1.2 ^2",
+								"playsound sound.attack.sweep @a ~ ~ ~ 1 0.5",
+							 "playanimation @s animation.player.hammer_attack"
+                            ]
+                        },
+						"shoot": {
+							"projectile": "heavy:hammer_smack",
+							"launch_power": 1,
+							"angle_offset": "query.cardinal_facing"
+						  },
+						  "damage": {
+							"type": "durability",
+							"amount": 3
+						}
+                    }
+                ]
+			}
+		}
+	}
+}

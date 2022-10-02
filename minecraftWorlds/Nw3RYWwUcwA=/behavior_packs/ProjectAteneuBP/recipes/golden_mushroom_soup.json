@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "golden_mushroom_soup"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"AAA",
+			" B "
+		],
+		"key": {
+			"A": {
+				"item": "heavy:golden_mushroom",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:bowl",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:golden_mushroom_soup",
+			"count": 1
+		}
+	}
+}

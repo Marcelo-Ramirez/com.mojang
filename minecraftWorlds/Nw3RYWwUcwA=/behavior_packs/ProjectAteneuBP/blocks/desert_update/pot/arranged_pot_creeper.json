@@ -1,0 +1,53 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "heavy:arranged_pot_creeper"
+		},
+		"components": {
+			"minecraft:on_step_on": {
+				"event": "damage_cactus",
+				"target": "self"
+			},
+			"minecraft:map_color": "#834939",
+			"minecraft:loot": "loot_tables/blocks/mushrife_mushroom.json",
+			"minecraft:geometry": "geometry.old_pot",
+			"minecraft:pick_collision": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					9,
+					8
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [-4, 0, -4],
+				"size": [8, 9, 8]
+			  },
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "arranged_pot_creeper",
+					"render_method": "alpha_test",
+					"face_dimming": false
+				}
+			},
+			"minecraft:block_light_absorption": 0,
+            "minecraft:destroy_time": 0.5,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						]
+					}
+				]
+			}
+		},
+		"events": {
+		}
+	}
+}

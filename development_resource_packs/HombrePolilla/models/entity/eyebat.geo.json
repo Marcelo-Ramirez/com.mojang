@@ -1,0 +1,518 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.eyebat",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [
+					0,
+					1.5,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						18,
+						0
+					],
+					"locators": {
+						"sequencer": [
+							0,
+							16,
+							0
+						]
+					}
+				},
+				{
+					"name": "leg_L",
+					"parent": "root",
+					"pivot": [
+						-4,
+						12,
+						-2
+					],
+					"cubes": [
+						{
+							"origin": [
+								-5,
+								6,
+								-3
+							],
+							"size": [
+								2,
+								6,
+								2
+							],
+							"uv": [
+								22,
+								24
+							]
+						}
+					]
+				},
+				{
+					"name": "leg_lower_L",
+					"parent": "leg_L",
+					"pivot": [
+						-4,
+						6,
+						-2
+					],
+					"cubes": [
+						{
+							"origin": [
+								-5,
+								0,
+								-3
+							],
+							"size": [
+								2,
+								6,
+								2
+							],
+							"uv": [
+								30,
+								24
+							]
+						}
+					]
+				},
+				{
+					"name": "foot_L",
+					"parent": "leg_lower_L",
+					"pivot": [
+						-4,
+						0,
+						-2
+					],
+					"cubes": [
+						{
+							"origin": [
+								-7,
+								0,
+								-3
+							],
+							"size": [
+								6,
+								0,
+								5
+							],
+							"uv": [
+								33,
+								27
+							]
+						}
+					]
+				},
+				{
+					"name": "toes_L",
+					"parent": "leg_lower_L",
+					"pivot": [
+						-4,
+						0,
+						-3
+					],
+					"cubes": [
+						{
+							"origin": [
+								-7,
+								-2,
+								-8
+							],
+							"size": [
+								6,
+								2,
+								5
+							],
+							"pivot": [
+								-4,
+								0,
+								-3
+							],
+							"rotation": [
+								-22.5,
+								0,
+								0
+							],
+							"uv": [
+								22,
+								32
+							]
+						}
+					]
+				},
+				{
+					"name": "leg_R",
+					"parent": "root",
+					"pivot": [
+						4,
+						12,
+						-2
+					],
+					"cubes": [
+						{
+							"origin": [
+								3,
+								6,
+								-3
+							],
+							"size": [
+								2,
+								6,
+								2
+							],
+							"uv": [
+								22,
+								24
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "leg_lower_R",
+					"parent": "leg_R",
+					"pivot": [
+						4,
+						6,
+						-2
+					],
+					"cubes": [
+						{
+							"origin": [
+								3,
+								0,
+								-3
+							],
+							"size": [
+								2,
+								6,
+								2
+							],
+							"uv": [
+								30,
+								24
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "foot_R",
+					"parent": "leg_lower_R",
+					"pivot": [
+						4,
+						0,
+						-2
+					],
+					"cubes": [
+						{
+							"origin": [
+								1,
+								0,
+								-3
+							],
+							"size": [
+								6,
+								0,
+								5
+							],
+							"uv": [
+								33,
+								27
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "toes_R",
+					"parent": "leg_lower_R",
+					"pivot": [
+						4,
+						0,
+						-3
+					],
+					"cubes": [
+						{
+							"origin": [
+								1,
+								-2,
+								-8
+							],
+							"size": [
+								6,
+								2,
+								5
+							],
+							"pivot": [
+								4,
+								0,
+								-3
+							],
+							"rotation": [
+								-22.5,
+								0,
+								0
+							],
+							"uv": [
+								22,
+								32
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [
+						0,
+						18,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-6,
+								12,
+								-6
+							],
+							"size": [
+								12,
+								12,
+								12
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "wing_L",
+					"parent": "body",
+					"pivot": [
+						6,
+						19,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								6,
+								12,
+								0
+							],
+							"size": [
+								11,
+								16,
+								0.05
+							],
+							"uv": [
+								0,
+								42
+							]
+						}
+					]
+				},
+				{
+					"name": "wing_outerL",
+					"parent": "wing_L",
+					"pivot": [
+						17,
+						19,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								17,
+								12,
+								0
+							],
+							"size": [
+								11,
+								16,
+								0.05
+							],
+							"uv": [
+								0,
+								25
+							]
+						}
+					],
+					"locators": {
+						"wingtip_emitter_l": [
+							-28,
+							16,
+							0
+						]
+					}
+				},
+				{
+					"name": "wing_R",
+					"parent": "body",
+					"pivot": [
+						-6,
+						19,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-17,
+								12,
+								0
+							],
+							"size": [
+								11,
+								16,
+								0.05
+							],
+							"uv": [
+								0,
+								43
+							],
+							"mirror": true
+						}
+					]
+				},
+				{
+					"name": "wing_outerR",
+					"parent": "wing_R",
+					"pivot": [
+						-17,
+						19,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-28,
+								12,
+								0
+							],
+							"size": [
+								11,
+								16,
+								0.05
+							],
+							"uv": [
+								0,
+								25
+							],
+							"mirror": true
+						}
+					],
+					"locators": {
+						"wingtip_emitter_r": [
+							28,
+							16,
+							0
+						]
+					}
+				},
+				{
+					"name": "eye",
+					"parent": "body",
+					"pivot": [
+						0,
+						18,
+						-6
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3.25,
+								14.75,
+								-8.25
+							],
+							"size": [
+								6.5,
+								6.5,
+								2.25
+							],
+							"uv": [
+								48,
+								12
+							]
+						}
+					]
+				},
+				{
+					"name": "eyeball",
+					"parent": "eye",
+					"pivot": [
+						0,
+						18,
+						-7
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3,
+								15,
+								-8
+							],
+							"size": [
+								6,
+								6,
+								6
+							],
+							"uv": [
+								36,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "fronds",
+					"parent": "body",
+					"pivot": [
+						0,
+						12,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-3.5,
+								10,
+								-6
+							],
+							"size": [
+								7,
+								5,
+								0
+							],
+							"pivot": [
+								0,
+								15,
+								-6
+							],
+							"rotation": [
+								-15,
+								0,
+								0
+							],
+							"uv": [
+								48,
+								20
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

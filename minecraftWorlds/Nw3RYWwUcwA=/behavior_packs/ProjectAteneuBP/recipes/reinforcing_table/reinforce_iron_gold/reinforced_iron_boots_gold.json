@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "reinforced_iron_boots_gold_table"
+	  },  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IF"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "heavy:reinforced_iron_boots"
+		},
+		"F": {
+		  "item": "minecraft:gold_ingot"
+		}
+	  },
+	  "result": {
+		"item": "heavy:reinforced_iron_boots_gold"
+	  }
+	}
+  }

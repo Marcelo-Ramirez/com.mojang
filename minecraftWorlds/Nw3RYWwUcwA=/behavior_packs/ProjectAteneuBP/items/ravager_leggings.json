@@ -1,0 +1,53 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "heavy:ravager_leggings",
+      "category": "Equipment"
+    },
+    "components": {
+      "tag:heavy:ravager_leggings":{},
+      "minecraft:icon": {
+        "texture": "heavy_ravager_leggings"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.leggings"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_legs"
+      },
+      "minecraft:durability": {
+        "max_durability": 130,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.1
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs"
+      },
+      "minecraft:render_offsets": "leggings",
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:chain",
+              "heavy:ravager_leggings"
+            ],
+            "repair_amount": 130
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 6
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

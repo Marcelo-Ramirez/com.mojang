@@ -1,0 +1,30 @@
+{
+	"resource_pack_name": "BRAD'S MOBS ASSETS",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"lobster_raw": {
+			"textures": "textures/items/lobster_tail_raw"
+		},
+		"lobster_cooked": {
+			"textures": "textures/items/lobster_tail_cooked"
+		},
+		"phlogiston": {
+			"textures": "textures/items/meatball_bullet"
+		},
+		"spawn_egg_lobster": {
+			"textures": "textures/items/spawn_egg_lobster"
+		},
+		"bradmob_eyebat_meat_raw": {
+			"textures": "textures/items/eyebat_meat_raw"
+		},
+		"bradmob_eyebat_meat_cooked": {
+			"textures": "textures/items/eyebat_meat_cooked"
+		},
+		"bradmob_bugpin": {
+			"textures": "textures/items/bug_pin"
+		},
+		"bradmob_meatball_heart": {
+			"textures": "textures/items/meatball_heart"
+		}
+	}
+}

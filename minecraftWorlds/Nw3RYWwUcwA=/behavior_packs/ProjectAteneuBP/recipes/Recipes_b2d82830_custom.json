@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:wither_pone_powder"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"B"
+		],
+		"key": {
+			"B": {
+				"item": "heavy:wither_bone"
+			}
+		},
+		"result": {
+			"item": "heavy:wither_pone_powder"
+		}
+	}
+}

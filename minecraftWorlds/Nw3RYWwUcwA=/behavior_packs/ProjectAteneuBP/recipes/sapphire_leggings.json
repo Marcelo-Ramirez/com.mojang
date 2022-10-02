@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "sapphire_leggings_4480e112"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"A A",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:sapphire",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:sapphire_leggings",
+			"count": 1
+		}
+	}
+}

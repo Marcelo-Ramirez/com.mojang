@@ -1,0 +1,41 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:quicksand_tramp"
+		},
+		"components": {
+            "minecraft:entity_collision": false,
+		"minecraft:loot": "loot_tables/blocks/none.json",
+		"minecraft:destroy_time": 0.5,
+		"minecraft:explosion_resistance": 1,
+		"minecraft:friction": 0.6,
+		"minecraft:flammable": {
+		  "flame_odds": 0,
+		  "burn_odds": 0
+			 },
+			 "minecraft:preventsjumping": true,
+             "minecraft:ticking": {
+                "looping": true,
+                "range": [5, 8],
+                "on_tick": {
+                    "event": "un_tramp",
+                    "target": "self"
+                }
+            }
+	  },
+		  "events": {
+			"un_tramp": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"fill ~ ~ ~ ~ ~-1 ~ heavy:quicksand 0 replace heavy:quicksand_tramp"
+							]
+						}
+					}
+				]
+			}
+		  }
+	  }
+  }

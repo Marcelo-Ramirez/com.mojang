@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "heavy:echinocactus_petal",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "echinocactus_petal"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.bone"
+			},
+			"minecraft:display_name": {}
+		},
+		"events": {}
+	}
+}

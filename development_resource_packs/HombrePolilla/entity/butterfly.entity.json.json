@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bradmob:butterfly",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/butterfly/butterfly",
+				"morpho": "textures/entity/butterfly/butterfly_morpho",
+				"swallow": "textures/entity/butterfly/butterfly_swallow",
+				"common_white": "textures/entity/butterfly/butterfly_common_white",
+				"common_yellow": "textures/entity/butterfly/butterfly_common_yellow",
+				"common_red": "textures/entity/butterfly/butterfly_red_flash"
+			},
+			"geometry": {
+				"default": "geometry.butterfly"
+			},
+			"animations": {
+				"scale_default": "animation.butterfly.scale_default",
+				"flap": "animation.butterfly.flap",
+				"scale_large": "animation.butterfly.scale_large_smallbody",
+				"scale_little": "animation.butterfly.scale_little"
+			},
+			"scripts": {
+				"animate": [
+					"flap",
+					{
+						"scale_default": "(query.variant==0)"
+					},
+					{
+						"scale_default": "(query.variant==2)"
+					},
+					{
+						"scale_little": "(query.variant==3)"
+					},
+					{
+						"scale_little": "(query.variant==4)"
+					},
+					{
+						"scale_little": "(query.variant==5)"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.butterfly"
+			],
+			"spawn_egg": {
+				"base_color": "#222222",
+				"overlay_color": "#FA6A02"
+			}
+		}
+	}
+}

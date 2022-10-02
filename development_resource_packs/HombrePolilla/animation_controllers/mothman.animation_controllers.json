@@ -1,0 +1,56 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mothman_default": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						"wingtuck"
+					],
+					"blend_transition": 0.5,
+					"transitions": [
+						{
+							"flap": "!query.is_on_ground"
+						}
+					]
+				},
+				"flap": {
+					"animations": [
+						"flap"
+					],
+					"blend_transition": 0.5,
+					"transitions": [
+						{
+							"default": "query.is_on_ground"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.mothman_posture": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"blend_transition": 0.5,
+					"transitions": [
+						{
+							"body_fly": "query.modified_move_speed>0.25&&!query.is_on_ground"
+						}
+					]
+				},
+				"body_fly": {
+					"animations": [
+						"body_fly"
+					],
+					"blend_transition": 0.5,
+					"transitions": [
+						{
+							"default": "query.modified_move_speed<0.25"
+						}
+					]
+				}
+			}
+		}
+	}
+}

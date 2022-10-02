@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "Your Mob Ideas Episode 4",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"ymi_wyvern_spear": {
+			"textures": "textures/items/wyvern_spear"
+		},
+		"ymi_wyvern_stinger": {
+			"textures": "textures/items/wyvern_stinger"
+		}
+	}
+}

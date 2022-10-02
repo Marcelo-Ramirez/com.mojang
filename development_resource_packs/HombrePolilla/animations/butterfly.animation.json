@@ -1,0 +1,168 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.butterfly.scale": {
+			"loop": true
+		},
+		"animation.butterfly.scale_default": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"scale": 0.4
+				}
+			}
+		},
+		"animation.butterfly.scale_little": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"scale": 0.3
+				},
+				"body": {
+					"scale": 0.7
+				},
+				"wing_r": {
+					"position": [
+						0.5,
+						0,
+						0
+					]
+				},
+				"wing_l": {
+					"position": [
+						-0.5,
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.butterfly.flap": {
+			"loop": true,
+			"animation_length": 0.58333,
+			"bones": {
+				"root": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"0.2917": [
+							-12.5,
+							0,
+							0
+						],
+						"0.4583": [
+							12.5,
+							0,
+							0
+						],
+						"0.5833": [
+							0,
+							0,
+							0
+						]
+					}
+				},
+				"wing_r": {
+					"rotation": {
+						"0.0": {
+							"post": [
+								0,
+								0,
+								0
+							],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2917": {
+							"post": [
+								0,
+								0,
+								45
+							],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4583": {
+							"post": [
+								0,
+								0,
+								-90
+							],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5833": {
+							"post": [
+								0,
+								0,
+								0
+							],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"wing_l": {
+					"rotation": {
+						"0.0": {
+							"post": [
+								0,
+								0,
+								0
+							],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2917": {
+							"post": [
+								0,
+								0,
+								-45
+							],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4583": {
+							"post": [
+								0,
+								0,
+								90
+							],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5833": {
+							"post": [
+								0,
+								0,
+								0
+							],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			}
+		},
+		"animation.butterfly.scale_large_smallbody": {
+			"animation_length": 0.04167,
+			"bones": {
+				"root": {
+					"scale": 0.5
+				},
+				"body": {
+					"scale": 0.8
+				},
+				"wing_r": {
+					"position": [
+						0.25,
+						0,
+						0
+					]
+				},
+				"wing_l": {
+					"position": [
+						-0.25,
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}

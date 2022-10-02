@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+  "animation.inca_mallet.wield_third_person": {
+    "loop": true,
+    "bones": {
+      "pole": {
+        "position": [ 1.5, 3, -10.5 ],
+        "rotation": [ 97.0, -1.5, -49.0 ]
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,69 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+	  "description": {
+		"identifier": "heavy:bone_whiter_block",
+		"properties": {
+		  "cf:facing_direction": [0,1,2]
+		  }
+		},
+		"permutations": [
+		{
+		  "condition": "query.block_property('cf:facing_direction') == 0",
+	  "components": {
+		"minecraft:rotation": [0,0,0]
+			  }
+			},
+		  {
+		  "condition": "query.block_property('cf:facing_direction') == 1",
+	  "components": {
+		"minecraft:rotation": [90,0,0]
+			  }
+			},
+		 {
+		 "condition": "query.block_property('cf:facing_direction') == 2",
+	  "components": {
+		"minecraft:rotation": [0,0,90]
+			}
+		  }
+		],
+		"components": {
+			"tag:stones": {},
+			"minecraft:creative_category": {
+				"group": "ItemGroup.name.Construction",
+				"category": "Construction"
+			  },
+		"minecraft:loot": "loot_tables/blocks/none.json",
+		"minecraft:destroy_time": 5,
+		"minecraft:explosion_resistance": 3,
+		"minecraft:friction": 0.6,
+		"minecraft:flammable": {
+		  "flame_odds": 0,
+		  "burn_odds": 0
+			 },
+			 "minecraft:on_player_placing": {
+			  "event": "set_facing_direction"
+			},
+			"minecraft:unit_cube": {},
+			  "minecraft:material_instances": {
+				"*": {
+				  "texture": "bone_whiter_block_side",
+				  "render_method": "opaque"
+				},
+				"bone": {
+				  "texture": "bone_whiter_block_top",
+				  "render_method": "opaque"
+				},
+				"up": "bone",
+				"down": "bone"
+			}
+	  },
+		  "events": {
+			"set_facing_direction": {
+			  "set_block_property": {
+				"cf:facing_direction": "math.floor( query.block_face / 2.0 )"
+			  }
+			}
+		  }
+	  }
+  }

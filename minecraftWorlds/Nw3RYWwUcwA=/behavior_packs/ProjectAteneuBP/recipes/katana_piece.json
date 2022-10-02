@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "katana_piece_72621fa5"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"A",
+			"A"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:iron_block",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:katana_piece",
+			"count": 1
+		}
+	}
+}

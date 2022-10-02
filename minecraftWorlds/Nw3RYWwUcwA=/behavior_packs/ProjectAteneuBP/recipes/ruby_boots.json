@@ -1,0 +1,26 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "ruby_boots_4cf167b6"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:ruby",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:ruby_boots",
+			"count": 1
+		}
+	}
+}

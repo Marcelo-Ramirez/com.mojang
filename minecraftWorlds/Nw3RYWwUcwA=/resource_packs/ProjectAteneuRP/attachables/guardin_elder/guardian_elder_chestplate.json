@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "heavy:guardian_elder_chestplate",
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/armor/guardian_elder_chestplate/guardian_elder_chestplate",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.elder_guardian_chestplate"
+      },
+      "animations": {
+        "default": "animation.guardian_elder.tail"
+      },
+      "scripts": {
+        "parent_setup": "variable.chest_layer_visible = 0.0;",
+        "animate": [
+          {
+            "default":"query.is_in_water"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.armor" ]
+    }
+  }
+}

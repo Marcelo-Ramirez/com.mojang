@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "portable_dynamite_1855940d"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"ABA",
+			"ABA"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:paper",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:gunpowder",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:portable_dynamite",
+			"count": 1
+		}
+	}
+}

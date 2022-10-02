@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "mud_feature"
+    },
+    "count": 14,
+    "replace_rules": [
+      {
+        "places_block": "heavy:mud",
+        "may_replace": [
+          {
+            "name": "minecraft:dirt"
+          }
+        ]
+      }
+    ]
+  }
+}

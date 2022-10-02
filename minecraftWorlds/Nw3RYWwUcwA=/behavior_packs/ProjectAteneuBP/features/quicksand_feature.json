@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "quicksand_feature"
+    },
+    "count": 18,
+    "replace_rules": [
+      {
+        "places_block": "heavy:quicksand",
+        "may_replace": [
+          {
+            "name": "minecraft:sand"
+          }
+        ]
+      }
+    ]
+  }
+}

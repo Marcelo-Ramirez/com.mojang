@@ -1,0 +1,52 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "heavy:coat_boots",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "heavy_coat_boots"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.boots"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_feet"
+      },
+      "minecraft:durability": {
+        "max_durability": 198,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.0
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:wearable": {
+        "slot": "slot.armor.feet"
+      },
+      "minecraft:render_offsets": "boots",
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:leather",
+              "heavy:coat_boots"
+            ],
+            "repair_amount": 198
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 2
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.v2weathered_copper_helmet",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 24, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [0, 0], "mirror": false},
+						{"origin": [-4, 26.41324, -5.97629], "size": [8, 3, 8], "inflate": 0.7, "pivot": [0, 28.91324, -1.97629], "rotation": [-2.5, 0, 0], "uv": [0, 16], "mirror": false}
+					]
+				}
+			]
+		}
+	]
+}

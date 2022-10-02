@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+	  "description": {
+	  "identifier": "endtinum_boots"
+	  },
+  
+	  
+	  "tags": [ "reinforcing_smithy_table" ],
+	  "pattern": [
+		"IF"
+	  ],
+	  "key": {
+		"I": {
+		  "item": "minecraft:diamond_boots"
+		},
+		"F": {
+		  "item": "heavy:endtinum_block"
+		}
+	  },
+	  "result": {
+		"item": "heavy:endtinum_boots"
+	  }
+	}
+  }

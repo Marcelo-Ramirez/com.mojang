@@ -1,0 +1,867 @@
+{
+  "namespace": "New_smithing_table",
+  
+//ui picture	
+"kitchen_image@horse.overlay_image": {
+    "texture": "textures/Reinforcing_smithy_table",
+	"alpha": 1
+  },
+  "book@horse.overlay_image": {
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "layer": 1,
+    "offset": [ 1, 1 ],
+    "size": [ 16, 16 ],
+    "texture": "textures/ui/upgrade"
+  },
+  "ingot_image@horse.overlay_image": {
+    "texture": "textures/ui/ingot_image"
+  },
+	
+  //panel for having grid offset
+  "input_grid_panel":{
+	"type": "panel",
+    "grid_position": [ 0, 0 ],
+    "ignored": false
+  },
+	
+  //crafting grid
+  "custom_crafting_grid_3x3": {
+    "type": "grid",
+    "size": [ 54, 54 ], //changed this if u want to change the area size between grids
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "grid_dimensions": [ 3, 3 ],
+    "collection_name": "crafting_input_items",
+    "controls": [
+	//top
+	{
+    "top_left@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 0, 0 ],
+    "ignored": false,
+      "controls": [
+        {
+        "@New_smithing_table.book":{
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size":[16,16],
+          "offset":[-19,31],
+          "layer": 4,
+          "bindings": [
+            {
+              "binding_name": "#has_saddle_slot",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+		"left_top@crafting.crafting_input_grid_item": {
+		"offset": [ -10, 0 ] //change this if u want to move this grid
+		}
+	  }
+	  ]
+	  }
+    },
+	{
+    "top_middle@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 1, 0 ], 
+    "ignored": false, //set to false if you want to show this grid
+      "controls": [
+        {
+          "@New_smithing_table.ingot_image":{
+            "anchor_from": "top_left",
+            "anchor_to": "top_left",
+            "size":[16,16],
+            "offset":[19,1],
+            "layer": 4,
+            "bindings": [
+              {
+                "binding_name": "#has_saddle_slot",
+                "binding_name_override": "#visible"
+              }
+            ]
+          }
+        },
+        
+      {
+        "top_middle@crafting.crafting_input_grid_item": {
+          "offset": [ 18, 0 ]
+        }
+	  },
+    {
+      "$cell_overlay_ref": "smithing_table.ingot_image"
+    }
+	  ]
+	  }
+    },
+	{
+    "top_right@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 2, 0 ],
+    "ignored": false,
+      "controls": [
+      {
+        "top_middle@crafting.crafting_input_grid_item": {
+          "offset": [ 35, 0 ]
+        }
+	  }
+	  ]
+	  }
+    },
+	  //middle
+	{
+    "middle_left@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 0, 1 ],
+    "ignored": false,
+      "controls": [
+        {
+          "@New_smithing_table.ingot_image":{
+            "anchor_from": "top_left",
+            "anchor_to": "top_left",
+            "size":[16,16],
+            "offset":[72,-17],
+            "layer": 4,
+            "bindings": [
+              {
+                "binding_name": "#has_saddle_slot",
+                "binding_name_override": "#visible"
+              }
+            ]
+          }
+        },
+      {
+        "top_middle@crafting.crafting_input_grid_item": {
+          "offset": [ -20, 12 ]
+        }
+	  }
+	  ]
+	  }
+    },
+	{
+    "middle@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 1, 1 ],
+    "ignored": true,
+      "controls": [
+      {
+        "top_middle@crafting.crafting_input_grid_item": {
+          "offset": [ 0, 0 ]
+        }
+	  }
+	  ]
+	  }
+    },
+	{
+    "middle_right@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 2, 1 ],
+    "ignored": true,
+      "controls": [
+      {
+        "top_middle@crafting.crafting_input_grid_item": {
+          "offset": [ 0, 0 ]
+        }
+	  }
+	  ]
+	  }
+    },
+	  //bottom
+	{
+    "bottom_left@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 0, 2 ],
+    "ignored": true,
+      "controls": [
+      {
+        "top_middle@crafting.crafting_input_grid_item": {
+          "offset": [ 0, 0 ]
+        }
+	  }
+	  ]
+	  }
+    },
+	{
+    "bottom_middle@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 1, 2 ],
+    "ignored": true,
+      "controls": [
+      {
+        "top_middle@crafting.crafting_input_grid_item": {
+          "offset": [ 0, 0 ]
+        }
+	  }
+	  ]
+	  }
+    },
+	{
+    "bottom_right@New_smithing_table.input_grid_panel": {
+	"grid_position": [ 2, 2 ],
+    "ignored": true,
+      "controls": [
+      {
+        "top_middle@crafting.crafting_input_grid_item": {
+          "offset": [ 0, 0 ]
+        }
+	  }
+	  ]
+	  }
+    }
+    ]
+  },
+  //workbench
+  "custom_work_bench_panel_3x3": {
+    "type": "panel",
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "controls": [
+      {
+        "crafting_label_0@crafting.crafting_label": {
+          "offset": [ -1, 6 ]
+        }
+      },
+      {
+        "inventory_label@inventory_label": { //? refactor this out
+          "offset": [ -10, 72 ]
+        }
+      },
+      {
+        "crafting_arrow_large@crafting_arrow_large": {
+          "offset": [ 61, 35 ]
+        }
+      },
+      {
+        "crafting_grid_3x3@New_smithing_table.custom_crafting_grid_3x3": {
+          "offset": [ 0, 50 ]
+        }
+      },
+	  //This is where the crafted item will output
+      {
+        "work_bench_output_grid@crafting.output_grid_3x3": {
+          "offset": [ 110, 46 ]
+        }
+      }
+    ]
+  },
+    //top half
+  "custom_crafting_panel_top_half": {
+	 "type": "panel",
+    "size": [ "100%", "50%" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "crafting_panel@New_smithing_table.custom_work_bench_panel_3x3": {
+          "offset": [ 29, 0 ]
+        }
+      }
+    ]  
+  },
+  //player inventory
+  "custom_player_inventory@common.root_panel": {
+    "layer": 1,
+	"size":[180,180],
+    "controls": [
+	    //this the ui image
+		{
+		"@New_smithing_table.kitchen_image":{
+			"layer": 2,
+			"size":["95%",90],
+			"offset":[0,-38]
+		}
+		},
+      {
+        "common_panel@common.common_panel": {
+          "offset": [ 0, 0 ],
+          "$show_close_button": true
+        }
+      },
+      {
+        "inventory_panel_top_half@$top_half_variant": {
+          "layer": 2
+        }
+      },
+      {
+        "inventory_panel_bottom_half@common.inventory_panel_bottom_half": {
+          "layer": 2,
+          "$button_ref": "crafting.inventory_container_slot_button",
+          "$background_images": "crafting.container_cell_images"
+
+        }
+      },
+      {
+        "hotbar_grid@common.hotbar_grid_template": {
+          "layer": 2,
+          "$button_ref": "crafting.inventory_container_slot_button",
+          "$background_images": "crafting.container_cell_images"
+
+        }
+      },
+      {
+        "info_table@common_buttons.light_text_button": {
+          "hover_control": "icon",
+          "default_control": "result",
+          "size": [ 24, 24 ],
+        "offset": [ -155, -78],
+        "controls": [
+          {
+            "icon": {
+              "type": "panel",
+                    "size": [ "200", "200" ],
+                    "controls": [
+              {
+                "icon":{
+                "type": "image",
+                  "size": [ 160, 164],
+                "offset": [  247.5,-12.2],
+                "anchor_to": "top_left",
+                  "anchor_from": "top_left",
+                "layer": 13,
+                "texture": "textures/ui/crafting_help/panel"
+              }
+            },
+              {
+                "result":{
+                "type": "image",
+                  "size": [ 24, 24],
+                "layer": 4,
+                "texture": "textures/ui/crafting_help/info/book_info_select"
+              }
+            }
+          ]
+        }
+      },
+          {
+            "result": {
+              "type": "image",
+                "size": [ 24, 24],
+              "layer": 4,
+              "texture": "textures/ui/crafting_help/info/book_info"
+            }
+          }
+        ]
+       }
+    },
+      {
+        "steel_armor@common_buttons.light_text_button": {
+          "hover_control": "icon",
+          "default_control": "result",
+          "size": [ 24, 24 ],
+        "offset": [ -130, -78],
+        "controls": [
+          {
+            "icon": {
+              "type": "panel",
+                    "size": [ "200", "200" ],
+                    "controls": [
+              {
+                "icon":{
+                "type": "image",
+                  "size": [ 120, 96],
+                "offset": [  222.5,-12.2],
+                "anchor_to": "top_left",
+                  "anchor_from": "top_left",
+                "layer": 13,
+                "texture": "textures/ui/crafting_help/steel_craft_armor"
+              }
+            },
+              {
+                "result":{
+                "type": "image",
+                  "size": [ 24, 24],
+                "layer": 4,
+                "texture": "textures/ui/crafting_help/steel_armor_select"
+              }
+            }
+          ]
+        }
+      },
+          {
+            "result": {
+              "type": "image",
+                "size": [ 24, 24],
+              "layer": 4,
+              "texture": "textures/ui/crafting_help/steel_armor"
+            }
+          }
+        ]
+       }
+    },
+    {
+      "heavy_goldarmor@common_buttons.light_text_button": {
+        "hover_control": "icon",
+        "default_control": "result",
+        "size": [ 24, 24 ],
+      "offset": [ -130, -50],
+      "controls": [
+        {
+          "icon": {
+            "type": "panel",
+                  "size": [ "120", "96" ],
+                  "controls": [
+            {
+              "icon":{
+              "type": "image",
+                "size": [ 120, 96],
+              "offset": [  222.5,  -40.2],
+              "anchor_to": "top_left",
+                "anchor_from": "top_left",
+              "layer": 13,
+              "texture": "textures/ui/crafting_help/heavy_gold_armor/heavy_gold_armor_craft"
+            }
+          },
+            {
+              "result":{
+              "type": "image",
+                "size": [ 24, 24],
+              "layer": 4,
+              "texture": "textures/ui/crafting_help/heavy_gold_armor/heavy_gold_armor_select"
+            }
+          }
+        ]
+      }
+    },
+        {
+          "result": {
+            "type": "image",
+              "size": [ 24, 24],
+            "layer": 4,
+            "texture": "textures/ui/crafting_help/heavy_gold_armor/heavy_gold_armor"
+          }
+        }
+      ]
+     }
+  },
+  {
+    "heavy_goldarmor@common_buttons.light_text_button": {
+      "hover_control": "icon",
+      "default_control": "result",
+      "size": [ 24, 24 ],
+    "offset": [ -130, -22],
+    "controls": [
+      {
+        "icon": {
+          "type": "panel",
+                "size": [ "120", "96" ],
+                "controls": [
+          {
+            "icon":{
+            "type": "image",
+              "size": [ 120, 96],
+            "offset": [  222.5,  -68.2],
+            "anchor_to": "top_left",
+              "anchor_from": "top_left",
+            "layer": 13,
+            "texture": "textures/ui/crafting_help/endtinum_armor/endtinum_armor_craft"
+          }
+        },
+          {
+            "result":{
+            "type": "image",
+              "size": [ 24, 24],
+            "layer": 4,
+            "texture": "textures/ui/crafting_help/endtinum_armor/endtinum_armor_select"
+          }
+        }
+      ]
+    }
+  },
+      {
+        "result": {
+          "type": "image",
+            "size": [ 24, 24],
+          "layer": 4,
+          "texture": "textures/ui/crafting_help/endtinum_armor/endtinum_armor"
+        }
+      }
+    ]
+   }
+},
+{
+  "netherite_armor@common_buttons.light_text_button": {
+    "hover_control": "icon",
+    "default_control": "result",
+    "size": [ 24, 24 ],
+  "offset": [ -130, 6],
+  "controls": [
+    {
+      "icon": {
+        "type": "panel",
+              "size": [ "120", "96" ],
+              "controls": [
+        {
+          "icon":{
+          "type": "image",
+            "size": [ 120, 96],
+          "offset": [  222.5,  -96.2],
+          "anchor_to": "top_left",
+            "anchor_from": "top_left",
+          "layer": 13,
+          "texture": "textures/ui/crafting_help/netherite_armor/netherite_armor_craft"
+        }
+      },
+        {
+          "result":{
+          "type": "image",
+            "size": [ 24, 24],
+          "layer": 4,
+          "texture": "textures/ui/crafting_help/netherite_armor/netherite_armor_select"
+        }
+      }
+    ]
+  }
+},
+    {
+      "result": {
+        "type": "image",
+          "size": [ 24, 24],
+        "layer": 4,
+        "texture": "textures/ui/crafting_help/netherite_armor/netherite_armor"
+      }
+    }
+  ]
+ }
+},
+{
+  "reinforcing_gold_armor@common_buttons.light_text_button": {
+    "hover_control": "icon",
+    "default_control": "result",
+    "size": [ 24, 24 ],
+  "offset": [ -130, 34],
+  "controls": [
+    {
+      "icon": {
+        "type": "panel",
+              "size": [ "120", "96" ],
+              "controls": [
+        {
+          "icon":{
+          "type": "image",
+            "size": [ 120, 96],
+          "offset": [  222.5,  -124.2],
+          "anchor_to": "top_left",
+            "anchor_from": "top_left",
+          "layer": 13,
+          "texture": "textures/ui/crafting_help/reinforcing_gold_armor/reinforcing_gold_armor_craft"
+        }
+      },
+        {
+          "result":{
+          "type": "image",
+            "size": [ 24, 24],
+          "layer": 4,
+          "texture": "textures/ui/crafting_help/reinforcing_gold_armor/reinforcing_gold_armor_select"
+        }
+      }
+    ]
+  }
+},
+    {
+      "result": {
+        "type": "image",
+          "size": [ 24, 24],
+        "layer": 4,
+        "texture": "textures/ui/crafting_help/reinforcing_gold_armor/reinforcing_gold_armor"
+      }
+    }
+  ]
+ }
+},
+{
+  "heavy_diamond_armor@common_buttons.light_text_button": {
+    "hover_control": "icon",
+    "default_control": "result",
+    "size": [ 24, 24 ],
+  "offset": [ -130, 62],
+  "controls": [
+    {
+      "icon": {
+        "type": "panel",
+              "size": [ "120", "96" ],
+              "controls": [
+        {
+          "icon":{
+          "type": "image",
+            "size": [ 120, 96],
+          "offset": [  222.5,  -152.8],
+          "anchor_to": "top_left",
+            "anchor_from": "top_left",
+          "layer": 13,
+          "texture": "textures/ui/crafting_help/heavy_diamond_armor/heavy_diamond_armor_craft"
+        }
+      },
+        {
+          "result":{
+          "type": "image",
+            "size": [ 24, 24],
+          "layer": 4,
+          "texture": "textures/ui/crafting_help/heavy_diamond_armor/heavy_diamond_armor_select"
+        }
+      }
+    ]
+  }
+},
+    {
+      "result": {
+        "type": "image",
+          "size": [ 24, 24],
+        "layer": 4,
+        "texture": "textures/ui/crafting_help/heavy_diamond_armor/heavy_diamond_armor"
+      }
+    }
+  ]
+ }
+},
+{
+  "more_armor@common_buttons.light_text_button": {
+    "hover_control": "icon",
+    "default_control": "result",
+    "size": [ 24, 24 ],
+  "offset": [ -130, 90],
+  "controls": [
+    {
+      "icon": {
+        "type": "panel",
+              "size": [ "120", "96" ],
+              "controls": [
+        {
+          "icon":{
+          "type": "image",
+            "size": [ 120, 50],
+          "offset": [  222.5,  -180.2],
+          "anchor_to": "top_left",
+            "anchor_from": "top_left",
+          "layer": 13,
+          "texture": "textures/ui/crafting_help/more_armor/more_craft_armor"
+        }
+      },
+        {
+          "result":{
+          "type": "image",
+            "size": [ 24, 24],
+          "layer": 4,
+          "texture": "textures/ui/crafting_help/more_armor/more_armor_select"
+        }
+      }
+    ]
+  }
+},
+    {
+      "result": {
+        "type": "image",
+          "size": [ 24, 24],
+        "layer": 4,
+        "texture": "textures/ui/crafting_help/more_armor/more_armor"
+      }
+    }
+  ]
+ }
+},
+{
+  "sword@common_buttons.light_text_button": {
+    "hover_control": "icon",
+    "default_control": "result",
+    "size": [ 24, 24 ],
+  "offset": [ -105, -78],
+  "controls": [
+    {
+      "icon": {
+        "type": "panel",
+              "size": [ "120", "96" ],
+              "controls": [
+        {
+          "icon":{
+          "type": "image",
+            "size": [ 120, 96],
+          "offset": [  197.5, -12.2],
+          "anchor_to": "top_left",
+            "anchor_from": "top_left",
+          "layer": 13,
+          "texture": "textures/ui/crafting_help/sword/sword_craft"
+        }
+      },
+        {
+          "result":{
+          "type": "image",
+            "size": [ 24, 24],
+          "layer": 4,
+          "texture": "textures/ui/crafting_help/sword/sword_select"
+        }
+      }
+    ]
+  }
+},
+    {
+      "result": {
+        "type": "image",
+          "size": [ 24, 24],
+        "layer": 4,
+        "texture": "textures/ui/crafting_help/sword/sword"
+      }
+    }
+  ]
+ }
+},
+{
+  "hammer@common_buttons.light_text_button": {
+    "hover_control": "icon",
+    "default_control": "result",
+    "size": [ 24, 24 ],
+  "offset": [ -155, -50],
+  "controls": [
+    {
+      "icon": {
+        "type": "panel",
+              "size": [ "120", "96" ],
+              "controls": [
+        {
+          "icon":{
+          "type": "image",
+            "size": [ 120, 55],
+          "offset": [  247.5,-53],
+          "anchor_to": "top_left",
+            "anchor_from": "top_left",
+          "layer": 13,
+          "texture": "textures/ui/crafting_help/hammer/hammer_craft"
+        }
+      },
+        {
+          "result":{
+          "type": "image",
+            "size": [ 24, 24],
+          "layer": 4,
+          "texture": "textures/ui/crafting_help/hammer/hammer_select"
+        }
+      }
+    ]
+  }
+},
+    {
+      "result": {
+        "type": "image",
+          "size": [ 24, 24],
+        "layer": 4,
+        "texture": "textures/ui/crafting_help/hammer/hammer"
+      }
+    }
+  ]
+ }
+},
+{
+  "katana@common_buttons.light_text_button": {
+    "hover_control": "icon",
+    "default_control": "result",
+    "size": [ 24, 24 ],
+  "offset": [ -105, -50],
+  "controls": [
+    {
+      "icon": {
+        "type": "panel",
+              "size": [ "120", "96" ],
+              "controls": [
+        {
+          "icon":{
+          "type": "image",
+            "size": [ 120, 96],
+          "offset": [  197.5,-73.2],
+          "anchor_to": "top_left",
+            "anchor_from": "top_left",
+          "layer": 13,
+          "texture": "textures/ui/crafting_help/katana/katana_craft"
+        }
+      },
+        {
+          "result":{
+          "type": "image",
+            "size": [ 24, 24],
+          "layer": 4,
+          "texture": "textures/ui/crafting_help/katana/katana_select"
+        }
+      }
+    ]
+  }
+},
+    {
+      "result": {
+        "type": "image",
+          "size": [ 24, 24],
+        "layer": 4,
+        "texture": "textures/ui/crafting_help/katana/katana"
+      }
+    }
+  ]
+ }
+}
+    ]
+  },
+  //this controls items
+    "item_control": {
+    "type": "panel",
+    "controls": [
+	
+     { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} },
+      { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+      { "hold_icon@common.inventory_take_progress_icon_button": {} },
+      {
+        "controller_gamepad_helpers_stack_panel": {
+          "type": "stack_panel",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "controls": [
+            { "container_gamepad_helpers_second_row@crafting.container_gamepad_helpers_second_row": {} },
+            {
+              "container_gamepad_helpers@common.container_gamepad_helpers": {
+                "$helper_x_control": "crafting.inventory_x_gamepad_helper",
+                "$helper_y_control": "crafting.inventory_y_gamepad_helper",
+                "$helper_a_control": "crafting.inventory_a_gamepad_helper"
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#gamepad_helper_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "flying_item_renderer@common.flying_item_renderer": {
+          "layer": 13
+        }
+      },
+      {
+        "game_tip@game_tip.game_tip_panel": {
+          "layer": 100,
+          "$offset|default": [ 0, 110 ],
+          "variables": [
+            {
+              "requires": "$game_pad",
+              "$offset": [ 0, "38%" ]
+            }
+          ],
+          "offset": "$offset"
+        }
+      },
+      { "selected_item_details_factory@common.selected_item_details_factory": {} },
+      { "item_lock_notification_factory@common.item_lock_notification_factory": {} }
+	  ]
+	},
+  //Final panel to show
+  "final_panel":{
+		"type": "panel",
+		"$top_half_variant": "New_smithing_table.custom_crafting_panel_top_half",
+		"$new_container_title": "Reinforcing smithing table", //Your preferred name
+		"controls":[
+		{"@New_smithing_table.custom_player_inventory":{}},
+		{"items@New_smithing_table.item_control": {}}
+		],
+		"bindings": [
+		{
+        "binding_name": "#crafting_label_text",
+		"binding_type": "global"
+		},
+		{
+		"binding_type": "view",
+		"source_property_name": "(#crafting_label_text = 'Reinforcing smithing table')", //your custom crafting table default name (in the behaviors)
+		"target_property_name": "#visible" 
+		}
+		]		
+	}
+}

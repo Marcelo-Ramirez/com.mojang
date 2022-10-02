@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "heavy:black_wolf_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:dark_wolf_leather",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:black_wolf_helmet",
+			"count": 1
+		}
+	}
+}

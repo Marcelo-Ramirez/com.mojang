@@ -1,0 +1,84 @@
+{
+  "format_version": "1.17.11",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "heavy:emerald_flail_ball_3",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:snowball",
+      "scripts": {
+        "animate": [
+          "water_o"
+        ]
+        },
+        "animations": {
+          "water_o":"controller.animation.water_on"
+          }
+    },
+    "component_groups": {
+      "sed_go": {
+        "minecraft:is_tamed": {}
+      },
+      "despawn_entity":{
+        "minecraft:timer": {
+          "looping": true,
+          "time": 1.5,
+          "time_down_event": {
+            "event": "ball_des",
+            "target": "self"
+          }
+        }
+      },
+      "ball_des": {
+        "minecraft:instant_despawn": {
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 1.0,
+        "height": 1.0
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 5,
+            "knockback": true,
+            "catch_fire": true,
+            "semi_random_diff_damage": true,
+            "destroy_on_hit": true
+          },
+          "catch_fire": {
+            "fire_affected_by_griefing": true
+        }
+    },
+        "power": 2.0,
+        "gravity": 1.9,
+        "angleoffset": 0.0
+      },
+      "minecraft:physics": {}
+    },
+    "event":{
+      "new:sed_play":{
+        "add": {
+          "component_groups": [
+            "sed_go"
+          ]
+        },
+        "run_command":{
+          "command":[
+            "event entity @s despawn_entity"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "despawn_entity"
+          ]
+        }
+      }
+    }
+  }
+}

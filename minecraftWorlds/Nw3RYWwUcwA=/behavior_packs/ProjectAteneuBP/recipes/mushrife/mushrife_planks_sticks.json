@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mushrife_planks_stick"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A"
+  ],
+    "key": {
+      "A": {
+        "item": "heavy:mushrife_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:stick",
+      "count": 4
+    },
+    "priority": 2
+  }
+}

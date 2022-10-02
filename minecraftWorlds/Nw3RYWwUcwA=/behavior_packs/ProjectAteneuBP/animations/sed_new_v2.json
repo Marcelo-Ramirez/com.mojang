@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.sed_v2": {
+            "loop": true,
+            "timeline": {
+                "1": "/scoreboard players remove @s sed 1"
+            },
+            "animation_length": 10
+        },
+        "animation.sed_hot": {
+            "loop": true,
+            "timeline": {
+                "4": "/scoreboard players remove @s sed 1"
+            },
+            "animation_length": 7
+        },
+        "animation.water_block": {
+            "loop": true,
+            "timeline": {
+                "1": "/scoreboard players add @s sed 1"
+            },
+            "animation_length": 12
+        }
+    }
+}

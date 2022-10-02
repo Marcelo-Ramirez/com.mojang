@@ -1,0 +1,35 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "emerald_flail_31af9141"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"B",
+			"C"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:emerald_block",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:chain",
+				"data": 0
+			},
+			"C": {
+				"item": "minecraft:log",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:emerald_flail",
+			"count": 1
+		}
+	}
+}

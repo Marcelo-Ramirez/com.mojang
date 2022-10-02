@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:skull.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"bbb",
+			"blb",
+			"bbb"
+		],
+		"key": {
+			"b": {
+				"item": "bone"
+			},
+			"l": {
+				"item": "bone_block"
+			}
+		},
+		"result": {
+			"item": "skull"
+		}
+	}
+}

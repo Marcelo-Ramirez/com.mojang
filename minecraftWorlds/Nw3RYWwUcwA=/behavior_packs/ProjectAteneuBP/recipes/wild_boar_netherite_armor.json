@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "wild_boar_netherite_armor"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "heavy:wild_boar_diamond_armor"
+			},
+			{
+				"item": "minecraft:netherite_ingot"
+			}
+		],
+		"result": [
+			{
+				"item": "heavy:wild_boar_netherite_armor",
+				"data": 1
+			}
+		]
+	}
+}

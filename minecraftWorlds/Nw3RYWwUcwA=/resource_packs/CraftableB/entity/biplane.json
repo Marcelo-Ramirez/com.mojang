@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tc:biplane",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/biplane"
+			},
+			"geometry": {
+				"default": "geometry.biplane"
+			},
+			"render_controllers": [
+				"controller.render.biplane"
+			],
+			"animations": {
+				"move": "animation.biplane.move",
+				"turn": "animation.biplane.turn"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.biplane.general"
+				}
+			],
+			"spawn_egg": {
+				"texture": "biplane_egg",
+				"texture_index": 0
+			}
+		}
+	}
+}

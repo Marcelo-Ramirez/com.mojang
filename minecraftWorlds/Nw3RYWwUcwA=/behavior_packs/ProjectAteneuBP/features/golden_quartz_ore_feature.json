@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "golden_quartz_ore_feature"
+    },
+    "count": 8,
+    "replace_rules": [
+      {
+        "places_block": "heavy:golden_quartz_ore",
+        "may_replace": [
+          {
+            "name": "minecraft:stone"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+    "format_version": "1.17.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "heavy:arachnis_stew",
+            "category": "equipment"
+        },
+        "components": {
+             "minecraft:use_animation": "eat",
+            "minecraft:use_duration":1.6,
+            "minecraft:food": {
+              "using_converts_to": "bowl",
+                "on_consume": {
+          "event": "new:effect",
+          "target": "self"
+        },
+                "nutrition": 4,
+                "saturation_modifier": "normal"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "arachnis_stew"
+            },
+            "minecraft:display_name": {
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.miscFood"
+
+}
+        },
+        "events": {
+      "new:effect": {
+        "randomize": [
+            {
+              
+                "weight": 10,
+                "run_command":{
+                  "command":[
+                    "scoreboard players add @s sed 6"
+                  ],
+                  "target": "holder"
+                  },
+                "add_mob_effect": {
+                    "effect": "regeneration",
+                    "target": "self",
+                    "duration": 5,
+                    "amplifier": 0
+                  }
+            },
+            {
+                "weight": 90,
+                "run_command":{
+                  "command":[
+                    "scoreboard players add @s sed 3"
+                  ],
+                  "target": "holder"
+                  },
+                "add_mob_effect": {
+                    "effect": "nausea",
+                    "target": "self",
+                    "duration": 5,
+                    "amplifier": 0
+                  }
+            }
+        ]
+      }
+    }
+  }
+}

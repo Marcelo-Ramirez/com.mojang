@@ -1,0 +1,41 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "techno_demoniac"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ABA",
+			"EDE",
+			"ACA"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:shell",
+				"data": 0
+			},
+			"B": {
+				"item": "heavy:diamond_prism",
+				"data": 0
+			},
+			"C": {
+				"item": "heavy:strange_technology",
+				"data": 0
+			},
+			"D": {
+				"item": "heavy:demon_weapon",
+				"data": 0
+			},
+			"E": {
+				"item": "heavy:heatsink",
+				"data": 0
+			}
+		},
+		"result": {
+			"item": "heavy:item_techno_demoniac"
+		}
+	}
+}

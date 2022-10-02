@@ -1,0 +1,40 @@
+{
+  "format_version": "1.17.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "heavy:tin_ore",
+      "is_experimental": false
+     },
+     "components":{
+      "tag:ore_t1": {},
+      "minecraft:destroy_time":35,
+      "minecraft:block_light_absorption":15,
+      "minecraft:explosion_resistance":1,
+      "minecraft:unit_cube":{
+      },
+      "minecraft:loot": "loot_tables/blocks/tin_ore.json",
+      "minecraft:creative_category": {
+        "group": "itemGroup.name.ore",
+        "category": "Nature"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "destroyed",
+        "target": "self"
+        }
+  },
+  "events":{
+    		"destroyed": {
+			"sequence": [
+				{
+					"run_command": {
+						"command": [
+							"summon xp_orb ~ ~ ~"
+						],
+						"target": "self"
+					}
+				}
+			]
+		  }
+}
+  }
+}

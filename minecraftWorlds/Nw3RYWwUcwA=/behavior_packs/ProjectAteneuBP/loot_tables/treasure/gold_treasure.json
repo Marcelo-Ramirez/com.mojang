@@ -1,0 +1,77 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "heavy:bronze_ingot",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 12,
+                                "max": 28
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_ingot",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 43,
+                                "max": 120
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "heavy:upgrade_emerald_flail",
+                    "weight": 9
+                  },
+                  {
+                    "type": "item",
+                    "name": "heavy:upgrade_iron_axe",
+                    "weight": 11
+                  },
+                  {
+                      "type":"item",
+                      "name":"heavy:upgrade_scuba_chestplate",
+                      "weight": 11
+                  },
+                  {
+                    "type": "item",
+                    "name": "heavy:upgrade_speed_boots",
+                    "weight": 3
+                  },
+                  {
+                    "type": "item",
+                    "name": "heavy:upgrade_iron_sword",
+                    "weight": 9
+                  },
+                  {
+                      "type":"item",
+                      "name":"heavy:upgrade_tizona_s",
+                      "weight": 1
+                  },
+                  {
+                    "type":"item",
+                    "name":"heavy:upgrade_emerald_flail_fire",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

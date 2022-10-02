@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.axe_shield": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "axe_shield": "query.get_equipped_item_name('main_hand') == 'magnarita_axe' && query.get_equipped_item_name('off_hand') == 'shield'"
+                        }
+                    ]
+                },
+                "axe_shield": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/effect @s slowness 1 2 true",
+                        "/effect @s mining_fatigue 1 2 true"
+                    ]
+                }
+            }
+        }
+    }
+}

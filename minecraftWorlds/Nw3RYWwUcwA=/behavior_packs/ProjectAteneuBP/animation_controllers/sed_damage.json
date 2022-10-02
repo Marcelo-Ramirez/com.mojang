@@ -1,0 +1,71 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.sed_damage": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "sed_damage": "query.scoreboard('sed') == 0"
+                        }
+                    ]
+                },
+                "sed_damage": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/function sed_mal"
+                    ]
+                }
+            }
+        },
+        "controller.animation.frozen_shaking": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "frozen_shaking": "query.scoreboard('abrigo') == 2"
+                        }
+                    ]
+                },
+                "frozen_shaking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/event entity @p [r=1] freezing_shaking_on"
+                    ]
+                }
+            }
+        },
+        "controller.animation.frozen_shaking_off": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "frozen_shaking_off": "query.scoreboard('abrigo') == 1"
+                        },
+                        {
+                            "frozen_shaking_off": "query.scoreboard('abrigo') == 0"
+                        }
+                    ]
+                },
+                "frozen_shaking_off": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                        "/event entity @p [r=1] freezing_shaking_off"
+                    ]
+                }
+            }
+        }
+    }
+}

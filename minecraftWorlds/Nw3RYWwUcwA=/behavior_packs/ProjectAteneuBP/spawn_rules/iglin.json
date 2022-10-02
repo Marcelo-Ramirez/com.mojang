@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "heavy:iglin",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 25,
+          "adjust_for_weather": true
+        },
+        "minecraft:difficulty_filter": {
+          "min": "peaceful",
+          "max": "hard"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.30",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "tin_boots"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A A",
+            "A A"
+		],
+		"key": {
+			"A": {
+				"item": "heavy:tin_ingot"
+			}
+		},
+		"result": {
+			"item": "heavy:tin_boots"
+		}
+	}
+}
