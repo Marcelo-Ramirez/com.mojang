@@ -16,19 +16,9 @@
   ],
   "subpacks": [
     {
-      "folder_name": "Health Bar",
-      "memory_tier": 2,
-      "name": "Health Bar"
-    },
-    {
       "folder_name": "Heart Value",
-      "memory_tier": 1,
-      "name": "Heart Value"
-    },
-    {
-      "folder_name": "Heart + Health Bar",
       "memory_tier": 0,
-      "name": "Heart + Health Bar"
+      "name": "Heart Value"
     }
   ],
   "metadata": {
