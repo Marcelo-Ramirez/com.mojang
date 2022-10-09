@@ -15,7 +15,7 @@ mp_xboxlive_visible:1
 mp_nex_visible:1
 mp_psn_visible:1
 game_language:es_MX
-game_skintypefull:a8ffe14d-e1c3-4f10-b202-e495e110a47a_skin25
+game_skintypefull:a8ffe14d-e1c3-4f10-b202-e495e110a47a_skin17
 game_lastcustomskinnew:Standard.Dummy
 game_recentskin1:
 game_recentskin2:
@@ -55,7 +55,7 @@ gfx_splitscreen_guiscale_offset:0
 gfx_safe_zone_x:1
 gfx_safe_zone_y:1
 gfx_ui_profile:0
-audio_main:0.95
+audio_main:1
 audio_sound:1
 audio_music:0
 audio_ambient:1
@@ -393,5 +393,3 @@ keyboard_type_1_key.command:191
 keyboard_type_1_key.emote:66
 keyboard_type_1_key.menuTabLeft:219
 keyboard_type_1_key.menuTabRight:221
-keyboard_type_1_key.copy_coordinates:67
-keyboard_type_1_key.copy_facing_coordinates:88

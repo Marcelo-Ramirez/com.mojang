@@ -1,6 +1,6 @@
 {
    "Pending" : null,
-   "ProfileVersion" : 211,
+   "ProfileVersion" : 215,
    "Synchronized" : {
       "personaProfile" : {
          "personaCollection" : {
@@ -32,7 +32,7 @@
                {
                   "arm" : "wide",
                   "skcol" : "#b37b62",
-                  "skin" : false
+                  "skin" : true
                },
                {
                   "id" : "8f96d1f8-e9bb-40d2-acc8-eb79746c5d7c/d"
@@ -63,6 +63,9 @@
                {
                   "col" : [ "#2f1f0f", "#0", "#0", "#0" ],
                   "id" : "2bb1473b-9a5c-4eae-9fd5-82302a6aa3da/d"
+               },
+               {
+                  "id" : "a8ffe14d-e1c3-4f10-b202-e495e110a47a.skin3"
                }
             ]
          },
