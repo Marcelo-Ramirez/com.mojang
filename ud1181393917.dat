@@ -1,12 +1,9 @@
 {
    "Pending" : null,
-   "ProfileVersion" : 211,
+   "ProfileVersion" : 219,
    "Synchronized" : {
       "personaProfile" : {
          "personaCollection" : {
-            "plApps" : null,
-            "tlApps" : null,
-            "tplApps" : null,
             "universalApp" : [
                {
                   "hasSeenPersonaClassicSkinDifferencesPrompt" : true,
@@ -20,19 +17,15 @@
                }
             ]
          },
-         "slotname" : "",
          "version" : "0.1.0"
       },
       "personaProfile1" : {
          "personaCollection" : {
-            "plApps" : null,
-            "tlApps" : null,
-            "tplApps" : null,
             "universalApp" : [
                {
                   "arm" : "wide",
                   "skcol" : "#b37b62",
-                  "skin" : false
+                  "skin" : true
                },
                {
                   "id" : "8f96d1f8-e9bb-40d2-acc8-eb79746c5d7c/d"
@@ -63,10 +56,30 @@
                {
                   "col" : [ "#2f1f0f", "#0", "#0", "#0" ],
                   "id" : "2bb1473b-9a5c-4eae-9fd5-82302a6aa3da/d"
+               },
+               {
+                  "id" : "b6afd18f-9fd5-47b6-a41c-4792ba929f23.Bisector"
+               },
+               {
+                  "id" : "17428c4c-3813-4ea1-b3a9-d6a32f83afca/de"
+               },
+               {
+                  "id" : "ce5c0300-7f03-455d-aaf1-352e4927b54d/de"
+               },
+               {
+                  "id" : "9a469a61-c83b-4ba9-b507-bdbe64430582/de"
+               },
+               {
+                  "id" : "4c8ae710-df2e-47cd-814d-cc7bf21a3d67/de"
+               },
+               {
+                  "id" : "/e"
+               },
+               {
+                  "id" : "/e"
                }
             ]
          },
-         "slotname" : "",
          "version" : "0.1.0"
       },
       "personaProfile2" : {
