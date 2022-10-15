@@ -15,7 +15,11 @@ mp_xboxlive_visible:1
 mp_nex_visible:1
 mp_psn_visible:1
 game_language:es_MX
+<<<<<<< HEAD
 game_skintypefull:b6afd18f-9fd5-47b6-a41c-4792ba929f23_Bisector
+=======
+game_skintypefull:a8ffe14d-e1c3-4f10-b202-e495e110a47a_skin17
+>>>>>>> 59f4e635be176d50322d1f207b1970c2b0209b11
 game_lastcustomskinnew:Standard.Dummy
 game_recentskin1:
 game_recentskin2:
@@ -55,7 +59,7 @@ gfx_splitscreen_guiscale_offset:0
 gfx_safe_zone_x:1
 gfx_safe_zone_y:1
 gfx_ui_profile:0
-audio_main:0.95
+audio_main:1
 audio_sound:1
 audio_music:0
 audio_ambient:1

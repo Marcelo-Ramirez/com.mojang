@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:quartz_ore.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"sss",
+			"sqs",
+			"sss"
+		],
+		"key": {
+			"q": {
+				"item": "quartz_block"
+			},
+			"s": {
+				"item": "netherrack"
+			}
+		},
+		"result": {
+			"item": "quartz_ore"
+		}
+	}
+}

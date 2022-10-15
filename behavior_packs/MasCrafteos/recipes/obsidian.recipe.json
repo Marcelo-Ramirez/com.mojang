@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:obsidian.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"wl"
+		],
+		"key": {
+			"l": {
+				"item": "lava_bucket"
+			},
+			"w": {
+				"item": "water_bucket"
+			}
+		},
+		"result": {
+			"item": "obsidian"
+		}
+	}
+}

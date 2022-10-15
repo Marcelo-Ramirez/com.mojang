@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:snow_ball.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"S": {
+				"item": "snow"
+			},
+			"s": {
+				"item": "stone_shovel"
+			}
+		},
+		"pattern": [
+			"Ss"
+		],
+		"result": {
+			"item": "snowball"
+		}
+	}
+}

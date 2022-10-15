@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"MadMinecraftModer"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.3.1"
+			],
+			"dash": [
+				"0.9.26"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "Adds a bunch of crafting recipes.",
+		"min_engine_version": [
+			1,
+			19,
+			0
+		],
+		"uuid": "2352dbf2-501d-4251-831f-d05649401c68",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "f3e2d020-1e9d-481c-908b-40ee440e9fa0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

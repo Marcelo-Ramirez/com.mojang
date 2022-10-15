@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:sand.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"ggg",
+			"gyg",
+			"ggg"
+		],
+		"key": {
+			"g": {
+				"item": "gravel"
+			},
+			"y": {
+				"item": "yellow_dye"
+			}
+		},
+		"result": {
+			"item": "sand"
+		}
+	}
+}

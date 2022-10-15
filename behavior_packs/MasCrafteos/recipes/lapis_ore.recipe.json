@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "Crafting+:lapis_ore.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"sss",
+			"sls",
+			"sss"
+		],
+		"key": {
+			"l": {
+				"item": "lapis_block"
+			},
+			"s": {
+				"item": "stone"
+			}
+		},
+		"result": {
+			"item": "lapis_ore"
+		}
+	}
+}
