@@ -13,15 +13,5 @@
       "uuid": "0dd925d3-3945-493c-8af9-5a2cf28aa152",
       "version": [ 1, 0, 0 ]
     }
-  ],
-  "subpacks": [
-    {
-      "folder_name": "Heart Value",
-      "memory_tier": 0,
-      "name": "Heart Value"
-    }
-  ],
-  "metadata": {
-    "authors": [ "Coptaine" ]
-  }
+  ]
 }
