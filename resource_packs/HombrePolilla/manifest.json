@@ -1,9 +1,9 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "Resources for Brad's Mobs",
-		"name": "BRAD'S MOD ASSETS",
-		"uuid": "39e6ab9e-8fac-4d9c-a825-d39b84ebd510",
+		"description": "hombre polilla y otros",
+		"name": "Hombre polilla R",
+		"uuid": "ce95b06b-f3a3-412c-ad65-94b10cc7a12d",
 		"version": [
 			0,
 			0,
@@ -19,7 +19,7 @@
 		{
 			"description": "Nice buddy",
 			"type": "resources",
-			"uuid": "0a301ce5-7f69-4b00-8519-0c2b4ebca80b",
+			"uuid": "fd67eba8-d94c-42bf-b874-6250548ce527",
 			"version": [
 				0,
 				0,
@@ -29,7 +29,7 @@
 	],
 	"dependencies": [
 		{
-			"uuid": "0cf0d216-4c3c-46b9-a820-21d4e848568f",
+			"uuid": "8f1db54b-6ba1-4a3f-a9f7-0d872c9bf34c",
 			"version": [
 				0,
 				0,

@@ -1,9 +1,9 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "Behaviors for Brad's Mobs",
-		"name": "BRAD'S MOD BEHAVIOR",
-		"uuid": "0cf0d216-4c3c-46b9-a820-21d4e848568f",
+		"description": "hombre polilla y otros",
+		"name": "Hombre polilla B",
+		"uuid": "bcdddcad-be38-4967-97ed-2af3af4cb6a2",
 		"version": [
 			0,
 			0,
@@ -17,9 +17,9 @@
 	},
 	"modules": [
 		{
-			"description": "Brad Mob BP",
+			"description": "hombre polilla y otros",
 			"type": "data",
-			"uuid": "2767e1e8-e00f-4a35-9ffc-c154502a7ffb",
+			"uuid": "bed6be55-2447-440f-ab42-90b6970d9dbb",
 			"version": [
 				0,
 				0,
@@ -29,7 +29,7 @@
 	],
 	"dependencies": [
 		{
-			"uuid": "39e6ab9e-8fac-4d9c-a825-d39b84ebd510",
+			"uuid": "fa2ea131-c2b3-4575-a991-afa4a44b2ff8",
 			"version": [
 				0,
 				0,
