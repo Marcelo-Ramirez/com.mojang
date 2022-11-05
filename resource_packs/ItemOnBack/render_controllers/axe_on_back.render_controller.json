@@ -1,0 +1,119 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+	  "controller.render.axe_on_back_diamond": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_6",
+					"Texture.axe_on_back_diamond"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_5",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:diamond_axe') ? Texture.none_texture_6 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:diamond_axe') ? Texture.axe_on_back_diamond" 
+		]
+	  },
+	  "controller.render.axe_on_back_netherite": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_7",
+					"Texture.axe_on_back_netherite"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_5",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:netherite_axe') ? Texture.none_texture_7 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:netherite_axe') ? Texture.axe_on_back_netherite" 
+		]
+	  },
+	  "controller.render.axe_on_back_iron": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_8",
+					"Texture.axe_on_back_iron"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_5",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:iron_axe') ? Texture.none_texture_8 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:iron_axe') ? Texture.axe_on_back_iron" 
+		]
+	  },
+	  "controller.render.axe_on_back_golden": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_9",
+					"Texture.axe_on_back_golden"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_5",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:golden_axe') ? Texture.none_texture_9 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:golden_axe') ? Texture.axe_on_back_golden" 
+		]
+	  },
+	  "controller.render.axe_on_back_stone": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_10",
+					"Texture.axe_on_back_stone"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_5",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:stone_axe') ? Texture.none_texture_10 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:stone_axe') ? Texture.axe_on_back_stone" 
+		]
+	  },
+	  "controller.render.axe_on_back_wooden": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_11",
+					"Texture.axe_on_back_wooden"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_5",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:wooden_axe') ? Texture.none_texture_11 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:wooden_axe') ? Texture.axe_on_back_wooden" 
+		]
+	  }
+	}
+}

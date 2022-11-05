@@ -1,0 +1,157 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+	  "controller.render.salmon_on_back": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_30",
+					"Texture.salmon_on_back"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_2",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:salmon') ? Texture.none_texture_30 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:salmon') ? Texture.salmon_on_back" 
+		]
+	  },
+	  "controller.render.bow_on_back": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_31",
+					"Texture.bow_on_back"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_2",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:bow') ? Texture.none_texture_31 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:bow') ? Texture.bow_on_back" 
+		]
+	  },
+	  "controller.render.crossbow_on_back": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_32",
+					"Texture.crossbow_on_back"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_2",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:crossbow') ? Texture.none_texture_32 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:crossbow') ? Texture.crossbow_on_back" 
+		]
+	  },
+	  "controller.render.fishing_rod_on_back": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_33",
+					"Texture.fishing_rod_on_back"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:fishing_rod') ? Texture.none_texture_33 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:fishing_rod') ? Texture.fishing_rod_on_back" 
+		]
+	  },
+	  "controller.render.trident_on_back": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_34",
+					"Texture.trident_on_back"
+				]
+			}
+		},
+		"geometry": "geometry.trident_3d",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:trident') ? Texture.none_texture_34 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:trident') ? Texture.trident_on_back" 
+		]
+	  },
+	  "controller.render.shield_on_back": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_35",
+					"Texture.shield_on_back"
+				]
+			}
+		},
+		"geometry": "geometry.shield_3d",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:shield') ? Texture.none_texture_35 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:shield') ? Texture.shield_on_back" 
+		]
+	  },
+	  "controller.render.arrow_on_back": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_36",
+					"Texture.arrow_on_back"
+				]
+			}
+		},
+		"geometry": "geometry.arrow_3d",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:arrow') ? Texture.none_texture_36 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:arrow') ? Texture.arrow_on_back" 
+		]
+	  },
+	  "controller.render.arrow_on_back_2": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_37",
+					"Texture.arrow_on_back"
+				]
+			}
+		},
+		"geometry": "geometry.arrow_3d",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:arrow') ? Texture.none_texture_37 : query.is_item_name_any('slot.inventory', t.i, 'minecraft:arrow') ? Texture.arrow_on_back" 
+		]
+	  }
+	}
+}
