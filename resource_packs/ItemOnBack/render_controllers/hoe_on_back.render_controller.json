@@ -1,0 +1,119 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+	  "controller.render.hoe_on_back_diamond": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_24",
+					"Texture.hoe_on_back_diamond"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_3",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:diamond_hoe') ? Texture.none_texture_24 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:diamond_hoe') ? Texture.hoe_on_back_diamond" 
+		]
+	  },
+	  "controller.render.hoe_on_back_netherite": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_25",
+					"Texture.hoe_on_back_netherite"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_3",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:netherite_hoe') ? Texture.none_texture_25 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:netherite_hoe') ? Texture.hoe_on_back_netherite" 
+		]
+	  },
+	  "controller.render.hoe_on_back_iron": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_26",
+					"Texture.hoe_on_back_iron"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_3",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:iron_hoe') ? Texture.none_texture_26 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:iron_hoe') ? Texture.hoe_on_back_iron" 
+		]
+	  },
+	  "controller.render.hoe_on_back_golden": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_27",
+					"Texture.hoe_on_back_golden"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_3",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:golden_hoe') ? Texture.none_texture_27 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:golden_hoe') ? Texture.hoe_on_back_golden" 
+		]
+	  },
+	  "controller.render.hoe_on_back_stone": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_28",
+					"Texture.hoe_on_back_stone"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_3",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:stone_hoe') ? Texture.none_texture_28 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:stone_hoe') ? Texture.hoe_on_back_stone" 
+		]
+	  },
+	  "controller.render.hoe_on_back_wooden": {
+		"arrays": {
+			"textures": {
+				"Array.skins": [
+					"Texture.none_texture_29",
+					"Texture.hoe_on_back_wooden"
+				]
+			}
+		},
+		"geometry": "geometry.sword_3d_3",
+		"materials": [ 
+		  { 
+			"*": "Material.default" 
+		  } 
+		],
+		"textures": [ 
+            "query.is_item_name_any('slot.weapon.mainhand', t.i, 'minecraft:wooden_hoe') ? Texture.none_texture_29 : query.is_item_name_any('slot.hotbar', t.i, 'minecraft:wooden_hoe') ? Texture.hoe_on_back_wooden" 
+		]
+	  }
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+      "name": "Item On Back",
+      "description": "By SrMarticus",
+      "uuid": "b5d18a1b-7a59-4d46-8c63-9b41dbc67de6",
+      "version": [1, 0, 0],
+      "min_engine_version": [ 1, 17, 0 ]
+  },
+  "modules": [
+      {
+          "description": "By SrMarticus",
+          "type": "resources",
+          "uuid": "6419c27e-3afa-45fa-854e-b291f3f7c503",
+          "version": [1, 0, 0]
+      }
+  ],
+  "subpacks": [
+    {
+        "folder_name": "on_back",
+        "name": "Sword on back",
+        "memory_tier": 1
+    },
+    {
+        "folder_name": "on_waist",
+        "name": "Sword on waist",
+        "memory_tier": 1
+    }
+]
+}
