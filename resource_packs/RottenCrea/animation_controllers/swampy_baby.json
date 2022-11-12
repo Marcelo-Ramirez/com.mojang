@@ -1,0 +1,16 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.swampy_baby.move": {
+			"states": {
+				"move_baby": {
+					"animations": [
+						{
+							"moving_baby": "query.ground_speed > 0 && query.is_baby"
+						}
+					]
+				}
+			}
+		}
+	 }
+ }

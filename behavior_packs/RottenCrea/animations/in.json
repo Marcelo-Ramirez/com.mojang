@@ -1,0 +1,25 @@
+{
+"format_version":"1.8.0",
+  "animations": {
+  "animation.tepeador.tp2": {
+   "timeline":{
+ "0.50": "/tp @e[type=item,r=1] ~ ~ ~0.8",
+ "0.60": "/tp @e[type=rotten:in,r=1] ~ ~ ~",
+ "1.00": "/tp @e[type=item,r=1] ~ ~ ~-0.8",
+ "1.10": "/tp @e[type=rotten:in,r=1] ~ ~ ~",
+ "1.50": "/tp @e[type=item,r=1] ~0.8 ~ ~",
+ "1.60": "/tp @e[type=rotten:in,r=1] ~ ~ ~",
+ "2.00": "/tp @e[type=item,r=1] ~-0.8 ~ ~"
+},
+"loop":true,
+"animation_length": 2.10
+  },
+  "animation.dead_beard_move": {
+    "timeline":{
+  "2.00": "@s minecraft:dead_move"
+ },
+ "loop":true,
+ "animation_length": 2
+   }
+}
+}

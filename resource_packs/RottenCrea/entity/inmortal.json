@@ -1,0 +1,57 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:inmortal",
+			"materials": {
+				"default": "skeleton",
+				"glow": "spider_invisible",
+				"glow2": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/prueba/inmortal",
+				"dash": "textures/entity/prueba/inmortal_dash"
+			},
+			"geometry": {
+				"default": "geometry.inmortal"
+			},
+			"animations": {
+				"moving": "animation.inmortal.move",
+				"dashing": "animation.inmortal.swim_attack",
+				"staticking": "animation.inmortal.static",
+				"attacking": "animation.inmortal.attack",
+				"look_at_target_default": "animation.inmortal.look_at_target.default",
+                "look_at_target_gliding": "animation.inmortal.look_at_target.gliding",
+				"move": "controller.animation.inmortal.move",
+				"static": "controller.animation.inmortal.static",
+				"dash": "controller.animation.inmortal.dash",
+				"look_at_target": "controller.animation.inmortal.look_at_target",
+				"attack": "controller.animation.inmortal.attack"
+			},
+			"scripts": {
+				"animate": [
+					"move",
+					"static",
+					"dash",
+					"attack",
+					"look_at_target"
+				],
+				"pre_animation": [
+					"variable.attack = Math.sin(variable.attack_time * 30.0);"
+				]
+			},
+			"render_controllers": [
+				"controller.render.inmortal",
+				"controller.render.pirate_zombie1",
+				"controller.render.pirate_zombie2"
+			],
+			"spawn_egg": {
+				"base_color": "#182832",
+				"overlay_color": "#33979D"
+			},
+			"sound_effects": {
+			"swim": "mob.inmortal.swim_attack"
+			}
+		}
+	}
+}

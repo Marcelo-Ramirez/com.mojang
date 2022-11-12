@@ -1,0 +1,48 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rotten_eskimo.static": {
+			"loop": true,
+			"animation_length": 3.12,
+			"bones": {
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, -2.5, 0],
+						"1.56": [0, 5, -5],
+						"3.12": [0, -2.5, 0]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.56": [0, -7.5, 2.5],
+						"3.12": [0, 0, 0]
+					}
+				},
+				"bone": {
+					"rotation": [0, 0, 0]
+				},
+				"bone2": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.rotten_eskimo.move": {
+			"loop": true,
+			"bones": {
+				"leftLeg": {
+					"rotation": ["0+math.cos(query.anim_time*250)*55", 0, 0]
+				},
+				"rightLeg": {
+					"rotation": ["0-Math.cos(query.anim_time*250)*55", 0, 0]
+				},
+				"bone": {
+					"rotation": [0, 0, "-11-Math.cos(query.anim_time*350)*6"]
+				},
+				"bone2": {
+					"rotation": [0, 0, "11+Math.cos(query.anim_time*350)*6"]
+				}
+			}
+		}
+	}
+}

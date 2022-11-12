@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.burned_crazy2": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.glow2" } ],
+      "textures": [ "Texture.burned_crazy" ]
+    }
+  }
+}

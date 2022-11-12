@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	"controller.animation.inmortal.dash": {
+		"states": {
+		  "default": {
+			"transitions": [
+			  {
+				"dash": "query.has_target && query.is_sheared"
+			  }
+			],
+			"blend_transition": 0.1
+		  },
+		  "dash": {
+			"animations": [
+			  "dashing"
+			],
+			"transitions": [
+			  {
+				"default": "query.all_animations_finished"
+			  }
+			],
+			"blend_transition": 0.1
+		  }
+		}
+	  }
+ 
+	 }
+ }

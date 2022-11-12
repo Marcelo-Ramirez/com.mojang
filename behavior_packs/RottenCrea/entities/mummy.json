@@ -1,0 +1,267 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+	"description": {
+      "identifier": "rotten:mummy_torso",
+         "is_spawnable":true,
+         "is_summonable":true,
+         "is_experimental":false,
+         "scripts": {
+				"animate": [
+					"beetle_pro"
+				]
+			},
+			"animations": {
+				"beetle_pro": "controller.animation.mummy_beetle_pro"
+			}
+		},
+    "component_groups": {
+      "minecraft:mummy_beetle": {
+        "minecraft:spawn_entity": [
+          { 
+           "min_wait_time": 0,
+           "max_wait_time": 0,
+           "spawn_entity": "rotten:beetle",
+           "spawn_event": "minecraft:death_event_beetle",
+           "single_use": true,
+           "num_to_spawn": 4,
+           "should_leash": false
+          }
+         ]
+      },
+      "minecraft:mummy_beetle_fly": {
+        "minecraft:spawn_entity": [
+          { 
+           "min_wait_time": 0,
+           "max_wait_time": 0,
+           "spawn_entity": "rotten:beetle_fly",
+           "spawn_event": "minecraft:death_event_beetle_fly",
+           "single_use": true,
+           "num_to_spawn": 4,
+           "should_leash": false
+          }
+         ]
+      },
+    "minecraft:mummy": {
+      "minecraft:damage_sensor": {
+        "triggers": [
+                 {
+                  "on_damage": { 
+                    "filters": { 
+                      "with_damage_fatal": true
+                  },
+                   "event": "minecraft:death_event_beetle"
+                  },
+                   "deals_damage": true
+                 }
+          ]
+        },
+   "minecraft:is_saddled": { },
+        "minecraft:addrider": {
+          "entity_type": "rotten:mummy_head"
+        },
+        "minecraft:rideable": {
+          "seat_count": 1,
+          "family_types": [
+            "mummy_head"
+          ],
+          "seats": {
+            "position": [ 0.0, 0.0, 0.0 ]
+        }
+      }
+    },
+    "minecraft:ancient_mummy": {
+      "minecraft:damage_sensor": {
+        "triggers": [
+                 {
+                  "on_damage": { 
+                    "filters": { 
+                      "with_damage_fatal": true
+                  },
+                   "event": "minecraft:death_event_beetle_fly"
+                  },
+                   "deals_damage": true
+                 }
+          ]
+        },
+    "minecraft:loot": {
+          "table": "loot_tables/entities/ancient_mummy.json"
+        },
+      "minecraft:is_tamed": { },
+      "minecraft:addrider": {
+          "entity_type": "rotten:mum_head"
+        },
+        "minecraft:rideable": {
+          "seat_count": 2,
+          "family_types": [
+            "mum_head"
+          ],
+          "seats": {
+            "position": [ 0.0, 0.0, 0.0 ]
+            }
+         }
+   }
+},
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "monster", "undead", "mummy", "mummy_ancient" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 1.0,
+        "height": 1.5
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/mummy.json"
+      },
+      "minecraft:health": {
+        "value": 26,
+	"max": 26
+      },
+       "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? 10 + (query.equipment_count * Math.Random(1,3)) : 0"
+        },
+        "minecraft:attack": {
+          "damage": 3,
+          "effect_name": "hunger",
+          "effect_duration": 10
+        },
+      "minecraft:movement": {
+        "value": 0.18
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:behavior.break_door": {
+        "priority": 1
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 4,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.7
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+          "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "within_radius": 40,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "player" },
+                { "test": "is_family", "subject": "other", "value": "snowgolem" },
+                { "test": "is_family", "subject": "other", "value": "irongolem" }
+              ]
+            },
+            "max_dist": 40
+          },
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "villager" },
+                { "test": "is_family", "subject": "other", "value": "wandering_trader" }
+              ]
+            },
+            "max_dist": 40,
+            "must_see": false
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "baby_turtle" },
+                { "test": "in_water", "subject": "other", "operator": "!=", "value": true }
+              ]
+            },
+            "max_dist": 40
+          }
+        ],
+        "must_see": true,
+        "must_see_forget_duration": 17.0
+      },
+	    "minecraft:physics": {
+       }
+    },
+
+    "events": {
+      "minecraft:death_event_beetle": {
+        "remove": {},
+        "add": { "component_groups": [ "minecraft:mummy_beetle" ]}
+      },
+      "minecraft:death_event_beetle_fly": {
+        "remove": {},
+        "add": { "component_groups": [ "minecraft:mummy_beetle_fly" ]}
+      },
+    "minecraft:entity_spawned": {
+        "randomize": [
+          {
+                "weight": 9,
+                "remove": {},
+                "add": {
+                  "component_groups": [
+                    "minecraft:mummy"
+                  ]
+                }
+              },
+            {
+            "weight": 4,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:ancient_mummy"
+              ]
+            }
+          }
+        ]
+       }
+    }
+  }
+}

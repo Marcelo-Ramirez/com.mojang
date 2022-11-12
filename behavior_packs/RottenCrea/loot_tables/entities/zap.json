@@ -1,0 +1,83 @@
+{
+  "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_ingot",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1.0,
+                            "looting_multiplier": 1.83
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1.0,
+                            "looting_multiplier": 1.83
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potato",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1.0,
+                            "looting_multiplier": 1.83
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 37
+                }
+            ]
+        }
+    ]
+}

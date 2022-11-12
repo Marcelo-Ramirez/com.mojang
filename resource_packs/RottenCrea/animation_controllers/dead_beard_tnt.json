@@ -1,0 +1,63 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dead_beard_tnt.move": {
+			"states": {
+				"default": {
+				    "variables": {
+                        "move_speed": {
+                            "input": "query.modified_move_speed",
+                            "remap_curve": {
+                                "0.0": 0.0,
+                                "0.25": 1.0
+                            }
+                        }
+                    },
+                    "animations": [
+                        {
+                            "moving": "variable.move_speed"
+                        }
+                    ]
+				}
+			}
+		},
+		"controller.animation.dead_beard_tnt.look_at_target" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "look_at_target_default" ],
+					"transitions" : [
+						{
+							"gliding" : "query.is_gliding"
+						},
+						{
+							"swimming" : "query.is_swimming"
+						}
+					]
+				},
+				"gliding" : {
+					"animations" : [ "look_at_target_gliding" ],
+					"transitions" : [
+						{
+							"swimming" : "query.is_swimming"
+						},
+						{
+							"default" : "!query.is_gliding"
+						}
+					]
+				},
+				"swimming" : {
+					"animations" : [ "look_at_target_swimming" ],
+					"transitions" : [
+						{
+							"gliding" : "query.is_gliding"
+						},
+						{
+							"default" : "!query.is_swimming"
+						}
+					]
+				}
+			}
+		}
+	 }
+ }

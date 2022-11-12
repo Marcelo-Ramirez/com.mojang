@@ -1,0 +1,29 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:beetle_fly",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/prueba/beetle_fly"
+			},
+			"geometry": {
+				"default": "geometry.beetle_fly"
+			},
+			"animations": {
+				"moving": "animation.beetle_fly.move",
+				"move": "controller.animation.beetle_fly.move"
+			},
+			"scripts": {
+				"animate": [
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.beetle_fly"
+			]
+		}
+	}
+}

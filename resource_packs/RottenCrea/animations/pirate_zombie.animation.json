@@ -1,0 +1,51 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pirate_zombie.move": {
+		"loop": true,
+			"animation_length": 50,
+			"bones": {
+				"leftLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["0+Math.cos(query.anim_time*350)*30", 0, 0]
+					}
+				},
+				"rightLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["0-Math.cos(query.anim_time*350)*30", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.pirate_zombie.spawn": {
+			"animation_length": 0.52,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, -40, 0],
+						"0.24": [0, 8, 0],
+						"0.52": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.pirate_zombie.look_at_target.default": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["query.target_x_rotation", "query.target_y_rotation", 0]
+				}
+			}
+		},
+		"animation.pirate_zombie.look_at_target.gliding": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [-45, "query.target_y_rotation", 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:rotten_eskimo",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/prueba/rotten_eskimo",
+				"spear": "textures/entity/prueba/spear_eskimo"
+			},
+			"geometry": {
+				"default": "geometry.rotten_eskimo",
+				"spear": "geometry.spear_eskimo"
+			},
+			"animations": {
+				"moving": "animation.rotten_eskimo.move",
+				"look_at_target_default": "animation.pirate_zombie.look_at_target.default",
+                "look_at_target_gliding": "animation.pirate_zombie.look_at_target.gliding",
+				"staticking": "animation.rotten_eskimo.static",
+				"move": "controller.animation.rotten_eskimo.move",
+			   "look_at_target": "controller.animation.pirate_zombie.look_at_target",
+				"static": "controller.animation.rotten_eskimo.static"
+			},
+			"scripts": {
+				"animate": [
+					"move",
+					"static",
+					"look_at_target"
+				]
+			},
+			"render_controllers": [
+				"controller.render.rotten_eskimo"
+			],
+			"spawn_egg": {
+				"base_color": "#734421",
+				"overlay_color": "#EED494"
+			}
+		}
+	}
+}

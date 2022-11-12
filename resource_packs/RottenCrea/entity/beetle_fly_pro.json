@@ -1,0 +1,11 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:beetle_fly_pro",
+			"materials": {
+				"default": "egg"
+			}
+		}
+	}
+}

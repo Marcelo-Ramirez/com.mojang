@@ -1,0 +1,403 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:iron_ingot",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:emerald",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:gold_ingot",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:experience_bottle",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:diamond",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 10
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 50,
+                    "name": "minecraft:iron_nugget",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 15
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:lapis_lazuli",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 15
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:gold_nugget",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:paper",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 12
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:feather",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 12
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:book",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "limit": 7
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:clock",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1,
+                            "looting_multiplier": 1.83
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:compass",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1,
+                            "looting_multiplier": 1.83
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:map",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1,
+                            "looting_multiplier": 1.83
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "rotten:tntbarril",
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_actor_id",
+                            "id": "rotten:treasure_chest"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                "A pirate captain's precious treasure open for a nice reward."
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1,
+                            "looting_multiplier": 1.83
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

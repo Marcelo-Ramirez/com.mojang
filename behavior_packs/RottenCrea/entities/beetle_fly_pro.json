@@ -1,0 +1,42 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+	"description": {
+      "identifier": "rotten:beetle_fly_pro",
+         "is_spawnable":false,
+         "is_summonable":true,
+         "is_experimental":false,
+    "scripts": {
+				"animate": [
+					"beetle_fly_pro"
+				]
+			},
+			"animations": {
+				"beetle_fly_pro": "controller.animation.beetle_fly_pro"
+			}
+		},
+    "components": {
+      "minecraft:projectile": {
+      "offset": [ -0.2, 1.6, 0 ],
+      "gravity": 9.80,
+      "on_hit": {
+      "particle_on_hit": {
+            "particle_type": "death_explosion_emitter",
+            "on_other_hit": true
+          }
+        }
+      },
+      "minecraft:health": {
+        "value": 3,
+	"max": 3
+      },
+	    "minecraft:physics": {
+      },
+      "minecraft:scale": {
+        "value": 0.1
+      }
+    },
+
+    "events": {}
+  }
+}

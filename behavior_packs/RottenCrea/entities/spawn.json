@@ -1,0 +1,121 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+	"description": {
+      "identifier": "rotten:spawn",
+         "is_spawnable":false,
+         "is_summonable":true,
+         "is_experimental":false
+		},
+		"component_groups": {
+		"minecraft:welcome_inmortal": {
+    "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "rotten:inmortal",
+          "spawn_event": "from_inmortal",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+        ],
+        "minecraft:timer": {
+          "looping": false,
+			"time": [1, 0],
+          "time_down_event": {
+          "event": "despawneo"
+          }
+          }
+      },
+      "minecraft:despawn_spawn": {
+        "minecraft:despawn": { 
+                  }
+              },
+              "minecraft:spawn": {
+              "minecraft:environment_sensor": {
+          "triggers": {
+            "filters": {
+              "any_of": [
+                { "test" : "weather_at_position", "value" : "thunderstorm" }
+              ]
+            },
+            "event": "spawn_inmortal"
+          }
+        }
+              }
+		},
+    "components": {
+      "minecraft:health": {
+        "value": 3,
+	"max": 3
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+	    "minecraft:physics": {
+      },
+      "minecraft:scale": {
+        "value": 0.1
+      },
+        "minecraft:damage_sensor": {
+          "triggers": {
+   "on_damage": { 
+   },
+    "deals_damage": false
+    }
+  }
+    },
+
+    "events": {
+    "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:spawn"
+              ]
+           }
+        }
+      ]
+    },
+    "from_inmortal": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:welcome_inmortal"
+              ]
+            }
+          }
+        ]
+      },
+        "spawn_inmortal": {
+        "remove": {
+          "component_groups": [
+              "minecraft:spawn"
+               ]
+            },
+        "add": {
+          "component_groups": [
+            "minecraft:welcome_inmortal"
+          ]
+        }
+      },
+      "despawneo": {
+        "add": {
+          "component_groups": [
+            "minecraft:despawn_spawn"
+          ]
+        }
+      }
+     }
+  }
+}

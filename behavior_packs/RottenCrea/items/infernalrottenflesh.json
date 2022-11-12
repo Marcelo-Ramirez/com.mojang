@@ -1,0 +1,53 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rotten:infernal_rotten_flesh",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Infernal Rotten Flesh"
+      },
+      "minecraft:fuel": {
+        "duration": 15.0
+      },
+      "minecraft:icon": {
+        "texture": "infernalrottenflesh"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 4,
+        "can_always_eat": true,
+        "on_consume": {
+          "event": "minecraft:on_consume",
+          "target": "self"
+        }
+      },
+      "minecraft:use_duration": 1.6
+    },
+    "events": {
+      "minecraft:on_consume": {
+        "randomize": [
+          {
+                 "weight": 80,
+                "add_mob_effect": {
+                  "effect": "fire_resistance",
+                  "duration": 7,
+                  "amplifier": 1,
+                  "target": "holder"
+                }
+              },
+              {
+                "add_mob_effect": {
+                  "effect": "hunger",
+                  "duration": 25,
+                  "amplifier": 2,
+                  "target": "holder"
+                }
+              }
+            ]
+          }
+    }
+  }
+}

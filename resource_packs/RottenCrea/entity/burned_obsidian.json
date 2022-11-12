@@ -1,0 +1,36 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:burned_obsidian",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/prueba/obsidian_burned"
+			},
+			"geometry": {
+				"default": "geometry.burned"
+			},
+			"animations": {
+				"moving": "animation.burned.move",
+				"look_at_target_default": "animation.pirate_zombie.look_at_target.default",
+                "look_at_target_gliding": "animation.pirate_zombie.look_at_target.gliding",
+				"look_at_target": "controller.animation.pirate_zombie.look_at_target",
+				"move": "controller.animation.burned.move"
+			},
+			"scripts": {
+				"animate": [
+					"move",
+					"look_at_target"
+				],
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+			"render_controllers": [
+				"controller.render.burned_obsidian"
+			]
+		}
+	}
+}

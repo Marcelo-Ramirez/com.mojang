@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.undeadminer": {
+    "arrays": {
+        "textures": {
+          "Array.skins": [ "Texture.miner_a", "Texture.miner_b", "Texture.miner_c", "Texture.miner_m" ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.get_name == 'toast' ? Texture.toast : Array.skins[query.variant]" ]
+    }
+  }
+}

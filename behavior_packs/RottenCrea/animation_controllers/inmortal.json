@@ -1,0 +1,190 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.inmortal_dash": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "dash": "variable.attack_time && query.is_sheared"
+            }
+          ]
+        },
+        "dash": {
+          "transitions": [
+            {
+              "default": "!variable.attack_time && query.is_sheared"
+            }
+          ],
+          "on_exit": [
+           "/particle minecraft:crop_growth_emitter ~ ~1 ~",
+       	"/effect @e[type=rotten:inmortal,r=1] instant_health 1 1 true",
+           "@s minecraft:bye_inmortal_dash"
+          ]
+        }
+      }
+    },
+    "controller.animation.inmortal_detecter": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "detecter": "query.health <= 10"
+            }
+          ]
+        },
+        "detecter": {
+          "transitions": [
+            {
+              "default": "query.health => 10"
+            }
+          ],
+          "on_entry": [
+           "@s become_inmortal_dash"
+          ]
+        }
+      }
+    },
+    "controller.animation.inmortal_speed": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "detecter": "query.ground_speed > 0 && query.is_sheared"
+            }
+          ]
+        },
+        "detecter": {
+          "transitions": [
+            {
+              "default": "query.ground_speed > 0 && query.is_sheared"
+            }
+          ],
+          "on_entry": [
+           "/effect @e[type=rotten:inmortal,r=2] speed 4 4 true"
+          ]
+        }
+      }
+    },
+    "controller.animation.inmortal_canalizacion": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "canalizacion": "query.health >= 12 && variable.attack_time"
+            }
+          ]
+        },
+        "canalizacion": {
+          "transitions": [
+            {
+              "default": "query.health >= 12 && !variable.attack_time"
+            }
+          ],
+          "on_exit": [
+           "/effect @e[type=rotten:inmortal,r=2] fire_resistance 8 1 true"
+          ]
+        }
+      }
+    },
+        "controller.animation.inmortal_health": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "health": "query.is_tamed"
+            }
+          ]
+        },
+        "health": {
+          "transitions": [
+            {
+              "default": "query.is_tamed"
+            }
+          ],
+          "on_exit": [
+           "/particle minecraft:crop_growth_emitter ~ ~1 ~",
+       	"/playsound mob.inmortal.health @a[r=10]",
+           "/effect @s instant_health 1 1 true",
+           "@s minecraft:basic"
+          ]
+        }
+      }
+    },
+    "controller.animation.inmortal_clear": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "clear": "!query.has_target"
+            }
+          ]
+        },
+        "clear": {
+          "transitions": [
+            {
+              "default": "(1.0)"
+            }
+          ],
+          "on_exit": [
+           "/effect @s clear"
+          ]
+        }
+      }
+    },
+    "controller.animation.inmortal_bolt": {
+          "initial_state": "default",
+                     "states": {
+                         "default": {
+                            "animations": [
+                              {
+                              "bolting": "query.is_fire_immune"
+                               }
+                           ]
+                     }
+                }
+           },
+    "controller.animation.inmortal_growl": {
+          "initial_state": "default",
+                     "states": {
+                         "default": {
+                            "animations": [
+                              {
+                              "growling": "query.health <= 14"
+                               }
+                           ]
+                     }
+                }
+           },
+           "controller.animation.inmortal_berserk": {
+          "initial_state": "default",
+                     "states": {
+                         "default": {
+                            "animations": [
+                              {
+                              "berserking": "query.health >= 14 && query.is_saddled"
+                               }
+                           ]
+                     }
+                }
+           },
+         "controller.animation.inmortal_target": {
+          "initial_state": "default",
+                     "states": {
+                         "default": {
+                            "animations": [
+                              {
+                              "targeting": "query.has_target"
+                               }
+                           ]
+                     }
+                }
+           }
+    }
+}

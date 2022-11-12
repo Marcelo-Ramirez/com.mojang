@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.beetle_pro": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ { "beetle_pro" : "(1.0)" }
+					],
+				"on_entry": [  "/summon rotten:beetle ~ ~ ~",
+                                      "/tp @e[type=rotten:beetle,r=2] @e[type=rotten:beetle_pro,r=2]",
+                                      "/particle minecraft:death_explosion_emitter ~ ~ ~",
+                                      "/effect @e[type=rotten:beetle_pro] invisibility 200 5"
+				 ]
+				},
+			"beetle_pro": {
+			  "transitions": [{ "beetle_pro": "(1.0)" }
+			],
+			"on_entry": [ "/summon rotten:beetle ~ ~ ~",
+			                     "/tp @e[type=rotten:beetle,r=2] @e[type=rotten:beetle_pro,r=2]",
+			                     "/particle minecraft:death_explosion_emitter ~ ~ ~",
+			                     "/effect @e[type=rotten:beetle_pro] invisibility 20 5"
+                    ]
+			    }
+			}
+		},
+		"controller.animation.beetle_fly_pro": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ { "beetle_fly_pro" : "(1.0)" }
+					],
+				"on_entry": [  "/summon rotten:beetle_fly ~ ~ ~",
+			                     "/tp @e[type=rotten:beetle_fly,r=2] @e[type=rotten:beetle_fly_pro,r=2]",
+			                     "/particle minecraft:death_explosion_emitter ~ ~ ~",
+			                     "/effect @e[type=rotten:beetle_fly_pro] invisibility 20 5"
+				 ]
+				},
+			"beetle_pro": {
+			  "transitions": [{ "beetle_fly_pro": "(1.0)" }
+			],
+			"on_entry": [ "/summon rotten:beetle_fly ~ ~ ~",
+			                     "/tp @e[type=rotten:beetle_fly,r=2] @e[type=rotten:beetle_fly_pro,r=2]",
+			                     "/particle minecraft:death_explosion_emitter ~ ~ ~",
+			                     "/effect @e[type=rotten:beetle_fly_pro] invisibility 20 5"
+                    ]
+			    }
+			}
+		}
+	}
+}
+						

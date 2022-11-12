@@ -1,0 +1,325 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+	"description": {
+      "identifier": "rotten:rotten_eskimo",
+         "is_spawnable":true,
+         "is_summonable":true,
+         "is_experimental":false,
+          "scripts": {
+				"animate": [
+					"armor_2"
+				]
+			},
+			"animations": {
+				"armor_2": "controller.animation.armor_2"
+			}
+    },
+    "component_groups": {
+   "minecraft:spear_eskimo": {  
+  "minecraft:is_tamed": { },
+   "minecraft:attack": {
+          "damage": 7
+        },
+               "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? 10 + (query.equipment_count * Math.Random(1,3)) : 0"
+        },
+        "minecraft:health": {
+        "value": 15,
+	"max": 15
+      },
+        "minecraft:movement": {
+        "value": 0.2
+      }
+     },
+    "minecraft:rotten_wild": {
+     "minecraft:attack": {
+          "damage": 3,
+          "effect_name": "slowness",
+          "effect_duration": 10
+        }
+      },
+      "minecraft:eskimo_one": {
+    "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "rotten:wolf_es",
+          "spawn_event": "minecraft:from_rotten",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+        ]
+      },
+      "minecraft:eskimo_spear": {
+    "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_entity": "rotten:wolf_es",
+          "spawn_event": "minecraft:from_spear",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+        ]
+      },
+   "minecraft:item": {
+    "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_item": "fish",
+          "spawn_event": "minecraft:from_item",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+        ]
+      }     
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "monster", "rotten_eskimo", "undead", "spear_eskimo" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.5
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/rotten_eskimo.json"
+      },
+      "minecraft:health": {
+        "value": 20,
+	"max": 20
+      },
+       "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? 6 + (query.equipment_count * Math.Random(1,3)) : 0"
+        },
+        "minecraft:attack": {
+          "damage": 3
+        },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0,
+        "on_leash": {
+          "event": "minecraft:on_leash",
+          "target": "self"
+        },
+        "on_unleash": {
+          "event": "minecraft:on_unleash",
+          "target": "self"
+        }
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:behavior.break_door": {
+        "priority": 1
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1.4,
+        "track_target": false
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 4,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.7
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+       "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "within_radius": 25,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "player" },
+                { "test": "is_family", "subject": "other", "value": "snowgolem" },
+                { "test": "is_family", "subject": "other", "value": "irongolem" }
+              ]
+            },
+            "max_dist": 35
+          },
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "villager" },
+                { "test": "is_family", "subject": "other", "value": "wandering_trader" }
+              ]
+            },
+            "max_dist": 35,
+            "must_see": false
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "baby_turtle" },
+                { "test": "in_water", "subject": "other", "operator": "!=", "value": true }
+              ]
+            },
+            "max_dist": 35
+          }
+        ],
+        "must_see": true,
+        "must_see_forget_duration": 17.0
+      },
+	    "minecraft:physics": {
+    },
+    "minecraft:damage_sensor": {
+          "triggers": {
+   "on_damage": { 
+    "event": "minecraft:item_event"
+   },
+    "deals_damage": true
+    }
+  }
+ },
+
+    "events": {
+      "minecraft:item_event": {
+          "remove": {},
+          "add": { "component_groups": [ "minecraft:item" ]}
+        },
+    "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:rotten_wild"
+              ]
+           }
+        },
+          {
+            "weight": 6,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:eskimo_one"
+              ]
+            }
+          },
+          {
+            "weight": 5,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:spear_eskimo"
+              ]
+            }
+          },
+          {
+            "weight": 3,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:eskimo_spear"
+              ]
+            }
+          }
+        ]
+      },
+    "minecraft:from_rotten": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+               "minecraft:rotten_wild",
+                "minecraft:eskimo_one"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:from_spear": {
+        "randomize": [
+          {
+            "weight": 6,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+               "minecraft:spear_eskimo",
+                "minecraft:eskimo_spear"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:from_item": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:item"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

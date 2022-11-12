@@ -1,0 +1,65 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mummy_beetle_pro": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ { "beetle_pro" : "(1.0)" }
+					],
+				"on_entry": [ "/kill @e[type=rotten:beetle_pro,r=4]"        
+				 ]
+				},
+			"beetle_pro": {
+			  "transitions": [{ "default": "(1.0)" }
+			],
+			"on_entry": [ "/kill @e[type=rotten:beetle_pro,r=4]"
+                    ]
+			    }
+			}
+		},
+		"controller.animation.mummy_death": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "query.is_alive == 0.0 "
+						}
+					]
+				},
+				"death": {
+					"transitions": [
+						{
+							"default": "!query.is_alive == 0.0"
+						}
+					],
+					"on_entry": [
+						"/summon rotten:beetle ~~~",
+						"/summon rotten:beetle ~~~",
+						"/summon rotten:beetle ~~~",
+						"/summon rotten:beetle ~~~"
+					]
+				}
+			}
+		},
+		"controller.animation.mummy_beetle_fly_pro": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ { "beetle_pro" : "(1.0)" }
+					],
+				"on_entry": [ "/kill @e[type=rotten:beetle_fly_pro,r=4]"        
+				 ]
+				},
+			"beetle_pro": {
+			  "transitions": [{ "default": "(1.0)" }
+			],
+			"on_entry": [ "/kill @e[type=rotten:beetle_fly_pro,r=4]"
+                    ]
+			    }
+			}
+		}
+	}
+}
+						

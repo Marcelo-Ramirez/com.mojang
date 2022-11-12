@@ -1,0 +1,40 @@
+{
+	"resource_pack-name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"mummy_torso": {
+			"textures": "textures/items/spawn/mummy.png"
+		},
+		"rotten_eskimo": {
+			"textures": "textures/items/spawn/rotten_eskimo.png"
+	  },
+	 "treasure_chest": {
+			"textures": "textures/items/spawn/treasure_chest.png"
+	  },
+	   "swampy": {
+			"textures": "textures/items/spawn/swampy.png"
+	  },
+	 "frostbitten": {
+			"textures": "textures/items/spawn/frostbitten.png"
+	  },
+	 "undead_miner": {
+			"textures": "textures/items/spawn/undeadminer.png"
+	  },
+	"frozenrottenflesh": {
+			"textures": "textures/items/frozen_rotten_flesh.png"
+      },
+      "burned": {
+			"textures": "textures/items/spawn/burned.png"
+      },
+     "dead_beard": {
+		"textures": "textures/items/spawn/dead_beard.png"
+      },
+      "inmortal": {
+		"textures": "textures/items/spawn/inmortal.png"
+      },
+      "infernalrottenflesh": {
+         "textures": "textures/items/infernal_rotten_flesh.png"
+      }
+   }
+}
+	

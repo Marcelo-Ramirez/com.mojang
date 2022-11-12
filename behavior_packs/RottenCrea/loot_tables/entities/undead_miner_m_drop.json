@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+       "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cobblestone",
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:gold_ingot",
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1,
+                            "looting_multiplier": 3.83
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:gold_ore",
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 1,
+                            "looting_multiplier": 1.83
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

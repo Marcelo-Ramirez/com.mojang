@@ -1,0 +1,52 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.swampy_venom": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"venom": "query.is_alive == 0.0 "
+						}
+					]
+				},
+				"venom": {
+					"transitions": [
+						{
+							"venom": "query.is_alive == 0.0 "
+						}
+					],
+					"on_entry": [
+						"/summon rotten:swampy_potion ~~~"
+					]
+				}
+			}
+		},
+		"controller.animation.potion": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ 
+                        { 
+                          "potion": "variable.attack_time" 
+                        }
+					]
+				},
+			"potion": {
+			  "transitions": [
+                  { 
+                      "default": "(1.0)"
+                }
+			],
+			"on_entry": [ "/effect @p[r=2] poison 10",
+                                  "/effect @e[type=iron_golem,r=2] poison 10",
+                                  "/effect @e[type=snow_golem,r=2] poison 10",
+                                  "/effect @e[type=villager,r=2] poison 10",
+                                  "/effect @e[type=wandering_trader,r=2] poison 10" ]
+			    }
+			}
+		}
+	}
+}
+						

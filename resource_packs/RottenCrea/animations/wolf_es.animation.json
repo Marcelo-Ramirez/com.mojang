@@ -1,0 +1,75 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.wolf_es.move": {
+			"loop": true,
+			"animation_length": 1.48,
+			"bones": {
+				"leg0": {
+					"rotation": {
+						"0.0": [-55, 0, 0],
+						"0.36": [55, 0, 0],
+						"0.72": [-55, 0, 0],
+						"1.12": [55, 0, 0],
+						"1.48": [-55, 0, 0]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": [55, 0, 0],
+						"0.36": [-50, 0, 0],
+						"0.72": [55, 0, 0],
+						"1.12": [-50, 0, 0],
+						"1.48": [55, 0, 0]
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": [-50, 0, 0],
+						"0.36": [55, 0, 0],
+						"0.72": [-50, 0, 0],
+						"1.12": [55, 0, 0],
+						"1.48": [-50, 0, 0]
+					}
+				},
+				"leg3": {
+					"rotation": {
+						"0.0": [50, 0, 0],
+						"0.36": [-50, 0, 0],
+						"0.72": [50, 0, 0],
+						"1.12": [-50, 0, 0],
+						"1.48": [50, 0, 0]
+					}
+				},
+				"cola": {
+					"rotation": {
+						"0.0": [0, 40, 0],
+						"0.36": [0, -40, 0],
+						"0.72": [0, 40, 0],
+						"1.12": [0, -40, 0],
+						"1.48": [0, 40, 0]
+					}
+				}
+			}
+		},
+		"animation.wolf_es.look_at_target.default": {
+			"loop": true,
+			"bones": {
+				"head" : {
+					"relative_to" : {
+						"rotation" : "entity"
+					},
+					"rotation" : [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+				}
+			}
+		},
+		"animation.wolf_es.look_at_target.gliding": {
+			"loop": true,
+			"bones": {
+				"head" : {
+					"rotation" : [ -45.0, "query.target_y_rotation", 0.0 ]
+				}
+			}
+		}
+	}
+}

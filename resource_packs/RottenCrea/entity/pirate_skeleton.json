@@ -1,0 +1,42 @@
+{
+"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:pirate_skeleton",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/prueba/pirate_skeleton"
+			},
+			"geometry": {
+				"default": "geometry.pirate_skeleton"
+			},
+			"animations": {
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+        "move": "animation.humanoid.move",
+        "staticking": "animation.pirate_skeleton.spawn",
+        "riding.arms": "animation.humanoid.riding.arms",
+        "riding.legs": "animation.humanoid.riding.legs",
+        "swimming": "animation.zombie.swimming"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.humanoid.look_at_target" },
+        { "move": "controller.animation.humanoid.move" },
+        { "riding": "controller.animation.humanoid.riding" },
+        { "static": "controller.animation.pirate_skeleton.static" },
+        { "swimming": "controller.animation.zombie.swimming" }
+      ],
+			"scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+			"render_controllers": [
+				"controller.render.pirate_skeleton"
+			]
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "rotten:tntbarril",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "tntbarril",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:on_interact": {
+        "event": "interact"
+      },
+      "minecraft:geometry": "geometry.tntbarril",
+      "minecraft:block_light_emission": 0.0
+    },
+		  "events": {
+		    "interact": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name == 'flint_and_steel'",
+            "run_command": {
+              "command": [ 
+                "summon rotten:tntbarril ~~~",
+                "playsound random.fuse @a[r=15]",
+                "setblock ~~~ air"
+              ]
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'firework_rocket' && query.block_face == 2.0",
+            "run_command": {
+              "command": [
+                "summon rotten:rocketbarrel ~ ~-0.5 ~  south",
+                "playsound firework.launch @a[r=15]",
+                "setblock ~~~ air"
+              ]
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'firework_rocket' && query.block_face == 3.0",
+            "run_command": {
+              "command": [
+                "summon rotten:rocketbarrel ~ ~-0.5 ~ north",
+                "playsound firework.launch @a[r=15]",
+                "setblock ~~~ air"
+              ]
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'firework_rocket' && query.block_face == 4.0",
+            "run_command": {
+              "command": [
+                "summon rotten:rocketbarrel ~ ~-0.5 ~ east",
+                "playsound firework.launch @a[r=15]",
+                "setblock ~~~ air"
+              ]
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'firework_rocket' && query.block_face == 5.0",
+            "run_command": {
+              "command": [
+                "summon rotten:rocketbarrel ~ ~-0.5 ~ west",
+                "playsound firework.launch @a[r=15]",
+                "setblock ~~~ air"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

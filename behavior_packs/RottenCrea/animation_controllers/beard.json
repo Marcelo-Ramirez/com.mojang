@@ -1,0 +1,141 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.tp": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"tp": "(1.0)"
+						}
+					]
+				},
+				"tp": {
+					"transitions": [
+						{
+							"default": "!(1.0)"
+						}
+					],
+					"on_entry": [
+					  "/playsound dig.gravel @a[r=15]",
+					"/fill ~ ~1 ~ ~ ~1 ~ dirt",
+					"/fill ~ ~1 ~ ~ ~1 ~ air 0 destroy",
+					"/kill @e[type=item,r=2]"
+					
+					]
+				}
+			}
+		},
+		"controller.animation.tp2": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ 
+                        { 
+                          "tp2": "(1.0)" 
+                        }
+					]
+				},
+			"tp2": {
+			  "transitions": [
+                  { 
+                      "default": "!(1.0)"
+                }
+			],
+			"on_entry": ["/playsound dig.gravel @a[r=15]",
+					"/fill ~ ~1 ~ ~ ~1 ~ dirt",
+					"/fill ~ ~1 ~ ~ ~1 ~ air 0 destroy",
+					"/kill @e[type=item,r=2]"
+                    ]
+			    }
+			}
+		},
+		"controller.animation.tp_a": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"tp": "(1.0)"
+						}
+					]
+				},
+				"tp": {
+					"transitions": [
+						{
+							"default": "!(1.0)"
+						}
+					],
+					"on_entry": [
+					   "/playsound dig.gravel @a[r=15]",
+					"/fill ~ ~1 ~ ~ ~1 ~ dirt",
+					"/fill ~ ~1 ~ ~ ~1 ~ air 0 destroy",
+					"/kill @e[type=item,r=2]"
+					]
+				}
+			}
+		},
+		"controller.animation.tp_b": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"tp": "(1.0)"
+						}
+					]
+				},
+				"tp": {
+					"transitions": [
+						{
+							"default": "!(1.0)"
+						}
+					],
+					"on_entry": [
+					   "/playsound dig.gravel @a[r=15]",
+					"/fill ~ ~1 ~ ~ ~1 ~ dirt",
+					"/fill ~ ~1 ~ ~ ~1 ~ air 0 destroy",
+					"/kill @e[type=item,r=2]"
+					]
+				}
+			}
+		},
+		"controller.animation.dead_beard_move": {
+			"initial_state": "default",
+					   "states": {
+						   "default": {
+							  "animations": [
+								{
+								"dead_beard_moving": "query.ground_speed > 0"
+								 }
+							 ]
+					   }
+				  }
+			 },
+		"controller.animation.fuse": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"fuse": "(1.0)"
+						}
+					]
+				},
+				"fuse": {
+					"transitions": [
+						{
+							"default": "!(1.0)"
+						}
+					],
+					"on_entry": [
+					"/playsound random.fuse @a[r=15]"
+					
+					]
+				}
+			}
+		}
+	}
+}
+						

@@ -1,0 +1,104 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.inmortal.static": {
+			"loop": true,
+			"animation_length": 10,
+			"bones": {
+				"leftArm": {
+					"rotation": [0, 0, "-5-Math.cos(query.anim_time*250)*5"]
+				}
+			}
+		},
+		"animation.inmortal.attack": {
+			"animation_length": 0.56,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.16": [-25, 0, 0],
+						"0.32": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.inmortal.move": {
+			"loop": true,
+			"animation_length": 50,
+			"anim_time_update": "query.modified_distance_moved * 0.1",
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": [0, 0, "-1+Math.cos(query.anim_time*250)*9"]
+					}
+				},
+				"head": {
+					"rotation": [0, 0, "-1+Math.cos(query.anim_time*250)*1"],
+					"scale": 1
+				},
+				"leftArm": {
+					"rotation": ["0-Math.cos(query.anim_time*250)*60", 0, 0]
+				},
+				"rightLeg": {
+					"rotation": ["0-Math.cos(query.anim_time*250)*60", 0, 0]
+				},
+				"leftLeg": {
+					"rotation": ["0+Math.cos(query.anim_time*250)*60", 0, 0]
+				}
+			}
+		},
+		"animation.inmortal.look_at_target.default": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["query.target_x_rotation", "query.target_y_rotation", 0]
+				}
+			}
+		},
+		"animation.inmortal.look_at_target.gliding": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [-45, "query.target_y_rotation", 0]
+				}
+			}
+		},
+		"animation.inmortal.swim_attack": {
+			"animation_length": 2.12,
+			"override_previous_animation": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [90, 0, -40],
+						"0.2": [90, 0, -397.5],
+						"0.44": [90, 0, -757.5],
+						"0.68": [90, 0, -1117.5],
+						"2.12": [90, 0, -3000]
+					},
+					"position": [0, 0, -7]
+				},
+				"head": {
+					"rotation": {
+						"0.0": [-32.5, 1, 1],
+						"0.2": [-32.5, -2.5, 1],
+						"0.44": [-32.5, -2.5, 1],
+						"0.68": [-32.5, -2.5, 1]
+					}
+				},
+				"rightArm": {
+					"rotation": [90, 0, 0]
+				},
+				"effect": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 1]
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "swim"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,116 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+	"description": {
+      "identifier": "rotten:in",
+         "is_spawnable":false,
+         "is_summonable":true,
+         "is_experimental":false,
+         "scripts": {
+				"animate": [
+					"tp"
+				]
+			},
+			"animations": {
+				"tp": "controller.animation.tepeador.tp",
+				"tp2": "animation.tepeador.tp2"
+			}
+    },
+    "component_groups": {
+    "minecraft:des": {
+    "minecraft:despawn": { 
+                  }
+             }
+    },
+    "components": {
+     "minecraft:is_tamed": { },
+      "minecraft:type_family": {
+        "family": [ "chest", "in"]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+      "minecraft:collision_box": {
+        "width": 0.4,
+        "height": 0.4
+      },
+        "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+        "minecraft:timer": {
+          "looping": false,
+			"time": [11, 0],
+          "time_down_event": {
+          "event": "minecraft:attack"
+          }
+          },
+      "minecraft:navigation.walk": {
+        "can_float": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 4,
+        "speed_multiplier": 1
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.7
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:damage_sensor": {
+          "triggers": {
+   "on_damage": { 
+   },
+    "deals_damage": false
+    }
+  },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+	    "minecraft:physics": {
+      }
+    },
+
+    "events": {
+    "minecraft:attack": {
+        "add": {
+          "component_groups": [
+            "minecraft:des"
+          ]
+        }
+      }
+      
+    }
+  }
+}

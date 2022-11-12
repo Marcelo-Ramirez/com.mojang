@@ -1,0 +1,35 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:treasure_chest",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/prueba/treasure_chest"
+			},
+			"geometry": {
+				"default": "geometry.treasure_chest"
+			},
+			"animations": {
+				"staticking": "animation.treasure_chest.static",
+				"static": "controller.animation.treasure_chest.static"
+			},
+			"scripts": {
+				"animate": [
+					"static"
+				]
+			},
+			"render_controllers": [
+				"controller.render.treasure_chest"
+			],
+			"spawn_egg": {
+				"texture": "treasure_chest"
+			},
+			"sound_effects": {
+			"chest.open": "random.chestopen"
+			}
+		}
+	}
+}

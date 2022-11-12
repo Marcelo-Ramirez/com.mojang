@@ -1,0 +1,20 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:beetle",
+			"materials": {
+				"default": "entity"
+			},
+			"textures": {
+				"default": "textures/entity/prueba/beetle"
+			},
+			"geometry": {
+				"default": "geometry.beetle"
+			},
+			"render_controllers": [
+				"controller.render.beetle"
+			]
+		}
+	}
+}

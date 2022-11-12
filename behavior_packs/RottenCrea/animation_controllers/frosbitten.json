@@ -1,0 +1,57 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.frost_walk": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ { "frost" : "(1.0)" }
+					],
+				"on_entry": [ "/fill ~2 ~-1 ~2 ~-1 ~-1 ~-1 ice 0 replace water",
+                                      "/fill ~2 ~-1 ~2 ~-1 ~-1 ~-1 ice 0 replace flowing_water"]
+				},
+			"frost": {
+			  "transitions": [{ "default": "(1.0)" }
+			],
+			"on_entry": [ "/fill ~2 ~-1 ~2 ~-1 ~-1 ~-1 ice 0 replace water",
+			                     "/fill ~2 ~-1 ~2 ~-1 ~-1 ~-1 ice 0 replace flowing_water"]
+			    }
+			}
+		},
+		"controller.animation.attack": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ 
+                        { 
+                          "attack": "variable.attack_time" 
+                        }
+					]
+				},
+			"attack": {
+			  "transitions": [
+                  { 
+                      "default": "(1.0)"
+                }
+			],
+			"on_entry": [ "/effect @p[r=2] weakness 6 2",
+			                     "/effect @p[r=2] mining_fatigue 6 5",
+                                 "/effect @p[r=2] slowness 6 4",
+                                 "/effect @e[type=iron_golem,r=2] weakness 6 2",
+			                     "/effect @e[type=iron_golem,r=2] mining_fatigue 6 5",
+                                 "/effect @e[type=iron_golem,r=2] slowness 6 4",
+                                 "/effect @e[type=snow_golem,r=2] weakness 6 2",
+			                     "/effect @e[type=snow_golem,r=2] mining_fatigue 6 5",
+                                 "/effect @e[type=snow_golem,r=2] slowness 6 4",
+                                 "/effect @e[type=villager,r=2] weakness 6 2",
+			                     "/effect @e[type=villager,r=2] mining_fatigue 6 5",
+                                 "/effect @e[type=villager,r=2] slowness 6 4",
+                                 "/effect @e[type=wandering_trader,r=2] weakness 6 2",
+			                     "/effect @e[type=wandering_trader,r=2] mining_fatigue 6 5",
+                                 "/effect @e[type=wandering_trader,r=2] slowness 6 4" ]
+			    }
+			}
+		}
+	}
+}
+						

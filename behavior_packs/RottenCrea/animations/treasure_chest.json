@@ -1,0 +1,45 @@
+{
+"format_version":"1.8.0",
+  "animations": {
+  "animation.treasure_chest.open": {
+   "timeline":{
+ "2.00": "@s minecraft:drop"
+},
+"loop":false,
+"animation_length": 3
+  },
+  "animation.treasure_chest.drop": {
+   "timeline":{
+ "0.01": "/playsound random.pop @a[r=10]",
+ "0.02": "/playsound random.pop @a[r=10]",
+ "0.03": "/playsound random.pop @a[r=10]",
+ "0.04": "/playsound random.pop @a[r=10]"
+},
+"loop":true,
+"animation_length": 0.04
+  },
+  "animation.treasure_chest.item": {
+   "timeline":{
+ "0.01": "@s minecraft:drops",
+ "0.02": "/tp @e[type=item,r=0.5] ~ ~1 ~"
+},
+"loop":true,
+"animation_length": 0.03
+  },
+  "animation.treasure_chest.item_tp": {
+   "timeline":{
+ "0.01": "/tp @e[type=rotten:in,r=2] ~ ~1 ~"
+},
+"loop":true,
+"animation_length": 0.02
+  },
+  "animation.treasure_chest.despawn": {
+   "timeline":{
+  "0.01": "/summon rotten:in ~~~",
+ "10.00": "@s minecraft:attack"
+},
+"loop":false,
+"animation_length": 11
+  }
+}
+}

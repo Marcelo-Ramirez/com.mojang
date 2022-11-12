@@ -1,0 +1,27 @@
+{
+  "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 1
+                            },
+                            "limit": 5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

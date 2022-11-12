@@ -1,0 +1,133 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "rotten:rocketbarrel",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "tp"
+        ]
+      },
+      "animations": {
+        "tp": "controller.animation.barrel_tp"
+      }
+    },
+    "component_groups": {
+      "south": {
+        "minecraft:variant": { "value": 1 },
+        "minecraft:is_saddled": {},
+        "minecraft:timer": {
+          "looping": true,
+          "time": [1, 1],
+          "time_down_event": {
+          "event": "remove_coordinate"
+            }
+          }
+      },
+      "north": {
+        "minecraft:variant": { "value": 2 },
+        "minecraft:is_saddled": {},
+        "minecraft:timer": {
+          "looping": true,
+          "time": [1, 1],
+          "time_down_event": {
+          "event": "remove_coordinate"
+            }
+          }
+      },
+      "east": {
+        "minecraft:variant": { "value": 3 },
+        "minecraft:is_saddled": {},
+        "minecraft:timer": {
+          "looping": true,
+          "time": [1, 1],
+          "time_down_event": {
+          "event": "remove_coordinate"
+            }
+          }
+      },
+      "west": {
+        "minecraft:variant": { "value": 4 },
+        "minecraft:is_saddled": {},
+        "minecraft:timer": {
+          "looping": true,
+          "time": [1, 1],
+          "time_down_event": {
+          "event": "remove_coordinate"
+            }
+          }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "tnt", "inanimate" ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "on_damage": { 
+          },
+          "deals_damage": false
+        }
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.98
+      },
+      "minecraft:explode": {
+        "fuse_length": 4,
+        "fuse_lit": true,
+        "power": 4,
+        "causes_fire": false
+      },
+	    "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      }
+    },
+    "events": {
+      "remove_coordinate": {
+				"remove": {
+					"component_groups": [
+						"south",
+            "north",
+            "east",
+            "west"
+					]
+				}
+			},
+      "south": {
+        "add": {
+          "component_groups": [
+            "south"
+          ]
+        }
+      },
+      "north": {
+        "add": {
+          "component_groups": [
+            "north"
+          ]
+        }
+      },
+      "east": {
+        "add": {
+          "component_groups": [
+            "east"
+          ]
+        }
+      },
+      "west": {
+        "add": {
+          "component_groups": [
+            "west"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.lightning": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"lightning": "(1.0)"
+						}
+					]
+				},
+				"lightning": {
+					"transitions": [
+						{
+							"default": "!(1.0)"
+						}
+					],
+					"on_entry": [
+					  "/effect @e[type=rotten:inmortal] clear",
+					  "/summon lightning_bolt ~~~"
+					
+					]
+				}
+			}
+		}
+	}
+}
+						

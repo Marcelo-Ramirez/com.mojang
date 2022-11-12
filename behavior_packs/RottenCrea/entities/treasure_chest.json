@@ -1,0 +1,266 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+	"description": {
+      "identifier": "rotten:treasure_chest",
+         "is_spawnable":true,
+         "is_summonable":true,
+         "is_experimental":false,
+         "scripts": {
+				"animate": [
+					"open",
+					"despawn",
+					"drop",
+					"item",
+					"tp_item"
+				]
+			},
+			"animations": {
+				"open": "controller.animation.treasure_chest.open",
+				"despawn": "controller.animation.treasure_chest.despawn",
+				"drop": "controller.animation.treasure_chest.drop",
+				"item": "controller.animation.treasure_chest.item",
+				"tp_item": "controller.animation.treasure_chest.item_tp",
+				"opening": "animation.treasure_chest.open",
+				"despawning": "animation.treasure_chest.despawn",
+				"droping": "animation.treasure_chest.drop",
+				"items_tps": "animation.treasure_chest.item_tp",
+				"items": "animation.treasure_chest.item"
+			}
+    },
+    "component_groups": {
+    "minecraft:des": {
+    "minecraft:despawn": { 
+                  }
+             },
+    "minecraft:treasure_chest": {
+      "minecraft:timer": {
+					"time": 2.0,
+					"time_down_event": {
+						"event": "minecraft:drop"
+					}
+				}
+    },
+    "minecraft:drop": {
+    "minecraft:is_tamed": { }
+    },
+    "minecraft:drops1": {
+    "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "spawn_item": "iron_nugget",
+          "spawn_event": "minecraft:drops",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+       ]
+     },
+        "minecraft:drops2": {
+         "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0.0,
+          "max_wait_time": 0.0,
+          "spawn_item": "gold_nugget",
+          "spawn_event": "minecraft:drops",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+       ]
+     },
+     "minecraft:drops3": {
+         "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0.0,
+          "max_wait_time": 0.0,
+          "spawn_item": "gold_ingot",
+          "spawn_event": "minecraft:drops",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+        ]
+      },
+      "minecraft:drops4": {
+         "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0.0,
+          "max_wait_time": 0.0,
+          "spawn_item": "emerald",
+          "spawn_event": "minecraft:drops",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+       ]
+     },
+     "minecraft:drops5": {
+         "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0.0,
+          "max_wait_time": 0.0,
+          "spawn_item": "diamond",
+          "spawn_event": "minecraft:drops",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+         }
+       ]
+     },
+     "minecraft:drops6": {
+         "minecraft:spawn_entity": [
+         { 
+          "min_wait_time": 0.0,
+          "max_wait_time": 0.0,
+          "spawn_item": "totem",
+          "spawn_event": "minecraft:drops",
+          "single_use": true,
+          "num_to_spawn": 1,
+          "should_leash": false
+              }
+            ]
+         }
+     },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "block",  "chest", "zooglin"]
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+	    "minecraft:physics": {
+      },
+      "minecraft:collision_box": {
+        "width": 0.5,
+        "height": 0.5
+      },
+      "minecraft:damage_sensor": {
+          "triggers": {
+   "on_damage": { 
+   },
+    "deals_damage": false
+    }
+  }
+ },
+
+    "events": {
+"minecraft:attack": {
+    "remove": {
+            "component_groups": [
+                "minecraft:treasure_chest"
+                ]
+            },
+        "add": {
+          "component_groups": [
+            "minecraft:des"
+          ]
+        }
+      },
+          "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:treasure_chest"
+                    ]
+                 }
+              }
+           ]
+        },
+        "minecraft:drops": {
+        "randomize": [
+          {
+            "weight": 35,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:drops1"
+              ]
+            }
+          },
+          {
+            "weight": 15,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:drops2"
+              ]
+            }
+          },
+          {
+            "weight": 7.5,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:drops3"
+              ]
+            }
+          },
+          {
+            "weight": 2,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:drops4"
+              ]
+            }
+          },
+          {
+            "weight": 0.25,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:drops5"
+              ]
+            }
+          },
+          {
+            "weight": 0.06,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:drops6"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:drop": {
+          "remove": {
+             "component_groups": [
+                "minecraft:treasure_chest"
+                ]
+             },
+          "add": { 
+            "component_groups": [ 
+            "minecraft:drop" 
+               ]
+            }
+        },
+      "minecraft:item_event": {
+          "remove": {
+             "component_groups": [
+                "minecraft:treasure_chest"
+                ]
+             },
+          "add": { 
+            "component_groups": [ 
+            "minecraft:drop" 
+               ]
+            }
+        }
+    }
+  }
+}

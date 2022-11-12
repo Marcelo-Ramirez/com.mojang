@@ -1,0 +1,64 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.treasure_chest.open": {
+           "initial_state": "opening",
+               "states": {
+                "open": {
+                  "animations": [
+                        "opening"
+                    ]
+               }
+           }
+       },
+       "controller.animation.treasure_chest.despawn": {
+           "initial_state": "default",
+               "states": {
+                "default": {
+                  "animations": [
+                       {
+                      "despawning": "query.is_tamed"
+                        }
+                    ]
+               }
+           }
+       },
+       "controller.animation.treasure_chest.drop": {
+           "initial_state": "default",
+               "states": {
+                "default": {
+                  "animations": [
+                       {
+                      "droping": "query.is_tamed"
+                        }
+                    ]
+               }
+           }
+       },
+       "controller.animation.treasure_chest.item": {
+           "initial_state": "default",
+               "states": {
+                "default": {
+                  "animations": [
+                       {
+                      "items": "query.is_tamed"
+                        }
+                    ]
+               }
+           }
+       },
+       "controller.animation.treasure_chest.item_tp": {
+           "initial_state": "default",
+               "states": {
+                "default": {
+                  "animations": [
+                       {
+                      "items_tps": "query.is_tamed"
+                        }
+                    ]
+               }
+           }
+       }
+	}
+}
+						

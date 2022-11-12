@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+	"description": {
+      "identifier": "rotten:frozenrottenflesh",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": false,
+      "minecraft:stack_by_data": true,
+      "minecraft:food": {
+        "saturation_modifier": "normal",
+        "nutrition": 6,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "hunger",
+            "chance": 80,
+            "duration": 20,
+            "amplifier": 1
+          },
+          {
+            "name": "mining_fatigue",
+            "chance": 100,
+            "duration": 8,
+            "amplifier": 3
+          },
+          {
+            "name": "slowness",
+            "chance": 100,
+            "duration": 8,
+            "amplifier": 5
+          },
+          {
+            "name": "weakness",
+            "chance": 100,
+            "duration": 8,
+            "amplifier": 3
+          }
+        ]
+      },
+      "minecraft:use_duration": 32
+    }
+  }
+}

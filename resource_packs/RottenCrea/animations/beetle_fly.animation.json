@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.beetle_fly.move": {
+			"animation_length": 1000,
+			"bones": {
+				"bone": {
+					"rotation": [-42.5, 0, 0],
+					"position": [0, "20-Math.cos(query.anim_time*400)*3", 0]
+				},
+				"cabeza": {
+					"rotation": [15, 0, 0]
+				},
+				"bone4": {
+					"rotation": ["35-Math.cos(query.anim_time*5000)*-10", 0, 0]
+				},
+				"bone5": {
+					"rotation": ["35-Math.cos(query.anim_time*5000)*-10", 0, 0]
+				}
+			}
+		}
+	}
+}

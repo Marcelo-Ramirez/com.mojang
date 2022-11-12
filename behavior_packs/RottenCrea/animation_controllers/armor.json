@@ -1,0 +1,93 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.armor_1": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"armor_1": "(1.0)"
+						}
+					]
+				},
+				"armor_1": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @s resistance 1 1 true"
+					]
+				}
+			}
+		},
+		"controller.animation.armor_2": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [ 
+                        { 
+                          "armor_2": "(1.0)" 
+                        }
+					]
+				},
+			"armor_2": {
+			  "transitions": [
+                  { 
+                      "default": "(1.0)"
+                }
+			],
+			"on_entry": [ "/effect @s resistance 2 2 true" ]
+			    }
+			}
+		},
+		"controller.animation.armor_mummy": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"armor_mummy": "(1.0)"
+						}
+					]
+				},
+				"armor_mummy": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @e[type=rotten:mummy_torso,r=1] resistance 1 1 true"
+					]
+				}
+			}
+		},
+		"controller.animation.armor_dead_beard": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"armor_dead_beard": "(1.0)"
+						}
+					]
+				},
+				"armor_dead_beard": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @e[type=rotten:dead_beard,r=1] resistance 2 2 true",
+						"/effect @e[type=rotten:dead_beard_tnt,r=1] resistance 2 2 true"
+					]
+				}
+			}
+		}
+	}
+}
+						

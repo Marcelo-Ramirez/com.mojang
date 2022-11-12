@@ -1,0 +1,63 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pirate_skeleton.move": {
+		"loop": true,
+			"animation_length": 50,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["10+Math.cos(query.anim_time*400)*40", 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["0-Math.cos(query.anim_time*400)*40", 0, 0]
+					}
+				},
+				"rightLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["0-Math.cos(query.anim_time*400)*40", 0, 0]
+					}
+				},
+				"leftLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["0+Math.cos(query.anim_time*400)*40", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.pirate_skeleton.spawn": {
+			"animation_length": 0.72,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, -39, 0],
+						"0.36": [0, 7, 0],
+						"0.72": [0, -1, 0]
+					}
+				}
+			}
+		},
+		"animation.pirate_skeleton.look_at_target.default": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["query.target_x_rotation", "query.target_y_rotation", 0]
+				}
+			}
+		},
+		"animation.pirate_skeleton.look_at_target.gliding": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [-45, "query.target_y_rotation", 0]
+				}
+			}
+		}
+	}
+}

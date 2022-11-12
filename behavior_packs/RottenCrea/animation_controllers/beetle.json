@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.beetle_fly": {
+           "initial_state": "default",
+               "states": {
+                "default": {
+                  "animations": [
+                        {
+                        "beetle_fly": "query.has_target && query.can_fly"
+                         }
+                    ]
+               }
+           }
+       }
+	}
+}
+						

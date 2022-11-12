@@ -1,0 +1,52 @@
+{
+"format_version":"1.8.0",
+  "animations": {
+  "animation.inmortal.target": {
+   "timeline":{
+ "0.00": "/setblock ~ ~ ~ light_block 8 keep",
+ "0.01": "/playsound mob.inmortal.electroshock @a[r=10]",
+ "0.02": "/particle minecraft:critical_hit_emitter ~ ~2 ~",
+ "0.03": "/setblock ~ ~ ~ light_block 8 keep",
+ "0.04": "/setblock ~ ~ ~ light_block 8 keep",
+ "0.10": "/fill ~4 ~ ~4 ~-4 ~ ~-4 air replace 0 ligth_block"
+},
+"loop":true,
+"animation_length": 3
+  },
+    "animation.inmortal.berserk": {
+   "timeline":{
+ "0.00": "/setblock ~ ~ ~ light_block 8 keep",
+ "0.01": "/playsound mob.inmortal.electroshock @a[r=10]",
+ "0.02": "/particle minecraft:critical_hit_emitter ~ ~2 ~",
+ "0.03": "/setblock ~ ~ ~ light_block 8 keep",
+ "0.04": "/setblock ~ ~ ~ light_block 8 keep",
+ "0.06": "/setblock ~ ~ ~ air",
+ "0.07": "/effect @s speed 2 2 true",
+ "1.00": "/setblock ~ ~ ~ light_block 8 keep",
+ "1.01": "/playsound mob.inmortal.electroshock @a[r=10]",
+ "1.02": "/particle minecraft:critical_hit_emitter ~ ~2 ~",
+ "1.03": "/setblock ~ ~ ~ air",
+ "1.98": "@s minecraft:inmortal_calm"
+},
+"loop":true,
+"animation_length": 2
+  },
+  "animation.inmortal.growl": {
+   "timeline":{
+ "0.01": "/playsound mob.inmortal.growl @a[r=10]"
+},
+"loop":true,
+"animation_length": 5
+  },
+  "animation.inmortal.bolt": {
+   "timeline":{
+ "0.01": "/execute @e[type=rotten:zap,r=2] ~~~ /effect @e[type=rotten:inmortal] clear",
+ "0.02": "/playsound item.trident.throw @a[r=10]",
+ "0.03": "/summon lightning_bolt a",
+ "0.04": "/execute @e[type=rotten:inmortal] ~ ~ ~ /execute @e[family=!inmortal, type=!minecraft:xp_orb, type=!minecraft:arrow, type=!minecraft:lightning_bolt, type=!minecraft:item, r=20, c=1] ~ ~ ~ /tp @e[type=lightning_bolt,tag=!a,r=20] ~ ~1 ~"
+},
+"loop":true,
+"animation_length": 1
+  }
+}
+}

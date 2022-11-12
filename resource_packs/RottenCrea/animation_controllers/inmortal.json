@@ -1,0 +1,85 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	"controller.animation.inmortal.static": {
+			"initial_state": "staticking",
+			"states": {
+				"static": {
+					"animations": [
+						"staticking"
+					]
+				}
+			}
+		},
+		"controller.animation.inmortal.move": {
+			"states": {
+				"move": {
+					"animations": [
+						{
+							"moving": "query.modified_move_speed"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.inmortal.attack": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"attack": "variable.attack_time && !query.is_sheared"
+						}
+					]
+				},
+				"attack": {
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					],
+					"animations": [
+						"attacking"
+					]
+				}
+			}
+		},
+	"controller.animation.inmortal.look_at_target" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "look_at_target_default" ],
+					"transitions" : [
+						{
+							"gliding" : "query.is_gliding && !query.is_sheared"
+						},
+						{
+							"swimming" : "query.is_swimming && !query.is_sheared"
+						}
+					]
+				},
+				"gliding" : {
+					"animations" : [ "look_at_target_gliding" ],
+					"transitions" : [
+						{
+							"swimming" : "query.is_swimming && !query.is_sheared"
+						},
+						{
+							"default" : "!query.is_gliding && !query.is_sheared"
+						}
+					]
+				},
+				"swimming" : {
+					"animations" : [ "look_at_target_swimming" ],
+					"transitions" : [
+						{
+							"gliding" : "query.is_gliding && !query.is_sheared"
+						},
+						{
+							"default" : "!query.is_swimming && !query.is_sheared"
+						}
+					]
+				}
+			}
+		}
+	 }
+ }

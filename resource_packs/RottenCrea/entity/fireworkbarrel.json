@@ -1,0 +1,20 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:rocketbarrel",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/blocks/tntbarril"
+			},
+			"geometry": {
+				"default": "geometry.tntbarril"
+			},
+			"render_controllers": [
+				"controller.render.beetle"
+			]
+		}
+	}
+}

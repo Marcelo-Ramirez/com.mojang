@@ -1,0 +1,281 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"rotten:mummy_torso": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.mummy.say",
+          "hurt": "mob.mummy.hurt",
+          "death": "mob.mummy.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+          }
+        },
+        "rotten:mummy_head": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.mummy.say",
+          "hurt": "mob.mummy.hurt",
+          "death": "mob.mummy.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+             }
+          }
+        },
+			"rotten:beetle_pro": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "death": "mob.beetle_pro.death"
+          }
+         },
+         "rotten:beetle_fly_pro": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "death": "mob.beetle_pro.death"
+          }
+         },
+         "rotten:rotten_eskimo": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.eskimo.say",
+          "hurt": "mob.eskimo.hurt",
+          "death": "mob.eskimo.death",
+            "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+             }
+          }
+        },
+            "rotten:spear_eskimo": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.eskimo.say",
+          "hurt": "mob.eskimo.hurt",
+          "death": "mob.eskimo.death",
+         "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+            }
+          }
+        },
+         "rotten:wolf_es": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.wolf.bark",
+          "hurt": "mob.wolf.hurt",
+          "death": "mob.wolf.death",
+          "step": {
+            "sound": "mob.wolf.step",
+            "volume": 0.65,
+            "pitch": 1.0
+          },
+          "shake": {
+            "sound": "mob.wolf.shake",
+            "pitch": [ 0.8, 1.2 ]
+          },
+          "growl": "mob.wolf.growl",
+          "whine": "mob.wolf.whine",
+          "pant": "mob.wolf.panting"
+        }
+      },
+        "rotten:swampy": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.swampy.say",
+          "hurt": "mob.swampy.hurt",
+          "death": "mob.swampy.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+            }
+          }
+        },
+        "rotten:frostbitten": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "attack": "mob.frostbitten.attack",
+          "ambient": "mob.frostbitten.say",
+          "hurt": "mob.frostbitten.hurt",
+          "death": "mob.frostbitten.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+            }
+          }
+        },
+        "rotten:undead_miner": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rotten:zap": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.zombie.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rotten:burned": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.burned.say",
+          "hurt": "mob.burned.hurt",
+          "death": "mob.burned.death",
+          "mad": "mob.burned.say",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0 
+            },
+          "angry": {
+            "sound": "mob.burned.land",
+            "volume": 0.2,
+            "pitch": 0.0
+          }
+        }
+      },
+      "rotten:burned_obsidian": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.burned.say",
+          "hurt": "mob.burned.hurt",
+          "death": "mob.burned.death",
+          "mad": "mob.burned.say",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.8,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rotten:dead_beard": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.dead_beard.say",
+          "hurt": "mob.dead_beard.hurt",
+          "death": "mob.dead_beard.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rotten:dead_beard_tnt": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.dead_beard.say",
+          "hurt": "mob.dead_beard.hurt",
+          "death": "mob.dead_beard.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rotten:pirate_skeleton": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.skeleton.say",
+          "hurt": {
+            "sound": "mob.skeleton.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.skeleton.death",
+          "step": {
+            "sound": "mob.skeleton.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "rotten:pirate_zombie": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.drowned.say",
+          "hurt": "mob.drowned.hurt",
+          "death": "mob.drowned.death",
+          "ambient.in.water": "mob.drowned.say_water",
+          "hurt.in.water": "mob.drowned.hurt_water",
+          "death.in.water": "mob.drowned.death_water",
+          "step": "mob.drowned.step"
+        }
+     },
+    "rotten:inmortal": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+        "attack": "item.trident.throw",
+          "ambient": "mob.inmortal.say",
+          "hurt": "mob.inmortal.hurt",
+          "death": "mob.inmortal.death",
+          "health": "mob.inmortal.health",
+          "mad": "mob.inmortal.growl",
+            "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+             }
+          }
+        },
+        "rotten:inmortal_debil": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+        "attack": "item.trident.throw",
+          "ambient": "mob.inmortal.say",
+          "hurt": "mob.inmortal.hurt",
+          "death": "mob.inmortal.death",
+          "health": "mob.inmortal.health",
+          "mad": "mob.inmortal.growl",
+            "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+             }
+          }
+        }
+      }
+   }
+ }

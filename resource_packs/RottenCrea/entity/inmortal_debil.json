@@ -1,0 +1,46 @@
+{
+"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rotten:inmortal_debil",
+			"materials": {
+				"default": "skeleton",
+				"glow": "spider_invisible",
+				"glow2": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/prueba/inmortal"
+			},
+			"geometry": {
+				"default": "geometry.inmortal"
+			},
+			"animations": {
+				"moving": "animation.inmortal.move",
+				"staticking": "animation.inmortal.static",
+				"attacking": "animation.inmortal.attack",
+				"look_at_target_default": "animation.pirate_zombie.look_at_target.default",
+                "look_at_target_gliding": "animation.pirate_zombie.look_at_target.gliding",
+				"move": "controller.animation.inmortal.move",
+				"static": "controller.animation.inmortal.static",
+				"look_at_target": "controller.animation.pirate_zombie.look_at_target",
+				"attack": "controller.animation.inmortal.attack"
+			},
+			"scripts": {
+				"animate": [
+					"move",
+					"static",
+					"attack",
+					"look_at_target"
+				],
+				"pre_animation": [
+					"variable.attack = Math.sin(variable.attack_time * 30.0);"
+				]
+			},
+			"render_controllers": [
+				"controller.render.inmortal",
+				"controller.render.pirate_zombie1",
+				"controller.render.pirate_zombie2"
+			]
+		}
+	}
+}

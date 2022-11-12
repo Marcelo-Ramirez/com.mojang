@@ -1,0 +1,64 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.pirate_skeleton.static": {
+			"initial_state": "staticking",
+			"states": {
+				"static": {
+					"animations": [
+						"staticking"
+					]
+				}
+			}
+		},
+		"controller.animation.pirate_skeleton.move": {
+			"states": {
+				"move": {
+					"animations": [
+						{
+							"moving": "query.ground_speed > 0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.pirate_skeleton.look_at_target" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "look_at_target_default" ],
+					"transitions" : [
+						{
+							"gliding" : "query.is_gliding"
+						},
+						{
+							"swimming" : "query.is_swimming"
+						}
+					]
+				},
+				"gliding" : {
+					"animations" : [ "look_at_target_gliding" ],
+					"transitions" : [
+						{
+							"swimming" : "query.is_swimming"
+						},
+						{
+							"default" : "!query.is_gliding"
+						}
+					]
+				},
+				"swimming" : {
+					"animations" : [ "look_at_target_swimming" ],
+					"transitions" : [
+						{
+							"gliding" : "query.is_gliding"
+						},
+						{
+							"default" : "!query.is_swimming"
+						}
+					]
+				}
+			}
+		}
+	 }
+ }

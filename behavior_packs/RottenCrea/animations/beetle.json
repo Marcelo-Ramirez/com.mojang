@@ -1,0 +1,12 @@
+{
+"format_version":"1.8.0",
+  "animations": {
+  "animation.beetle.fly": {
+   "timeline":{
+ "0.00": "/effect @s levitation 2 1 true"
+},
+"loop":true,
+"animation_length": 4
+  }
+}
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "addon creado por petergamer xd, diosama, aga games, tibuwater, mod creado por fans del rotten creatures",
+    "name": "§4Rotten §dCreatures",
+    "uuid": "a163da24-114d-4f0c-ac22-8900921452bc",
+    "version": [
+      0, 9, 7
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "addon creado por petergamer xd, diosama, aga games, tibuwater, mod creado por fans del rotten creatures",
+      "type": "data",
+      "uuid": "b389c950-7dfe-47aa-ba47-9b7ee1f1cbee",
+      "version": [
+        0, 9, 7
+      ]
+    }
+  ],
+  "dependencies" : [
+      {
+         "uuid" : "8b0c3563-c538-4f21-9e0b-10c176e72247",
+         "version" : [ 0, 9, 7 ]
+      }
+   ]
+}

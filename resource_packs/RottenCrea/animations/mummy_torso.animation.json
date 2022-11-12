@@ -1,0 +1,76 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mummy_torso.static": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 2.5, 2.5],
+						"0.52": [0, 7.5, -5],
+						"1.04": [0, 2.5, 2.5]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, -2.5],
+						"0.52": [0, -5, 2.5],
+						"1.04": [0, 0, -2.5]
+					}
+				}
+			}
+		},
+		"animation.mummy_torso.attack": {
+			"animation_length": 0.32,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [-25, 0, -12.5],
+						"0.28": [-2.5, 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [-22.5, 0, 12.5],
+						"0.28": [-2.5, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.mummy_torso.move": {
+			"loop": true,
+			"animation_length": 14,
+			"bones": {
+				"rightLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["0-Math.cos(query.anim_time*250)*40", 0, 0]
+					}
+				},
+				"leftLeg": {
+					"rotation": {
+						"0.0": [-1, 0, 0],
+						"1.04": ["0+Math.cos(query.anim_time*250)*40", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.mummy_torso.look_at_target.default": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["query.target_x_rotation", "query.target_y_rotation", 0]
+				}
+			}
+		},
+		"animation.mummy_torso.look_at_target.gliding": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [-45, "query.target_y_rotation", 0]
+				}
+			}
+		}
+	}
+}

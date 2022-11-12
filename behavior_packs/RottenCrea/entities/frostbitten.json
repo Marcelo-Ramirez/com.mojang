@@ -1,0 +1,206 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+	"description": {
+      "identifier": "rotten:frostbitten",
+         "is_spawnable":true,
+         "is_summonable":true,
+         "is_experimental":false,
+    "scripts": {
+				"animate": [
+					"frost",
+					"attack",
+					"armor_1"
+				]
+			},
+			"animations": {
+				"frost": "controller.animation.frost_walk",
+				"armor_1": "controller.animation.armor_1",
+				"attack": "controller.animation.attack"
+			}
+		},
+    "component_groups": {
+    "minecraft:frostbitten_baby": {
+        "minecraft:is_baby": {
+            },
+            "minecraft:scale": {
+                      "value": 0.6
+           },
+            "minecraft:movement": {
+          "value": 0.35
+        }
+     },
+        "minecraft:frostbitten_adult": {
+        }
+   },
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "monster","undead", "frostbitten" ]
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0
+      },
+        "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.5
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/frostbitten.json"
+      },
+      "minecraft:health": {
+        "value": 20,
+	"max": 20
+      },
+      "minecraft:burns_in_daylight": {
+      },
+        "minecraft:attack": {
+          "damage": 3
+        },
+    "minecraft:experience_reward": {
+          "on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+        },
+      "minecraft:movement": {
+        "value": 0.2
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "can_pass_doors": true,
+        "can_walk": true,
+        "can_break_doors": true
+      },
+      "minecraft:movement.basic": {
+        
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0,
+        "on_leash": {
+          "event": "minecraft:on_leash",
+          "target": "self"
+        },
+        "on_unleash": {
+          "event": "minecraft:on_unleash",
+          "target": "self"
+        }
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:scale": {
+        "value": 1.0
+      },
+      "minecraft:behavior.break_door": {
+        "priority": 1
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 3,
+        "speed_multiplier": 1,
+        "track_target": false
+      },
+      "minecraft:behavior.move_towards_restriction": {
+        "priority": 4,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.7
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+          "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "within_radius": 25,
+        "reselect_targets": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "player" },
+                { "test": "is_family", "subject": "other", "value": "snowgolem" },
+                { "test": "is_family", "subject": "other", "value": "irongolem" },
+                { "test": "is_family", "subject": "other", "value": "burned" }
+              ]
+            },
+            "max_dist": 35
+          },
+          {
+            "filters": {
+              "any_of": [
+                { "test": "is_family", "subject": "other", "value": "villager" },
+                { "test": "is_family", "subject": "other", "value": "wandering_trader" }
+              ]
+            },
+            "max_dist": 35,
+            "must_see": false
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "baby_turtle" },
+                { "test": "in_water", "subject": "other", "operator": "!=", "value": true }
+              ]
+            },
+            "max_dist": 35
+          }
+        ],
+        "must_see": true,
+        "must_see_forget_duration": 17.0
+      },
+	    "minecraft:physics": {
+    }
+ },
+
+    "events": {
+           "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 9,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:frostbitten_adult"
+              ]
+            }
+          },
+          {
+            "weight": 2,
+            "remove": {
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:frostbitten_baby"
+                     ]
+                  }
+               }
+            ]
+         } 
+    }
+  }
+}

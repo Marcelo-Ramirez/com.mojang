@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.frostbitten.attack": {
+			"animation_length": 0.72,
+			"bones": {
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [-35, -20, 0],
+						"0.44": [0, 0, 0]
+					}
+				},
+				"leftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [-35, 20, 0],
+						"0.44": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.frostbitten.move": {
+			"loop": true,
+			"animation_length": 50,
+			"bones": {
+				"rightLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["0-Math.cos(query.anim_time*200)*-35", 0, 0]
+					}
+				},
+				"leftLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.04": ["-0+Math.cos(query.anim_time*200)*-35", 0, 0]
+					}
+				}
+			}
+		}
+	}
+}
